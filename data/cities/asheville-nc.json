@@ -1,0 +1,125 @@
+{
+  "name": "Asheville, NC",
+  "slug": "asheville-nc",
+  "region": "Southeast / Appalachia",
+  "tagline": "Progressive mountain oasis—stunning scenery, craft beer, and a glaring diversity problem",
+  "population": "470,000 metro",
+  "scores": {
+    "diversity_climate": 4,
+    "safety": 8,
+    "political_moderation": 5,
+    "cost_of_living": 7,
+    "walkability": 7,
+    "scenic_beauty": 10,
+    "seasons": 9,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "~5-8% above national average (expensive for the South)",
+    "median_rent_1br": "$1,500",
+    "median_rent_2br": "$1,800",
+    "vs_la_savings": "$600-1,000/month compared to LA"
+  },
+  "diversity": {
+    "summary": "⚠️ HONEST WARNING: Asheville is VERY WHITE. Only 7.7% Black in 2024 (down from 10.5% in 2020). The city has a documented history of urban renewal that displaced its Black community. While Asheville is progressive and LGBTQ-friendly, it's overwhelmingly white and tourists are often more diverse than locals. Some commenters note feeling uncomfortable as part of an interracial couple. This is the WORST option on diversity—the #1 priority.",
+    "diversity_index": "~77% White, 7.7% Black, 8% Hispanic; very homogeneous",
+    "notable": "Article headline: 'Where are all the Black people?' Asheville lost African American population"
+  },
+  "safety": {
+    "summary": "Asheville is generally very safe, especially in tourist and residential areas. Property crime (car break-ins) can occur but violent crime is low. Downtown feels safe. Smaller city vibe contributes to overall safety.",
+    "violent_crime_rate": "~350 per 100k (moderate, mostly property crime)",
+    "best_neighborhoods": [
+      "North Asheville",
+      "Biltmore Park",
+      "West Asheville",
+      "Downtown/South Slope",
+      "Historic Montford"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "55/100 (somewhat walkable in core areas)",
+    "best_walkable_neighborhoods": [
+      "Downtown Asheville",
+      "South Slope (brewery district)",
+      "Montford",
+      "West Asheville",
+      "Biltmore Village"
+    ]
+  },
+  "scenery": {
+    "summary": "SPECTACULAR. Blue Ridge Mountains surround the city. Fall colors are world-class. Hiking (Pisgah National Forest, Blue Ridge Parkway) is unmatched. Rivers, waterfalls, mountain vistas everywhere. If scenery is your priority, this is top-tier."
+  },
+  "climate": {
+    "summary": "Four seasons in the mountains—mild winters with some snow, warm (not hot) summers, stunning fall, pleasant spring. Higher elevation keeps temps moderate. Perfect climate for outdoor lovers. Occasional winter storm but manageable.",
+    "avg_summer_high": "83°F",
+    "avg_winter_low": "28°F",
+    "annual_snowfall": "10-15 inches",
+    "annual_sunny_days": "212"
+  },
+  "culture": {
+    "summary": "Asheville punches way above its weight—thriving craft beer scene (50+ breweries), farm-to-table dining, arts and music (buskers, venues), Biltmore Estate, River Arts District. Progressive, bohemian vibe with yoga studios, farmers markets, and crunchy granola ethos. Culture is rich but the whiteness is inescapable."
+  },
+  "pros": [
+    "BEST scenery on this list—Blue Ridge Mountains are breathtaking",
+    "Walkable downtown with mountain town charm",
+    "Excellent craft beer and food scene",
+    "Four seasons with mild mountain climate",
+    "Progressive values and outdoor culture",
+    "Safe and clean"
+  ],
+  "cons": [
+    "⚠️ CRITICAL: Only 7.7% Black—Candace may feel isolated as an interracial couple",
+    "Documented history of displacing Black community (urban renewal)",
+    "Very white despite progressive politics",
+    "Expensive for the region (tourism drives up costs)",
+    "Small city—may feel limited after 1-2 years",
+    "Can feel touristy/transient (less rooted community)"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Asheville",
+      "vibe": "Artsy, eclectic, slightly grittier than downtown—Asheville's hip side",
+      "walk_score": "68/100",
+      "median_rent_1br": "$1,450",
+      "safety_rating": "high",
+      "diversity_notes": "Most diverse part of Asheville (still very white)",
+      "why_for_them": "Walkable, local shops/restaurants, more affordable. Best option for diversity in Asheville (which isn't saying much)."
+    },
+    {
+      "name": "Downtown/South Slope",
+      "vibe": "Tourist center meets brewery district—walkable, energetic",
+      "walk_score": "85/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "high",
+      "diversity_notes": "Mostly white, tourist-heavy",
+      "why_for_them": "Most walkable, near everything, brewery central. Can feel touristy. Good for short-term adventure."
+    },
+    {
+      "name": "Historic Montford",
+      "vibe": "Victorian homes, tree-lined, residential charm near downtown",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "high",
+      "diversity_notes": "Affluent, very white",
+      "why_for_them": "Beautiful, walkable, historic. Safe and charming but homogeneous. May feel isolating."
+    },
+    {
+      "name": "River Arts District",
+      "vibe": "Working studios and galleries in former industrial buildings",
+      "walk_score": "60/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Artsy crowd, still mostly white",
+      "why_for_them": "Creative vibe, developing area. Less walkable but interesting. Gentrifying rapidly."
+    },
+    {
+      "name": "North Asheville",
+      "vibe": "Residential, family-friendly, suburban feel",
+      "walk_score": "45/100",
+      "median_rent_1br": "$1,350",
+      "safety_rating": "high",
+      "diversity_notes": "Very white, family-oriented",
+      "why_for_them": "Safe, affordable, near trails. Not walkable. Feels suburban. Not recommended for their adventure goals."
+    }
+  ]
+}

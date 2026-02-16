@@ -1,0 +1,125 @@
+{
+  "name": "Nashville, TN",
+  "slug": "nashville-tn",
+  "region": "Southeast",
+  "tagline": "Music City boom town—honky-tonks meet healthcare HQ in a sprawling, growing metro",
+  "population": "2.0 million metro",
+  "scores": {
+    "diversity_climate": 7,
+    "safety": 6,
+    "political_moderation": 6,
+    "cost_of_living": 7,
+    "walkability": 5,
+    "scenic_beauty": 6,
+    "seasons": 7,
+    "culture": 9
+  },
+  "cost_of_living": {
+    "index_vs_national": "~2-5% above national average (rising fast)",
+    "median_rent_1br": "$1,500",
+    "median_rent_2br": "$1,830",
+    "vs_la_savings": "$600-1,100/month compared to LA"
+  },
+  "diversity": {
+    "summary": "Nashville is about 27% Black, 10% Hispanic, with growing diversity. Reddit users report 'interracial couples aplenty' and generally accepting atmosphere. However, the city is politically divided—Davidson County (Nashville proper) is blue, but Tennessee is red, which creates tension. North Nashville is historically Black; south is predominantly white. Growing but still somewhat segregated.",
+    "diversity_index": "27% Black, 10% Hispanic, 4% Asian; growing diversity",
+    "notable": "Reddit consensus: 'There are interracial couples aplenty' and 'culturally and ethnically diverse'"
+  },
+  "safety": {
+    "summary": "Nashville crime is moderate and varies by neighborhood. Some areas (Antioch, parts of North Nashville) have higher crime. Most popular neighborhoods (12 South, East Nashville, Germantown) are reasonably safe. Overall feels safe in the right areas but due diligence needed.",
+    "violent_crime_rate": "~1,100 per 100k (elevated but concentrated)",
+    "best_neighborhoods": [
+      "12 South",
+      "Green Hills",
+      "Germantown",
+      "East Nashville (mixed, gentrifying)",
+      "Sylvan Park"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "29/100 (car-dependent)",
+    "best_walkable_neighborhoods": [
+      "The Gulch",
+      "Germantown",
+      "12 South",
+      "East Nashville (Five Points area)",
+      "Downtown/Broadway"
+    ]
+  },
+  "scenery": {
+    "summary": "Rolling hills, greenery, Cumberland River. Not dramatic but pleasant. Tennessee hills provide gentle topography. Lakes and parks nearby. About 1 hour to Land Between the Lakes, 3 hours to Smoky Mountains. Serviceable but not a scenic destination."
+  },
+  "climate": {
+    "summary": "Humid subtropical—hot, sticky summers; mild winters with occasional snow/ice. Spring brings tornadoes (rare but real). Fall is beautiful. Four seasons but less pronounced than northern cities. Humidity is significant.",
+    "avg_summer_high": "89°F",
+    "avg_winter_low": "28°F",
+    "annual_snowfall": "5 inches",
+    "annual_sunny_days": "207"
+  },
+  "culture": {
+    "summary": "Nashville IS culture—live music everywhere (honky-tonks, indie venues, songwriter rounds), hot chicken, meat-and-threes, Broadway chaos, Ryman Auditorium, Grand Ole Opry. It's a legitimate cultural destination. Food scene is strong (Sean Brock's restaurants, hot chicken, BBQ, international). But the tourist boom can feel overwhelming, and the city is growing fast with 'bachelorette party' vibes downtown."
+  },
+  "pros": [
+    "Incredible music scene and cultural identity",
+    "Strong food culture (hot chicken, BBQ, fine dining)",
+    "Growing diversity and generally accepting of interracial couples",
+    "No state income tax (Tennessee)",
+    "Strong job market (healthcare, music, tourism)",
+    "Energy and growth—feels alive and dynamic"
+  ],
+  "cons": [
+    "Growing FAST—traffic, costs rising, infrastructure struggling",
+    "Car-dependent outside a few neighborhoods",
+    "Tennessee politics are very conservative (Nashville itself is blue island)",
+    "Downtown can feel touristy/party-centric (bachelorette central)",
+    "Crime in certain areas requires careful neighborhood selection",
+    "Summer humidity is intense"
+  ],
+  "neighborhoods": [
+    {
+      "name": "East Nashville (Five Points)",
+      "vibe": "Hipster haven—dive bars, vintage shops, murals, eclectic",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,550",
+      "safety_rating": "medium (gentrifying, varies by block)",
+      "diversity_notes": "Diverse, progressive, artsy crowd",
+      "why_for_them": "Most walkable, artistic vibe, diverse. Gentrification tensions but authentic character. Great for exploring."
+    },
+    {
+      "name": "12 South",
+      "vibe": "Trendy, Instagram-worthy—boutiques, brunch spots, upscale residential",
+      "walk_score": "68/100",
+      "median_rent_1br": "$1,700",
+      "safety_rating": "high",
+      "diversity_notes": "Less diverse, young professionals, affluent",
+      "why_for_them": "Walkable, safe, cute neighborhood. Can feel polished/manufactured. Good restaurants. Less diversity."
+    },
+    {
+      "name": "Germantown",
+      "vibe": "Historic neighborhood turned upscale—cobblestones, new restaurants",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "high",
+      "diversity_notes": "Mixed, gentrifying",
+      "why_for_them": "Walkable, near downtown, historic charm. Expensive. Close to action but quieter than Broadway."
+    },
+    {
+      "name": "Sylvan Park",
+      "vibe": "Family-friendly, residential, tree-lined—Nashville's quieter side",
+      "walk_score": "58/100",
+      "median_rent_1br": "$1,450",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity, family-oriented",
+      "why_for_them": "Safe, affordable, neighborhood feel. Less walkable. Good for settling in vs adventure."
+    },
+    {
+      "name": "The Gulch",
+      "vibe": "Urban renewal—high-rises, rooftop bars, walkable but touristy",
+      "walk_score": "80/100",
+      "median_rent_1br": "$1,900",
+      "safety_rating": "high",
+      "diversity_notes": "Young, diverse professionals",
+      "why_for_them": "Most walkable, modern amenities. Expensive. Can feel generic/touristy. Close to everything but lacks soul."
+    }
+  ]
+}

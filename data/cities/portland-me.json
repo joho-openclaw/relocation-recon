@@ -1,0 +1,125 @@
+{
+  "name": "Portland, ME",
+  "slug": "portland-me",
+  "region": "New England",
+  "tagline": "Coastal New England charm—lobster rolls, lighthouses, and limited diversity",
+  "population": "540,000 metro",
+  "scores": {
+    "diversity_climate": 3,
+    "safety": 9,
+    "political_moderation": 6,
+    "cost_of_living": 7,
+    "walkability": 8,
+    "scenic_beauty": 9,
+    "seasons": 8,
+    "culture": 7
+  },
+  "cost_of_living": {
+    "index_vs_national": "~8-10% above national average",
+    "median_rent_1br": "$1,500",
+    "median_rent_2br": "$1,900",
+    "vs_la_savings": "$600-1,000/month compared to LA"
+  },
+  "diversity": {
+    "summary": "⚠️ HONEST WARNING: Portland is VERY WHITE—Maine is the whitest state in the nation, and Portland is only marginally more diverse. Growing immigrant populations (Somali, Congolese) exist but remain small. Reddit discussions reveal 'groups tend to stick together' and Black residents report difficulty connecting outside their community. BIPOC residents report not having equal access to services/opportunities. This is a significant concern for the #1 priority.",
+    "diversity_index": "~85% White, 7% Black, 4% Asian; Maine's most diverse city (still very white)",
+    "notable": "Reddit: 'Groups tend to stick together, generally speaking. You might find it difficult to meet and hang out with non black people'"
+  },
+  "safety": {
+    "summary": "Portland is one of the safest cities on this list. Crime is low overall, with property crime being the main concern (car break-ins in touristy areas). Violent crime is rare. Small city feel contributes to safety. Most neighborhoods are very safe.",
+    "violent_crime_rate": "~150 per 100k (very low)",
+    "best_neighborhoods": [
+      "Old Port",
+      "West End",
+      "Munjoy Hill",
+      "East Bayside",
+      "Deering Center"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "66/100 (very walkable for a small city)",
+    "best_walkable_neighborhoods": [
+      "Old Port (downtown)",
+      "West End",
+      "Munjoy Hill",
+      "East Bayside",
+      "Arts District"
+    ]
+  },
+  "scenery": {
+    "summary": "Coastal New England beauty—Casco Bay, lighthouses, rocky coastline, islands. Fall foliage is spectacular. Winter snow on the harbor is postcard-perfect. Access to both ocean and mountains (White Mountains 1.5 hours). Quintessential Maine scenery."
+  },
+  "climate": {
+    "summary": "Four true seasons with REAL winter. Cold, snowy winters (similar to Minneapolis but coastal). Beautiful summers (mild, not hot). Stunning fall colors. Short spring. Ocean moderates temperatures slightly but it's still New England winter. Gray days common.",
+    "avg_summer_high": "78°F",
+    "avg_winter_low": "15°F",
+    "annual_snowfall": "61 inches",
+    "annual_sunny_days": "200"
+  },
+  "culture": {
+    "summary": "Portland is a foodie destination—James Beard Award winners, incredible seafood (lobster, oysters), farm-to-table ethos, craft beer and distilleries. Arts scene is strong for its size. Indie bookstores, galleries, music venues. Feels cultured and authentic but SMALL—you'll know the city intimately within months."
+  },
+  "pros": [
+    "Extremely safe—one of the safest cities on this list",
+    "Beautiful coastal scenery and access to ocean",
+    "Excellent food scene (seafood, farm-to-table, James Beard restaurants)",
+    "Walkable downtown with character",
+    "Four seasons with New England charm",
+    "Small city charm—easy to navigate and get to know"
+  ],
+  "cons": [
+    "⚠️ CRITICAL: Maine's whitest major city—Candace may feel very isolated",
+    "BIPOC residents report difficulty integrating and unequal access",
+    "Very small—will feel limiting after 1-2 years",
+    "BRUTAL winter (real New England cold and snow)",
+    "Expensive for a small city (tourism drives costs)",
+    "Further from family/California (flight connections limited)"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Old Port",
+      "vibe": "Historic waterfront—cobblestones, restaurants, tourists, charm",
+      "walk_score": "90/100",
+      "median_rent_1br": "$1,700",
+      "safety_rating": "high",
+      "diversity_notes": "Mostly white, touristy",
+      "why_for_them": "Most walkable, beautiful, near everything. Touristy. Great for short-term but may feel isolating long-term."
+    },
+    {
+      "name": "West End",
+      "vibe": "Residential, tree-lined, historic Victorian homes",
+      "walk_score": "82/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "high",
+      "diversity_notes": "Slightly more diverse (still very white), progressive",
+      "why_for_them": "Walkable, beautiful architecture, residential feel. Safest bet for diversity in Portland (low bar)."
+    },
+    {
+      "name": "Munjoy Hill (East End)",
+      "vibe": "Artistic, eclectic, views of Casco Bay—Portland's bohemian side",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "high",
+      "diversity_notes": "Most diverse neighborhood, artsy crowd",
+      "why_for_them": "Walkable, character, views. Best option for diversity/acceptance in Portland. Still very white overall."
+    },
+    {
+      "name": "East Bayside",
+      "vibe": "Former industrial, now arts/immigrant community—gentrifying",
+      "walk_score": "70/100",
+      "median_rent_1br": "$1,450",
+      "safety_rating": "high",
+      "diversity_notes": "Most diverse (Somali, African immigrants)",
+      "why_for_them": "Most diverse option. Developing. May offer best sense of community but small scale. Gentrification tensions."
+    },
+    {
+      "name": "Deering Center",
+      "vibe": "Residential, suburban feel within city limits",
+      "walk_score": "60/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "high",
+      "diversity_notes": "Very white, family-oriented",
+      "why_for_them": "Safe, affordable, less walkable. Not recommended—too suburban and homogeneous for their goals."
+    }
+  ]
+}
