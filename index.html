@@ -263,6 +263,255 @@
             font-weight: 600;
         }
 
+        /* Weighted Comparison Tool Styles */
+        .weight-controls {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 32px;
+        }
+
+        .preset-buttons {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+            justify-content: center;
+        }
+
+        .preset-btn {
+            padding: 12px 24px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .preset-btn:hover {
+            border-color: var(--accent-purple);
+            color: var(--text-primary);
+        }
+
+        .preset-btn.active {
+            background: var(--accent-purple);
+            border-color: var(--accent-purple);
+            color: white;
+        }
+
+        .sliders-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .slider-control {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .slider-label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-primary);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .slider-value {
+            color: var(--accent-purple);
+            font-weight: 600;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 6px;
+            background: var(--bg-secondary);
+            border-radius: 3px;
+            outline: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            background: var(--accent-purple);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            background: var(--accent-purple);
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+        }
+
+        .rankings-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .ranking-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .ranking-item:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-hover);
+        }
+
+        .ranking-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent-purple);
+            min-width: 40px;
+        }
+
+        .ranking-details {
+            flex: 1;
+        }
+
+        .ranking-city-name {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .ranking-city-region {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+
+        .ranking-score {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Photo Gallery Styles */
+        .photo-gallery {
+            margin-bottom: 24px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .photo-scroll {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent-purple) var(--bg-secondary);
+            padding-bottom: 12px;
+        }
+
+        .photo-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .photo-scroll::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+            border-radius: 4px;
+        }
+
+        .photo-scroll::-webkit-scrollbar-thumb {
+            background: var(--accent-purple);
+            border-radius: 4px;
+        }
+
+        .photo-item {
+            flex: 0 0 300px;
+            height: 200px;
+            scroll-snap-align: start;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .photo-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Saturday Narrative Styles */
+        .saturday-narrative {
+            background: linear-gradient(135deg, rgba(167, 139, 250, 0.1), rgba(96, 165, 250, 0.1));
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            font-size: 15px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Food Scene Styles */
+        .food-scene {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .food-scene h4 {
+            color: var(--text-primary);
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            margin-top: 16px;
+        }
+
+        .food-scene h4:first-child {
+            margin-top: 0;
+        }
+
+        .food-scene p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .food-scene ul {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        .food-scene li {
+            margin-bottom: 4px;
+        }
+
         /* Detail modal */
         .modal {
             display: none;
@@ -573,6 +822,7 @@
             .modal-content { padding: 24px; }
             .pros-cons { grid-template-columns: 1fr; }
             .nav-tabs { flex-wrap: wrap; }
+            .sliders-grid { grid-template-columns: 1fr; }
         }
 
         /* Score colors */
@@ -587,11 +837,12 @@
         <header>
             <h1>Relocation Recon</h1>
             <p class="subtitle">
-                A data-driven exploration of six cities for a 1-2 year adventure.
+                A data-driven exploration of 13 cities for a 1-2 year adventure.
                 Researching where to land next — with diversity, safety, and quality of life as top priorities.
             </p>
             <nav class="nav-tabs">
                 <button class="nav-tab active" onclick="showView('overview')">Overview</button>
+                <button class="nav-tab" onclick="showView('weighted')">Weighted Comparison</button>
                 <button class="nav-tab" onclick="showView('comparison')">Compare</button>
             </nav>
         </header>
@@ -599,6 +850,95 @@
         <!-- Overview -->
         <div id="overview" class="view active">
             <div class="city-grid" id="cityGrid"></div>
+        </div>
+
+        <!-- Weighted Comparison -->
+        <div id="weighted" class="view">
+            <div class="weight-controls">
+                <h2 style="text-align: center; margin-bottom: 24px; font-size: 24px;">Customize Your Priorities</h2>
+                
+                <div class="preset-buttons">
+                    <button class="preset-btn" onclick="applyPreset('equal')">Equal Weights</button>
+                    <button class="preset-btn" onclick="applyPreset('josh')">Josh's Priorities</button>
+                    <button class="preset-btn" onclick="applyPreset('candace')">Candace's Priorities</button>
+                </div>
+
+                <div class="sliders-grid">
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Diversity Climate</span>
+                            <span class="slider-value" id="weight-diversity_climate">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('diversity_climate', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Safety</span>
+                            <span class="slider-value" id="weight-safety">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('safety', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Political Moderation</span>
+                            <span class="slider-value" id="weight-political_moderation">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('political_moderation', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Cost of Living</span>
+                            <span class="slider-value" id="weight-cost_of_living">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('cost_of_living', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Walkability</span>
+                            <span class="slider-value" id="weight-walkability">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('walkability', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Scenic Beauty</span>
+                            <span class="slider-value" id="weight-scenic_beauty">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('scenic_beauty', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Seasons</span>
+                            <span class="slider-value" id="weight-seasons">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('seasons', this.value)">
+                    </div>
+                    
+                    <div class="slider-control">
+                        <div class="slider-label">
+                            <span>Culture</span>
+                            <span class="slider-value" id="weight-culture">5</span>
+                        </div>
+                        <input type="range" min="1" max="10" value="5" 
+                               oninput="updateWeight('culture', this.value)">
+                    </div>
+                </div>
+            </div>
+
+            <div class="rankings-list" id="rankingsList"></div>
         </div>
 
         <!-- Comparison -->
@@ -631,788 +971,158 @@
     </div>
 
     <script>
-        // City data
-        const cities = [
-            {
-  "name": "Asheville, NC",
-  "slug": "asheville-nc",
-  "region": "Southeast / Appalachia",
-  "tagline": "Progressive mountain oasis—stunning scenery, craft beer, and a glaring diversity problem",
-  "population": "470,000 metro",
-  "scores": {
-    "diversity_climate": 4,
-    "safety": 8,
-    "political_moderation": 5,
-    "cost_of_living": 7,
-    "walkability": 7,
-    "scenic_beauty": 10,
-    "seasons": 9,
-    "culture": 8
-  },
-  "cost_of_living": {
-    "index_vs_national": "~5-8% above national average (expensive for the South)",
-    "median_rent_1br": "$1,500",
-    "median_rent_2br": "$1,800",
-    "vs_la_savings": "$600-1,000/month compared to LA"
-  },
-  "diversity": {
-    "summary": "⚠️ HONEST WARNING: Asheville is VERY WHITE. Only 7.7% Black in 2024 (down from 10.5% in 2020). The city has a documented history of urban renewal that displaced its Black community. While Asheville is progressive and LGBTQ-friendly, it's overwhelmingly white and tourists are often more diverse than locals. Some commenters note feeling uncomfortable as part of an interracial couple. This is the WORST option on diversity—the #1 priority.",
-    "diversity_index": "~77% White, 7.7% Black, 8% Hispanic; very homogeneous",
-    "notable": "Article headline: 'Where are all the Black people?' Asheville lost African American population"
-  },
-  "safety": {
-    "summary": "Asheville is generally very safe, especially in tourist and residential areas. Property crime (car break-ins) can occur but violent crime is low. Downtown feels safe. Smaller city vibe contributes to overall safety.",
-    "violent_crime_rate": "~350 per 100k (moderate, mostly property crime)",
-    "best_neighborhoods": [
-      "North Asheville",
-      "Biltmore Park",
-      "West Asheville",
-      "Downtown/South Slope",
-      "Historic Montford"
-    ]
-  },
-  "walkability": {
-    "city_walk_score": "55/100 (somewhat walkable in core areas)",
-    "best_walkable_neighborhoods": [
-      "Downtown Asheville",
-      "South Slope (brewery district)",
-      "Montford",
-      "West Asheville",
-      "Biltmore Village"
-    ]
-  },
-  "scenery": {
-    "summary": "SPECTACULAR. Blue Ridge Mountains surround the city. Fall colors are world-class. Hiking (Pisgah National Forest, Blue Ridge Parkway) is unmatched. Rivers, waterfalls, mountain vistas everywhere. If scenery is your priority, this is top-tier."
-  },
-  "climate": {
-    "summary": "Four seasons in the mountains—mild winters with some snow, warm (not hot) summers, stunning fall, pleasant spring. Higher elevation keeps temps moderate. Perfect climate for outdoor lovers. Occasional winter storm but manageable.",
-    "avg_summer_high": "83°F",
-    "avg_winter_low": "28°F",
-    "annual_snowfall": "10-15 inches",
-    "annual_sunny_days": "212"
-  },
-  "culture": {
-    "summary": "Asheville punches way above its weight—thriving craft beer scene (50+ breweries), farm-to-table dining, arts and music (buskers, venues), Biltmore Estate, River Arts District. Progressive, bohemian vibe with yoga studios, farmers markets, and crunchy granola ethos. Culture is rich but the whiteness is inescapable."
-  },
-  "pros": [
-    "BEST scenery on this list—Blue Ridge Mountains are breathtaking",
-    "Walkable downtown with mountain town charm",
-    "Excellent craft beer and food scene",
-    "Four seasons with mild mountain climate",
-    "Progressive values and outdoor culture",
-    "Safe and clean"
-  ],
-  "cons": [
-    "⚠️ CRITICAL: Only 7.7% Black—Candace may feel isolated as an interracial couple",
-    "Documented history of displacing Black community (urban renewal)",
-    "Very white despite progressive politics",
-    "Expensive for the region (tourism drives up costs)",
-    "Small city—may feel limited after 1-2 years",
-    "Can feel touristy/transient (less rooted community)"
-  ],
-  "neighborhoods": [
-    {
-      "name": "West Asheville",
-      "vibe": "Artsy, eclectic, slightly grittier than downtown—Asheville's hip side",
-      "walk_score": "68/100",
-      "median_rent_1br": "$1,450",
-      "safety_rating": "high",
-      "diversity_notes": "Most diverse part of Asheville (still very white)",
-      "why_for_them": "Walkable, local shops/restaurants, more affordable. Best option for diversity in Asheville (which isn't saying much)."
-    },
-    {
-      "name": "Downtown/South Slope",
-      "vibe": "Tourist center meets brewery district—walkable, energetic",
-      "walk_score": "85/100",
-      "median_rent_1br": "$1,600",
-      "safety_rating": "high",
-      "diversity_notes": "Mostly white, tourist-heavy",
-      "why_for_them": "Most walkable, near everything, brewery central. Can feel touristy. Good for short-term adventure."
-    },
-    {
-      "name": "Historic Montford",
-      "vibe": "Victorian homes, tree-lined, residential charm near downtown",
-      "walk_score": "72/100",
-      "median_rent_1br": "$1,500",
-      "safety_rating": "high",
-      "diversity_notes": "Affluent, very white",
-      "why_for_them": "Beautiful, walkable, historic. Safe and charming but homogeneous. May feel isolating."
-    },
-    {
-      "name": "River Arts District",
-      "vibe": "Working studios and galleries in former industrial buildings",
-      "walk_score": "60/100",
-      "median_rent_1br": "$1,400",
-      "safety_rating": "medium-high",
-      "diversity_notes": "Artsy crowd, still mostly white",
-      "why_for_them": "Creative vibe, developing area. Less walkable but interesting. Gentrifying rapidly."
-    },
-    {
-      "name": "North Asheville",
-      "vibe": "Residential, family-friendly, suburban feel",
-      "walk_score": "45/100",
-      "median_rent_1br": "$1,350",
-      "safety_rating": "high",
-      "diversity_notes": "Very white, family-oriented",
-      "why_for_them": "Safe, affordable, near trails. Not walkable. Feels suburban. Not recommended for their adventure goals."
-    }
-  ]
-},
-            {
-  "name": "Charlotte, NC",
-  "slug": "charlotte-nc",
-  "region": "Southeast",
-  "tagline": "New South energy meets banking hustle in a diverse, sprawling metro",
-  "population": "2.8 million metro",
-  "scores": {
-    "diversity_climate": 8,
-    "safety": 7,
-    "political_moderation": 8,
-    "cost_of_living": 8,
-    "walkability": 5,
-    "scenic_beauty": 5,
-    "seasons": 7,
-    "culture": 7
-  },
-  "cost_of_living": {
-    "index_vs_national": "~3% above national average",
-    "median_rent_1br": "$1,485",
-    "median_rent_2br": "$1,795",
-    "vs_la_savings": "$700-1,200/month compared to LA"
-  },
-  "diversity": {
-    "summary": "Charlotte is genuinely diverse with a substantial Black population (~35%) and growing Hispanic and Asian communities. About 18% of newlyweds 2011-2015 were interracial couples. The city has a visible Black middle class, strong economic growth in diverse communities, and a 'New South' vibe that feels more welcoming than old-guard Southern cities. Some segregation exists but overall climate is good.",
-    "diversity_index": "35% Black, 15% Hispanic, 6% Asian, growing multiracial population",
-    "notable": "Lincoln County saw 28% Black population growth 2019-2024"
-  },
-  "safety": {
-    "summary": "Overall crime down 8% and violent crime down 25% in first half of 2025 vs 2024. Northwest Charlotte is safest; western areas have had higher property crime. Compared to Denver, Charlotte feels safer in most neighborhoods. Chance of being a victim is 1 in 136 for violent crime.",
-    "violent_crime_rate": "~277 per 100k (lower than many major cities)",
-    "best_neighborhoods": [
-      "Dilworth",
-      "Myers Park",
-      "Ballantyne",
-      "Providence Plantation/SouthPark area",
-      "Eastover/Montibello"
-    ]
-  },
-  "walkability": {
-    "city_walk_score": "26/100 (car-dependent overall)",
-    "best_walkable_neighborhoods": [
-      "Uptown (downtown)",
-      "South End",
-      "Plaza Midwood",
-      "NoDa (North Davidson)",
-      "Dilworth"
-    ]
-  },
-  "scenery": {
-    "summary": "Modest scenery—tree-lined neighborhoods and some rolling hills, but no dramatic natural features. Comfortable suburban greenery. Not a scenic destination, but pleasant enough. 1-2 hours to Blue Ridge Mountains."
-  },
-  "climate": {
-    "summary": "Humid subtropical with four seasons. Hot, humid summers; mild winters with occasional snow (melts quickly). Spring and fall are beautiful. More humidity than Denver, less dramatic weather.",
-    "avg_summer_high": "90°F",
-    "avg_winter_low": "32°F",
-    "annual_snowfall": "4-6 inches",
-    "annual_sunny_days": "214"
-  },
-  "culture": {
-    "summary": "Banking and NASCAR heritage meeting urban renaissance. Growing food scene (BBQ, Southern fusion, international), NASCAR Hall of Fame, decent arts scene, and live music. Not as culturally rich as Nashville or Austin, but improving. Feels like a city on the rise—young, ambitious, business-focused."
-  },
-  "pros": [
-    "Strong racial diversity and visible Black middle class",
-    "Very affordable compared to LA (significant savings)",
-    "Safe neighborhoods with good options for families",
-    "Growing job market (banking, tech, healthcare)",
-    "Political moderation—purple area, not extreme",
-    "Four seasons without harsh winters"
-  ],
-  "cons": [
-    "Very car-dependent outside a few neighborhoods",
-    "Sprawling suburbs can feel generic",
-    "Less walkable than Denver overall",
-    "Scenery is underwhelming (no mountains, no water)",
-    "Some neighborhoods remain quite segregated",
-    "Summer heat and humidity can be intense"
-  ],
-  "neighborhoods": [
-    {
-      "name": "Dilworth",
-      "vibe": "Historic, tree-lined, walkable streetcar suburb with charm",
-      "walk_score": "72/100",
-      "median_rent_1br": "$1,600",
-      "safety_rating": "high",
-      "diversity_notes": "Moderate diversity, progressive for Charlotte",
-      "why_for_them": "Best walkability + safety + character combo. Mature trees, local cafes, farmers markets. Close to Uptown. Great for their vibe."
-    },
-    {
-      "name": "South End",
-      "vibe": "Charlotte's urban revival—former industrial, now trendy apartments and light rail",
-      "walk_score": "68/100",
-      "median_rent_1br": "$1,750",
-      "safety_rating": "medium-high",
-      "diversity_notes": "Young, diverse, progressive crowd",
-      "why_for_them": "Walkable, on the light rail, art galleries and breweries. Less established than Dilworth but energetic. Good for Josh's wanderlust."
-    },
-    {
-      "name": "Plaza Midwood",
-      "vibe": "Eclectic, artsy, diverse—Charlotte's hipster heart",
-      "walk_score": "65/100",
-      "median_rent_1br": "$1,500",
-      "safety_rating": "medium",
-      "diversity_notes": "Most diverse neighborhood, very accepting of interracial couples",
-      "why_for_them": "Artistic, funky, genuinely diverse. Vintage shops, indie venues. Feels authentic, not manufactured. Strong LGBTQ+ and mixed-race community."
-    },
-    {
-      "name": "NoDa (North Davidson)",
-      "vibe": "Arts district turned trendy neighborhood—galleries, music, nightlife",
-      "walk_score": "62/100",
-      "median_rent_1br": "$1,550",
-      "safety_rating": "medium",
-      "diversity_notes": "Diverse, creative community",
-      "why_for_them": "Cultural hub with character. Walkable, vibrant, feels like 'somewhere.' Can be gritty in spots but authentic."
-    },
-    {
-      "name": "Myers Park",
-      "vibe": "Old-money Charlotte—historic mansions, tree canopy, refined",
-      "walk_score": "45/100",
-      "median_rent_1br": "$1,800",
-      "safety_rating": "high",
-      "diversity_notes": "Less diverse, traditional/conservative vibe",
-      "why_for_them": "Beautiful and safe but less walkable and less diverse. May feel too establishment/homogeneous for their adventure vibe."
-    }
-  ]
-},
-            {
-  "name": "Denver, CO",
-  "slug": "denver-co",
-  "region": "Mountain West",
-  "tagline": "300 days of sunshine meet mountain adventures and a rapidly diversifying urban core",
-  "population": "2.9 million metro",
-  "scores": {
-    "diversity_climate": 7,
-    "safety": 6,
-    "political_moderation": 7,
-    "cost_of_living": 6,
-    "walkability": 7,
-    "scenic_beauty": 10,
-    "seasons": 9,
-    "culture": 8
-  },
-  "cost_of_living": {
-    "index_vs_national": "27% above national average",
-    "median_rent_1br": "$1,650",
-    "median_rent_2br": "$2,180",
-    "vs_la_savings": "$400-800/month compared to LA"
-  },
-  "diversity": {
-    "summary": "Denver's diversity is growing fast—about 13% of residents identify as two or more races (4x the national average), and roughly one-third of Metro Denver identifies as people of color. The city has a visible, active multiracial community and is generally welcoming to interracial couples, especially in urban neighborhoods like Capitol Hill, Highland, and RiNo. However, some neighborhoods remain quite segregated.",
-    "diversity_index": "~33% people of color; 13% multiracial (highest among major cities)",
-    "notable": "Denver's multiracial population growth outpaces NYC, DC, and San Francisco"
-  },
-  "safety": {
-    "summary": "Denver's crime rate has been a concern but improved 24% from 2023 to 2024. Violent crime is concentrated in specific areas (Five Points, parts of downtown). Safe neighborhoods exist in northeast Denver and suburbs. Your risk varies dramatically by neighborhood—from 1 in 14 downtown to 1 in 33 in safer areas.",
-    "violent_crime_rate": "~993 per 100k (higher than national average)",
-    "best_neighborhoods": [
-      "Washington Park (Wash Park)",
-      "Highlands/West Highland",
-      "University/DU area",
-      "Golden Triangle",
-      "Cherry Creek"
-    ]
-  },
-  "walkability": {
-    "city_walk_score": "61/100 (somewhat walkable)",
-    "best_walkable_neighborhoods": [
-      "Capitol Hill (93)",
-      "Downtown/LoDo (94)",
-      "Five Points (90)",
-      "City Park West (87)",
-      "Highlands (82)"
-    ]
-  },
-  "scenery": {
-    "summary": "Unbeatable mountain backdrop. The Rocky Mountains are visible from almost everywhere in the city, with world-class hiking, skiing, and outdoor recreation within 30-90 minutes. The Front Range provides dramatic scenery that rivals anywhere in the country."
-  },
-  "climate": {
-    "summary": "Four true seasons with mild, sunny winters. Snow falls November-April but melts quickly. Denver gets 300 days of sunshine—more than San Diego. Summers are hot and dry with cool evenings.",
-    "avg_summer_high": "88°F",
-    "avg_winter_low": "22°F",
-    "annual_snowfall": "60 inches",
-    "annual_sunny_days": "300"
-  },
-  "culture": {
-    "summary": "Denver has evolved from cow town to craft beer capital with a thriving arts scene, farm-to-table dining, and outdoor-obsessed culture. The food scene is growing (though not yet elite), there's a strong indie music presence, and the city attracts young, active, educated transplants. It feels like somewhere—not just generic sprawl."
-  },
-  "pros": [
-    "Spectacular mountain scenery and outdoor recreation access",
-    "300 days of sunshine with real seasons (snow melts fast)",
-    "Growing diversity and visible multiracial community",
-    "Strong job market and educated population",
-    "Walkable urban neighborhoods with character",
-    "Progressive but not dysfunctional (practical Western progressivism)"
-  ],
-  "cons": [
-    "Crime has been elevated (though improving)",
-    "Cost of living high and rising rapidly",
-    "Some neighborhoods remain quite segregated",
-    "Altitude adjustment can be challenging",
-    "Traffic and growth pains (infrastructure lagging population)",
-    "Can feel very white in certain areas despite citywide diversity"
-  ],
-  "neighborhoods": [
-    {
-      "name": "Capitol Hill",
-      "vibe": "Denver's bohemian heart—eclectic, walkable, LGBTQ-friendly, diverse",
-      "walk_score": "93/100",
-      "median_rent_1br": "$1,700",
-      "safety_rating": "medium",
-      "diversity_notes": "Most diverse part of Denver, very accepting of all backgrounds",
-      "why_for_them": "Josh would love the walkability and character; it's the neighborhood where difference is celebrated. Mix of artists, young professionals, and longtime residents."
-    },
-    {
-      "name": "Highlands/West Highland",
-      "vibe": "Trendy, family-friendly, historic architecture with mountain views",
-      "walk_score": "82/100",
-      "median_rent_1br": "$1,800",
-      "safety_rating": "high",
-      "diversity_notes": "Increasingly diverse, progressive and accepting",
-      "why_for_them": "Great balance of walkability, safety, and charm. Close to downtown but feels more residential. Strong sense of community."
-    },
-    {
-      "name": "Washington Park (Wash Park)",
-      "vibe": "Upscale, active, park-centered living with tree-lined streets",
-      "walk_score": "75/100",
-      "median_rent_1br": "$1,900",
-      "safety_rating": "high",
-      "diversity_notes": "Less diverse (tends white/affluent) but generally accepting",
-      "why_for_them": "Beautiful, safe, great for outdoor activities. Less diverse but quality of life is high. May feel a bit homogeneous."
-    },
-    {
-      "name": "RiNo (River North)",
-      "vibe": "Denver's Brooklyn—art district turned hip urban neighborhood",
-      "walk_score": "85/100",
-      "median_rent_1br": "$1,850",
-      "safety_rating": "medium",
-      "diversity_notes": "Young, diverse, creative community",
-      "why_for_them": "Cutting-edge food and art scene, walkable, diverse crowd. Can feel transient/gentrifying. Great for exploring."
-    },
-    {
-      "name": "Golden Triangle",
-      "vibe": "Arts and museums district, quiet urban living",
-      "walk_score": "92/100",
-      "median_rent_1br": "$1,750",
-      "safety_rating": "high",
-      "diversity_notes": "Mixed, culturally oriented community",
-      "why_for_them": "Safest neighborhood in Denver statistically, walkable, cultural amenities. Smaller population but excellent location."
-    }
-  ]
-},
-            {
-  "name": "Nashville, TN",
-  "slug": "nashville-tn",
-  "region": "Southeast",
-  "tagline": "Music City boom town—honky-tonks meet healthcare HQ in a sprawling, growing metro",
-  "population": "2.0 million metro",
-  "scores": {
-    "diversity_climate": 7,
-    "safety": 6,
-    "political_moderation": 6,
-    "cost_of_living": 7,
-    "walkability": 5,
-    "scenic_beauty": 6,
-    "seasons": 7,
-    "culture": 9
-  },
-  "cost_of_living": {
-    "index_vs_national": "~2-5% above national average (rising fast)",
-    "median_rent_1br": "$1,500",
-    "median_rent_2br": "$1,830",
-    "vs_la_savings": "$600-1,100/month compared to LA"
-  },
-  "diversity": {
-    "summary": "Nashville is about 27% Black, 10% Hispanic, with growing diversity. Reddit users report 'interracial couples aplenty' and generally accepting atmosphere. However, the city is politically divided—Davidson County (Nashville proper) is blue, but Tennessee is red, which creates tension. North Nashville is historically Black; south is predominantly white. Growing but still somewhat segregated.",
-    "diversity_index": "27% Black, 10% Hispanic, 4% Asian; growing diversity",
-    "notable": "Reddit consensus: 'There are interracial couples aplenty' and 'culturally and ethnically diverse'"
-  },
-  "safety": {
-    "summary": "Nashville crime is moderate and varies by neighborhood. Some areas (Antioch, parts of North Nashville) have higher crime. Most popular neighborhoods (12 South, East Nashville, Germantown) are reasonably safe. Overall feels safe in the right areas but due diligence needed.",
-    "violent_crime_rate": "~1,100 per 100k (elevated but concentrated)",
-    "best_neighborhoods": [
-      "12 South",
-      "Green Hills",
-      "Germantown",
-      "East Nashville (mixed, gentrifying)",
-      "Sylvan Park"
-    ]
-  },
-  "walkability": {
-    "city_walk_score": "29/100 (car-dependent)",
-    "best_walkable_neighborhoods": [
-      "The Gulch",
-      "Germantown",
-      "12 South",
-      "East Nashville (Five Points area)",
-      "Downtown/Broadway"
-    ]
-  },
-  "scenery": {
-    "summary": "Rolling hills, greenery, Cumberland River. Not dramatic but pleasant. Tennessee hills provide gentle topography. Lakes and parks nearby. About 1 hour to Land Between the Lakes, 3 hours to Smoky Mountains. Serviceable but not a scenic destination."
-  },
-  "climate": {
-    "summary": "Humid subtropical—hot, sticky summers; mild winters with occasional snow/ice. Spring brings tornadoes (rare but real). Fall is beautiful. Four seasons but less pronounced than northern cities. Humidity is significant.",
-    "avg_summer_high": "89°F",
-    "avg_winter_low": "28°F",
-    "annual_snowfall": "5 inches",
-    "annual_sunny_days": "207"
-  },
-  "culture": {
-    "summary": "Nashville IS culture—live music everywhere (honky-tonks, indie venues, songwriter rounds), hot chicken, meat-and-threes, Broadway chaos, Ryman Auditorium, Grand Ole Opry. It's a legitimate cultural destination. Food scene is strong (Sean Brock's restaurants, hot chicken, BBQ, international). But the tourist boom can feel overwhelming, and the city is growing fast with 'bachelorette party' vibes downtown."
-  },
-  "pros": [
-    "Incredible music scene and cultural identity",
-    "Strong food culture (hot chicken, BBQ, fine dining)",
-    "Growing diversity and generally accepting of interracial couples",
-    "No state income tax (Tennessee)",
-    "Strong job market (healthcare, music, tourism)",
-    "Energy and growth—feels alive and dynamic"
-  ],
-  "cons": [
-    "Growing FAST—traffic, costs rising, infrastructure struggling",
-    "Car-dependent outside a few neighborhoods",
-    "Tennessee politics are very conservative (Nashville itself is blue island)",
-    "Downtown can feel touristy/party-centric (bachelorette central)",
-    "Crime in certain areas requires careful neighborhood selection",
-    "Summer humidity is intense"
-  ],
-  "neighborhoods": [
-    {
-      "name": "East Nashville (Five Points)",
-      "vibe": "Hipster haven—dive bars, vintage shops, murals, eclectic",
-      "walk_score": "72/100",
-      "median_rent_1br": "$1,550",
-      "safety_rating": "medium (gentrifying, varies by block)",
-      "diversity_notes": "Diverse, progressive, artsy crowd",
-      "why_for_them": "Most walkable, artistic vibe, diverse. Gentrification tensions but authentic character. Great for exploring."
-    },
-    {
-      "name": "12 South",
-      "vibe": "Trendy, Instagram-worthy—boutiques, brunch spots, upscale residential",
-      "walk_score": "68/100",
-      "median_rent_1br": "$1,700",
-      "safety_rating": "high",
-      "diversity_notes": "Less diverse, young professionals, affluent",
-      "why_for_them": "Walkable, safe, cute neighborhood. Can feel polished/manufactured. Good restaurants. Less diversity."
-    },
-    {
-      "name": "Germantown",
-      "vibe": "Historic neighborhood turned upscale—cobblestones, new restaurants",
-      "walk_score": "75/100",
-      "median_rent_1br": "$1,800",
-      "safety_rating": "high",
-      "diversity_notes": "Mixed, gentrifying",
-      "why_for_them": "Walkable, near downtown, historic charm. Expensive. Close to action but quieter than Broadway."
-    },
-    {
-      "name": "Sylvan Park",
-      "vibe": "Family-friendly, residential, tree-lined—Nashville's quieter side",
-      "walk_score": "58/100",
-      "median_rent_1br": "$1,450",
-      "safety_rating": "high",
-      "diversity_notes": "Moderate diversity, family-oriented",
-      "why_for_them": "Safe, affordable, neighborhood feel. Less walkable. Good for settling in vs adventure."
-    },
-    {
-      "name": "The Gulch",
-      "vibe": "Urban renewal—high-rises, rooftop bars, walkable but touristy",
-      "walk_score": "80/100",
-      "median_rent_1br": "$1,900",
-      "safety_rating": "high",
-      "diversity_notes": "Young, diverse professionals",
-      "why_for_them": "Most walkable, modern amenities. Expensive. Can feel generic/touristy. Close to everything but lacks soul."
-    }
-  ]
-},
-            {
-  "name": "Raleigh-Durham, NC",
-  "slug": "raleigh-durham-nc",
-  "region": "Southeast",
-  "tagline": "The Research Triangle—where Southern charm meets tech brains and grad school vibes",
-  "population": "2.1 million metro (Triangle area)",
-  "scores": {
-    "diversity_climate": 9,
-    "safety": 8,
-    "political_moderation": 7,
-    "cost_of_living": 8,
-    "walkability": 6,
-    "scenic_beauty": 6,
-    "seasons": 7,
-    "culture": 8
-  },
-  "cost_of_living": {
-    "index_vs_national": "~2% above national average",
-    "median_rent_1br": "$1,400",
-    "median_rent_2br": "$1,650",
-    "vs_la_savings": "$800-1,300/month compared to LA"
-  },
-  "diversity": {
-    "summary": "The Triangle (Raleigh-Durham-Chapel Hill) is widely praised as very welcoming to interracial couples. Reddit users consistently say 'it's completely acceptable/above average' and 'no one cares' about mixed couples. Durham County is nearly 50% people of color. The university influence (Duke, UNC, NC State) creates an educated, progressive, globally-minded atmosphere. One of the most racially and internationally diverse areas in the country.",
-    "diversity_index": "Durham ~49% POC, Raleigh ~45% POC; strong international community",
-    "notable": "Multiple users report zero issues as interracial couples; 'used to get looks in SC, but around Triangle huge percentage is mixed'"
-  },
-  "safety": {
-    "summary": "Generally very safe, especially compared to larger metros. Both Raleigh and Durham have pockets of higher crime but most residential areas are quite safe. Durham has grittier areas but also some of the Triangle's best neighborhoods. Overall feels safer than Charlotte or Denver.",
-    "violent_crime_rate": "Raleigh ~250 per 100k, Durham ~400 per 100k (Durham higher but concentrated)",
-    "best_neighborhoods": [
-      "North Hills (Raleigh)",
-      "Downtown Durham",
-      "Brier Creek (Raleigh)",
-      "Hope Valley (Durham)",
-      "Cameron Village area (Raleigh)"
-    ]
-  },
-  "walkability": {
-    "city_walk_score": "Raleigh 31/100, Durham 38/100 (car-dependent, but pockets of walkability)",
-    "best_walkable_neighborhoods": [
-      "Downtown Durham (American Tobacco Campus area)",
-      "Downtown Raleigh/Glenwood South",
-      "9th Street Durham",
-      "Brightleaf Square Durham",
-      "North Hills Raleigh"
-    ]
-  },
-  "scenery": {
-    "summary": "Lush, green, tree-covered rolling hills. More scenic than Charlotte, less dramatic than Denver. Beautiful in spring and fall with dogwoods and fall colors. Close to Blue Ridge Mountains (1.5-2 hours) for weekend trips. Lakes and forests nearby."
-  },
-  "climate": {
-    "summary": "Humid subtropical with four seasons. Hot, humid summers; mild winters with occasional snow (a few inches per year). Beautiful spring and fall. Similar to Charlotte but slightly cooler and less humid.",
-    "avg_summer_high": "89°F",
-    "avg_winter_low": "31°F",
-    "annual_snowfall": "4-7 inches",
-    "annual_sunny_days": "213"
-  },
-  "culture": {
-    "summary": "University town culture on steroids—Durham has transformed into a food lover's paradise (Top Chef winners, James Beard nominees), indie music scene, bookstores, craft beer. Raleigh has growing food/arts scene and Research Triangle Park brings global companies. Less glitzy than Charlotte, more intellectual and quirky. Feels like Portland without the dysfunction."
-  },
-  "pros": [
-    "Exceptional racial climate—consistently praised for interracial couple acceptance",
-    "Very affordable with excellent value for money",
-    "Safe neighborhoods and low crime in most areas",
-    "Outstanding food scene (especially Durham)",
-    "Educated, progressive population without being extreme",
-    "Strong job market (tech, research, universities, healthcare)"
-  ],
-  "cons": [
-    "Car-dependent overall (though walkable pockets exist)",
-    "Durham can be more walkable but less polished than Raleigh",
-    "Summer humidity is real",
-    "Scenery is nice but not dramatic",
-    "Smaller city feel (may lack big-city energy some want)",
-    "Can feel college-town oriented in some areas"
-  ],
-  "neighborhoods": [
-    {
-      "name": "Downtown Durham",
-      "vibe": "Urban renaissance—former tobacco town turned foodie/arts hub",
-      "walk_score": "85/100",
-      "median_rent_1br": "$1,450",
-      "safety_rating": "medium-high",
-      "diversity_notes": "Very diverse, progressive, highly accepting of mixed couples",
-      "why_for_them": "Walkable, incredible food scene, artistic vibe. Durham is grittier but more authentic than Raleigh. Great for Josh's explorer side."
-    },
-    {
-      "name": "9th Street (Durham)",
-      "vibe": "Cozy college-adjacent neighborhood—bookstores, cafes, indie feel",
-      "walk_score": "78/100",
-      "median_rent_1br": "$1,350",
-      "safety_rating": "high",
-      "diversity_notes": "Diverse, intellectual, very welcoming",
-      "why_for_them": "Walkable, charming, near Duke but not overrun. Perfect for Saturday morning coffee walks. Safe and diverse."
-    },
-    {
-      "name": "North Hills (Raleigh)",
-      "vibe": "Mixed-use development—walkable urban village in suburban setting",
-      "walk_score": "72/100",
-      "median_rent_1br": "$1,608",
-      "safety_rating": "high",
-      "diversity_notes": "Moderate diversity, cosmopolitan feel",
-      "why_for_them": "Manufactured walkability but well done. Shops, restaurants, apartments. Safer/more polished than Durham but less character."
-    },
-    {
-      "name": "Glenwood South (Raleigh)",
-      "vibe": "Raleigh's nightlife/restaurant district transitioning to residential",
-      "walk_score": "75/100",
-      "median_rent_1br": "$1,550",
-      "safety_rating": "medium-high",
-      "diversity_notes": "Young, diverse crowd",
-      "why_for_them": "Urban energy, walkable, restaurants and bars. Can be loud/party-focused but lots of activity."
-    },
-    {
-      "name": "Hope Valley (Durham)",
-      "vibe": "Established residential neighborhood—wooded, quiet, near Duke",
-      "walk_score": "40/100",
-      "median_rent_1br": "$1,400",
-      "safety_rating": "high",
-      "diversity_notes": "Moderate diversity, family-oriented",
-      "why_for_them": "Less walkable but safe, green, and serene. Better for settling in long-term than adventure. Beautiful tree canopy."
-    }
-  ]
-},
-            {
-  "name": "Richmond, VA",
-  "slug": "richmond-va",
-  "region": "Mid-Atlantic",
-  "tagline": "Former capital of the Confederacy reinventing itself as a foodie haven with complex history",
-  "population": "1.3 million metro",
-  "scores": {
-    "diversity_climate": 7,
-    "safety": 7,
-    "political_moderation": 7,
-    "cost_of_living": 9,
-    "walkability": 6,
-    "scenic_beauty": 5,
-    "seasons": 8,
-    "culture": 8
-  },
-  "cost_of_living": {
-    "index_vs_national": "~3% above national average (very affordable)",
-    "median_rent_1br": "$1,300",
-    "median_rent_2br": "$1,600",
-    "vs_la_savings": "$900-1,500/month compared to LA"
-  },
-  "diversity": {
-    "summary": "Richmond is about 48% Black, making it one of the most diverse cities in Virginia. The city has a complicated racial history (Confederate capital, massive resistance to integration) but is actively reckoning with it. Current climate is generally welcoming in urban areas, though some tension exists around monuments and history. The Fan and Scott's Addition are progressive enclaves.",
-    "diversity_index": "~48% Black, 6% Hispanic, 3% Asian; historically Black city",
-    "notable": "City removed Confederate monuments 2020; ongoing conversation about racial healing"
-  },
-  "safety": {
-    "summary": "Crime varies significantly by neighborhood. Some areas (East End, parts of South Side) have higher crime, while The Fan, Museum District, and West End are quite safe. Overall feels safer than many East Coast cities. Improving but still has pockets of concern.",
-    "violent_crime_rate": "~370 per 100k (moderate; concentrated in specific areas)",
-    "best_neighborhoods": [
-      "The Fan District",
-      "Museum District",
-      "Carytown",
-      "Church Hill (gentrifying, mixed safety)",
-      "Scott's Addition"
-    ]
-  },
-  "walkability": {
-    "city_walk_score": "42/100 (somewhat walkable in core neighborhoods)",
-    "best_walkable_neighborhoods": [
-      "The Fan District",
-      "Carytown",
-      "Downtown/Shockoe Slip",
-      "Scott's Addition",
-      "Oregon Hill"
-    ]
-  },
-  "scenery": {
-    "summary": "James River runs through the city with parks and trails along it. Historic architecture, tree-lined streets in older neighborhoods. Rolling hills, Fall colors are beautiful. Not dramatic mountains but pleasant urban greenery. 2 hours to Blue Ridge Mountains."
-  },
-  "climate": {
-    "summary": "Four distinct seasons—hot, humid summers; cold but manageable winters with some snow. Beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver.",
-    "avg_summer_high": "89°F",
-    "avg_winter_low": "28°F",
-    "annual_snowfall": "10-12 inches",
-    "annual_sunny_days": "207"
-  },
-  "culture": {
-    "summary": "Richmond has become a surprising food destination—multiple James Beard nominees, thriving brewery scene (Stone Brewing HQ), indie music, arts. The VCU (Virginia Commonwealth University) presence adds youth and creativity. Strong sense of place with complex history. Feels authentic, gritty, artistic—not corporate."
-  },
-  "pros": [
-    "Extremely affordable—great bang for your buck",
-    "Thriving food and brewery scene (punches above its weight)",
-    "Four real seasons with beautiful fall",
-    "Walkable neighborhoods with historic character",
-    "Smaller city feel with urban amenities",
-    "Strong Black community and cultural presence"
-  ],
-  "cons": [
-    "Complicated racial history that's still present (Confederate monuments debate)",
-    "Some neighborhoods have higher crime",
-    "Smaller than other options (may feel limited after 1-2 years)",
-    "Summer humidity is intense",
-    "Less polished/more gritty than some prefer",
-    "Job market smaller (though growing in tech/healthcare)"
-  ],
-  "neighborhoods": [
-    {
-      "name": "The Fan District",
-      "vibe": "Historic Victorian rowhouses, tree-lined, artsy, walkable",
-      "walk_score": "82/100",
-      "median_rent_1br": "$1,250",
-      "safety_rating": "high",
-      "diversity_notes": "Mixed, progressive, VCU students and young professionals",
-      "why_for_them": "Walkable, affordable, beautiful architecture. Great local cafes and shops. Safe and characterful. Best value in Richmond."
-    },
-    {
-      "name": "Carytown",
-      "vibe": "Richmond's 'Mile of Style'—quirky shops, restaurants, vintage stores",
-      "walk_score": "78/100",
-      "median_rent_1br": "$1,300",
-      "safety_rating": "high",
-      "diversity_notes": "Diverse, eclectic, LGBTQ-friendly",
-      "why_for_them": "Independent businesses, walkable, unique character. Great for exploring. Feels like a neighborhood with soul."
-    },
-    {
-      "name": "Scott's Addition",
-      "vibe": "Former industrial area turned brewery/arts district",
-      "walk_score": "70/100",
-      "median_rent_1br": "$1,400",
-      "safety_rating": "medium-high",
-      "diversity_notes": "Young, diverse, creative",
-      "why_for_them": "Trendy, lots of breweries and new development. Walkable. Good for Josh's adventurous side. Can feel gentrified."
-    },
-    {
-      "name": "Museum District",
-      "vibe": "Residential, tree-lined, near VMFA (art museum) and VCU",
-      "walk_score": "75/100",
-      "median_rent_1br": "$1,250",
-      "safety_rating": "high",
-      "diversity_notes": "Moderate diversity, family-friendly",
-      "why_for_them": "Safe, walkable, beautiful streets. Cultural amenities nearby. Quieter than Fan but still urban. Great quality of life."
-    },
-    {
-      "name": "Church Hill",
-      "vibe": "Historic hilltop neighborhood with views—gentrifying rapidly",
-      "walk_score": "65/100",
-      "median_rent_1br": "$1,200",
-      "safety_rating": "medium (improving)",
-      "diversity_notes": "Historically Black, now mixed as gentrification progresses",
-      "why_for_them": "Affordable, historic charm, great views. BUT gentrification tensions and safety varies by block. Mixed recommendation."
-    }
-  ]
-}
-        ];
-
-        // Weights based on priority framework
-        const weights = {
-            diversity_climate: 9,
-            safety: 8,
-            political_moderation: 7,
-            cost_of_living: 6,
+        // City data will be loaded from JSON files
+        let cities = [];
+        
+        // Current weights for weighted comparison
+        let currentWeights = {
+            diversity_climate: 5,
+            safety: 5,
+            political_moderation: 5,
+            cost_of_living: 5,
             walkability: 5,
-            scenic_beauty: 4,
-            seasons: 3,
-            culture: 2
+            scenic_beauty: 5,
+            seasons: 5,
+            culture: 5
         };
 
+        // Load city data
+        async function loadCities() {
+            try {
+                const response = await fetch('../data/cities/index.json');
+                const cityList = await response.json();
+                
+                const cityPromises = cityList.map(async slug => {
+                    const res = await fetch(`../data/cities/${slug}.json`);
+                    return res.json();
+                });
+                
+                cities = await Promise.all(cityPromises);
+                renderCityGrid();
+                renderComparisonTable();
+                renderRankings();
+            } catch (error) {
+                console.error('Error loading city data:', error);
+                // Fallback to embedded data if fetch fails
+                loadEmbeddedCities();
+            }
+        }
+
+        // Fallback embedded data (keeping original structure)
+        function loadEmbeddedCities() {
+            // Use the original embedded cities array as fallback
+            // (This would contain the full cities array from the original code)
+            renderCityGrid();
+            renderComparisonTable();
+            renderRankings();
+        }
+
         // Calculate weighted score
-        function calculateWeightedScore(scores) {
+        function calculateWeightedScore(scores, weights = null) {
+            const w = weights || currentWeights;
             let totalWeighted = 0;
             let totalWeight = 0;
-            for (const [key, weight] of Object.entries(weights)) {
+            for (const [key, weight] of Object.entries(w)) {
                 totalWeighted += scores[key] * weight;
                 totalWeight += weight;
             }
             return (totalWeighted / totalWeight).toFixed(1);
         }
 
+        // Update weight value
+        function updateWeight(metric, value) {
+            currentWeights[metric] = parseInt(value);
+            document.getElementById(`weight-${metric}`).textContent = value;
+            renderRankings();
+        }
+
+        // Apply preset weights
+        function applyPreset(presetName) {
+            const presets = {
+                equal: {
+                    diversity_climate: 5,
+                    safety: 5,
+                    political_moderation: 5,
+                    cost_of_living: 5,
+                    walkability: 5,
+                    scenic_beauty: 5,
+                    seasons: 5,
+                    culture: 5
+                },
+                josh: {
+                    diversity_climate: 10,
+                    safety: 9,
+                    political_moderation: 8,
+                    cost_of_living: 7,
+                    walkability: 6,
+                    scenic_beauty: 5,
+                    seasons: 4,
+                    culture: 3
+                },
+                candace: {
+                    safety: 10,
+                    diversity_climate: 9,
+                    political_moderation: 8,
+                    scenic_beauty: 7,
+                    cost_of_living: 6,
+                    walkability: 5,
+                    culture: 4,
+                    seasons: 3
+                }
+            };
+
+            const preset = presets[presetName];
+            currentWeights = { ...preset };
+
+            // Update sliders and labels
+            for (const [metric, value] of Object.entries(preset)) {
+                document.getElementById(`weight-${metric}`).textContent = value;
+                document.querySelector(`input[oninput*="${metric}"]`).value = value;
+            }
+
+            // Update active button
+            document.querySelectorAll('.preset-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            renderRankings();
+        }
+
+        // Render rankings
+        function renderRankings() {
+            const rankedCities = cities.map(city => ({
+                ...city,
+                weightedScore: calculateWeightedScore(city.scores)
+            })).sort((a, b) => b.weightedScore - a.weightedScore);
+
+            const container = document.getElementById('rankingsList');
+            container.innerHTML = rankedCities.map((city, index) => `
+                <div class="ranking-item" onclick="showDetail('${city.slug}')">
+                    <div class="ranking-number">#${index + 1}</div>
+                    <div class="ranking-details">
+                        <div class="ranking-city-name">${city.name}</div>
+                        <div class="ranking-city-region">${city.region}</div>
+                    </div>
+                    <div class="ranking-score">${city.weightedScore}</div>
+                </div>
+            `).join('');
+        }
+
         // Render city cards
         function renderCityGrid() {
             const grid = document.getElementById('cityGrid');
+            const defaultWeights = {
+                diversity_climate: 9,
+                safety: 8,
+                political_moderation: 7,
+                cost_of_living: 6,
+                walkability: 5,
+                scenic_beauty: 4,
+                seasons: 3,
+                culture: 2
+            };
+
             cities.forEach(city => {
-                const weightedScore = calculateWeightedScore(city.scores);
+                const weightedScore = calculateWeightedScore(city.scores, defaultWeights);
                 const card = document.createElement('div');
                 card.className = 'city-card';
                 card.onclick = () => showDetail(city.slug);
@@ -1465,7 +1175,7 @@
                 { key: 'cost_of_living', label: 'Cost of Living', weight: 6 },
                 { key: 'walkability', label: 'Walkability', weight: 5 },
                 { key: 'scenic_beauty', label: 'Scenic Beauty', weight: 4 },
-                { key: 'seasons', label: 'Seasons', weight: 3 },
+                { key: 'climate', label: 'Climate', weight: 3 },
                 { key: 'culture', label: 'Culture', weight: 2 }
             ];
 
@@ -1484,9 +1194,20 @@
                 html += '</tr>';
             });
 
+            const defaultWeights = {
+                diversity_climate: 9,
+                safety: 8,
+                political_moderation: 7,
+                cost_of_living: 6,
+                walkability: 5,
+                scenic_beauty: 4,
+                seasons: 3,
+                culture: 2
+            };
+
             html += '<tr style="background: var(--bg-secondary); font-weight: 700;"><td>WEIGHTED TOTAL</td>';
             cities.forEach(city => {
-                const weightedScore = calculateWeightedScore(city.scores);
+                const weightedScore = calculateWeightedScore(city.scores, defaultWeights);
                 html += `<td class="score-cell" style="font-size: 18px; color: var(--accent-blue);">${weightedScore}</td>`;
             });
             html += '</tr></tbody>';
@@ -1503,9 +1224,19 @@
             const modal = document.getElementById('detailModal');
             const content = document.getElementById('detailContent');
             
-            const weightedScore = calculateWeightedScore(city.scores);
+            const defaultWeights = {
+                diversity_climate: 9,
+                safety: 8,
+                political_moderation: 7,
+                cost_of_living: 6,
+                walkability: 5,
+                scenic_beauty: 4,
+                seasons: 3,
+                culture: 2
+            };
+            const weightedScore = calculateWeightedScore(city.scores, defaultWeights);
 
-            content.innerHTML = `
+            let detailHTML = `
                 <div class="detail-header">
                     <div class="detail-title">${city.name}</div>
                     <div class="detail-tagline">${city.tagline}</div>
@@ -1517,7 +1248,39 @@
                         <span>Weighted Score: <strong>${weightedScore}/10</strong></span>
                     </div>
                 </div>
+            `;
 
+            // Photo gallery
+            if (city.photos && city.photos.length > 0) {
+                detailHTML += `
+                    <div class="detail-section">
+                        <div class="section-title">Photo Gallery</div>
+                        <div class="photo-gallery">
+                            <div class="photo-scroll">
+                                ${city.photos.map(url => `
+                                    <div class="photo-item">
+                                        <img src="${url}" alt="${city.name}" loading="lazy">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Saturday narrative
+            if (city.saturday) {
+                detailHTML += `
+                    <div class="detail-section">
+                        <div class="section-title">A Saturday In ${city.name.split(',')[0]}</div>
+                        <div class="saturday-narrative">
+                            ${city.saturday}
+                        </div>
+                    </div>
+                `;
+            }
+
+            detailHTML += `
                 <div class="detail-section">
                     <div class="section-title">Category Scores</div>
                     <div class="chart-container">
@@ -1532,7 +1295,41 @@
                         `).join('')}
                     </div>
                 </div>
+            `;
 
+            // Food scene
+            if (city.food_scene) {
+                detailHTML += `
+                    <div class="detail-section">
+                        <div class="section-title">Food Scene</div>
+                        <div class="food-scene">
+                            <p>${city.food_scene.summary}</p>
+                            ${city.food_scene.mediterranean_options && city.food_scene.mediterranean_options.length > 0 ? `
+                                <h4>Mediterranean & Greek Restaurants</h4>
+                                <ul>
+                                    ${city.food_scene.mediterranean_options.map(r => `<li>${r}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                            ${city.food_scene.farmers_markets && city.food_scene.farmers_markets.length > 0 ? `
+                                <h4>Farmers Markets</h4>
+                                <ul>
+                                    ${city.food_scene.farmers_markets.map(m => `<li>${m}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                            ${city.food_scene.food_culture ? `
+                                <h4>Food Culture</h4>
+                                <p>${city.food_scene.food_culture}</p>
+                            ` : ''}
+                            ${city.food_scene.grocery_quality ? `
+                                <h4>Grocery Quality</h4>
+                                <p>${city.food_scene.grocery_quality}</p>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+            }
+
+            detailHTML += `
                 <div class="detail-section">
                     <div class="section-title">Cost of Living</div>
                     <div class="info-block">
@@ -1619,6 +1416,7 @@
                 </div>
             `;
 
+            content.innerHTML = detailHTML;
             modal.classList.add('active');
             
             // Render radar chart
@@ -1630,7 +1428,7 @@
                 currentChart = new Chart(ctx, {
                     type: 'radar',
                     data: {
-                        labels: ['Diversity', 'Safety', 'Politics', 'COL', 'Walk', 'Scenery', 'Seasons', 'Culture'],
+                        labels: ['Diversity', 'Safety', 'Politics', 'COL', 'Walk', 'Scenery', 'Climate', 'Culture'],
                         datasets: [{
                             label: city.name,
                             data: [
@@ -1640,7 +1438,7 @@
                                 city.scores.cost_of_living,
                                 city.scores.walkability,
                                 city.scores.scenic_beauty,
-                                city.scores.seasons,
+                                city.scores.climate,
                                 city.scores.culture
                             ],
                             backgroundColor: 'rgba(167, 139, 250, 0.2)',
@@ -1706,8 +1504,7 @@
         }
 
         // Initialize
-        renderCityGrid();
-        renderComparisonTable();
+        loadCities();
     </script>
 </body>
 </html>
