@@ -11,7 +11,7 @@
     "cost_of_living": 7,
     "walkability": 8,
     "scenic_beauty": 9,
-    "seasons": 6,
+    "climate": 6,
     "culture": 7
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "Coastal New England beauty—Casco Bay, lighthouses, rocky coastline, islands. Fall foliage is spectacular. Winter snow on the harbor is postcard-perfect. Access to both ocean and mountains (White Mountains 1.5 hours). Quintessential Maine scenery."
   },
-  "seasons": {
+  "climate": {
     "summary": "Four true seasons with real New England winter—61 inches of snow and cold temps. Beautiful mild summers and stunning fall colors, but winter is genuine. Ocean moderates temperatures slightly but this is still cold. Gray days common. Not for warm-weather preference.",
     "avg_summer_high": "78°F",
     "avg_winter_low": "15°F",

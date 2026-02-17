@@ -11,7 +11,7 @@
     "cost_of_living": 8,
     "walkability": 6,
     "scenic_beauty": 6,
-    "seasons": 8,
+    "climate": 8,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "Lush, green, tree-covered rolling hills. More scenic than Charlotte, less dramatic than Denver. Beautiful in spring and fall with dogwoods and fall colors. Close to Blue Ridge Mountains (1.5-2 hours) for weekend trips. Lakes and forests nearby."
   },
-  "seasons": {
+  "climate": {
     "summary": "Four seasons with mild winters and just a few inches of snow per year. Hot, humid summers balanced by beautiful spring and fall. If you want seasonal variety without extreme cold, the Triangle delivers. Similar to Charlotte but slightly cooler.",
     "avg_summer_high": "89°F",
     "avg_winter_low": "31°F",

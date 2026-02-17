@@ -11,7 +11,7 @@
     "cost_of_living": 9,
     "walkability": 6,
     "scenic_beauty": 5,
-    "seasons": 8,
+    "climate": 8,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "James River runs through the city with parks and trails along it. Historic architecture, tree-lined streets in older neighborhoods. Rolling hills, Fall colors are beautiful. Not dramatic mountains but pleasant urban greenery. 2 hours to Blue Ridge Mountains."
   },
-  "seasons": {
+  "climate": {
     "summary": "Four distinct seasons with manageable winters—some snow but not brutal. Hot, humid summers balanced by beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver. Good for those who want real seasons without harsh cold.",
     "avg_summer_high": "89°F",
     "avg_winter_low": "28°F",

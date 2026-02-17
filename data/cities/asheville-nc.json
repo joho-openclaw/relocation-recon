@@ -11,7 +11,7 @@
     "cost_of_living": 7,
     "walkability": 7,
     "scenic_beauty": 10,
-    "seasons": 10,
+    "climate": 10,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "SPECTACULAR. Blue Ridge Mountains surround the city. Fall colors are world-class. Hiking (Pisgah National Forest, Blue Ridge Parkway) is unmatched. Rivers, waterfalls, mountain vistas everywhere. If scenery is your priority, this is top-tier."
   },
-  "seasons": {
+  "climate": {
     "summary": "Four seasons in the mountains—mild winters with some snow, warm (not hot) summers, stunning fall, pleasant spring. Higher elevation keeps temps moderate. Perfect climate for outdoor lovers. Occasional winter storm but manageable.",
     "avg_summer_high": "83°F",
     "avg_winter_low": "28°F",

@@ -11,7 +11,7 @@
     "cost_of_living": 6,
     "walkability": 7,
     "scenic_beauty": 10,
-    "seasons": 7,
+    "climate": 7,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "Unbeatable mountain backdrop. The Rocky Mountains are visible from almost everywhere in the city, with world-class hiking, skiing, and outdoor recreation within 30-90 minutes. The Front Range provides dramatic scenery that rivals anywhere in the country."
   },
-  "seasons": {
+  "climate": {
     "summary": "300 days of sunshine and four seasons—but 60 inches of snow means real winter. Snow melts quickly thanks to sun, but November-April brings consistent cold. Summers are hot and dry with cool evenings. Great if you want seasons and sun, but winter is genuine.",
     "avg_summer_high": "88°F",
     "avg_winter_low": "22°F",

@@ -11,7 +11,7 @@
     "cost_of_living": 9,
     "walkability": 7,
     "scenic_beauty": 7,
-    "seasons": 5,
+    "climate": 5,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "Three rivers (Allegheny, Monongahela, Ohio) converge dramatically downtown. Hilly terrain with bridges everywhere creates unique topography. Mount Washington overlook is iconic. Fall foliage is spectacular. Not mountains but distinctive, beautiful in its own industrial-meets-nature way."
   },
-  "seasons": {
+  "climate": {
     "summary": "Four true seasons with cold, snowy winters—42 inches of snow is real winter, not mild. Hot, humid summers. Beautiful spring and stunning fall colors. Cloudy/gray days are common (only 160 sunny days). This is proper Northeast weather. Not ideal for warm-weather preference.",
     "avg_summer_high": "83°F",
     "avg_winter_low": "22°F",

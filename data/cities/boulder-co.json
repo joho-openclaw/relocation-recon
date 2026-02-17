@@ -11,7 +11,7 @@
     "cost_of_living": 4,
     "walkability": 7,
     "scenic_beauty": 10,
-    "seasons": 5,
+    "climate": 5,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "Absolutely spectacular—Boulder sits at the base of the Flatirons (iconic rock formations), with the Rocky Mountains as a dramatic backdrop. Direct access to mountain trails, climbing, skiing (Eldora 21 miles, world-class resorts 1-2 hours). Boulder Creek runs through town with paved path system. Fall colors, snow-capped peaks, endless outdoor recreation. Scenery rivals anywhere in the country."
   },
-  "seasons": {
+  "climate": {
     "summary": "300+ sunny days but 89 inches of snow annually—this is cold, real winter despite the sunshine. Foothills location means more snow than Denver. Summers are warm (not hot) with cool nights. Beautiful spring and fall, but winter is genuine and long. Not ideal for warm-weather preference. Altitude is 5,430 feet—adjustment period likely.",
     "avg_summer_high": "87°F",
     "avg_winter_low": "22°F",

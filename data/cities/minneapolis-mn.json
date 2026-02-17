@@ -11,7 +11,7 @@
     "cost_of_living": 8,
     "walkability": 7,
     "scenic_beauty": 7,
-    "seasons": 3,
+    "climate": 3,
     "culture": 9
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "Minneapolis has 22 lakes within city limits (Chain of Lakes, Lake Calhoun/Bde Maka Ska). Beautiful in summer with trails, parks, and water activities. Fall colors are spectacular. Winter is a snowy wonderland (if you embrace it). Not mountains, but water and greenery are abundant."
   },
-  "seasons": {
+  "climate": {
     "summary": "Four EXTREME seasons—winters are brutally cold with sub-zero temps and 54 inches of snow. This is genuinely harsh winter, not mild. Summers are warm and beautiful, fall is gorgeous, but winter dominates much of the year. If warm weather is a priority, Minneapolis is a dealbreaker.",
     "avg_summer_high": "83°F",
     "avg_winter_low": "9°F (often colder)",
