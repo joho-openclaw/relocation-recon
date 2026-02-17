@@ -920,11 +920,11 @@
                     
                     <div class="slider-control">
                         <div class="slider-label">
-                            <span>Seasons</span>
-                            <span class="slider-value" id="weight-seasons">5</span>
+                            <span>Climate</span>
+                            <span class="slider-value" id="weight-climate">5</span>
                         </div>
                         <input type="range" min="1" max="10" value="5" 
-                               oninput="updateWeight('seasons', this.value)">
+                               oninput="updateWeight('climate', this.value)">
                     </div>
                     
                     <div class="slider-control">
@@ -952,7 +952,7 @@
                     <li><strong>Cost of living</strong> — Lower than SoCal, stretch dollars further (weight: 6)</li>
                     <li><strong>Walkability</strong> — Safe, walkable neighborhoods (weight: 5)</li>
                     <li><strong>Scenic beauty</strong> — Mountains, hills, natural backdrop (weight: 4)</li>
-                    <li><strong>Seasons / climate</strong> — Real seasons, snow okay (weight: 3)</li>
+                    <li><strong>Climate</strong> — Warm weather preference, mild winters ideal (weight: 3)</li>
                     <li><strong>Culture & character</strong> — Place with identity and feel (weight: 2)</li>
                 </ol>
             </div>
@@ -982,7 +982,7 @@
             cost_of_living: 5,
             walkability: 5,
             scenic_beauty: 5,
-            seasons: 5,
+            climate: 5,
             culture: 5
         };
 
@@ -1046,7 +1046,7 @@
                     cost_of_living: 5,
                     walkability: 5,
                     scenic_beauty: 5,
-                    seasons: 5,
+                    climate: 5,
                     culture: 5
                 },
                 josh: {
@@ -1056,7 +1056,7 @@
                     cost_of_living: 7,
                     walkability: 6,
                     scenic_beauty: 5,
-                    seasons: 4,
+                    climate: 4,
                     culture: 3
                 },
                 candace: {
@@ -1067,7 +1067,7 @@
                     cost_of_living: 6,
                     walkability: 5,
                     culture: 4,
-                    seasons: 3
+                    climate: 3
                 }
             };
 
@@ -1117,7 +1117,7 @@
                 cost_of_living: 6,
                 walkability: 5,
                 scenic_beauty: 4,
-                seasons: 3,
+                climate: 3,
                 culture: 2
             };
 
@@ -1201,7 +1201,7 @@
                 cost_of_living: 6,
                 walkability: 5,
                 scenic_beauty: 4,
-                seasons: 3,
+                climate: 3,
                 culture: 2
             };
 
@@ -1231,7 +1231,7 @@
                 cost_of_living: 6,
                 walkability: 5,
                 scenic_beauty: 4,
-                seasons: 3,
+                climate: 3,
                 culture: 2
             };
             const weightedScore = calculateWeightedScore(city.scores, defaultWeights);
