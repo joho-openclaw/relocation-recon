@@ -1,0 +1,149 @@
+{
+  "name": "Charlotte, NC",
+  "slug": "charlotte-nc",
+  "region": "Southeast",
+  "tagline": "New South energy meets banking hustle in a diverse, sprawling metro",
+  "population": "2.8 million metro",
+  "scores": {
+    "diversity_climate": 8,
+    "safety": 7,
+    "political_moderation": 8,
+    "cost_of_living": 8,
+    "walkability": 5,
+    "scenic_beauty": 5,
+    "climate": 8,
+    "culture": 7
+  },
+  "cost_of_living": {
+    "index_vs_national": "~3% above national average",
+    "median_rent_1br": "$1,485",
+    "median_rent_2br": "$1,795",
+    "vs_la_savings": "$700-1,200/month compared to LA"
+  },
+  "diversity": {
+    "summary": "Charlotte is genuinely diverse with a substantial Black population (~35%) and growing Hispanic and Asian communities. About 18% of newlyweds 2011-2015 were interracial couples. The city has a visible Black middle class, strong economic growth in diverse communities, and a 'New South' vibe that feels more welcoming than old-guard Southern cities. Some segregation exists but overall climate is good.",
+    "diversity_index": "35% Black, 15% Hispanic, 6% Asian, growing multiracial population",
+    "notable": "Lincoln County saw 28% Black population growth 2019-2024"
+  },
+  "safety": {
+    "summary": "Overall crime down 8% and violent crime down 25% in first half of 2025 vs 2024. Northwest Charlotte is safest; western areas have had higher property crime. Compared to Denver, Charlotte feels safer in most neighborhoods. Chance of being a victim is 1 in 136 for violent crime.",
+    "violent_crime_rate": "~277 per 100k (lower than many major cities)",
+    "best_neighborhoods": [
+      "Dilworth",
+      "Myers Park",
+      "Ballantyne",
+      "Providence Plantation/SouthPark area",
+      "Eastover/Montibello"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "26/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Uptown (downtown)",
+      "South End",
+      "Plaza Midwood",
+      "NoDa (North Davidson)",
+      "Dilworth"
+    ]
+  },
+  "scenery": {
+    "summary": "Modest scenery—tree-lined neighborhoods and some rolling hills, but no dramatic natural features. Comfortable suburban greenery. Not a scenic destination, but pleasant enough. 1-2 hours to Blue Ridge Mountains."
+  },
+  "climate": {
+    "summary": "Four seasons with mild winters—occasional snow melts quickly. Hot, humid summers balanced by beautiful spring and fall. If you like seasonal change without harsh cold, Charlotte works well. More humidity than Denver, less dramatic weather.",
+    "avg_summer_high": "90°F",
+    "avg_winter_low": "32°F",
+    "annual_snowfall": "4-6 inches",
+    "annual_sunny_days": "214"
+  },
+  "culture": {
+    "summary": "Banking and NASCAR heritage meeting urban renaissance. Growing food scene (BBQ, Southern fusion, international), NASCAR Hall of Fame, decent arts scene, and live music. Not as culturally rich as Nashville or Austin, but improving. Feels like a city on the rise—young, ambitious, business-focused."
+  },
+  "pros": [
+    "Strong racial diversity and visible Black middle class",
+    "Very affordable compared to LA (significant savings)",
+    "Safe neighborhoods with good options for families",
+    "Growing job market (banking, tech, healthcare)",
+    "Political moderation—purple area, not extreme",
+    "Four seasons without harsh winters"
+  ],
+  "cons": [
+    "Very car-dependent outside a few neighborhoods",
+    "Sprawling suburbs can feel generic",
+    "Less walkable than Denver overall",
+    "Scenery is underwhelming (no mountains, no water)",
+    "Some neighborhoods remain quite segregated",
+    "Summer heat and humidity can be intense"
+  ],
+  "saturday": "You wake up in Plaza Midwood to birds chirping and walk to Amelie's French Bakery for croissants and café au lait—the place is packed with all shades of Charlotte. Mid-morning is spent strolling the Little Sugar Creek Greenway or browsing vintage shops on Central Avenue. Lunch at Mazi Mediterranean in South End brings spanakopita and Greek salad, then you hop the light rail to Uptown for museum-hopping. By evening, you're at the Dilworth farmers market loading up on fresh produce, then home to cook before heading to NoDa for live music. Charlotte feels like it's building something—a New South city finding its identity, diverse and unpretentious, with room to breathe.",
+  "food_scene": {
+    "summary": "Charlotte's food scene is growing fast, fueled by banking money and a diversifying population. The city has solid Southern staples (BBQ, soul food), international options from immigrant communities, and an emerging fine dining scene. It's not yet a food destination, but it's improving rapidly.",
+    "mediterranean_options": [
+      "Mazi (SouthEnd—modern Greek small plates)",
+      "Greco Fresh Grille (multiple locations—fast-casual Greek)",
+      "Miro Spanish Grille (tapas and Spanish)",
+      "Customshop (Mediterranean-inspired, locally sourced)"
+    ],
+    "farmers_markets": [
+      "Atherton Market (South End, year-round Saturdays)",
+      "Charlotte Regional Farmers Market (year-round, daily)",
+      "Matthews Community Farmers Market (Saturdays, seasonal)"
+    ],
+    "food_culture": "Charlotte's food culture is still finding itself—Southern BBQ (Midwood Smokehouse) and soul food are strong, and international neighborhoods bring Korean, Vietnamese, and Latin options. The banking crowd supports upscale dining, but it's more steak-and-martini than avant-garde. Growing, but not yet a culinary hotspot.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Fresh Market, Publix, Harris Teeter (local chain, solid). Good grocery access across the metro, with increasing international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1591953876628-88ec7ebe50db?w=800",
+    "https://images.unsplash.com/photo-1600019779507-05d4f93cebed?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
+    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
+    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Dilworth",
+      "vibe": "Historic, tree-lined, walkable streetcar suburb with charm",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity, progressive for Charlotte",
+      "why_for_them": "Best walkability + safety + character combo. Mature trees, local cafes, farmers markets. Close to Uptown. Great for their vibe."
+    },
+    {
+      "name": "South End",
+      "vibe": "Charlotte's urban revival—former industrial, now trendy apartments and light rail",
+      "walk_score": "68/100",
+      "median_rent_1br": "$1,750",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Young, diverse, progressive crowd",
+      "why_for_them": "Walkable, on the light rail, art galleries and breweries. Less established than Dilworth but energetic. Good for Josh's wanderlust."
+    },
+    {
+      "name": "Plaza Midwood",
+      "vibe": "Eclectic, artsy, diverse—Charlotte's hipster heart",
+      "walk_score": "65/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "medium",
+      "diversity_notes": "Most diverse neighborhood, very accepting of interracial couples",
+      "why_for_them": "Artistic, funky, genuinely diverse. Vintage shops, indie venues. Feels authentic, not manufactured. Strong LGBTQ+ and mixed-race community."
+    },
+    {
+      "name": "NoDa (North Davidson)",
+      "vibe": "Arts district turned trendy neighborhood—galleries, music, nightlife",
+      "walk_score": "62/100",
+      "median_rent_1br": "$1,550",
+      "safety_rating": "medium",
+      "diversity_notes": "Diverse, creative community",
+      "why_for_them": "Cultural hub with character. Walkable, vibrant, feels like 'somewhere.' Can be gritty in spots but authentic."
+    },
+    {
+      "name": "Myers Park",
+      "vibe": "Old-money Charlotte—historic mansions, tree canopy, refined",
+      "walk_score": "45/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "high",
+      "diversity_notes": "Less diverse, traditional/conservative vibe",
+      "why_for_them": "Beautiful and safe but less walkable and less diverse. May feel too establishment/homogeneous for their adventure vibe."
+    }
+  ]
+}

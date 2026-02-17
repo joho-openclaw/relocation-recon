@@ -1,0 +1,149 @@
+{
+  "name": "Pittsburgh, PA",
+  "slug": "pittsburgh-pa",
+  "region": "Mid-Atlantic / Rust Belt",
+  "tagline": "Steel City reinvented—affordable, walkable, authentic neighborhoods with real seasons",
+  "population": "2.4 million metro",
+  "scores": {
+    "diversity_climate": 6,
+    "safety": 7,
+    "political_moderation": 7,
+    "cost_of_living": 9,
+    "walkability": 7,
+    "scenic_beauty": 7,
+    "climate": 5,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "8% below national average",
+    "median_rent_1br": "$1,383",
+    "median_rent_2br": "$1,641",
+    "vs_la_savings": "$800-1,400/month compared to LA"
+  },
+  "diversity": {
+    "summary": "Pittsburgh is less diverse than peer cities (~23% Black, 3% Asian, 3% Hispanic) and can be quite segregated geographically. Reddit discussions reveal mixed experiences—some say 'Pittsburghers won't live in very diverse areas or be comfortable with interracial relationships,' while others report no issues in urban neighborhoods. Lawrenceville, Shadyside, and Squirrel Hill are more progressive. Honest assessment: not the best for diversity/racial climate compared to other options.",
+    "diversity_index": "~78% White, 23% Black, 5% other; less diverse than national average",
+    "notable": "Geographic isolation creates strong neighborhood identity but also segregation"
+  },
+  "safety": {
+    "summary": "Pittsburgh is generally safe, especially in popular neighborhoods. Some areas (Hill District, Homewood) have higher crime, but most residential areas feel very safe. Overall crime rates are moderate. The city's small-town feel within neighborhoods contributes to safety.",
+    "violent_crime_rate": "~450 per 100k (moderate, concentrated in specific areas)",
+    "best_neighborhoods": [
+      "Shadyside",
+      "Squirrel Hill",
+      "Highland Park",
+      "Point Breeze",
+      "Mount Washington"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "59/100 (somewhat walkable)",
+    "best_walkable_neighborhoods": [
+      "Shadyside (86)",
+      "Squirrel Hill (80)",
+      "Lawrenceville (78)",
+      "Downtown/Cultural District (75)",
+      "South Side (72)"
+    ]
+  },
+  "scenery": {
+    "summary": "Three rivers (Allegheny, Monongahela, Ohio) converge dramatically downtown. Hilly terrain with bridges everywhere creates unique topography. Mount Washington overlook is iconic. Fall foliage is spectacular. Not mountains but distinctive, beautiful in its own industrial-meets-nature way."
+  },
+  "climate": {
+    "summary": "Four true seasons with cold, snowy winters—42 inches of snow is real winter, not mild. Hot, humid summers. Beautiful spring and stunning fall colors. Cloudy/gray days are common (only 160 sunny days). This is proper Northeast weather. Not ideal for warm-weather preference.",
+    "avg_summer_high": "83°F",
+    "avg_winter_low": "22°F",
+    "annual_snowfall": "42 inches",
+    "annual_sunny_days": "160 (cloudy city)"
+  },
+  "culture": {
+    "summary": "Pittsburgh has transformed from steel town to tech/healthcare hub with retained authenticity. Excellent museums (Carnegie, Warhol), thriving food scene (Primanti Bros, ethnic neighborhoods), craft beer, indie music. Strong neighborhood pride, sports culture (Steelers, Penguins), and working-class roots. Feels real, not manufactured—gritty but cultured."
+  },
+  "pros": [
+    "Very affordable—best value for money on this list",
+    "Walkable, characterful neighborhoods with strong identities",
+    "Four real seasons with beautiful fall colors",
+    "Transformed economy (tech, healthcare, universities)",
+    "Authentic culture—feels like somewhere specific",
+    "Good food scene and craft beer culture"
+  ],
+  "cons": [
+    "LEAST diverse option on this list—segregation is real",
+    "Interracial couple experience may be mixed (neighborhood dependent)",
+    "Gray, cloudy weather (160 sunny days vs Denver's 300)",
+    "Real winter with significant snow",
+    "Smaller city feel—may lack energy after 1-2 years",
+    "Job market smaller than Denver/Charlotte (though growing)"
+  ],
+  "saturday": "You wake up in Lawrenceville to gray skies (it's Pittsburgh) and walk to Commonplace Coffee for espresso and pastries. The morning is spent browsing vintage shops and record stores on Butler Street, then you cross the Allegheny River to the Strip District for the massive Saturday market—pierogies, fresh produce, ethnic groceries stacked high. Lunch at Christos Mediterranean Grille downtown brings Greek comfort, then you ride the incline up Mount Washington for the iconic Pittsburgh skyline view—three rivers converging, bridges everywhere. Dinner is at Cure in Lawrenceville (charcuterie, natural wine), then drinks at a neighborhood dive. Pittsburgh feels real, gritty, authentic—no pretense, just people living their lives.",
+  "food_scene": {
+    "summary": "Pittsburgh's food scene has transformed from blue-collar diners to a legitimate culinary destination. The city retains its ethnic neighborhood roots (Polish, Italian, Jewish) while adding modern chef-driven concepts. It's affordable, authentic, and punches above its weight.",
+    "mediterranean_options": [
+      "Christos Mediterranean Grille (downtown—authentic Greek)",
+      "Gali's Gyro and Grill (Greek-born owners)",
+      "The Mediterranean Table (Turkish/Mediterranean)",
+      "Nicky's Thai Kitchen (also serves Mediterranean fusion)"
+    ],
+    "farmers_markets": [
+      "Pittsburgh Public Market (Strip District, year-round)",
+      "Bloomfield Saturday Market (seasonal)",
+      "Lawrenceville Farmers Market (Saturdays, seasonal)"
+    ],
+    "food_culture": "Pittsburgh food culture is rooted in its immigrant history—Polish pierogies, Italian hoagies, Jewish delis (Primanti Bros. sandwiches with fries and coleslaw ON the sandwich). The city has evolved with farm-to-table spots (Legume, Cure), craft breweries, and ethnic neighborhoods (Squirrel Hill's kosher food, Polish Hill). It's affordable, hearty, and real.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Giant Eagle (local chain), ethnic markets in Squirrel Hill and Strip District. Solid grocery access with strong international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1559511260-66a654ae982a?w=800",
+    "https://images.unsplash.com/photo-1600019780813-6084bda07ef8?w=800",
+    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1606675543630-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1571689194555-5c1a2e8e4ec6?w=800"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lawrenceville",
+      "vibe": "Pittsburgh's hipster heart—artsy, indie shops, young professionals",
+      "walk_score": "78/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "high",
+      "diversity_notes": "Most diverse neighborhood, younger crowd, more accepting",
+      "why_for_them": "Trendy, walkable, arts scene. Best bet for diversity/acceptance in Pittsburgh. Restaurants, breweries, galleries."
+    },
+    {
+      "name": "Shadyside",
+      "vibe": "Upscale, tree-lined, cafes and boutiques—Pittsburgh's polished neighborhood",
+      "walk_score": "86/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "high",
+      "diversity_notes": "Less diverse, affluent, generally accepting",
+      "why_for_them": "Walkable, safe, beautiful. Great shops and restaurants. Less diverse but quality of life is excellent."
+    },
+    {
+      "name": "Squirrel Hill",
+      "vibe": "Historically Jewish neighborhood—diverse, walkable, community-oriented",
+      "walk_score": "80/100",
+      "median_rent_1br": "$1,350",
+      "safety_rating": "high",
+      "diversity_notes": "Religiously diverse, welcoming, strong community bonds",
+      "why_for_them": "Walkable, safe, excellent food (Middle Eastern, kosher, eclectic). Community feel. One of Pittsburgh's most accepting areas."
+    },
+    {
+      "name": "South Side",
+      "vibe": "Nightlife and restaurants along East Carson Street—active, mixed vibe",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,300",
+      "safety_rating": "medium",
+      "diversity_notes": "Young, mixed crowd, party scene",
+      "why_for_them": "Walkable, lots of activity, affordable. Can be loud/party-focused. Great restaurant row but may feel college-y."
+    },
+    {
+      "name": "Point Breeze",
+      "vibe": "Residential, tree-lined, near Frick Park—quiet urban neighborhood",
+      "walk_score": "70/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity, gentrifying",
+      "why_for_them": "Safe, green, near park. More residential/family-oriented. Walkable but quieter. Good for settling in vs exploring."
+    }
+  ]
+}

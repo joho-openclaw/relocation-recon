@@ -1,0 +1,152 @@
+{
+  "name": "Boise, ID",
+  "slug": "boise-id",
+  "region": "Mountain West / Pacific Northwest",
+  "tagline": "Outdoor paradise with excellent safety and affordability—but Idaho politics and very low diversity are dealbreakers",
+  "population": "750,000 metro",
+  "scores": {
+    "diversity_climate": 3,
+    "safety": 8,
+    "political_moderation": 4,
+    "cost_of_living": 8,
+    "walkability": 6,
+    "scenic_beauty": 9,
+    "climate": 4,
+    "culture": 7
+  },
+  "cost_of_living": {
+    "index_vs_national": "Near national average (rising but still reasonable)",
+    "median_rent_1br": "$1,475",
+    "median_rent_2br": "$1,655",
+    "vs_la_savings": "$700-1,200/month compared to LA"
+  },
+  "diversity": {
+    "summary": "⚠️ CRITICAL CONCERN: Boise is 82% White, less than 2% Black. This is Idaho—one of the whitest states in the nation. While Boise proper is more liberal and welcoming than rural Idaho (Democratic mayor, Pride parades), state politics are deeply conservative Republican. An interracial couple would be highly visible. Candace would face isolation as one of very few Black residents. The outdoor/tech transplant community is progressive, but this is not a diverse city by any measure.",
+    "diversity_index": "82% White, 2% Black, 4% Asian, 9% Hispanic",
+    "notable": "Idaho passed anti-transgender laws, abortion bans; state legislature is extremely conservative despite Boise being moderate"
+  },
+  "safety": {
+    "summary": "Excellent safety—one of the safest mid-sized cities in America. Violent crime rate is 247 per 100k (33% lower than national average). Property crime also below national average. Boise ranks in 64th percentile for safety. Most neighborhoods feel very safe. This would easily meet Candace's San Diego safety baseline—likely exceed it.",
+    "violent_crime_rate": "~247 per 100k (well below national average)",
+    "best_neighborhoods": [
+      "North End",
+      "East End",
+      "Boise Bench (Central Rim, Morris Hill)",
+      "Southeast Boise",
+      "Downtown core"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "42/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Downtown (80)",
+      "North End (59)",
+      "Morris Hill (75)",
+      "Boise Bench / Central Rim (72)",
+      "East End / Hyde Park (65)"
+    ]
+  },
+  "scenery": {
+    "summary": "Stunning mountain and high desert scenery. Boise sits at the base of the Boise Foothills with immediate access to hiking, mountain biking, skiing (Bogus Basin 16 miles). Boise River Greenbelt (25-mile paved path) runs through city. Dramatic sunsets, sagebrush desert meets pine forests. Less lush than Pacific Northwest but expansive Western beauty."
+  },
+  "climate": {
+    "summary": "Four true seasons with dry, sunny weather—but winter is genuinely cold (lows around 24°F, 20 inches of snow). Hot summers (90s) are dry and bearable. Over 200 sunny days, but the cold is real. High desert climate with big temperature swings. Better than Minneapolis but still cold for warm-weather preference.",
+    "avg_summer_high": "93°F (dry heat)",
+    "avg_winter_low": "24°F",
+    "annual_snowfall": "20 inches",
+    "annual_sunny_days": "206"
+  },
+  "culture": {
+    "summary": "Boise has evolved from conservative Western town to outdoor-focused progressive enclave (within Idaho). Growing food scene, craft breweries, Basque heritage (largest Basque population outside Spain), farmers markets, Treefort Music Fest. Outdoor recreation is the dominant culture—hiking, biking, skiing, rafting. Tech industry growing (Micron, startups). However, conservative state politics loom large."
+  },
+  "pros": [
+    "Extremely safe—exceeds Candace's San Diego baseline",
+    "Excellent outdoor recreation access (hiking, skiing, river)",
+    "Affordable with strong job market (tech, healthcare)",
+    "Boise Greenbelt is incredible—25 miles of paved riverside trail",
+    "200+ sunny days, dry climate, four seasons",
+    "Small-city charm with growing food/culture scene",
+    "Downtown is improving, walkable core emerging",
+    "Friendly, outdoorsy community (if you fit the demographic)"
+  ],
+  "cons": [
+    "⚠️ DEALBREAKER: Less than 2% Black population—Candace would face severe isolation",
+    "Idaho state politics are extremely conservative (abortion bans, anti-LGBT laws)",
+    "Interracial couple would be highly visible—acceptance varies person-to-person",
+    "Very white, homogeneous culture outside progressive transplant bubble",
+    "Limited cultural diversity—food scene, arts are growing but small",
+    "Car-dependent outside downtown core",
+    "Growing fast—housing costs rising, infrastructure strained",
+    "Cold winters with real snow (though sunny)"
+  ],
+  "saturday": "You wake up in the North End to high desert sunshine and bike the Boise Greenbelt—25 miles of paved riverside trail through the city. Coffee at Dawson's downtown, then you hike Table Rock for panoramic views of the Treasure Valley. By afternoon, you're exploring the Basque Block, learning about Boise's unique European heritage, then lunch at Bar Gernika for croquetas and Basque cider. The evening is spent at the Hyde Park Street Fair (if it's summer) or a brewery in the East End. Boise is safe, sunny, affordable, and outdoorsy. But you'd be one of very few Black residents, and Idaho politics loom heavy.",
+  "food_scene": {
+    "summary": "Boise's food scene is small but growing—Basque heritage (largest Basque population outside Spain) adds unique flavor, and the influx of California/Pacific Northwest transplants is raising the bar. Farm-to-table and breweries are strong. Limited Mediterranean options.",
+    "mediterranean_options": [
+      "Bar Gernika (Basque Block—Basque tapas and sandwiches)",
+      "Leku Ona (Basque restaurant, traditional dishes)",
+      "Mai Thai (also serves Mediterranean fusion)",
+      "Alavita (Mediterranean-inspired, downtown)"
+    ],
+    "farmers_markets": [
+      "Capital City Public Market (Saturdays year-round, downtown)",
+      "Boise Farmers Market (seasonal, multiple locations)"
+    ],
+    "food_culture": "Boise's food culture is defined by Basque heritage—Basque Block restaurants serve croquetas, chorizo, and lamb stew. Beyond that, it's steakhouses, breweries (Payette, Boise Brewing), and growing farm-to-table (Fork, Alavita). Small city, so variety is limited, but quality is improving. Very affordable.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Boise Co-op (local, member-owned), Fred Meyer, Albertsons. Solid grocery access for the city size, though fewer specialty international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1600019780813-6084bda07ef8?w=800",
+    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1606675543630-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1571689194555-5c1a2e8e4ec6?w=800",
+    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800"
+  ],
+  "neighborhoods": [
+    {
+      "name": "North End",
+      "vibe": "Boise's historic, tree-lined neighborhood—charming bungalows, walkable, progressive",
+      "walk_score": "59/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "high",
+      "diversity_notes": "Most liberal/progressive part of Boise, but still very white",
+      "why_for_them": "Best bet for diversity/acceptance within Boise. Walkable, near trails, character homes. Still overwhelmingly white but most open-minded."
+    },
+    {
+      "name": "Downtown Boise",
+      "vibe": "Urban core—walkable, restaurants, arts, urban living",
+      "walk_score": "80/100",
+      "median_rent_1br": "$1,550",
+      "safety_rating": "high",
+      "diversity_notes": "Most diverse part of Boise (still not very diverse), younger crowd",
+      "why_for_them": "Most walkable. Near everything. Urban energy (Boise-scale). Access to Greenbelt. Best option if you're determined to try Boise."
+    },
+    {
+      "name": "East End / Hyde Park",
+      "vibe": "Artsy, eclectic neighborhood with Hyde Park village feel",
+      "walk_score": "65/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "high",
+      "diversity_notes": "Progressive, artsy, but very white",
+      "why_for_them": "Bohemian vibe Josh would appreciate. Safe, near foothills for hiking. Neighborhood shops and cafes. Charming but small."
+    },
+    {
+      "name": "Boise Bench (Central Rim / Morris Hill)",
+      "vibe": "Residential neighborhoods with parks, family-friendly, affordable",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,450",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity (for Boise), family-oriented",
+      "why_for_them": "Affordable, safe, some walkability. Access to parks and Greenbelt. More residential/suburban feel. Practical but less character."
+    },
+    {
+      "name": "Southeast Boise",
+      "vibe": "Suburban, newer development, family-focused",
+      "walk_score": "45/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "high",
+      "diversity_notes": "Low diversity, suburban",
+      "why_for_them": "Not recommended—too suburban, car-dependent, homogeneous. Prioritize North End or Downtown if considering Boise at all."
+    }
+  ]
+}

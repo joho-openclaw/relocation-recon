@@ -1,0 +1,150 @@
+{
+  "name": "Denver, CO",
+  "slug": "denver-co",
+  "region": "Mountain West",
+  "tagline": "300 days of sunshine meet mountain adventures and a rapidly diversifying urban core",
+  "population": "2.9 million metro",
+  "scores": {
+    "diversity_climate": 7,
+    "safety": 6,
+    "political_moderation": 7,
+    "cost_of_living": 6,
+    "walkability": 7,
+    "scenic_beauty": 10,
+    "climate": 7,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "27% above national average",
+    "median_rent_1br": "$1,650",
+    "median_rent_2br": "$2,180",
+    "vs_la_savings": "$400-800/month compared to LA"
+  },
+  "diversity": {
+    "summary": "Denver's diversity is growing fast—about 13% of residents identify as two or more races (4x the national average), and roughly one-third of Metro Denver identifies as people of color. The city has a visible, active multiracial community and is generally welcoming to interracial couples, especially in urban neighborhoods like Capitol Hill, Highland, and RiNo. However, some neighborhoods remain quite segregated.",
+    "diversity_index": "~33% people of color; 13% multiracial (highest among major cities)",
+    "notable": "Denver's multiracial population growth outpaces NYC, DC, and San Francisco"
+  },
+  "safety": {
+    "summary": "Denver's crime rate has been a concern but improved 24% from 2023 to 2024. Violent crime is concentrated in specific areas (Five Points, parts of downtown). Safe neighborhoods exist in northeast Denver and suburbs. Your risk varies dramatically by neighborhood—from 1 in 14 downtown to 1 in 33 in safer areas.",
+    "violent_crime_rate": "~993 per 100k (higher than national average)",
+    "best_neighborhoods": [
+      "Washington Park (Wash Park)",
+      "Highlands/West Highland",
+      "University/DU area",
+      "Golden Triangle",
+      "Cherry Creek"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "61/100 (somewhat walkable)",
+    "best_walkable_neighborhoods": [
+      "Capitol Hill (93)",
+      "Downtown/LoDo (94)",
+      "Five Points (90)",
+      "City Park West (87)",
+      "Highlands (82)"
+    ]
+  },
+  "scenery": {
+    "summary": "Unbeatable mountain backdrop. The Rocky Mountains are visible from almost everywhere in the city, with world-class hiking, skiing, and outdoor recreation within 30-90 minutes. The Front Range provides dramatic scenery that rivals anywhere in the country."
+  },
+  "climate": {
+    "summary": "300 days of sunshine and four seasons—but 60 inches of snow means real winter. Snow melts quickly thanks to sun, but November-April brings consistent cold. Summers are hot and dry with cool evenings. Great if you want seasons and sun, but winter is genuine.",
+    "avg_summer_high": "88°F",
+    "avg_winter_low": "22°F",
+    "annual_snowfall": "60 inches",
+    "annual_sunny_days": "300"
+  },
+  "culture": {
+    "summary": "Denver has evolved from cow town to craft beer capital with a thriving arts scene, farm-to-table dining, and outdoor-obsessed culture. The food scene is growing (though not yet elite), there's a strong indie music presence, and the city attracts young, active, educated transplants. It feels like somewhere—not just generic sprawl."
+  },
+  "pros": [
+    "Spectacular mountain scenery and outdoor recreation access",
+    "300 days of sunshine with real seasons (snow melts fast)",
+    "Growing diversity and visible multiracial community",
+    "Strong job market and educated population",
+    "Walkable urban neighborhoods with character",
+    "Progressive but not dysfunctional (practical Western progressivism)"
+  ],
+  "cons": [
+    "Crime has been elevated (though improving)",
+    "Cost of living high and rising rapidly",
+    "Some neighborhoods remain quite segregated",
+    "Altitude adjustment can be challenging",
+    "Traffic and growth pains (infrastructure lagging population)",
+    "Can feel very white in certain areas despite citywide diversity"
+  ],
+  "saturday": "You wake up in your Capitol Hill apartment to 300 days of sunshine doing their thing. Coffee at Crema on Larimer Street, then you're hiking Green Mountain or Chautauqua by 9 AM—the Flatirons impossibly sharp against blue sky. Back in the city by afternoon, you explore RiNo's murals and galleries, stopping at Ash'Kara for Mediterranean small plates. The evening finds you at a Highlands brewery, chatting with transplants from everywhere, the diversity palpable and comfortable. Dinner is at Work & Class (Latin fusion) or Mercantile (farm-to-table), then you walk home through tree-lined streets, the mountains glowing pink with alpenglow. Denver feels like it's going somewhere, and you're along for the ride.",
+  "food_scene": {
+    "summary": "Denver's food scene has exploded in the past decade—from cow town to James Beard contender. The city now boasts world-class dining across cuisines, a massive craft brewery scene, and a farm-to-table movement fueled by Colorado's agricultural bounty.",
+    "mediterranean_options": [
+      "Ash'Kara (LoHi—3-time Michelin Bib Gourmand, North African/Mediterranean)",
+      "Olive & Finch (Mediterran café and market)",
+      "Safta (RiNo—Israeli cuisine by James Beard winner)",
+      "Mizuna (upscale Mediterranean fusion)",
+      "Chef Zorba's (Greek diner since 1979)"
+    ],
+    "farmers_markets": [
+      "Union Station Farmers Market (Saturdays, May-October)",
+      "Cherry Creek Fresh Market (Saturdays year-round)",
+      "South Pearl Street Farmers Market (Sundays, May-November)"
+    ],
+    "food_culture": "Denver's food culture blends Rocky Mountain ingredients (bison, trout, lamb) with international influences from transplants. The city is serious about craft beer (Great American Beer Festival HQ), and neighborhoods like RiNo and LoHi are packed with chef-driven concepts. Green chili is a religion here.",
+    "grocery_quality": "Whole Foods (multiple locations), Trader Joe's, Natural Grocers, Sprouts, and excellent international markets (H-Mart, Pacific Ocean Marketplace). Strong grocery game."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1619856699906-09e1f58c98b1?w=800",
+    "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800",
+    "https://images.unsplash.com/photo-1600298882525-69b1f7e65705?w=800",
+    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
+    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Capitol Hill",
+      "vibe": "Denver's bohemian heart—eclectic, walkable, LGBTQ-friendly, diverse",
+      "walk_score": "93/100",
+      "median_rent_1br": "$1,700",
+      "safety_rating": "medium",
+      "diversity_notes": "Most diverse part of Denver, very accepting of all backgrounds",
+      "why_for_them": "Josh would love the walkability and character; it's the neighborhood where difference is celebrated. Mix of artists, young professionals, and longtime residents."
+    },
+    {
+      "name": "Highlands/West Highland",
+      "vibe": "Trendy, family-friendly, historic architecture with mountain views",
+      "walk_score": "82/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "high",
+      "diversity_notes": "Increasingly diverse, progressive and accepting",
+      "why_for_them": "Great balance of walkability, safety, and charm. Close to downtown but feels more residential. Strong sense of community."
+    },
+    {
+      "name": "Washington Park (Wash Park)",
+      "vibe": "Upscale, active, park-centered living with tree-lined streets",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,900",
+      "safety_rating": "high",
+      "diversity_notes": "Less diverse (tends white/affluent) but generally accepting",
+      "why_for_them": "Beautiful, safe, great for outdoor activities. Less diverse but quality of life is high. May feel a bit homogeneous."
+    },
+    {
+      "name": "RiNo (River North)",
+      "vibe": "Denver's Brooklyn—art district turned hip urban neighborhood",
+      "walk_score": "85/100",
+      "median_rent_1br": "$1,850",
+      "safety_rating": "medium",
+      "diversity_notes": "Young, diverse, creative community",
+      "why_for_them": "Cutting-edge food and art scene, walkable, diverse crowd. Can feel transient/gentrifying. Great for exploring."
+    },
+    {
+      "name": "Golden Triangle",
+      "vibe": "Arts and museums district, quiet urban living",
+      "walk_score": "92/100",
+      "median_rent_1br": "$1,750",
+      "safety_rating": "high",
+      "diversity_notes": "Mixed, culturally oriented community",
+      "why_for_them": "Safest neighborhood in Denver statistically, walkable, cultural amenities. Smaller population but excellent location."
+    }
+  ]
+}

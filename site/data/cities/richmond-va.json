@@ -1,0 +1,149 @@
+{
+  "name": "Richmond, VA",
+  "slug": "richmond-va",
+  "region": "Mid-Atlantic",
+  "tagline": "Former capital of the Confederacy reinventing itself as a foodie haven with complex history",
+  "population": "1.3 million metro",
+  "scores": {
+    "diversity_climate": 7,
+    "safety": 7,
+    "political_moderation": 7,
+    "cost_of_living": 9,
+    "walkability": 6,
+    "scenic_beauty": 5,
+    "climate": 8,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "~3% above national average (very affordable)",
+    "median_rent_1br": "$1,300",
+    "median_rent_2br": "$1,600",
+    "vs_la_savings": "$900-1,500/month compared to LA"
+  },
+  "diversity": {
+    "summary": "Richmond is about 48% Black, making it one of the most diverse cities in Virginia. The city has a complicated racial history (Confederate capital, massive resistance to integration) but is actively reckoning with it. Current climate is generally welcoming in urban areas, though some tension exists around monuments and history. The Fan and Scott's Addition are progressive enclaves.",
+    "diversity_index": "~48% Black, 6% Hispanic, 3% Asian; historically Black city",
+    "notable": "City removed Confederate monuments 2020; ongoing conversation about racial healing"
+  },
+  "safety": {
+    "summary": "Crime varies significantly by neighborhood. Some areas (East End, parts of South Side) have higher crime, while The Fan, Museum District, and West End are quite safe. Overall feels safer than many East Coast cities. Improving but still has pockets of concern.",
+    "violent_crime_rate": "~370 per 100k (moderate; concentrated in specific areas)",
+    "best_neighborhoods": [
+      "The Fan District",
+      "Museum District",
+      "Carytown",
+      "Church Hill (gentrifying, mixed safety)",
+      "Scott's Addition"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "42/100 (somewhat walkable in core neighborhoods)",
+    "best_walkable_neighborhoods": [
+      "The Fan District",
+      "Carytown",
+      "Downtown/Shockoe Slip",
+      "Scott's Addition",
+      "Oregon Hill"
+    ]
+  },
+  "scenery": {
+    "summary": "James River runs through the city with parks and trails along it. Historic architecture, tree-lined streets in older neighborhoods. Rolling hills, Fall colors are beautiful. Not dramatic mountains but pleasant urban greenery. 2 hours to Blue Ridge Mountains."
+  },
+  "climate": {
+    "summary": "Four distinct seasons with manageable winters—some snow but not brutal. Hot, humid summers balanced by beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver. Good for those who want real seasons without harsh cold.",
+    "avg_summer_high": "89°F",
+    "avg_winter_low": "28°F",
+    "annual_snowfall": "10-12 inches",
+    "annual_sunny_days": "207"
+  },
+  "culture": {
+    "summary": "Richmond has become a surprising food destination—multiple James Beard nominees, thriving brewery scene (Stone Brewing HQ), indie music, arts. The VCU (Virginia Commonwealth University) presence adds youth and creativity. Strong sense of place with complex history. Feels authentic, gritty, artistic—not corporate."
+  },
+  "pros": [
+    "Extremely affordable—great bang for your buck",
+    "Thriving food and brewery scene (punches above its weight)",
+    "Four real seasons with beautiful fall",
+    "Walkable neighborhoods with historic character",
+    "Smaller city feel with urban amenities",
+    "Strong Black community and cultural presence"
+  ],
+  "cons": [
+    "Complicated racial history that's still present (Confederate monuments debate)",
+    "Some neighborhoods have higher crime",
+    "Smaller than other options (may feel limited after 1-2 years)",
+    "Summer humidity is intense",
+    "Less polished/more gritty than some prefer",
+    "Job market smaller (though growing in tech/healthcare)"
+  ],
+  "saturday": "You wake up in The Fan to Victorian rowhouse charm and walk to Lamplighter Coffee for pour-overs and a breakfast sandwich. The morning is spent strolling Carytown—vintage shops, quirky boutiques, a mile of independent businesses that feel authentic, not manufactured. Lunch at Stella's brings Greek lemon chicken soup and spanakopita, then you bike the James River Park trails, stopping to watch kayakers navigate the rapids. By evening, you're at the South of the James Farmers Market, then dinner at L'Opossum (fine dining with a sense of humor). You end the night at a Scott's Addition brewery, surrounded by VCU students and young creatives. Richmond feels scrappy, artistic, and deeply itself.",
+  "food_scene": {
+    "summary": "Richmond has quietly become a food destination—James Beard semifinalists, a massive brewery scene (Stone Brewing East Coast HQ), and chefs doing creative things without the pretense of bigger cities. The cost-to-quality ratio is exceptional.",
+    "mediterranean_options": [
+      "Stella's (modern Greek, multiple locations)",
+      "Demi's (Mediterranean coastal cuisine)",
+      "Zorba's Greek & Italian Cuisine (family-owned since 1990s)",
+      "The Village Cafe (historic Greek diner)"
+    ],
+    "farmers_markets": [
+      "South of the James Farmers Market (year-round, Saturdays)",
+      "17th Street Farmers Market (Shockoe Bottom, Saturdays seasonal)",
+      "Bon Air Farmers Market (Chesterfield, seasonal)"
+    ],
+    "food_culture": "Richmond's food culture blends Southern tradition (fried chicken, pimento cheese) with James Beard-level ambition (The Roosevelt, L'Opossum, Lehja Indian). The brewery scene is massive—Triple Crossing, The Veil, Hardywood—and the city has a thriving vegan scene. It's affordable, creative, and unpretentious.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Ellwood Thompson's Local Market (beloved local grocer), Publix. Solid access, though fewer specialty international markets than larger metros."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1600019779707-05d4f93cebed?w=800",
+    "https://images.unsplash.com/photo-1609679522295-5aa1bed1a15d?w=800",
+    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800"
+  ],
+  "neighborhoods": [
+    {
+      "name": "The Fan District",
+      "vibe": "Historic Victorian rowhouses, tree-lined, artsy, walkable",
+      "walk_score": "82/100",
+      "median_rent_1br": "$1,250",
+      "safety_rating": "high",
+      "diversity_notes": "Mixed, progressive, VCU students and young professionals",
+      "why_for_them": "Walkable, affordable, beautiful architecture. Great local cafes and shops. Safe and characterful. Best value in Richmond."
+    },
+    {
+      "name": "Carytown",
+      "vibe": "Richmond's 'Mile of Style'—quirky shops, restaurants, vintage stores",
+      "walk_score": "78/100",
+      "median_rent_1br": "$1,300",
+      "safety_rating": "high",
+      "diversity_notes": "Diverse, eclectic, LGBTQ-friendly",
+      "why_for_them": "Independent businesses, walkable, unique character. Great for exploring. Feels like a neighborhood with soul."
+    },
+    {
+      "name": "Scott's Addition",
+      "vibe": "Former industrial area turned brewery/arts district",
+      "walk_score": "70/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Young, diverse, creative",
+      "why_for_them": "Trendy, lots of breweries and new development. Walkable. Good for Josh's adventurous side. Can feel gentrified."
+    },
+    {
+      "name": "Museum District",
+      "vibe": "Residential, tree-lined, near VMFA (art museum) and VCU",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,250",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity, family-friendly",
+      "why_for_them": "Safe, walkable, beautiful streets. Cultural amenities nearby. Quieter than Fan but still urban. Great quality of life."
+    },
+    {
+      "name": "Church Hill",
+      "vibe": "Historic hilltop neighborhood with views—gentrifying rapidly",
+      "walk_score": "65/100",
+      "median_rent_1br": "$1,200",
+      "safety_rating": "medium (improving)",
+      "diversity_notes": "Historically Black, now mixed as gentrification progresses",
+      "why_for_them": "Affordable, historic charm, great views. BUT gentrification tensions and safety varies by block. Mixed recommendation."
+    }
+  ]
+}

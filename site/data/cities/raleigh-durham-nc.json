@@ -1,0 +1,150 @@
+{
+  "name": "Raleigh-Durham, NC",
+  "slug": "raleigh-durham-nc",
+  "region": "Southeast",
+  "tagline": "The Research Triangle—where Southern charm meets tech brains and grad school vibes",
+  "population": "2.1 million metro (Triangle area)",
+  "scores": {
+    "diversity_climate": 9,
+    "safety": 8,
+    "political_moderation": 7,
+    "cost_of_living": 8,
+    "walkability": 6,
+    "scenic_beauty": 6,
+    "climate": 8,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "~2% above national average",
+    "median_rent_1br": "$1,400",
+    "median_rent_2br": "$1,650",
+    "vs_la_savings": "$800-1,300/month compared to LA"
+  },
+  "diversity": {
+    "summary": "The Triangle (Raleigh-Durham-Chapel Hill) is widely praised as very welcoming to interracial couples. Reddit users consistently say 'it's completely acceptable/above average' and 'no one cares' about mixed couples. Durham County is nearly 50% people of color. The university influence (Duke, UNC, NC State) creates an educated, progressive, globally-minded atmosphere. One of the most racially and internationally diverse areas in the country.",
+    "diversity_index": "Durham ~49% POC, Raleigh ~45% POC; strong international community",
+    "notable": "Multiple users report zero issues as interracial couples; 'used to get looks in SC, but around Triangle huge percentage is mixed'"
+  },
+  "safety": {
+    "summary": "Generally very safe, especially compared to larger metros. Both Raleigh and Durham have pockets of higher crime but most residential areas are quite safe. Durham has grittier areas but also some of the Triangle's best neighborhoods. Overall feels safer than Charlotte or Denver.",
+    "violent_crime_rate": "Raleigh ~250 per 100k, Durham ~400 per 100k (Durham higher but concentrated)",
+    "best_neighborhoods": [
+      "North Hills (Raleigh)",
+      "Downtown Durham",
+      "Brier Creek (Raleigh)",
+      "Hope Valley (Durham)",
+      "Cameron Village area (Raleigh)"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "Raleigh 31/100, Durham 38/100 (car-dependent, but pockets of walkability)",
+    "best_walkable_neighborhoods": [
+      "Downtown Durham (American Tobacco Campus area)",
+      "Downtown Raleigh/Glenwood South",
+      "9th Street Durham",
+      "Brightleaf Square Durham",
+      "North Hills Raleigh"
+    ]
+  },
+  "scenery": {
+    "summary": "Lush, green, tree-covered rolling hills. More scenic than Charlotte, less dramatic than Denver. Beautiful in spring and fall with dogwoods and fall colors. Close to Blue Ridge Mountains (1.5-2 hours) for weekend trips. Lakes and forests nearby."
+  },
+  "climate": {
+    "summary": "Four seasons with mild winters and just a few inches of snow per year. Hot, humid summers balanced by beautiful spring and fall. If you want seasonal variety without extreme cold, the Triangle delivers. Similar to Charlotte but slightly cooler.",
+    "avg_summer_high": "89°F",
+    "avg_winter_low": "31°F",
+    "annual_snowfall": "4-7 inches",
+    "annual_sunny_days": "213"
+  },
+  "culture": {
+    "summary": "University town culture on steroids—Durham has transformed into a food lover's paradise (Top Chef winners, James Beard nominees), indie music scene, bookstores, craft beer. Raleigh has growing food/arts scene and Research Triangle Park brings global companies. Less glitzy than Charlotte, more intellectual and quirky. Feels like Portland without the dysfunction."
+  },
+  "pros": [
+    "Exceptional racial climate—consistently praised for interracial couple acceptance",
+    "Very affordable with excellent value for money",
+    "Safe neighborhoods and low crime in most areas",
+    "Outstanding food scene (especially Durham)",
+    "Educated, progressive population without being extreme",
+    "Strong job market (tech, research, universities, healthcare)"
+  ],
+  "cons": [
+    "Car-dependent overall (though walkable pockets exist)",
+    "Durham can be more walkable but less polished than Raleigh",
+    "Summer humidity is real",
+    "Scenery is nice but not dramatic",
+    "Smaller city feel (may lack big-city energy some want)",
+    "Can feel college-town oriented in some areas"
+  ],
+  "saturday": "You wake up in your 9th Street Durham apartment and walk to Guglhupf Bakery for almond croissants and strong coffee. The morning is spent browsing independent bookstores and vintage shops, then you drive to the Durham Farmers Market to load up on fresh produce and artisan bread. Lunch is at Mateo Bar de Tapas—octopus and patatas bravas that remind you why Durham's food scene punches above its weight. Afternoon finds you strolling the American Tobacco Campus or hiking the Eno River trails. Dinner reservations at Taverna Agora in downtown Raleigh bring Greek mezze and rooftop views. By evening, you're back in Durham at a brewery or catching live music, surrounded by interracial couples and feeling utterly at home. This place just works.",
+  "food_scene": {
+    "summary": "Durham's transformation into a foodie destination is real—James Beard Award winners, Top Chef alums, and a thriving chef-driven scene make this the Triangle's culinary heart. Raleigh is growing fast but Durham leads in creativity and grit.",
+    "mediterranean_options": [
+      "Taverna Agora (Raleigh—authentic Greek, rooftop dining)",
+      "Sassool (Raleigh—Mediterranean bowls and wraps)",
+      "Jasmine Mediterranean Bistro (Chapel Hill)",
+      "Neomonde (Raleigh—Lebanese bakery and restaurant)",
+      "Greek Fiesta (Raleigh—family-owned since 1987)"
+    ],
+    "farmers_markets": [
+      "Durham Farmers Market (Saturdays year-round, Central Park)",
+      "Raleigh Farmers Market (year-round, daily)",
+      "Carrboro Farmers Market (Saturdays, highly rated)"
+    ],
+    "food_culture": "Durham's food scene is defined by chef-owned restaurants willing to take risks—Mateo (Spanish tapas), Dame's Chicken & Waffles (soul food institution), M Sushi, and Pizzeria Toro. Raleigh has Ashley Christensen's empire (Poole's, Beasley's) and growing international options. The Research Triangle Park brings global talent, which translates to authentic international food.",
+    "grocery_quality": "Whole Foods (multiple locations), Trader Joe's, Weaver Street Market Co-op (Carrboro), Fresh Market, H-Mart (Asian groceries). Excellent grocery access across the Triangle."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
+    "https://images.unsplash.com/photo-1619461428381-a01dd6a1da8f?w=800",
+    "https://images.unsplash.com/photo-1609679616665-2fc8e3aa0310?w=800",
+    "https://images.unsplash.com/photo-1560864234-94884c8c3d6e?w=800"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downtown Durham",
+      "vibe": "Urban renaissance—former tobacco town turned foodie/arts hub",
+      "walk_score": "85/100",
+      "median_rent_1br": "$1,450",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Very diverse, progressive, highly accepting of mixed couples",
+      "why_for_them": "Walkable, incredible food scene, artistic vibe. Durham is grittier but more authentic than Raleigh. Great for Josh's explorer side."
+    },
+    {
+      "name": "9th Street (Durham)",
+      "vibe": "Cozy college-adjacent neighborhood—bookstores, cafes, indie feel",
+      "walk_score": "78/100",
+      "median_rent_1br": "$1,350",
+      "safety_rating": "high",
+      "diversity_notes": "Diverse, intellectual, very welcoming",
+      "why_for_them": "Walkable, charming, near Duke but not overrun. Perfect for Saturday morning coffee walks. Safe and diverse."
+    },
+    {
+      "name": "North Hills (Raleigh)",
+      "vibe": "Mixed-use development—walkable urban village in suburban setting",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,608",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity, cosmopolitan feel",
+      "why_for_them": "Manufactured walkability but well done. Shops, restaurants, apartments. Safer/more polished than Durham but less character."
+    },
+    {
+      "name": "Glenwood South (Raleigh)",
+      "vibe": "Raleigh's nightlife/restaurant district transitioning to residential",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,550",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Young, diverse crowd",
+      "why_for_them": "Urban energy, walkable, restaurants and bars. Can be loud/party-focused but lots of activity."
+    },
+    {
+      "name": "Hope Valley (Durham)",
+      "vibe": "Established residential neighborhood—wooded, quiet, near Duke",
+      "walk_score": "40/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "high",
+      "diversity_notes": "Moderate diversity, family-oriented",
+      "why_for_them": "Less walkable but safe, green, and serene. Better for settling in long-term than adventure. Beautiful tree canopy."
+    }
+  ]
+}
