@@ -1,0 +1,145 @@
+{
+  "name": "Sacramento, CA",
+  "slug": "sacramento-ca",
+  "region": "Northern California",
+  "tagline": "America's most diverse city — genuinely integrated neighborhoods, farm-to-fork culture, and California living at half the Bay Area price",
+  "population": "2.4 million metro / 525,000 city",
+  "scores": {
+    "diversity_climate": 8,
+    "safety": 6,
+    "political_moderation": 7,
+    "cost_of_living": 6,
+    "walkability": 6,
+    "scenic_beauty": 6,
+    "climate": 7,
+    "culture": 7
+  },
+  "cost_of_living": {
+    "index_vs_national": "15-20% above national average",
+    "median_rent_1br": "$1,600",
+    "median_rent_2br": "$2,000",
+    "vs_la_savings": "$300-600/month compared to LA"
+  },
+  "diversity": {
+    "summary": "AMERICA'S MOST INTEGRATED CITY: Sacramento has been called the most diverse city in the US by TIME magazine and ranked the second most racially integrated large city by FiveThirtyEight. This isn't just demographic diversity — it's genuine integration. Neighborhoods like Oak Park, Midtown, and Land Park have real cross-racial mixing in housing, schools, and social spaces. The Black population (~13%) has grown as families have been priced out of the Bay Area, creating organic integration rather than tokenism. State government employment creates equal-opportunity professional spaces. Interracial couples are genuinely unremarkable here — the city's identity IS diversity. The integration isn't perfect (some neighborhoods remain segregated), but Sacramento comes closest to the effortless mixing San Diego offers, with a more visible Black community.",
+    "diversity_index": "~33% White, 13% Black, 28% Hispanic, 19% Asian, 7% multiracial — diversity score 98/100; no single group dominates",
+    "notable": "TIME's 'Most Diverse City'; FiveThirtyEight's 2nd most integrated; interracial couples unremarkable; genuine cross-racial neighborhoods; growing Black community from Bay Area migration"
+  },
+  "safety": {
+    "summary": "Sacramento's crime rate is moderate — higher than the national average but concentrated in specific areas. Downtown and Midtown are generally safe, with property crime being the bigger concern. Neighborhoods like East Sacramento, Land Park, and Natomas Park are notably safe. The city has been improving, and safe neighborhoods are easy to find.",
+    "violent_crime_rate": "~700 per 100k (above national average but declining; safe neighborhoods easily available)",
+    "best_neighborhoods": [
+      "East Sacramento (Fab 40s)",
+      "Land Park",
+      "Natomas Park",
+      "College Glen",
+      "Pocket / Greenhaven"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "48/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Midtown (90+)",
+      "Downtown (85)",
+      "East Sacramento (70)",
+      "Oak Park (65)",
+      "Land Park (60)"
+    ]
+  },
+  "scenery": {
+    "summary": "Sacramento sits at the confluence of two rivers with the Sierra Nevada visible on clear days. The American River Parkway (32 miles of trails) is an urban gem. The scenery is pleasant but not dramatic — flat terrain with river landscapes and tree-lined neighborhoods. Within 90 minutes: Lake Tahoe, Napa Valley, Gold Country foothills. The city itself is 'City of Trees' — leafy and green, but you drive to the spectacular stuff."
+  },
+  "climate": {
+    "summary": "Mediterranean climate — hot, dry summers (100°F+ days common) and mild, rainy winters. Very little snow (essentially none in the city). Sunshine is abundant (269 days). Seasons exist but are gentler than mountain/eastern cities — golden hills in summer, green in winter, brief spring bloom. The heat can be intense July-September. Air quality issues from wildfire smoke in late summer are a growing concern.",
+    "avg_summer_high": "95°F",
+    "avg_winter_low": "39°F",
+    "annual_snowfall": "0 inches (trace)",
+    "annual_sunny_days": "269"
+  },
+  "culture": {
+    "summary": "Sacramento's culture is 'farm-to-fork capital of America' meets state capital meets emerging creative scene. The food is genuinely excellent (more on that below), the craft beer scene is growing, and neighborhoods like Midtown and Oak Park have distinct identity. It's not flashy — Sacramento has long lived in SF's shadow — but that's changing. The city has a 'we like it here and we're not trying to impress you' energy that's refreshing. Cultural institutions include the Crocker Art Museum, MARRS contemporary art, and a strong music scene."
+  },
+  "pros": [
+    "Most racially integrated large city in America — interracial couples unremarkable",
+    "California lifestyle at significantly less than Bay Area/LA prices",
+    "Farm-to-fork dining capital with excellent food scene",
+    "Close to Lake Tahoe, Napa Valley, Sierra Nevada (90 min)",
+    "Growing cultural scene without pretension",
+    "Strong job market (state government, healthcare, tech overflow from Bay Area)",
+    "American River Parkway for outdoor recreation"
+  ],
+  "cons": [
+    "Scorching summers (95-105°F common July-September)",
+    "Crime rate above national average (though safe neighborhoods exist)",
+    "Wildfire smoke in late summer/fall increasingly problematic",
+    "Flat terrain — scenic beauty requires driving to mountains/coast",
+    "Still emerging from SF's shadow culturally",
+    "Car-dependent outside Midtown core",
+    "Not as affordable as it used to be (Bay Area migration driving up prices)"
+  ],
+  "saturday": "You wake up in your Midtown Victorian to the sound of nothing — Sacramento mornings are quiet. Coffee at Temple Coffee (locally roasted, beloved), then you walk the grid: R Street corridor's galleries, Second Saturday art walk, past murals and taco trucks. By 10 AM you're biking the American River Parkway, 32 miles of trail through riparian forest, kayakers and herons keeping you company. Lunch is at South (Midtown farm-to-fork, James Beard-level quality) or you grab bánh mì in Little Saigon. The afternoon finds you browsing Oak Park's emerging galleries or catching a Sacramento Republic FC match. Dinner is the hard choice — Kru (Japanese omakase), Mulvaney's B&L (farm-to-fork pioneer), or Fixins Soul Kitchen (Kevin Johnson's restaurant, outstanding). You end the night at a Midtown bar, surrounded by the most diverse crowd you've ever seen in a natural, unremarkable way. Sacramento doesn't shout about itself. It just lives.",
+  "food_scene": {
+    "summary": "Sacramento is legitimately the 'Farm-to-Fork Capital of America' — not marketing, but geography. The Central Valley's agricultural bounty feeds restaurants that rival SF at half the price. The diversity creates incredible international food options across every cuisine.",
+    "mediterranean_options": [
+      "Maalouf's Taste of Lebanon (acclaimed Lebanese)",
+      "Petra Greek (authentic Greek, multiple locations)",
+      "Kasbah Lounge (Moroccan)",
+      "Falafel Corner (fast-casual Mediterranean)",
+      "Opa Opa (Greek, midtown)"
+    ],
+    "farmers_markets": [
+      "Midtown Farmers Market (Saturdays year-round, one of the best in CA)",
+      "Sunday Farmers Market at W & 8th (year-round)",
+      "Davis Farmers Market (nearby, legendary)"
+    ],
+    "food_culture": "Sacramento's food culture is defined by proximity to farms — chefs have relationships with the growers, and menus change with actual seasons. The diversity creates incredible depth: excellent Vietnamese (Stockton Blvd), Mexican (South Sacramento), Ethiopian (multiple), Hmong, and soul food. Farm-to-fork isn't a trend here, it's a fact of geography. The craft beer scene (Track 7, New Glory, Urban Roots) is excellent.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Sprouts, Sacramento Natural Foods Co-op (outstanding), Oto's Marketplace (Japanese), SF Supermarket (Asian), multiple ethnic markets. Incredible grocery diversity reflecting the city's demographics."
+  },
+  "neighborhoods": [
+    {
+      "name": "Midtown",
+      "vibe": "Sacramento's walkable heart — grid streets, Victorian homes, restaurants, bars, culture",
+      "walk_score": "90/100",
+      "median_rent_1br": "$1,650",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Very diverse, genuinely integrated, LGBTQ-friendly, creative community",
+      "why_for_them": "THE neighborhood for them. Most walkable, most diverse, most culturally vibrant. This is where Sacramento's integration is most visible and natural. Restaurants, bars, galleries all walkable."
+    },
+    {
+      "name": "Oak Park",
+      "vibe": "Historically Black neighborhood undergoing renaissance — authentic, community-driven",
+      "walk_score": "65/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "medium",
+      "diversity_notes": "Historically Black, now genuinely mixed — the integration is organic and real",
+      "why_for_them": "Deep roots in Black community with organic integration happening. Affordable, improving rapidly, Broadway corridor has great restaurants. Community feel is strong. Some safety awareness needed."
+    },
+    {
+      "name": "East Sacramento (Fab 40s)",
+      "vibe": "Tree-lined, family-friendly, classic Sacramento charm",
+      "walk_score": "70/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "high",
+      "diversity_notes": "Mixed but trending affluent; more diverse than comparable neighborhoods in other cities",
+      "why_for_them": "Beautiful, safe, walkable to McKinley Park and restaurants. Pricier but high quality of life. Good balance of safety and character."
+    },
+    {
+      "name": "Land Park",
+      "vibe": "Leafy, established, near the zoo and William Land Park",
+      "walk_score": "60/100",
+      "median_rent_1br": "$1,700",
+      "safety_rating": "high",
+      "diversity_notes": "Mixed demographics, family-oriented, welcoming",
+      "why_for_them": "Safe, beautiful tree canopy, near park amenities. Less walkable than Midtown but very livable. Good if safety is the top priority."
+    },
+    {
+      "name": "Curtis Park",
+      "vibe": "Historic bungalows, diverse families, community gardens, emerging food scene",
+      "walk_score": "62/100",
+      "median_rent_1br": "$1,550",
+      "safety_rating": "medium-high",
+      "diversity_notes": "One of Sacramento's most integrated neighborhoods — Black, white, Latino, Asian families living side by side",
+      "why_for_them": "The integration here is the real deal — diverse families, community feel, historic charm. Near Broadway corridor. This is what organic integration looks like."
+    }
+  ]
+}

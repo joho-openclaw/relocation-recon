@@ -1,0 +1,147 @@
+{
+  "name": "Tucson, AZ",
+  "slug": "tucson-az",
+  "region": "Southwest",
+  "tagline": "A UNESCO City of Gastronomy with Sonoran Desert beauty, genuine multicultural roots, and radical affordability — but summer heat is no joke",
+  "population": "1.1 million metro / 545,000 city",
+  "scores": {
+    "diversity_climate": 5,
+    "safety": 5,
+    "political_moderation": 6,
+    "cost_of_living": 9,
+    "walkability": 5,
+    "scenic_beauty": 9,
+    "climate": 5,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "6% below national average",
+    "median_rent_1br": "$1,100",
+    "median_rent_2br": "$1,400",
+    "vs_la_savings": "$800-1,400/month compared to LA"
+  },
+  "diversity": {
+    "summary": "MULTICULTURAL BUT COMPLICATED FOR BLACK RESIDENTS: Tucson is genuinely diverse — 53% White, 44% Hispanic, 5% Black, 3% Asian, 4% Native American — with a 61.5% diversity index (5th highest state). The diversity is real and historically rooted in Native American and Mexican-American culture, creating a multicultural fabric that feels natural. However, the Black community is small (~5%), and interracial couples have reported mixed experiences. Some report no issues; others (particularly in suburbs like Oro Valley) describe dirty looks and muttered comments. Tucson proper is more accepting than surrounding areas. The integration is strongest along the multicultural axis (Hispanic/Native/White mixing) but thinner for Black Americans specifically. UArizona adds cosmopolitan energy. Not hostile, but the integration Candace would experience is 'welcomed visitor' rather than 'part of the fabric.'",
+    "diversity_index": "~53% White, 5% Black, 44% Hispanic, 3% Asian, 4% Native American — genuinely multicultural but small Black community",
+    "notable": "UNESCO City of Gastronomy; 61.5% diversity index; multicultural roots are deep (Hispanic/Native) but Black community is small; university adds cosmopolitan energy; experiences vary by neighborhood"
+  },
+  "safety": {
+    "summary": "⚠️ HONEST CONCERN: Tucson's crime rate is elevated — 1 in 171 chance of violent crime. Property crime is the bigger issue (1 in 30). Crime varies dramatically by area — central neighborhoods are higher risk while southeast Tucson, Catalina Foothills, and Oro Valley are quite safe. The university area has typical college-town crime. Safe neighborhoods exist but awareness is required.",
+    "violent_crime_rate": "~585 per 100k (above national average; varies dramatically by area — 1 in 18 central to 1 in 56 southeast)",
+    "best_neighborhoods": [
+      "Catalina Foothills",
+      "Sam Hughes / University area",
+      "Oro Valley (suburb)",
+      "Sabino Canyon area",
+      "Civano (planned community)"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "41/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Downtown / 4th Avenue (78)",
+      "Sam Hughes (72)",
+      "West University (70)",
+      "Iron Horse (65)",
+      "Armory Park (68)"
+    ]
+  },
+  "scenery": {
+    "summary": "Breathtaking Sonoran Desert scenery — saguaro cacti, dramatic mountain ranges (Santa Catalinas, Rincons, Tucson Mountains), stunning sunsets, and clear desert skies. Saguaro National Park flanks the city on two sides. The landscape is unlike anything else in the country — alien, beautiful, and constantly changing with the light. Mount Lemmon (9,157 ft) offers escape to pine forests in 45 minutes."
+  },
+  "climate": {
+    "summary": "Desert climate with brutal summers and gorgeous everything else. June-September is punishing (105°F+ days common), but October-May is paradise — warm, sunny, dry, with cool evenings. Winter highs in the 60s-70s. The 'seasons' are: perfect (Oct-April) and survival mode (May-Sept). Monsoon season (July-Sept) brings dramatic thunderstorms. If you can tolerate the summer heat, 8 months of the year are extraordinary.",
+    "avg_summer_high": "100°F (June highs regularly 105°F+)",
+    "avg_winter_low": "40°F",
+    "annual_snowfall": "0.5 inches (city; Mount Lemmon gets feet)",
+    "annual_sunny_days": "286"
+  },
+  "culture": {
+    "summary": "Tucson is America's first UNESCO City of Gastronomy and it shows — the food culture here is world-class and deeply rooted in Sonoran traditions. Beyond food: the University of Arizona brings intellectual and cultural energy, the arts scene punches above its weight (Tucson Gem Show is world's largest), and the city has a laid-back, slightly weird, desert-bohemian personality. Tucson is proudly itself — not trying to be Phoenix, not trying to be trendy, just doing its thing in the desert."
+  },
+  "pros": [
+    "Incredibly affordable — 6% below national average, massive savings vs LA",
+    "UNESCO City of Gastronomy — world-class food scene",
+    "Stunning Sonoran Desert scenery (saguaros, mountains, sunsets)",
+    "8 months of perfect weather (October-May)",
+    "Strong cultural identity — 'weird Tucson' is a real vibe",
+    "University of Arizona brings cultural and intellectual energy",
+    "Mount Lemmon offers alpine escape 45 minutes from downtown",
+    "Genuinely multicultural roots (not performative diversity)"
+  ],
+  "cons": [
+    "⚠️ Summer heat is brutal — 105°F+ days are routine June-September",
+    "Crime rate above national average, especially property crime",
+    "Small Black community — multicultural but not specifically Black-integrated",
+    "Interracial couples report mixed experiences (better in city, worse in suburbs)",
+    "Car-dependent outside a few walkable pockets",
+    "Arizona state politics trend conservative (though Tucson is progressive)",
+    "Wildfire smoke and dust storms are seasonal concerns",
+    "Can feel isolated — nearest major city (Phoenix) is 2 hours"
+  ],
+  "saturday": "You wake up in your Sam Hughes casita to a Tucson sunrise painting the Santa Catalinas pink and gold. Coffee at Exo Roast Co (housed in a converted warehouse), then you're hiking Sabino Canyon by 7 AM — before the heat. Saguaros tower like sentinels along the trail, hummingbirds buzz past, the desert is alive. Back home by 10 to work or read during the warmest hours. Afternoon finds you on 4th Avenue — Tucson's bohemian strip — browsing Antigone Books, vintage shops, and ducking into Barrio Brewing. Dinner is the highlight: Tucson is a UNESCO City of Gastronomy and it shows. You choose between El Charro (oldest Mexican restaurant in the US), Bata (contemporary Sonoran), or Tumerico (vegan Mexican that converts even skeptics). Evening means a stroll through the Presidio neighborhood as the desert cools, bats emerging against a sky turning from orange to purple to star-filled. Tucson doesn't rush. Neither do you.",
+  "food_scene": {
+    "summary": "Tucson is America's first UNESCO City of Gastronomy — the only US city with this designation. The food culture is deeply rooted in 4,000 years of Sonoran agricultural tradition (the oldest continuously cultivated area in North America). Mexican food here isn't Tex-Mex — it's Sonoran, and it's extraordinary.",
+    "mediterranean_options": [
+      "Zemam's (Ethiopian — technically East African, but excellent)",
+      "Athens on 4th (Greek, longtime local favorite)",
+      "Falora (wood-fired pizza and Mediterranean)",
+      "Caruso's (Italian, old-school Tucson institution)",
+      "Zayna Mediterranean (casual, authentic)"
+    ],
+    "farmers_markets": [
+      "Santa Cruz River Farmers Market (Saturdays year-round)",
+      "Heirloom Farmers Market at Rillito (Sundays, seasonal)",
+      "Rincon Valley Farmers Market (seasonal)"
+    ],
+    "food_culture": "Tucson's food culture is unmatched for a city its size. Sonoran hot dogs, Birria tacos, chimichangas (invented here), and heritage grains from Native Seed/SEARCH make this a food pilgrimage destination. Beyond Mexican: Vietnamese on South Tucson, Ethiopian, incredible barbecue, and a growing chef-driven scene. The Gem Show brings international food pop-ups. This is a city that eats seriously.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Sprouts, Food Conspiracy Co-op (excellent local/organic), multiple Mexican/Asian markets, 17th Street Market. Strong grocery game, especially for Southwest and Mexican ingredients."
+  },
+  "neighborhoods": [
+    {
+      "name": "Sam Hughes / West University",
+      "vibe": "Historic, walkable, tree-lined — Tucson's most charming residential area near UArizona",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,200",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Mixed — university influence brings diversity; generally progressive and accepting",
+      "why_for_them": "Best walkability, near 4th Avenue and university. Historic casitas with character. This is where Tucson's integration and culture intersect best."
+    },
+    {
+      "name": "Downtown / Presidio",
+      "vibe": "Revitalized historic core — restaurants, streetcar, arts, nightlife",
+      "walk_score": "78/100",
+      "median_rent_1br": "$1,300",
+      "safety_rating": "medium",
+      "diversity_notes": "Diverse, young, urban professionals and creatives",
+      "why_for_them": "Most urban feel in Tucson. Streetcar access, near restaurants and culture. Revitalization is ongoing — some blocks are vibrant, others still developing."
+    },
+    {
+      "name": "Iron Horse / Armory Park",
+      "vibe": "Emerging neighborhoods south of downtown — creative energy, mixed-use",
+      "walk_score": "65/100",
+      "median_rent_1br": "$1,150",
+      "safety_rating": "medium",
+      "diversity_notes": "Diverse, gentrifying, community-oriented",
+      "why_for_them": "Affordable, walkable, near downtown without downtown prices. Growing food and arts scene. Good value for the experience."
+    },
+    {
+      "name": "Catalina Foothills",
+      "vibe": "Upscale, mountain views, desert luxury — Tucson's safest area",
+      "walk_score": "25/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "high",
+      "diversity_notes": "Affluent, less diverse, primarily white",
+      "why_for_them": "Safest option with stunning mountain views. But car-dependent and less diverse. Good if Candace's safety priority overrides walkability and integration."
+    },
+    {
+      "name": "4th Avenue / University",
+      "vibe": "Bohemian strip — vintage shops, bars, restaurants, college energy",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,100",
+      "safety_rating": "medium",
+      "diversity_notes": "Young, diverse, LGBTQ-friendly, progressive",
+      "why_for_them": "Josh would love the bohemian energy. Walkable, affordable, diverse crowd. College-town vibe means it's lively but can feel transient."
+    }
+  ]
+}

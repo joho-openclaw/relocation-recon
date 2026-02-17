@@ -1,0 +1,147 @@
+{
+  "name": "Albuquerque, NM",
+  "slug": "albuquerque-nm",
+  "region": "Southwest",
+  "tagline": "A majority-minority city where the Black/white binary barely exists — stunning desert scenery, radical affordability, and a culture unlike anywhere else in America",
+  "population": "920,000 metro / 565,000 city",
+  "scores": {
+    "diversity_climate": 6,
+    "safety": 4,
+    "political_moderation": 6,
+    "cost_of_living": 9,
+    "walkability": 5,
+    "scenic_beauty": 9,
+    "climate": 7,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "5% below national average",
+    "median_rent_1br": "$1,050",
+    "median_rent_2br": "$1,350",
+    "vs_la_savings": "$900-1,500/month compared to LA"
+  },
+  "diversity": {
+    "summary": "DIFFERENT PARADIGM: Albuquerque operates outside the Black/white racial binary that defines most American cities. It's 48% Hispanic, 37% White, 4% Black, 5% Native American — the majority-minority dynamics create a fundamentally different racial landscape. Reddit users note there 'just isn't the legacy of black vs. white here, making it far more safe and equitable for people of color.' The small Black community means Candace would be visible, but the context is different — she'd be in a city where being non-white is the norm, not the exception. Integration happens along different axes (Hispanic/Native/White mixing is deeply rooted). Interracial couples of all combinations are common. The risk is that the small Black community means less cultural infrastructure specifically for Black Americans. But the absence of the traditional American racial hierarchy is genuinely liberating for many who move here.",
+    "diversity_index": "~37% White, 4% Black, 48% Hispanic, 5% Native American — majority-minority; racial dynamics fundamentally different from most US cities",
+    "notable": "Majority-minority city; Black/white binary barely exists; 'far more safe and equitable for people of color'; interracial couples of all types common; small but present Black community with historical roots"
+  },
+  "safety": {
+    "summary": "⚠️ CRITICAL CONCERN: Albuquerque has significant crime issues — 1 in 85 chance of violent crime, with property crime (especially vehicle theft) being extreme (1 in 22). This is the most serious concern for this city. Safe neighborhoods exist (Northeast Heights, Nob Hill, Corrales) but the city-wide statistics are alarming. Crime has been a persistent issue driven by poverty, substance abuse, and policing challenges. Candace's safety baseline (San Diego) would be significantly compromised here.",
+    "violent_crime_rate": "~1,175 per 100k (very high; 1 in 85 chance of violent crime)",
+    "best_neighborhoods": [
+      "Nob Hill / UNM area",
+      "Northeast Heights",
+      "Corrales (suburb)",
+      "Rio Rancho (suburb)",
+      "Los Ranchos de Albuquerque"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "39/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Nob Hill (75)",
+      "Downtown (70)",
+      "UNM / University area (68)",
+      "Old Town (65)",
+      "EDo (East Downtown) (62)"
+    ]
+  },
+  "scenery": {
+    "summary": "Dramatic and otherworldly. The Sandia Mountains (10,678 ft) loom over the city's eastern edge, turning watermelon-pink at sunset (Sandia means 'watermelon' in Spanish). The Rio Grande flows through the city. To the west: mesas and volcanic escarpments. Within 2 hours: Santa Fe, Tent Rocks, Bandelier National Monument, Jemez Springs. The light here is famous — artists and filmmakers (Breaking Bad, anyone?) come for it. Albuquerque's scenery is stunning in a uniquely New Mexican way."
+  },
+  "climate": {
+    "summary": "High desert climate at 5,000 feet — four seasons with abundant sunshine (310 days). Winters are mild with occasional snow (10 inches), summers are hot but dry (90s, low humidity). The altitude keeps evenings cool even in summer. Monsoon season (July-September) brings dramatic afternoon thunderstorms. Spring can be windy and dusty. Overall, very pleasant climate with real seasons — similar appeal to Denver but warmer winters and less snow.",
+    "avg_summer_high": "93°F (but dry heat — feels more tolerable)",
+    "avg_winter_low": "25°F",
+    "annual_snowfall": "10 inches",
+    "annual_sunny_days": "310"
+  },
+  "culture": {
+    "summary": "Albuquerque's culture is genuinely unique — a tri-cultural blend of Native American, Hispanic, and Anglo traditions that creates something found nowhere else in the US. The Balloon Fiesta is world-famous, Old Town's adobe architecture dates to 1706, and the food scene is defined by red and green chile. UNM adds intellectual energy, and the arts scene (galleries, murals, Meow Wolf coming to ABQ) is strong. The vibe is laid-back, unpretentious, and authentically Southwest. Breaking Bad put it on the map but the culture runs much deeper."
+  },
+  "pros": [
+    "Majority-minority city — being non-white is the norm, not the exception",
+    "Radically affordable — some of the biggest savings vs LA on this list",
+    "Stunning Sandia Mountain scenery and high-desert landscapes",
+    "310 days of sunshine with four mild seasons",
+    "Unique tri-cultural identity found nowhere else in the US",
+    "Incredible food scene (chile culture, Southwestern cuisine)",
+    "International Balloon Fiesta, Meow Wolf, strong arts scene",
+    "No state income tax on retirement, low overall tax burden"
+  ],
+  "cons": [
+    "⚠️ CRITICAL: Very high crime rate — vehicle theft and violent crime are serious concerns",
+    "Small Black community (4%) — less cultural infrastructure for Black Americans specifically",
+    "Car-dependent — walkability limited to a few neighborhoods",
+    "New Mexico's poverty rate is among highest in the US",
+    "Dust storms and spring wind can be unpleasant",
+    "Limited job market (though remote work changes this)",
+    "Can feel isolated from the rest of the country",
+    "Infrastructure and services can lag behind similarly-sized cities"
+  ],
+  "saturday": "You wake up in your Nob Hill casita to 310-days-of-sunshine doing their thing, the Sandia Mountains already turning gold. Coffee at Zendo (locally roasted, excellent), then you walk Central Avenue's Route 66 strip — murals, vintage shops, and the smell of roasting green chile drifting from every direction. By mid-morning you're hiking La Luz trail up the Sandias, the city sprawling below like a map. Back down for a late lunch at El Pinto (red chile enchiladas under cottonwood trees) or Frontier (legendary New Mexican diner across from UNM). Afternoon wanders through Old Town's adobe plaza, galleries, and the Indian Pueblo Cultural Center. Dinner is Frenchish (Nob Hill, creative bistro) or Farm & Table (farm-to-table with mountain views). You end the evening at the Rail Yards Market or a Marble Brewery patio, watching the Sandias turn their famous watermelon pink as the sun sets. Albuquerque is strange and beautiful and cheap and alive.",
+  "food_scene": {
+    "summary": "Albuquerque's food scene is defined by one question: 'Red or green?' (chile, that is). The New Mexican cuisine here is distinct from Tex-Mex or Mexican — it's its own thing, built on Hatch green chile, posole, sopapillas, and carne adovada. Beyond New Mexican, the food scene has expanded with chef-driven concepts and international options.",
+    "mediterranean_options": [
+      "Gyros Mediterranean (multiple locations, solid Greek)",
+      "Yanni's Mediterranean Grill (upscale, locally beloved)",
+      "Cafe Lush (Mediterranean-inspired brunch/lunch)",
+      "Pars Cuisine (Persian, excellent)",
+      "Il Vicino (Italian/Mediterranean, local chain)"
+    ],
+    "farmers_markets": [
+      "Downtown Growers Market (Saturdays, April-November, Rail Yards)",
+      "Los Ranchos Growers Market (Saturdays, seasonal)",
+      "Corrales Growers Market (Sundays, seasonal)"
+    ],
+    "food_culture": "Chile is religion in Albuquerque. Every fall, the smell of roasting Hatch green chile fills the city as grocery store parking lots become roasting stations. New Mexican food is the backbone, but UNM's international student body adds Vietnamese, Korean, Ethiopian, and more. The food is deeply rooted in place — centuries of farming traditions, Native seeds, and cultural exchange. Inexpensive and extraordinary.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Sprouts, La Montañita Co-op (excellent local/organic, multiple locations), Talin Market (massive international grocery), multiple Asian and Mexican markets. Outstanding grocery diversity for a city this size."
+  },
+  "neighborhoods": [
+    {
+      "name": "Nob Hill",
+      "vibe": "ABQ's walkable, hip neighborhood — Route 66, shops, restaurants, character",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,100",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Diverse, progressive, young professionals and creatives mixed with longtime residents",
+      "why_for_them": "Best walkability, most character, diverse and accepting. This is Albuquerque's answer to Capitol Hill or NoDa. Near UNM, restaurants, and culture. Top recommendation."
+    },
+    {
+      "name": "UNM / University area",
+      "vibe": "College-town energy — diverse, affordable, near campus amenities",
+      "walk_score": "68/100",
+      "median_rent_1br": "$950",
+      "safety_rating": "medium",
+      "diversity_notes": "Very diverse (UNM is a minority-majority university), young, accepting",
+      "why_for_them": "Affordable, diverse, walkable. UNM brings cultural events and energy. Can feel transient (students) but the diversity is genuine."
+    },
+    {
+      "name": "Northeast Heights",
+      "vibe": "Suburban, safe, mountain views — ABQ's family-friendly area",
+      "walk_score": "35/100",
+      "median_rent_1br": "$1,200",
+      "safety_rating": "high",
+      "diversity_notes": "Mixed demographics, family-oriented",
+      "why_for_them": "Safest option with Sandia Mountain views. Car-dependent but good quality of life. Good if safety trumps walkability."
+    },
+    {
+      "name": "Old Town / Downtown",
+      "vibe": "Historic adobe core — galleries, museums, cultural center",
+      "walk_score": "65/100",
+      "median_rent_1br": "$1,000",
+      "safety_rating": "medium",
+      "diversity_notes": "Touristy but culturally diverse, especially around Indian Pueblo Cultural Center",
+      "why_for_them": "Historic charm, walkable, near cultural institutions. Can feel touristy during the day. Downtown is revitalizing with new restaurants and bars."
+    },
+    {
+      "name": "Corrales",
+      "vibe": "Rural-feeling village on the Rio Grande — cottonwoods, horses, adobe homes",
+      "walk_score": "20/100",
+      "median_rent_1br": "$1,300",
+      "safety_rating": "high",
+      "diversity_notes": "Less diverse, affluent, artists and professionals",
+      "why_for_them": "Beautiful, safe, unique New Mexican character. Very car-dependent but the bosque (cottonwood forest) and rural feel are magical. Not walkable but deeply charming."
+    }
+  ]
+}

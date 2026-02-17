@@ -2,10 +2,10 @@
   "name": "Nashville, TN",
   "slug": "nashville-tn",
   "region": "Southeast",
-  "tagline": "Music City boom town\u2014honky-tonks meet healthcare HQ in a sprawling, growing metro",
+  "tagline": "Music City boom town—honky-tonks meet healthcare HQ in a sprawling, growing metro",
   "population": "2.0 million metro",
   "scores": {
-    "diversity_climate": 7,
+    "diversity_climate": 6,
     "safety": 6,
     "political_moderation": 6,
     "cost_of_living": 7,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$600-1,100/month compared to LA"
   },
   "diversity": {
-    "summary": "SOUTHERN CITY, MODERN VIBE: Nashville has a substantial Black community (~28%) and a long history as a center of Black culture in the Upper South (Civil Rights lunch counter sit-ins happened here). Reddit: \"Interracial couples aplenty\" and \"much more liberal than it was in the 90s\u2014interracial couples way more common now.\" Racism exists but is \"systemic, not outward\"\u2014meaning housing discrimination, school funding gaps, but not people yelling slurs on the street. Nashville is rapidly growing, diversifying, and becoming a magnet for Black immigrants. As a major city in the South, it has typical urban racial dynamics but is trending positive.",
-    "diversity_index": "~56% White, 28% Black, 10% Hispanic, 4% Asian (genuinely diverse with historic Black community)",
-    "notable": "Civil Rights history (lunch counter sit-ins); substantial Black middle class; interracial couples common; racism is systemic not overt"
+    "summary": "MIXING BUT LAYERED: Nashville has a substantial Black community (~28%) and a history as a Black cultural center (Fisk, Meharry, civil rights history). Interracial couples report comfort in the urban core — East Nashville, 12 South, Germantown are genuinely mixed socially. However, residential integration lags behind social mixing. Nashville's rapid growth and transplant influx are creating more integrated spaces, but the city still has distinct 'Black Nashville' and 'new Nashville' parallel tracks. Cross-racial social mixing happens naturally at venues, restaurants, and events, but deeper community integration varies. Better than most Southern cities for an interracial couple, but the integration is uneven — vibrant in trendy areas, thinner in established neighborhoods.",
+    "diversity_index": "~56% White, 28% Black, 10% Hispanic, 4% Asian — substantial diversity but residential patterns still somewhat segregated",
+    "notable": "Rich Black cultural history (Fisk, civil rights); interracial couples comfortable in urban core; integration happening via transplant culture but uneven across neighborhoods"
   },
   "safety": {
     "summary": "Nashville crime is moderate and varies by neighborhood. Some areas (Antioch, parts of North Nashville) have higher crime. Most popular neighborhoods (12 South, East Nashville, Germantown) are reasonably safe. Overall feels safe in the right areas but due diligence needed.",
@@ -50,14 +50,14 @@
     "summary": "Rolling hills, greenery, Cumberland River. Not dramatic but pleasant. Tennessee hills provide gentle topography. Lakes and parks nearby. About 1 hour to Land Between the Lakes, 3 hours to Smoky Mountains. Serviceable but not a scenic destination."
   },
   "climate": {
-    "summary": "Mild winters with just occasional snow/ice, hot summers. If you want seasonal variety without brutal cold, Nashville delivers\u2014real fall colors and spring blooms, but winter is manageable. Humidity is significant. Spring tornadoes are rare but real.",
-    "avg_summer_high": "89\u00b0F",
-    "avg_winter_low": "28\u00b0F",
+    "summary": "Mild winters with just occasional snow/ice, hot summers. If you want seasonal variety without brutal cold, Nashville delivers—real fall colors and spring blooms, but winter is manageable. Humidity is significant. Spring tornadoes are rare but real.",
+    "avg_summer_high": "89°F",
+    "avg_winter_low": "28°F",
     "annual_snowfall": "5 inches",
     "annual_sunny_days": "207"
   },
   "culture": {
-    "summary": "Nashville IS culture\u2014live music everywhere (honky-tonks, indie venues, songwriter rounds), hot chicken, meat-and-threes, Broadway chaos, Ryman Auditorium, Grand Ole Opry. It's a legitimate cultural destination. Food scene is strong (Sean Brock's restaurants, hot chicken, BBQ, international). But the tourist boom can feel overwhelming, and the city is growing fast with 'bachelorette party' vibes downtown."
+    "summary": "Nashville IS culture—live music everywhere (honky-tonks, indie venues, songwriter rounds), hot chicken, meat-and-threes, Broadway chaos, Ryman Auditorium, Grand Ole Opry. It's a legitimate cultural destination. Food scene is strong (Sean Brock's restaurants, hot chicken, BBQ, international). But the tourist boom can feel overwhelming, and the city is growing fast with 'bachelorette party' vibes downtown."
   },
   "pros": [
     "Incredible music scene and cultural identity",
@@ -65,24 +65,24 @@
     "Growing diversity and generally accepting of interracial couples",
     "No state income tax (Tennessee)",
     "Strong job market (healthcare, music, tourism)",
-    "Energy and growth\u2014feels alive and dynamic"
+    "Energy and growth—feels alive and dynamic"
   ],
   "cons": [
-    "Growing FAST\u2014traffic, costs rising, infrastructure struggling",
+    "Growing FAST—traffic, costs rising, infrastructure struggling",
     "Car-dependent outside a few neighborhoods",
     "Tennessee politics are very conservative (Nashville itself is blue island)",
     "Downtown can feel touristy/party-centric (bachelorette central)",
     "Crime in certain areas requires careful neighborhood selection",
     "Summer humidity is intense"
   ],
-  "saturday": "You wake up in East Nashville and walk to Barista Parlor for pour-over coffee in a converted transmission shop\u2014peak Nashville. The morning is spent thrifting on Five Points, then you grab hot chicken at Prince's (the original, worth the wait). By afternoon, you're at the Nashville Farmers Market sampling local honey and fresh produce, then strolling the Shelby Bottoms Greenway. Evening brings live music at The Bluebird Cafe or a songwriter round at a dive bar\u2014intimate performances that remind you why this city matters. Late dinner at Sadie's Mediterranean Kitchen, then you walk home through streets alive with music spilling from doorways. Nashville hustles, but it still knows how to play.",
+  "saturday": "You wake up in East Nashville and walk to Barista Parlor for pour-over coffee in a converted transmission shop—peak Nashville. The morning is spent thrifting on Five Points, then you grab hot chicken at Prince's (the original, worth the wait). By afternoon, you're at the Nashville Farmers Market sampling local honey and fresh produce, then strolling the Shelby Bottoms Greenway. Evening brings live music at The Bluebird Cafe or a songwriter round at a dive bar—intimate performances that remind you why this city matters. Late dinner at Sadie's Mediterranean Kitchen, then you walk home through streets alive with music spilling from doorways. Nashville hustles, but it still knows how to play.",
   "food_scene": {
     "summary": "Nashville's food scene is a collision of Southern tradition and global ambition. Hot chicken is the local obsession, but the city also delivers James Beard-level fine dining, meat-and-threes (Southern comfort food cafeterias), and strong international options fueled by refugee communities.",
     "mediterranean_options": [
       "Sadie's (Mediterranean small plates and kebabs)",
-      "Santo (Green Hills\u2014healthy Mediterranean)",
+      "Santo (Green Hills—healthy Mediterranean)",
       "Nicky's Coal Fired (Italian/Mediterranean fusion)",
-      "International Market & Restaurant (Nashville Farmers Market\u2014authentic Middle Eastern)"
+      "International Market & Restaurant (Nashville Farmers Market—authentic Middle Eastern)"
     ],
     "farmers_markets": [
       "Nashville Farmers Market (year-round, daily, with permanent vendors)",
@@ -95,7 +95,7 @@
   "neighborhoods": [
     {
       "name": "East Nashville (Five Points)",
-      "vibe": "Hipster haven\u2014dive bars, vintage shops, murals, eclectic",
+      "vibe": "Hipster haven—dive bars, vintage shops, murals, eclectic",
       "walk_score": "72/100",
       "median_rent_1br": "$1,550",
       "safety_rating": "medium (gentrifying, varies by block)",
@@ -104,7 +104,7 @@
     },
     {
       "name": "12 South",
-      "vibe": "Trendy, Instagram-worthy\u2014boutiques, brunch spots, upscale residential",
+      "vibe": "Trendy, Instagram-worthy—boutiques, brunch spots, upscale residential",
       "walk_score": "68/100",
       "median_rent_1br": "$1,700",
       "safety_rating": "high",
@@ -113,7 +113,7 @@
     },
     {
       "name": "Germantown",
-      "vibe": "Historic neighborhood turned upscale\u2014cobblestones, new restaurants",
+      "vibe": "Historic neighborhood turned upscale—cobblestones, new restaurants",
       "walk_score": "75/100",
       "median_rent_1br": "$1,800",
       "safety_rating": "high",
@@ -122,7 +122,7 @@
     },
     {
       "name": "Sylvan Park",
-      "vibe": "Family-friendly, residential, tree-lined\u2014Nashville's quieter side",
+      "vibe": "Family-friendly, residential, tree-lined—Nashville's quieter side",
       "walk_score": "58/100",
       "median_rent_1br": "$1,450",
       "safety_rating": "high",
@@ -131,7 +131,7 @@
     },
     {
       "name": "The Gulch",
-      "vibe": "Urban renewal\u2014high-rises, rooftop bars, walkable but touristy",
+      "vibe": "Urban renewal—high-rises, rooftop bars, walkable but touristy",
       "walk_score": "80/100",
       "median_rent_1br": "$1,900",
       "safety_rating": "high",

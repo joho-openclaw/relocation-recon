@@ -2,10 +2,10 @@
   "name": "Savannah, GA",
   "slug": "savannah-ga",
   "region": "Deep South",
-  "tagline": "Historic coastal charm with a substantial Black community\u2014but Southern politics and crime require honest evaluation",
+  "tagline": "Historic coastal charm with a substantial Black community—but Southern politics and crime require honest evaluation",
   "population": "390,000 metro",
   "scores": {
-    "diversity_climate": 5,
+    "diversity_climate": 4,
     "safety": 5,
     "political_moderation": 5,
     "cost_of_living": 9,
@@ -21,12 +21,12 @@
     "vs_la_savings": "$600-1,200/month compared to LA"
   },
   "diversity": {
-    "summary": "SEGREGATED DESPITE DIVERSITY: Savannah is 54% Black, so Candace would not be isolated numerically. Interracial couples report \"no problems\" and \"we have not experienced racism.\" BUT the city is **deeply segregated**\u2014Black and white Savannahians live in different neighborhoods, attend different schools, socialize separately. A 1990s account describes police driving onto a sidewalk to detain a Black couple having a \"calm argument.\" Savannah has \"always been slow to change.\" It's not dangerous for interracial couples, but the city's segregation means you'd likely live in a Black neighborhood or a white neighborhood, not an integrated one. Old South dynamics persist.",
-    "diversity_index": "~37% White, 54% Black, 3% Hispanic, 2% Asian (majority Black, but segregation negates diversity benefits)",
-    "notable": "54% Black but deeply segregated; police harassment of Black people documented into 1990s; interracial couples not harassed but segregation persists"
+    "summary": "DIVERSE BUT PARALLEL: Savannah is 54% Black, so Candace would not be isolated numerically. Interracial couples report 'no problems' and 'we have not experienced racism.' But the critical issue is integration vs. coexistence — Black and white Savannahians largely live in different neighborhoods, attend different churches, socialize in parallel. It's not hostile, it's just separate. You'd likely live in a 'Black neighborhood' or a 'white neighborhood,' not an integrated one. The Historic District and SCAD-influenced areas have more mixing, but deeper Savannah runs on Old South social patterns. For an interracial couple, the issue isn't safety or acceptance — it's whether you'd find a community that reflects your relationship, or navigate between two separate communities.",
+    "diversity_index": "~37% White, 54% Black, 3% Hispanic, 2% Asian — majority Black but deeply segregated; parallel rather than integrated",
+    "notable": "54% Black but parallel communities rather than integrated ones; interracial couples not harassed but true social mixing is limited; Old South dynamics persist beneath the charm"
   },
   "safety": {
-    "summary": "\u26a0\ufe0f HONEST CONCERN: Crime has been elevated but improving. Violent crime dropped 20% in 2024 (834 violent crimes vs 982 in 2018), but still higher than national average. Chance of victimization is 1 in 46 overall. Safe neighborhoods exist\u2014Historic District, Victorian District, Ardsley Park are relatively low-crime\u2014but awareness is required. Candace's safety threshold (San Diego baseline) needs serious consideration here.",
+    "summary": "⚠️ HONEST CONCERN: Crime has been elevated but improving. Violent crime dropped 20% in 2024 (834 violent crimes vs 982 in 2018), but still higher than national average. Chance of victimization is 1 in 46 overall. Safe neighborhoods exist—Historic District, Victorian District, Ardsley Park are relatively low-crime—but awareness is required. Candace's safety threshold (San Diego baseline) needs serious consideration here.",
     "violent_crime_rate": "~600 per 100k (declining but still elevated; down 20% in 2024)",
     "best_neighborhoods": [
       "Ardsley Park / Chatham Crescent",
@@ -47,12 +47,12 @@
     ]
   },
   "scenery": {
-    "summary": "Stunning coastal Southern beauty\u2014Spanish moss, live oaks, historic squares, Forsyth Park fountain, River Street along the Savannah River, nearby Tybee Island beaches (18 miles). Quintessential Southern Gothic architecture. Summer heat/humidity is real, but spring and fall are gorgeous."
+    "summary": "Stunning coastal Southern beauty—Spanish moss, live oaks, historic squares, Forsyth Park fountain, River Street along the Savannah River, nearby Tybee Island beaches (18 miles). Quintessential Southern Gothic architecture. Summer heat/humidity is real, but spring and fall are gorgeous."
   },
   "climate": {
-    "summary": "Warm-weather paradise: mild winters that rarely freeze, hot summers (90s with humidity). No snow\u2014maybe a dusting once a decade. If you love warmth and want to avoid harsh cold, this delivers. Spring (March-May) and fall (Oct-Nov) are beautiful. Over 200 sunny days annually.",
-    "avg_summer_high": "91\u00b0F (feels hotter with humidity)",
-    "avg_winter_low": "42\u00b0F",
+    "summary": "Warm-weather paradise: mild winters that rarely freeze, hot summers (90s with humidity). No snow—maybe a dusting once a decade. If you love warmth and want to avoid harsh cold, this delivers. Spring (March-May) and fall (Oct-Nov) are beautiful. Over 200 sunny days annually.",
+    "avg_summer_high": "91°F (feels hotter with humidity)",
+    "avg_winter_low": "42°F",
     "annual_snowfall": "0.04 inches (essentially never)",
     "annual_sunny_days": "216"
   },
@@ -60,30 +60,30 @@
     "summary": "Rich blend of Southern history, Gullah-Geechee heritage, SCAD (art school) creative energy, and tourism. Historic squares, ghost tours, First Friday art walks, strong food scene (Low Country cuisine, seafood, soul food), live music. Southern hospitality is real. However, be aware: Georgia politics trend conservative (though Savannah proper leans Democratic). Complex relationship with Confederate history."
   },
   "pros": [
-    "Majority-Black city\u2014Candace would be part of the cultural majority",
+    "Majority-Black city—Candace would be part of the cultural majority",
     "Very affordable compared to LA (9% below national average)",
     "Beautiful historic architecture and coastal scenery",
     "Walkable downtown with character and charm",
     "Strong Black community, churches, cultural institutions",
     "Access to beaches (Tybee Island 18 miles)",
-    "Mild winters\u2014no shoveling snow",
+    "Mild winters—no shoveling snow",
     "Growing arts scene (SCAD influence)"
   ],
   "cons": [
-    "\u26a0\ufe0f Crime concerns\u2014improving but still elevated, especially for Candace's safety baseline",
+    "⚠️ Crime concerns—improving but still elevated, especially for Candace's safety baseline",
     "Georgia state politics are conservative (though city itself is moderate/liberal)",
     "Summer heat and humidity are oppressive (May-September)",
-    "Limited walkability outside historic core\u2014car still needed",
-    "Deep South cultural dynamics\u2014progress exists but Confederate monuments, etc. are present",
+    "Limited walkability outside historic core—car still needed",
+    "Deep South cultural dynamics—progress exists but Confederate monuments, etc. are present",
     "Smaller job market than major metros (tourism/service heavy)",
     "Hurricane risk (coastal Georgia)",
     "May feel small after 1-2 years (under 400k metro)"
   ],
-  "saturday": "You wake up in the Victorian District to Spanish moss swaying outside your window and walk to The Collins Quarter for avocado smash and flat whites. The morning is spent wandering Forsyth Park and the Historic District's squares\u2014live oaks dripping with moss, fountains, architecture that makes you stop and stare. By afternoon, you drive to Tybee Island for beach time and fresh shrimp, then back to Starland District for gallery-hopping. Dinner is at Olympia Cafe on River Street\u2014Greek food overlooking the Savannah River as cargo ships glide past. Evening finds you at a SCAD student art show or sipping cocktails at a rooftop bar, the humid night air thick with possibility. Savannah feels like nowhere else\u2014haunted, beautiful, and unapologetically Southern.",
+  "saturday": "You wake up in the Victorian District to Spanish moss swaying outside your window and walk to The Collins Quarter for avocado smash and flat whites. The morning is spent wandering Forsyth Park and the Historic District's squares—live oaks dripping with moss, fountains, architecture that makes you stop and stare. By afternoon, you drive to Tybee Island for beach time and fresh shrimp, then back to Starland District for gallery-hopping. Dinner is at Olympia Cafe on River Street—Greek food overlooking the Savannah River as cargo ships glide past. Evening finds you at a SCAD student art show or sipping cocktails at a rooftop bar, the humid night air thick with possibility. Savannah feels like nowhere else—haunted, beautiful, and unapologetically Southern.",
   "food_scene": {
     "summary": "Savannah's food scene blends Low Country tradition (shrimp and grits, she-crab soup, fried green tomatoes) with SCAD's international student influence and a growing chef-driven movement. The city eats well, though it's smaller and more Southern-focused than other metros on this list.",
     "mediterranean_options": [
-      "Olympia Cafe (River Street\u2014authentic Greek, river views)",
+      "Olympia Cafe (River Street—authentic Greek, river views)",
       "Troy Mediterranean Cuisine (family-owned, highly rated)",
       "Yia Yia Kitchen (Greek specialties)",
       "Casablanca Mediterranean Grill",
@@ -94,13 +94,13 @@
       "Starland Yard Market (occasional, local vendors)",
       "Savannah Farmers Market (seasonal)"
     ],
-    "food_culture": "Savannah's food culture is deeply rooted in Gullah-Geechee heritage and Low Country cooking\u2014seafood, rice dishes, soul food. The city has strong seafood (Desposito's, Boar's Head), classic Southern (Mrs. Wilkes' Dining Room), and emerging fine dining (The Grey, Local 11ten). SCAD students add international variety, but this is the Deep South\u2014fried food and sweet tea reign.",
+    "food_culture": "Savannah's food culture is deeply rooted in Gullah-Geechee heritage and Low Country cooking—seafood, rice dishes, soul food. The city has strong seafood (Desposito's, Boar's Head), classic Southern (Mrs. Wilkes' Dining Room), and emerging fine dining (The Grey, Local 11ten). SCAD students add international variety, but this is the Deep South—fried food and sweet tea reign.",
     "grocery_quality": "Whole Foods, Trader Joe's, Brighter Day Natural Foods Market (co-op), Publix. Solid grocery access for the city size, but fewer specialty international options than larger metros."
   },
   "neighborhoods": [
     {
       "name": "Historic District / Downtown",
-      "vibe": "Iconic Savannah\u2014cobblestones, squares, tourists, historic homes",
+      "vibe": "Iconic Savannah—cobblestones, squares, tourists, historic homes",
       "walk_score": "85/100",
       "median_rent_1br": "$1,800",
       "safety_rating": "medium-high",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Victorian District",
-      "vibe": "Residential neighborhood south of downtown\u2014ornate Victorian homes, local feel",
+      "vibe": "Residential neighborhood south of downtown—ornate Victorian homes, local feel",
       "walk_score": "82/100",
       "median_rent_1br": "$1,600",
       "safety_rating": "medium-high",
@@ -118,7 +118,7 @@
     },
     {
       "name": "Starland District",
-      "vibe": "Savannah's arts district\u2014galleries, cafes, indie shops, creative energy",
+      "vibe": "Savannah's arts district—galleries, cafes, indie shops, creative energy",
       "walk_score": "78/100",
       "median_rent_1br": "$1,550",
       "safety_rating": "medium",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Ardsley Park / Chatham Crescent",
-      "vibe": "Upscale residential\u2014tree-lined streets, historic homes, family-oriented",
+      "vibe": "Upscale residential—tree-lined streets, historic homes, family-oriented",
       "walk_score": "68/100",
       "median_rent_1br": "$1,700",
       "safety_rating": "high",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Thomas Square / Midtown",
-      "vibe": "Transitional neighborhood\u2014mix of historic homes, renovations, neighborhood feel",
+      "vibe": "Transitional neighborhood—mix of historic homes, renovations, neighborhood feel",
       "walk_score": "72/100",
       "median_rent_1br": "$1,500",
       "safety_rating": "medium",

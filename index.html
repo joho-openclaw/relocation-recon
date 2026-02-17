@@ -787,13 +787,14 @@
         <header>
             <h1>Relocation Recon</h1>
             <p class="subtitle">
-                A data-driven exploration of 13 cities for a 1-2 year adventure.
-                Researching where to land next — with diversity, safety, and quality of life as top priorities.
+                A data-driven exploration of 15 cities for a 1-2 year adventure.
+                Researching where to land next — with integration, safety, and quality of life as top priorities.
             </p>
             <nav class="nav-tabs">
                 <button class="nav-tab active" onclick="showView('overview')">Overview</button>
                 <button class="nav-tab" onclick="showView('weighted')">Weighted Comparison</button>
                 <button class="nav-tab" onclick="showView('comparison')">Compare</button>
+                <button class="nav-tab" onclick="showView('methodology')">Methodology</button>
             </nav>
         </header>
 
@@ -816,7 +817,7 @@
                 <div class="sliders-grid">
                     <div class="slider-control">
                         <div class="slider-label">
-                            <span>Diversity Climate</span>
+                            <span>Integration & Diversity</span>
                             <span class="slider-value" id="weight-diversity_climate">5</span>
                         </div>
                         <input type="range" min="1" max="10" value="5" 
@@ -896,7 +897,7 @@
             <div class="priority-note">
                 <h3>📊 Scoring Priority Framework</h3>
                 <ol>
-                    <li><strong>Racial climate & diversity</strong> — Welcoming to interracial couples (weight: 9)</li>
+                    <li><strong>Racial integration & diversity</strong> — Genuinely integrated communities for interracial couples (weight: 9)</li>
                     <li><strong>Safety & stability</strong> — Physical safety, low crime neighborhoods (weight: 8)</li>
                     <li><strong>Political moderation</strong> — Not extreme in either direction (weight: 7)</li>
                     <li><strong>Cost of living</strong> — Lower than SoCal, stretch dollars further (weight: 6)</li>
@@ -911,6 +912,13 @@
             </div>
         </div>
     </div>
+
+        <!-- Methodology -->
+        <div id="methodology" class="view">
+            <div class="methodology-content" id="methodologyContent" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 40px; line-height: 1.8; color: var(--text-secondary);">
+                <p>Loading methodology...</p>
+            </div>
+        </div>
 
     <!-- Detail Modal -->
     <div id="detailModal" class="modal">
@@ -1119,7 +1127,7 @@
         function renderComparisonTable() {
             const table = document.getElementById('comparisonTable');
             const scoreCategories = [
-                { key: 'diversity_climate', label: 'Diversity Climate', weight: 9 },
+                { key: 'diversity_climate', label: 'Integration & Diversity', weight: 9 },
                 { key: 'safety', label: 'Safety', weight: 8 },
                 { key: 'political_moderation', label: 'Political Moderation', weight: 7 },
                 { key: 'cost_of_living', label: 'Cost of Living', weight: 6 },
@@ -1435,8 +1443,48 @@
             event.target.classList.add('active');
         }
 
+        // Load methodology
+        async function loadMethodology() {
+            try {
+                const res = await fetch('data/SCORING.md');
+                const md = await res.text();
+                const html = renderMarkdown(md);
+                document.getElementById('methodologyContent').innerHTML = html;
+            } catch (e) {
+                document.getElementById('methodologyContent').innerHTML = '<p>Error loading methodology.</p>';
+            }
+        }
+
+        function renderMarkdown(md) {
+            let html = md
+                .replace(/^### (.+)$/gm, '<h3 style="color: var(--text-primary); margin: 24px 0 12px; font-size: 18px;">$1</h3>')
+                .replace(/^## (.+)$/gm, '<h2 style="color: var(--accent-purple); margin: 32px 0 16px; font-size: 22px; border-bottom: 1px solid var(--border); padding-bottom: 8px;">$1</h2>')
+                .replace(/^# (.+)$/gm, '<h1 style="color: var(--text-primary); margin: 0 0 24px; font-size: 28px;">$1</h1>')
+                .replace(/\*\*(.+?)\*\*/g, '<strong style="color: var(--text-primary);">$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                .replace(/^---$/gm, '<hr style="border: none; border-top: 1px solid var(--border); margin: 32px 0;">')
+                .replace(/^\| (.+) \|$/gm, function(match) {
+                    const cells = match.split('|').filter(c => c.trim());
+                    const tds = cells.map(c => `<td style="padding: 8px 12px; border: 1px solid var(--border);">${c.trim()}</td>`).join('');
+                    return `<tr>${tds}</tr>`;
+                })
+                .replace(/^\d+\. (.+)$/gm, '<li style="margin-bottom: 4px;">$1</li>')
+                .replace(/^- (.+)$/gm, '<li style="margin-bottom: 4px;">$1</li>')
+                .replace(/\n\n/g, '</p><p style="margin-bottom: 12px;">')
+            ;
+            // Wrap tables
+            html = html.replace(/(<tr>.*?<\/tr>\s*)+/gs, function(match) {
+                if (match.includes('---')) return match.replace(/<tr>.*?---.*?<\/tr>/g, '');
+                return `<table style="width: 100%; border-collapse: collapse; margin: 16px 0; background: var(--bg-secondary); border-radius: 8px; overflow: hidden;">${match}</table>`;
+            });
+            // Wrap lists
+            html = html.replace(/(<li.*?<\/li>\s*)+/g, '<ul style="padding-left: 20px; margin: 12px 0;">$&</ul>');
+            return `<div style="font-size: 15px;">${html}</div>`;
+        }
+
         // Initialize
         loadCities();
+        loadMethodology();
     </script>
 </body>
 </html>

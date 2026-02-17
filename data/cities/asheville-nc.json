@@ -5,7 +5,7 @@
   "tagline": "Progressive mountain oasis—stunning scenery, craft beer, and a glaring diversity problem",
   "population": "470,000 metro",
   "scores": {
-    "diversity_climate": 4,
+    "diversity_climate": 3,
     "safety": 8,
     "political_moderation": 5,
     "cost_of_living": 7,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$600-1,000/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ CRITICAL WARNING: Asheville has a documented history of urban renewal that deliberately displaced its Black community, and the effects persist—only 7.7% Black (down from 10.5% in 2020). Police data shows disproportionate arrests of Black residents, with former DOJ officials raising \"serious concerns about discriminatory policing.\" While **interracial couples report feeling comfortable downtown** (Reddit: \"zero issues, don't even get stares\"), the progressive politics are performative—one user notes \"Support for BLM is real but support for policies that would make the city more diverse is non-existent.\" Candace would be highly visible and may experience police profiling despite the bohemian vibe.",
-    "diversity_index": "~77% White, 7.7% Black, 8% Hispanic (demographics alone don't tell the story)",
-    "notable": "Police profiling of Black residents documented; displacement history via urban renewal; interracial couples feel socially accepted but systemic racism persists"
+    "summary": "PROGRESSIVE SURFACE, THIN INTEGRATION: Asheville has genuine progressive values and interracial couples report 'zero issues, don't even get stares' downtown. But integration requires people to integrate with, and at 7.7% Black (declining from 10.5%), the community Candace could connect with is small and shrinking — displaced by the same forces that make Asheville charming. The city has documented police profiling of Black residents and a history of urban renewal that deliberately displaced its Black community. Cross-racial social mixing happens in tourist/downtown spaces but deeper community integration is limited by simple numbers. Asheville is comfortable for visits but living there means being one of very few in most spaces. The bohemian acceptance is real but thin — it's tolerance without representation.",
+    "diversity_index": "~77% White, 7.7% Black, 8% Hispanic — demographics shrinking; progressive politics don't equal integration",
+    "notable": "Police profiling documented; Black community displaced by urban renewal; socially accepting but numerically isolating; tolerance without representation"
   },
   "safety": {
     "summary": "Asheville is generally very safe, especially in tourist and residential areas. Property crime (car break-ins) can occur but violent crime is low. Downtown feels safe. Smaller city vibe contributes to overall safety.",

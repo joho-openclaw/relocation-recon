@@ -5,7 +5,7 @@
   "tagline": "Former capital of the Confederacy reinventing itself as a foodie haven with complex history",
   "population": "1.3 million metro",
   "scores": {
-    "diversity_climate": 6,
+    "diversity_climate": 5,
     "safety": 7,
     "political_moderation": 7,
     "cost_of_living": 9,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$900-1,500/month compared to LA"
   },
   "diversity": {
-    "summary": "RECKONING WITH HISTORY: Richmond was the **capital of the Confederacy**, and that weight is real. The city passed ordinances in 1911 barring Black families from white neighborhoods; Virginia's Racial Integrity Act forbade interracial marriage until *Loving v. Virginia* (1967). Neighborhoods remain deeply segregated today. **BUT** modern Richmond is trying to change\u2014removed Confederate statues, Black Lives Matter murals, Juneteenth celebrations. And interracial couples report being common enough that \"no one notices.\" It's a city in transition: 47% Black, genuine diversity, but historic scars run deep. Candace would not be isolated but would feel the weight of history.",
-    "diversity_index": "~40% White, 47% Black, 6% Hispanic, 3% Asian (majority-minority city, but deeply segregated)",
-    "notable": "Former capital of Confederacy; banned interracial marriage until 1967; still very segregated; but modern city is reckoning with past"
+    "summary": "RECKONING AND INTEGRATING: Richmond was the capital of the Confederacy, and that weight is real. But the city is actively transforming — Monument Avenue's Confederate statues were removed, and younger residents are building genuinely integrated communities. The Fan, Carytown, Scott's Addition, and Church Hill have real cross-racial mixing, especially among younger demographics. However, deep historical segregation patterns persist in many neighborhoods. Richmond has a large Black population (~46% city) but residential integration varies dramatically block by block. An interracial couple would be comfortable in the progressive urban core but would encounter the legacy of segregation in neighborhood patterns. The integration is genuine where it exists but the city is still mid-journey.",
+    "diversity_index": "~45% White, 46% Black, 7% Hispanic — nearly equal but historically segregated; integration improving in urban core",
+    "notable": "Former Confederate capital actively reckoning with history; integrated urban neighborhoods emerging; interracial couples comfortable in Fan/Carytown; legacy segregation patterns still visible"
   },
   "safety": {
     "summary": "Crime varies significantly by neighborhood. Some areas (East End, parts of South Side) have higher crime, while The Fan, Museum District, and West End are quite safe. Overall feels safer than many East Coast cities. Improving but still has pockets of concern.",
@@ -50,17 +50,17 @@
     "summary": "James River runs through the city with parks and trails along it. Historic architecture, tree-lined streets in older neighborhoods. Rolling hills, Fall colors are beautiful. Not dramatic mountains but pleasant urban greenery. 2 hours to Blue Ridge Mountains."
   },
   "climate": {
-    "summary": "Four distinct seasons with manageable winters\u2014some snow but not brutal. Hot, humid summers balanced by beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver. Good for those who want real seasons without harsh cold.",
-    "avg_summer_high": "89\u00b0F",
-    "avg_winter_low": "28\u00b0F",
+    "summary": "Four distinct seasons with manageable winters—some snow but not brutal. Hot, humid summers balanced by beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver. Good for those who want real seasons without harsh cold.",
+    "avg_summer_high": "89°F",
+    "avg_winter_low": "28°F",
     "annual_snowfall": "10-12 inches",
     "annual_sunny_days": "207"
   },
   "culture": {
-    "summary": "Richmond has become a surprising food destination\u2014multiple James Beard nominees, thriving brewery scene (Stone Brewing HQ), indie music, arts. The VCU (Virginia Commonwealth University) presence adds youth and creativity. Strong sense of place with complex history. Feels authentic, gritty, artistic\u2014not corporate."
+    "summary": "Richmond has become a surprising food destination—multiple James Beard nominees, thriving brewery scene (Stone Brewing HQ), indie music, arts. The VCU (Virginia Commonwealth University) presence adds youth and creativity. Strong sense of place with complex history. Feels authentic, gritty, artistic—not corporate."
   },
   "pros": [
-    "Extremely affordable\u2014great bang for your buck",
+    "Extremely affordable—great bang for your buck",
     "Thriving food and brewery scene (punches above its weight)",
     "Four real seasons with beautiful fall",
     "Walkable neighborhoods with historic character",
@@ -75,9 +75,9 @@
     "Less polished/more gritty than some prefer",
     "Job market smaller (though growing in tech/healthcare)"
   ],
-  "saturday": "You wake up in The Fan to Victorian rowhouse charm and walk to Lamplighter Coffee for pour-overs and a breakfast sandwich. The morning is spent strolling Carytown\u2014vintage shops, quirky boutiques, a mile of independent businesses that feel authentic, not manufactured. Lunch at Stella's brings Greek lemon chicken soup and spanakopita, then you bike the James River Park trails, stopping to watch kayakers navigate the rapids. By evening, you're at the South of the James Farmers Market, then dinner at L'Opossum (fine dining with a sense of humor). You end the night at a Scott's Addition brewery, surrounded by VCU students and young creatives. Richmond feels scrappy, artistic, and deeply itself.",
+  "saturday": "You wake up in The Fan to Victorian rowhouse charm and walk to Lamplighter Coffee for pour-overs and a breakfast sandwich. The morning is spent strolling Carytown—vintage shops, quirky boutiques, a mile of independent businesses that feel authentic, not manufactured. Lunch at Stella's brings Greek lemon chicken soup and spanakopita, then you bike the James River Park trails, stopping to watch kayakers navigate the rapids. By evening, you're at the South of the James Farmers Market, then dinner at L'Opossum (fine dining with a sense of humor). You end the night at a Scott's Addition brewery, surrounded by VCU students and young creatives. Richmond feels scrappy, artistic, and deeply itself.",
   "food_scene": {
-    "summary": "Richmond has quietly become a food destination\u2014James Beard semifinalists, a massive brewery scene (Stone Brewing East Coast HQ), and chefs doing creative things without the pretense of bigger cities. The cost-to-quality ratio is exceptional.",
+    "summary": "Richmond has quietly become a food destination—James Beard semifinalists, a massive brewery scene (Stone Brewing East Coast HQ), and chefs doing creative things without the pretense of bigger cities. The cost-to-quality ratio is exceptional.",
     "mediterranean_options": [
       "Stella's (modern Greek, multiple locations)",
       "Demi's (Mediterranean coastal cuisine)",
@@ -89,7 +89,7 @@
       "17th Street Farmers Market (Shockoe Bottom, Saturdays seasonal)",
       "Bon Air Farmers Market (Chesterfield, seasonal)"
     ],
-    "food_culture": "Richmond's food culture blends Southern tradition (fried chicken, pimento cheese) with James Beard-level ambition (The Roosevelt, L'Opossum, Lehja Indian). The brewery scene is massive\u2014Triple Crossing, The Veil, Hardywood\u2014and the city has a thriving vegan scene. It's affordable, creative, and unpretentious.",
+    "food_culture": "Richmond's food culture blends Southern tradition (fried chicken, pimento cheese) with James Beard-level ambition (The Roosevelt, L'Opossum, Lehja Indian). The brewery scene is massive—Triple Crossing, The Veil, Hardywood—and the city has a thriving vegan scene. It's affordable, creative, and unpretentious.",
     "grocery_quality": "Whole Foods, Trader Joe's, Ellwood Thompson's Local Market (beloved local grocer), Publix. Solid access, though fewer specialty international markets than larger metros."
   },
   "neighborhoods": [
@@ -104,7 +104,7 @@
     },
     {
       "name": "Carytown",
-      "vibe": "Richmond's 'Mile of Style'\u2014quirky shops, restaurants, vintage stores",
+      "vibe": "Richmond's 'Mile of Style'—quirky shops, restaurants, vintage stores",
       "walk_score": "78/100",
       "median_rent_1br": "$1,300",
       "safety_rating": "high",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Church Hill",
-      "vibe": "Historic hilltop neighborhood with views\u2014gentrifying rapidly",
+      "vibe": "Historic hilltop neighborhood with views—gentrifying rapidly",
       "walk_score": "65/100",
       "median_rent_1br": "$1,200",
       "safety_rating": "medium (improving)",

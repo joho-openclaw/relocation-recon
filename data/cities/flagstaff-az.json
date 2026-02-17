@@ -1,0 +1,143 @@
+{
+  "name": "Flagstaff, AZ",
+  "slug": "flagstaff-az",
+  "region": "Mountain West / Southwest",
+  "tagline": "A mountain college town at 7,000 feet with ponderosa pines, four seasons, and small-town charm — but limited diversity",
+  "population": "76,000 city / 145,000 metro",
+  "scores": {
+    "diversity_climate": 4,
+    "safety": 7,
+    "political_moderation": 6,
+    "cost_of_living": 5,
+    "walkability": 6,
+    "scenic_beauty": 9,
+    "climate": 8,
+    "culture": 7
+  },
+  "cost_of_living": {
+    "index_vs_national": "16% above national average",
+    "median_rent_1br": "$1,450",
+    "median_rent_2br": "$1,800",
+    "vs_la_savings": "$400-700/month compared to LA"
+  },
+  "diversity": {
+    "summary": "PROGRESSIVE BUT THIN: Flagstaff is more diverse than you'd expect for a small Arizona mountain town — 64% White, with significant Native American (10%) and Hispanic (19%) populations thanks to proximity to the Navajo Nation and NAU's diverse student body. The city has a Commission on Diversity Awareness and a 'Lived Black Experience Project' documenting Black residents' stories. However, the Black population is tiny (~2%), meaning Candace would be highly visible. NAU brings some cross-cultural mixing, especially among younger residents. Integration exists in the sense that different communities share spaces — but the social mixing is more multicultural (Native, Hispanic, White) than specifically inclusive of Black Americans. An interracial couple wouldn't face hostility but would lack the comfort of being unremarkable. Better than most small Western towns, but still limited.",
+    "diversity_index": "~64% White, 2% Black, 19% Hispanic, 10% Native American — multicultural but tiny Black community",
+    "notable": "Lived Black Experience Project; NAU brings student diversity; Native American cultural presence; progressive for Arizona but small Black community"
+  },
+  "safety": {
+    "summary": "Flagstaff has moderate crime — a C+ overall grade. Violent crime chance is 1 in 246, which is reasonable. Property crime (vehicle break-ins, especially near tourist areas) is more common. The university presence creates some late-night incidents but serious violent crime is uncommon. Safe neighborhoods exist throughout the city, especially residential areas away from Route 66 corridor.",
+    "violent_crime_rate": "~406 per 100k (moderate; 1 in 246 chance of violent crime)",
+    "best_neighborhoods": [
+      "Continental Country Club",
+      "University Heights",
+      "Cheshire",
+      "Pine Del",
+      "Kachina Village (just south of town)"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "42/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Downtown/Historic Route 66 (75+)",
+      "Southside (70)",
+      "NAU Campus area (68)",
+      "San Francisco Street corridor (72)",
+      "Thorpe Park area (60)"
+    ]
+  },
+  "scenery": {
+    "summary": "Stunning and unexpected for Arizona — Flagstaff sits at 7,000 feet surrounded by ponderosa pine forests, the San Francisco Peaks (12,633 ft), and red rock country just 30 minutes south (Sedona/Oak Creek Canyon). Snow-capped peaks, alpine meadows, desert canyons all within an hour. The Grand Canyon is 80 miles north. This is not the Arizona you're imagining — it's mountain West meets Southwest."
+  },
+  "climate": {
+    "summary": "True four seasons at altitude — snowy winters (100+ inches), cool summers (highs in low 80s), stunning fall color, and crisp spring. This is mountain climate, not desert. Summer evenings are cool (50s), making it a refuge from Arizona's desert heat. Winter is real — November through March brings consistent cold and snow, but sunshine is abundant (266 days). If you want seasons with sunshine, Flagstaff delivers.",
+    "avg_summer_high": "82°F",
+    "avg_winter_low": "16°F",
+    "annual_snowfall": "100+ inches",
+    "annual_sunny_days": "266"
+  },
+  "culture": {
+    "summary": "Flagstaff punches above its weight for a town of 76K — NAU brings youth culture, Route 66 history adds character, and the outdoor-obsessed community creates a laid-back mountain vibe. Craft breweries, independent shops, star-gazing (first International Dark Sky City), and proximity to Sedona/Grand Canyon make it a hub. The culture is outdoorsy-bohemian with a Southwest twist. Small enough to know your barista, big enough to have things to do."
+  },
+  "pros": [
+    "Spectacular mountain scenery with desert canyons nearby",
+    "True four seasons with 266 sunny days",
+    "Cool summers — escape Arizona heat at 7,000 feet",
+    "Charming small-town feel with college energy (NAU)",
+    "Grand Canyon, Sedona, and Oak Creek Canyon all nearby",
+    "First International Dark Sky City — incredible stargazing",
+    "Progressive politics for Arizona"
+  ],
+  "cons": [
+    "Small Black community (~2%) — limited integration opportunities",
+    "Heavy snowfall in winter (100+ inches) — need to be prepared",
+    "Cost of living higher than expected for a small town",
+    "Limited walkability outside downtown core",
+    "Small city — may feel limiting after initial novelty",
+    "NAU-driven economy means college-town dynamics (seasonal, student-heavy)",
+    "Remote location — nearest major city (Phoenix) is 2.5 hours"
+  ],
+  "saturday": "You wake up in your Southside apartment to pine-scented mountain air and walk to Tourist Home Café for a flat white and avocado toast. The San Francisco Peaks are dusted with snow against impossibly blue sky. By 9 AM you're hiking the Inner Basin Trail through golden aspens (or snowshoeing in winter), surrounded by ponderosa forest. Back in town by afternoon, you explore Heritage Square's shops and galleries along Route 66, then grab Neapolitan pizza at Pizzicletta (nationally acclaimed, tiny, perfect). The evening finds you at Mother Road Brewing or Dark Sky Brewing, chatting with NAU professors and outdoor guides. After dinner at Coppa Café (Mediterranean small plates), you drive 10 minutes to a pullout and stare at the Milky Way — the first Dark Sky City in the world, and it shows. Flagstaff is small but it has soul.",
+  "food_scene": {
+    "summary": "Flagstaff's food scene is surprisingly good for its size — driven by NAU's diverse population and tourist traffic. The city has nationally recognized restaurants (Pizzicletta), a growing craft brewery scene, and Southwest-influenced cuisine. Not as deep as a major metro but quality is high.",
+    "mediterranean_options": [
+      "Coppa Café (Mediterranean/Italian, locally beloved)",
+      "Pato Thai Cuisine (Thai, excellent)",
+      "Delhi Palace (Indian, solid option)",
+      "Fratelli Pizza (Italian, casual)"
+    ],
+    "farmers_markets": [
+      "Flagstaff Community Market (Sundays, June-October)",
+      "NAU Farmers Market (seasonal)"
+    ],
+    "food_culture": "Flagstaff's food culture blends Southwest flavors (green chili everything, Navajo tacos, Mexican restaurants) with craft brewery culture and farm-to-table aspirations. Route 66 nostalgia adds diners and roadside charm. The elevation and mountain setting create a cozy dining atmosphere. Small but curated — quality over quantity.",
+    "grocery_quality": "Whole Foods (new location), Sprouts, Natural Grocers, Safeway, Basha's. Good grocery access for the size, with natural/organic options. Limited international specialty stores."
+  },
+  "neighborhoods": [
+    {
+      "name": "Southside",
+      "vibe": "Hip, walkable, student-friendly — Flagstaff's most urban neighborhood",
+      "walk_score": "70/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Most diverse area (NAU influence), younger crowd, multicultural",
+      "why_for_them": "Best walkability in Flagstaff, near restaurants and breweries. NAU brings diversity and energy. The closest thing to an urban neighborhood in town."
+    },
+    {
+      "name": "Downtown / Route 66 Corridor",
+      "vibe": "Historic, charming, tourist-friendly with character",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Mixed — tourists, locals, students",
+      "why_for_them": "Most walkable, historic charm, near everything. Can feel touristy but has genuine character. Good for a 1-2 year adventure base."
+    },
+    {
+      "name": "University Heights",
+      "vibe": "Residential, quiet, tree-lined streets near campus",
+      "walk_score": "55/100",
+      "median_rent_1br": "$1,350",
+      "safety_rating": "high",
+      "diversity_notes": "Faculty/staff mix, family-oriented",
+      "why_for_them": "Safe, quiet, near trails and campus. Less walkable but peaceful. Good if you want a home base for outdoor adventures."
+    },
+    {
+      "name": "Continental Country Club",
+      "vibe": "Suburban, upscale, golf community with mountain views",
+      "walk_score": "25/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "high",
+      "diversity_notes": "Affluent, less diverse, older demographic",
+      "why_for_them": "Safest area, beautiful setting, but car-dependent and suburban. Not recommended for their adventure/walkability goals."
+    },
+    {
+      "name": "Kachina Village",
+      "vibe": "Mountain community just south of town — pine forests, seclusion",
+      "walk_score": "15/100",
+      "median_rent_1br": "$1,300",
+      "safety_rating": "high",
+      "diversity_notes": "Very white, rural feel",
+      "why_for_them": "Beautiful mountain living, affordable, serene. But very car-dependent and isolated. Good for nature lovers who don't need walkability."
+    }
+  ]
+}

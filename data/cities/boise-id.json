@@ -5,7 +5,7 @@
   "tagline": "Outdoor paradise with excellent safety and affordability—but Idaho politics and very low diversity are dealbreakers",
   "population": "750,000 metro",
   "scores": {
-    "diversity_climate": 4,
+    "diversity_climate": 3,
     "safety": 8,
     "political_moderation": 4,
     "cost_of_living": 8,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$700-1,200/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ COMPLEX SITUATION: Boise city itself is relatively progressive—Reddit users report \"Boise is a lot more liberal than people think\" and some say they've \"NEVER experienced racism.\" BUT Idaho's state reputation is horrific: **Aryan Nations compound** was in Coeur d'Alene (north); hate crimes increased 21% in 2024 (42% racially motivated); multiple federal hate crime indictments for racially motivated assaults in Boise; white supremacist groups still function in North Idaho. An older article about threats to an interracial couple shows people **expected problems.** Boise is an island of relative tolerance in a very white, sometimes hostile state. Outside city limits could be dangerous.",
-    "diversity_index": "82% White, 2% Black, 4% Asian, 9% Hispanic (Boise proper better than rural Idaho, but still very white)",
-    "notable": "Boise city = relatively welcoming; Idaho state = Aryan Nations history, rising hate crimes, white supremacy presence in rural areas"
+    "summary": "PROGRESSIVE POCKET IN CONSERVATIVE STATE: Boise city itself is surprisingly progressive — some Black residents report 'NEVER experienced racism' and the city has a growing diversity awareness. But Idaho is deeply conservative and very white (~93% statewide). Integration barely registers because diversity is so limited. An interracial couple would be a novelty in most Boise neighborhoods — not unwelcome, but conspicuous. There's no established Black community infrastructure to connect with. Cross-racial social mixing is limited to university-adjacent and downtown spaces. State politics create a hostile backdrop (anti-DEI legislation, conservative legislature) even if Boise itself is friendly. For an interracial couple, it's 'safe but lonely' — acceptance without community.",
+    "diversity_index": "~82% White, 2% Black, 8% Hispanic, 3% Asian — minimal diversity; no established Black community",
+    "notable": "City is progressive but state is deeply conservative; interracial couples accepted but conspicuous; no Black community infrastructure; 'safe but lonely'"
   },
   "safety": {
     "summary": "Excellent safety—one of the safest mid-sized cities in America. Violent crime rate is 247 per 100k (33% lower than national average). Property crime also below national average. Boise ranks in 64th percentile for safety. Most neighborhoods feel very safe. This would easily meet Candace's San Diego safety baseline—likely exceed it.",

@@ -5,7 +5,7 @@
   "tagline": "Outdoor recreation mecca with 300 days of sunshine—but diversity is nearly nonexistent and it's expensive",
   "population": "105,000 city / 200,000 metro",
   "scores": {
-    "diversity_climate": 3,
+    "diversity_climate": 2,
     "safety": 7,
     "political_moderation": 6,
     "cost_of_living": 6,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$500-900/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ SEVERE WARNING: Oregon banned Black people from living in the state until the 1920s and had racist constitutional language until 2002. That legacy is alive in Bend. **Murder of Barry Washington (Black teenager) a couple years ago.** Reddit users warn \"there's a ton of racism in Central Oregon\" and \"anyone who says there is not a lot of racism is most likely racist.\" Hate crimes surged 59% in Oregon (2020), 25% more (2022-2023). People report being called racial slurs while hiking. Prineville (nearby) had sundown laws enforced by lynching in the 1970s! City has an Equity Director trying to address issues, and some Black residents say \"it's not so bad,\" but Candace would face regular racism.",
-    "diversity_index": "91% White, 0.7% Black, 1.8% Asian, 9% Hispanic (whiteness is a feature, not a bug for many here)",
-    "notable": "Murder of Barry Washington; Oregon's Black exclusion laws & sundown town history; hate crimes surging; racial slurs common on trails"
+    "summary": "BEAUTIFUL BUT ISOLATED: Oregon banned Black people from living in the state until the 1920s, and that legacy persists in Bend — which is 90%+ white with essentially no Black community. The 2021 murder of Barry Washington (Black man killed while intervening in harassment of a woman) at a popular pub is a stark reminder that danger exists alongside the outdoorsy progressivism. An interracial couple would be extremely visible and would have zero Black community to connect with. Cross-racial social mixing doesn't meaningfully exist because the population is so homogeneous. The progressivism is genuine — most people would be welcoming — but integration requires more than goodwill when you'd be one of perhaps a few hundred Black residents in a city of 100K. Not recommended for this criteria.",
+    "diversity_index": "~90% White, <1% Black, 8% Hispanic — essentially no Black community; Oregon's racist history lingers",
+    "notable": "2021 murder of Barry Washington; Oregon's exclusion-era legacy; extremely visible as interracial couple; no community to integrate into"
   },
   "safety": {
     "summary": "Generally safe but not exceptional. Violent crime rate around 156 per 100k (below national average), but property crime is higher due to tourism, transient population, and homelessness concerns. Crime fell 13% in 2024. Bend ranks in 32nd percentile for overall safety (safer than 32% of cities). Most neighborhoods feel safe, but not as low-crime as Boise. Would meet Candace's baseline but not exceed it.",
