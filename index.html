@@ -939,11 +939,11 @@
         // Load city data
         async function loadCities() {
             try {
-                const response = await fetch('../data/cities/index.json');
+                const response = await fetch('data/cities/index.json');
                 const cityList = await response.json();
                 
                 const cityPromises = cityList.map(async slug => {
-                    const res = await fetch(`../data/cities/${slug}.json`);
+                    const res = await fetch(`data/cities/${slug}.json`);
                     return res.json();
                 });
                 
