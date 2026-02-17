@@ -11,7 +11,7 @@
     "cost_of_living": 8,
     "walkability": 6,
     "scenic_beauty": 9,
-    "seasons": 8,
+    "seasons": 4,
     "culture": 7
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Stunning mountain and high desert scenery. Boise sits at the base of the Boise Foothills with immediate access to hiking, mountain biking, skiing (Bogus Basin 16 miles). Boise River Greenbelt (25-mile paved path) runs through city. Dramatic sunsets, sagebrush desert meets pine forests. Less lush than Pacific Northwest but expansive Western beauty."
   },
-  "climate": {
-    "summary": "Four true seasons with dry, sunny weather. Hot summers (90s) but low humidity makes it bearable. Cold winters with real snow (20 inches annually) but sunny—over 200 days of sun per year. Much drier than Seattle, warmer winters than Denver. High desert climate—big temperature swings day to night.",
+  "seasons": {
+    "summary": "Four true seasons with dry, sunny weather—but winter is genuinely cold (lows around 24°F, 20 inches of snow). Hot summers (90s) are dry and bearable. Over 200 sunny days, but the cold is real. High desert climate with big temperature swings. Better than Minneapolis but still cold for warm-weather preference.",
     "avg_summer_high": "93°F (dry heat)",
     "avg_winter_low": "24°F",
     "annual_snowfall": "20 inches",
@@ -78,6 +78,29 @@
     "Car-dependent outside downtown core",
     "Growing fast—housing costs rising, infrastructure strained",
     "Cold winters with real snow (though sunny)"
+  ],
+  "saturday": "You wake up in the North End to high desert sunshine and bike the Boise Greenbelt—25 miles of paved riverside trail through the city. Coffee at Dawson's downtown, then you hike Table Rock for panoramic views of the Treasure Valley. By afternoon, you're exploring the Basque Block, learning about Boise's unique European heritage, then lunch at Bar Gernika for croquetas and Basque cider. The evening is spent at the Hyde Park Street Fair (if it's summer) or a brewery in the East End. Boise is safe, sunny, affordable, and outdoorsy. But you'd be one of very few Black residents, and Idaho politics loom heavy.",
+  "food_scene": {
+    "summary": "Boise's food scene is small but growing—Basque heritage (largest Basque population outside Spain) adds unique flavor, and the influx of California/Pacific Northwest transplants is raising the bar. Farm-to-table and breweries are strong. Limited Mediterranean options.",
+    "mediterranean_options": [
+      "Bar Gernika (Basque Block—Basque tapas and sandwiches)",
+      "Leku Ona (Basque restaurant, traditional dishes)",
+      "Mai Thai (also serves Mediterranean fusion)",
+      "Alavita (Mediterranean-inspired, downtown)"
+    ],
+    "farmers_markets": [
+      "Capital City Public Market (Saturdays year-round, downtown)",
+      "Boise Farmers Market (seasonal, multiple locations)"
+    ],
+    "food_culture": "Boise's food culture is defined by Basque heritage—Basque Block restaurants serve croquetas, chorizo, and lamb stew. Beyond that, it's steakhouses, breweries (Payette, Boise Brewing), and growing farm-to-table (Fork, Alavita). Small city, so variety is limited, but quality is improving. Very affordable.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Boise Co-op (local, member-owned), Fred Meyer, Albertsons. Solid grocery access for the city size, though fewer specialty international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1600019780813-6084bda07ef8?w=800",
+    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1606675543630-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1571689194555-5c1a2e8e4ec6?w=800",
+    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800"
   ],
   "neighborhoods": [
     {

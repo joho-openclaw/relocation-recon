@@ -11,7 +11,7 @@
     "cost_of_living": 8,
     "walkability": 6,
     "scenic_beauty": 6,
-    "seasons": 7,
+    "seasons": 8,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Lush, green, tree-covered rolling hills. More scenic than Charlotte, less dramatic than Denver. Beautiful in spring and fall with dogwoods and fall colors. Close to Blue Ridge Mountains (1.5-2 hours) for weekend trips. Lakes and forests nearby."
   },
-  "climate": {
-    "summary": "Humid subtropical with four seasons. Hot, humid summers; mild winters with occasional snow (a few inches per year). Beautiful spring and fall. Similar to Charlotte but slightly cooler and less humid.",
+  "seasons": {
+    "summary": "Four seasons with mild winters and just a few inches of snow per year. Hot, humid summers balanced by beautiful spring and fall. If you want seasonal variety without extreme cold, the Triangle delivers. Similar to Charlotte but slightly cooler.",
     "avg_summer_high": "89°F",
     "avg_winter_low": "31°F",
     "annual_snowfall": "4-7 inches",
@@ -74,6 +74,31 @@
     "Scenery is nice but not dramatic",
     "Smaller city feel (may lack big-city energy some want)",
     "Can feel college-town oriented in some areas"
+  ],
+  "saturday": "You wake up in your 9th Street Durham apartment and walk to Guglhupf Bakery for almond croissants and strong coffee. The morning is spent browsing independent bookstores and vintage shops, then you drive to the Durham Farmers Market to load up on fresh produce and artisan bread. Lunch is at Mateo Bar de Tapas—octopus and patatas bravas that remind you why Durham's food scene punches above its weight. Afternoon finds you strolling the American Tobacco Campus or hiking the Eno River trails. Dinner reservations at Taverna Agora in downtown Raleigh bring Greek mezze and rooftop views. By evening, you're back in Durham at a brewery or catching live music, surrounded by interracial couples and feeling utterly at home. This place just works.",
+  "food_scene": {
+    "summary": "Durham's transformation into a foodie destination is real—James Beard Award winners, Top Chef alums, and a thriving chef-driven scene make this the Triangle's culinary heart. Raleigh is growing fast but Durham leads in creativity and grit.",
+    "mediterranean_options": [
+      "Taverna Agora (Raleigh—authentic Greek, rooftop dining)",
+      "Sassool (Raleigh—Mediterranean bowls and wraps)",
+      "Jasmine Mediterranean Bistro (Chapel Hill)",
+      "Neomonde (Raleigh—Lebanese bakery and restaurant)",
+      "Greek Fiesta (Raleigh—family-owned since 1987)"
+    ],
+    "farmers_markets": [
+      "Durham Farmers Market (Saturdays year-round, Central Park)",
+      "Raleigh Farmers Market (year-round, daily)",
+      "Carrboro Farmers Market (Saturdays, highly rated)"
+    ],
+    "food_culture": "Durham's food scene is defined by chef-owned restaurants willing to take risks—Mateo (Spanish tapas), Dame's Chicken & Waffles (soul food institution), M Sushi, and Pizzeria Toro. Raleigh has Ashley Christensen's empire (Poole's, Beasley's) and growing international options. The Research Triangle Park brings global talent, which translates to authentic international food.",
+    "grocery_quality": "Whole Foods (multiple locations), Trader Joe's, Weaver Street Market Co-op (Carrboro), Fresh Market, H-Mart (Asian groceries). Excellent grocery access across the Triangle."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
+    "https://images.unsplash.com/photo-1619461428381-a01dd6a1da8f?w=800",
+    "https://images.unsplash.com/photo-1609679616665-2fc8e3aa0310?w=800",
+    "https://images.unsplash.com/photo-1560864234-94884c8c3d6e?w=800"
   ],
   "neighborhoods": [
     {

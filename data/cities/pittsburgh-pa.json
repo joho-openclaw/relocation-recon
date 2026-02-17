@@ -11,7 +11,7 @@
     "cost_of_living": 9,
     "walkability": 7,
     "scenic_beauty": 7,
-    "seasons": 9,
+    "seasons": 5,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Three rivers (Allegheny, Monongahela, Ohio) converge dramatically downtown. Hilly terrain with bridges everywhere creates unique topography. Mount Washington overlook is iconic. Fall foliage is spectacular. Not mountains but distinctive, beautiful in its own industrial-meets-nature way."
   },
-  "climate": {
-    "summary": "Four true seasons with real winter. Cold, snowy winters (not brutal but substantial snow). Hot, humid summers. Beautiful spring and stunning fall colors. Cloudy/gray days are common (only 160 sunny days). This is proper Northeast weather.",
+  "seasons": {
+    "summary": "Four true seasons with cold, snowy winters—42 inches of snow is real winter, not mild. Hot, humid summers. Beautiful spring and stunning fall colors. Cloudy/gray days are common (only 160 sunny days). This is proper Northeast weather. Not ideal for warm-weather preference.",
     "avg_summer_high": "83°F",
     "avg_winter_low": "22°F",
     "annual_snowfall": "42 inches",
@@ -74,6 +74,30 @@
     "Real winter with significant snow",
     "Smaller city feel—may lack energy after 1-2 years",
     "Job market smaller than Denver/Charlotte (though growing)"
+  ],
+  "saturday": "You wake up in Lawrenceville to gray skies (it's Pittsburgh) and walk to Commonplace Coffee for espresso and pastries. The morning is spent browsing vintage shops and record stores on Butler Street, then you cross the Allegheny River to the Strip District for the massive Saturday market—pierogies, fresh produce, ethnic groceries stacked high. Lunch at Christos Mediterranean Grille downtown brings Greek comfort, then you ride the incline up Mount Washington for the iconic Pittsburgh skyline view—three rivers converging, bridges everywhere. Dinner is at Cure in Lawrenceville (charcuterie, natural wine), then drinks at a neighborhood dive. Pittsburgh feels real, gritty, authentic—no pretense, just people living their lives.",
+  "food_scene": {
+    "summary": "Pittsburgh's food scene has transformed from blue-collar diners to a legitimate culinary destination. The city retains its ethnic neighborhood roots (Polish, Italian, Jewish) while adding modern chef-driven concepts. It's affordable, authentic, and punches above its weight.",
+    "mediterranean_options": [
+      "Christos Mediterranean Grille (downtown—authentic Greek)",
+      "Gali's Gyro and Grill (Greek-born owners)",
+      "The Mediterranean Table (Turkish/Mediterranean)",
+      "Nicky's Thai Kitchen (also serves Mediterranean fusion)"
+    ],
+    "farmers_markets": [
+      "Pittsburgh Public Market (Strip District, year-round)",
+      "Bloomfield Saturday Market (seasonal)",
+      "Lawrenceville Farmers Market (Saturdays, seasonal)"
+    ],
+    "food_culture": "Pittsburgh food culture is rooted in its immigrant history—Polish pierogies, Italian hoagies, Jewish delis (Primanti Bros. sandwiches with fries and coleslaw ON the sandwich). The city has evolved with farm-to-table spots (Legume, Cure), craft breweries, and ethnic neighborhoods (Squirrel Hill's kosher food, Polish Hill). It's affordable, hearty, and real.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Giant Eagle (local chain), ethnic markets in Squirrel Hill and Strip District. Solid grocery access with strong international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1559511260-66a654ae982a?w=800",
+    "https://images.unsplash.com/photo-1600019780813-6084bda07ef8?w=800",
+    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1606675543630-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1571689194555-5c1a2e8e4ec6?w=800"
   ],
   "neighborhoods": [
     {

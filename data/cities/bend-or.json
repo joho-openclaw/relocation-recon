@@ -11,7 +11,7 @@
     "cost_of_living": 6,
     "walkability": 6,
     "scenic_beauty": 10,
-    "seasons": 9,
+    "seasons": 5,
     "culture": 6
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Absolutely stunning—Cascade Mountains dominate the skyline, Deschutes River runs through town, high desert landscape with ponderosa pines. Mount Bachelor (ski resort) is 22 miles away, Smith Rock State Park (world-class rock climbing) 30 miles. This is outdoor recreation heaven—hiking, mountain biking, skiing, paddling, climbing all world-class and accessible. Scenery is the draw here."
   },
-  "climate": {
-    "summary": "High desert four-season paradise—over 300 days of sunshine (more than Denver!), dry climate, beautiful summers (80s), snowy winters but sunny. This is Oregon's 'sunny side'—opposite of rainy Portland/Seattle. Cold nights year-round (desert), warm days. Perfect for outdoor enthusiasts. Snow melts fast in town, accumulates in mountains.",
+  "seasons": {
+    "summary": "300+ days of sunshine but cold winters—highs in the 80s, lows down to 24°F. Dry, beautiful summers but winter is real (22 inches of snow). Oregon's 'sunny side' but still cold compared to mild climates. Cold nights year-round (desert). Better for those who prioritize sun over warmth.",
     "avg_summer_high": "83°F (low humidity)",
     "avg_winter_low": "24°F",
     "annual_snowfall": "22 inches (more in mountains)",
@@ -79,6 +79,27 @@
     "Growing homelessness/transient population concerns",
     "Limited diversity in food, arts, perspectives",
     "Oregon's racial history is problematic"
+  ],
+  "saturday": "You wake up in your Box Factory District loft to crystalline high desert sunshine and walk to Thump Coffee for espresso and pastries. By 8 AM, you're skinning up Mount Bachelor (if it's winter) or mountain biking Phil's Trail (if it's summer)—Bend is an outdoor playground 365 days a year. Back in town by noon, you grab lunch at Jackson's Corner (farm-to-table pizzas), then float the Deschutes River or climb at Smith Rock. Dinner is at 10 Barrel Brewing overlooking the river, surrounded by fit, outdoorsy, overwhelmingly white Oregonians. Bend is paradise for recreationists, but the homogeneity is inescapable. You'd live here for the mountains, not the people.",
+  "food_scene": {
+    "summary": "Bend's food scene is small-town but punching above its weight—farm-to-table ethos, 10+ craft breweries, and outdoor-loving chefs creating mountain-inspired menus. Very limited international/Mediterranean options due to size and demographics.",
+    "mediterranean_options": [
+      "Jackson's Corner (Mediterranean-inspired, wood-fired pizzas)",
+      "Spork (eclectic, some Mediterranean fusion dishes)",
+      "Zydeco Kitchen (Cajun with Mediterranean touches)"
+    ],
+    "farmers_markets": [
+      "Bend Farmers Market (Wednesdays, May-September, NW Crossing)"
+    ],
+    "food_culture": "Bend food culture is craft beer-first—10 Barrel, Deschutes Brewery, Crux—with outdoor-fueled appetites. The food scene skews casual (tacos, burgers, pizza) with growing farm-to-table spots (Ariana, Jackson's Corner). Very white, very outdoorsy, limited ethnic diversity. Affordable for Oregon.",
+    "grocery_quality": "Newport Avenue Market (local, upscale), Trader Joe's, Whole Foods, Natural Grocers. Solid for the size but limited international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800",
+    "https://images.unsplash.com/photo-1583182154831-84c8139bdb49?w=800",
+    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
+    "https://images.unsplash.com/photo-1601821765780-754fa98637c1?w=800",
+    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
   ],
   "neighborhoods": [
     {

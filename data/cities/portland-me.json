@@ -11,7 +11,7 @@
     "cost_of_living": 7,
     "walkability": 8,
     "scenic_beauty": 9,
-    "seasons": 8,
+    "seasons": 6,
     "culture": 7
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Coastal New England beauty—Casco Bay, lighthouses, rocky coastline, islands. Fall foliage is spectacular. Winter snow on the harbor is postcard-perfect. Access to both ocean and mountains (White Mountains 1.5 hours). Quintessential Maine scenery."
   },
-  "climate": {
-    "summary": "Four true seasons with REAL winter. Cold, snowy winters (similar to Minneapolis but coastal). Beautiful summers (mild, not hot). Stunning fall colors. Short spring. Ocean moderates temperatures slightly but it's still New England winter. Gray days common.",
+  "seasons": {
+    "summary": "Four true seasons with real New England winter—61 inches of snow and cold temps. Beautiful mild summers and stunning fall colors, but winter is genuine. Ocean moderates temperatures slightly but this is still cold. Gray days common. Not for warm-weather preference.",
     "avg_summer_high": "78°F",
     "avg_winter_low": "15°F",
     "annual_snowfall": "61 inches",
@@ -74,6 +74,27 @@
     "BRUTAL winter (real New England cold and snow)",
     "Expensive for a small city (tourism drives costs)",
     "Further from family/California (flight connections limited)"
+  ],
+  "saturday": "You wake up in Munjoy Hill to fog rolling off Casco Bay and walk to Tandem Coffee for the best espresso in New England (locals swear by it). The morning is spent wandering the Old Port's cobblestone streets, browsing bookstores and maritime shops. Lunch is lobster rolls at Eventide Oyster Co (James Beard-winning), then you drive to Portland Head Light—the iconic lighthouse framed against rocky coastline. By evening, you're back for dinner at Duckfat (Belgian fries and poutine) or Fore Street (wood-fired everything). Portland is beautiful, quaint, foodie-friendly, and brutally white. You'd know every restaurant within a month. Charming, but small.",
+  "food_scene": {
+    "summary": "Portland, Maine is a legitimate foodie destination—James Beard Award winners, exceptional seafood, and a farm-to-table scene that rivals cities 10x its size. The city takes its food seriously. Mediterranean options are limited due to size, but quality is high across the board.",
+    "mediterranean_options": [
+      "Sur Lie (Mediterranean-inspired wine bar)",
+      "Duckfat (Belgian/European fusion)",
+      "Roustabout (Mediterranean small plates)"
+    ],
+    "farmers_markets": [
+      "Portland Farmers Market (Saturdays year-round, Deering Oaks Park)"
+    ],
+    "food_culture": "Portland's food culture is seafood-first—lobster, oysters, clams, scallops from the Gulf of Maine. Duckfat, Fore Street, Eventide, and Central Provisions have won James Beard awards. The city's small size concentrates talent, and locals are passionate about eating well. Limited ethnic diversity, though, means international options are sparse.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Rosemont Market (local, beloved), Hannaford. Solid grocery access for the size, strong local/organic focus, but limited international markets."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1572895373840-e276f64ec8d1?w=800",
+    "https://images.unsplash.com/photo-1600019779707-05d4f93cebed?w=800",
+    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
+    "https://images.unsplash.com/photo-1609679522295-5aa1bed1a15d?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800"
   ],
   "neighborhoods": [
     {

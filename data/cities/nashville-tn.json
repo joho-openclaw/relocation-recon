@@ -11,7 +11,7 @@
     "cost_of_living": 7,
     "walkability": 5,
     "scenic_beauty": 6,
-    "seasons": 7,
+    "seasons": 10,
     "culture": 9
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Rolling hills, greenery, Cumberland River. Not dramatic but pleasant. Tennessee hills provide gentle topography. Lakes and parks nearby. About 1 hour to Land Between the Lakes, 3 hours to Smoky Mountains. Serviceable but not a scenic destination."
   },
-  "climate": {
-    "summary": "Humid subtropical—hot, sticky summers; mild winters with occasional snow/ice. Spring brings tornadoes (rare but real). Fall is beautiful. Four seasons but less pronounced than northern cities. Humidity is significant.",
+  "seasons": {
+    "summary": "Mild winters with just occasional snow/ice, hot summers. If you want seasonal variety without brutal cold, Nashville delivers—real fall colors and spring blooms, but winter is manageable. Humidity is significant. Spring tornadoes are rare but real.",
     "avg_summer_high": "89°F",
     "avg_winter_low": "28°F",
     "annual_snowfall": "5 inches",
@@ -74,6 +74,30 @@
     "Downtown can feel touristy/party-centric (bachelorette central)",
     "Crime in certain areas requires careful neighborhood selection",
     "Summer humidity is intense"
+  ],
+  "saturday": "You wake up in East Nashville and walk to Barista Parlor for pour-over coffee in a converted transmission shop—peak Nashville. The morning is spent thrifting on Five Points, then you grab hot chicken at Prince's (the original, worth the wait). By afternoon, you're at the Nashville Farmers Market sampling local honey and fresh produce, then strolling the Shelby Bottoms Greenway. Evening brings live music at The Bluebird Cafe or a songwriter round at a dive bar—intimate performances that remind you why this city matters. Late dinner at Sadie's Mediterranean Kitchen, then you walk home through streets alive with music spilling from doorways. Nashville hustles, but it still knows how to play.",
+  "food_scene": {
+    "summary": "Nashville's food scene is a collision of Southern tradition and global ambition. Hot chicken is the local obsession, but the city also delivers James Beard-level fine dining, meat-and-threes (Southern comfort food cafeterias), and strong international options fueled by refugee communities.",
+    "mediterranean_options": [
+      "Sadie's (Mediterranean small plates and kebabs)",
+      "Santo (Green Hills—healthy Mediterranean)",
+      "Nicky's Coal Fired (Italian/Mediterranean fusion)",
+      "International Market & Restaurant (Nashville Farmers Market—authentic Middle Eastern)"
+    ],
+    "farmers_markets": [
+      "Nashville Farmers Market (year-round, daily, with permanent vendors)",
+      "Franklin Farmers Market (Saturdays, May-October)",
+      "12 South Farmers Market (Tuesdays, seasonal)"
+    ],
+    "food_culture": "Nashville eats Southern-first (hot chicken, biscuits, BBQ, meat-and-threes), but the influx of transplants has brought diversity. Sean Brock's Audrey offers elevated Appalachian cuisine, while neighborhoods like The Nations and East Nashville spawn chef-driven concepts weekly. It's a city that loves eating out.",
+    "grocery_quality": "Whole Foods, Trader Joe's, The Turnip Truck (local co-op), Fresh Market. Solid grocery access though not as international as larger metros."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1545912452-8b1a800758f3?w=800",
+    "https://images.unsplash.com/photo-1600019780813-6084bda07ef8?w=800",
+    "https://images.unsplash.com/photo-1609621313471-9b7775503bb6?w=800",
+    "https://images.unsplash.com/photo-1568732868775-5b0d5a9ec8b6?w=800",
+    "https://images.unsplash.com/photo-1526661787514-8c994f1b3d86?w=800"
   ],
   "neighborhoods": [
     {

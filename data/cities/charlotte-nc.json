@@ -11,7 +11,7 @@
     "cost_of_living": 8,
     "walkability": 5,
     "scenic_beauty": 5,
-    "seasons": 7,
+    "seasons": 8,
     "culture": 7
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Modest scenery—tree-lined neighborhoods and some rolling hills, but no dramatic natural features. Comfortable suburban greenery. Not a scenic destination, but pleasant enough. 1-2 hours to Blue Ridge Mountains."
   },
-  "climate": {
-    "summary": "Humid subtropical with four seasons. Hot, humid summers; mild winters with occasional snow (melts quickly). Spring and fall are beautiful. More humidity than Denver, less dramatic weather.",
+  "seasons": {
+    "summary": "Four seasons with mild winters—occasional snow melts quickly. Hot, humid summers balanced by beautiful spring and fall. If you like seasonal change without harsh cold, Charlotte works well. More humidity than Denver, less dramatic weather.",
     "avg_summer_high": "90°F",
     "avg_winter_low": "32°F",
     "annual_snowfall": "4-6 inches",
@@ -74,6 +74,30 @@
     "Scenery is underwhelming (no mountains, no water)",
     "Some neighborhoods remain quite segregated",
     "Summer heat and humidity can be intense"
+  ],
+  "saturday": "You wake up in Plaza Midwood to birds chirping and walk to Amelie's French Bakery for croissants and café au lait—the place is packed with all shades of Charlotte. Mid-morning is spent strolling the Little Sugar Creek Greenway or browsing vintage shops on Central Avenue. Lunch at Mazi Mediterranean in South End brings spanakopita and Greek salad, then you hop the light rail to Uptown for museum-hopping. By evening, you're at the Dilworth farmers market loading up on fresh produce, then home to cook before heading to NoDa for live music. Charlotte feels like it's building something—a New South city finding its identity, diverse and unpretentious, with room to breathe.",
+  "food_scene": {
+    "summary": "Charlotte's food scene is growing fast, fueled by banking money and a diversifying population. The city has solid Southern staples (BBQ, soul food), international options from immigrant communities, and an emerging fine dining scene. It's not yet a food destination, but it's improving rapidly.",
+    "mediterranean_options": [
+      "Mazi (SouthEnd—modern Greek small plates)",
+      "Greco Fresh Grille (multiple locations—fast-casual Greek)",
+      "Miro Spanish Grille (tapas and Spanish)",
+      "Customshop (Mediterranean-inspired, locally sourced)"
+    ],
+    "farmers_markets": [
+      "Atherton Market (South End, year-round Saturdays)",
+      "Charlotte Regional Farmers Market (year-round, daily)",
+      "Matthews Community Farmers Market (Saturdays, seasonal)"
+    ],
+    "food_culture": "Charlotte's food culture is still finding itself—Southern BBQ (Midwood Smokehouse) and soul food are strong, and international neighborhoods bring Korean, Vietnamese, and Latin options. The banking crowd supports upscale dining, but it's more steak-and-martini than avant-garde. Growing, but not yet a culinary hotspot.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Fresh Market, Publix, Harris Teeter (local chain, solid). Good grocery access across the metro, with increasing international options."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1591953876628-88ec7ebe50db?w=800",
+    "https://images.unsplash.com/photo-1600019779507-05d4f93cebed?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
+    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
+    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800"
   ],
   "neighborhoods": [
     {

@@ -11,7 +11,7 @@
     "cost_of_living": 7,
     "walkability": 7,
     "scenic_beauty": 10,
-    "seasons": 9,
+    "seasons": 10,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,7 +49,7 @@
   "scenery": {
     "summary": "SPECTACULAR. Blue Ridge Mountains surround the city. Fall colors are world-class. Hiking (Pisgah National Forest, Blue Ridge Parkway) is unmatched. Rivers, waterfalls, mountain vistas everywhere. If scenery is your priority, this is top-tier."
   },
-  "climate": {
+  "seasons": {
     "summary": "Four seasons in the mountains—mild winters with some snow, warm (not hot) summers, stunning fall, pleasant spring. Higher elevation keeps temps moderate. Perfect climate for outdoor lovers. Occasional winter storm but manageable.",
     "avg_summer_high": "83°F",
     "avg_winter_low": "28°F",
@@ -74,6 +74,30 @@
     "Expensive for the region (tourism drives up costs)",
     "Small city—may feel limited after 1-2 years",
     "Can feel touristy/transient (less rooted community)"
+  ],
+  "saturday": "You wake up in your West Asheville bungalow to crisp mountain air and walk to Sunny Point Cafe, where the huevos rancheros are legendary. After breakfast, you drive the Blue Ridge Parkway, stopping at overlooks where the mountains fold into infinity—fall colors or spring blooms painting the ridgelines. By afternoon, you're hiking Rattlesnake Lodge trail or browsing the River Arts District studios, watching glass-blowers and potters work. Dinner is at Jerusalem Garden Cafe for warm pita and falafel, then you stroll downtown through the South Slope brewery district. As evening settles, you sit on your porch with a local IPA, watching the mountains fade to silhouette, feeling grateful for the beauty even if the homogeneity nags at you.",
+  "food_scene": {
+    "summary": "Asheville's food scene is exceptional for its size—James Beard semifinalists, 50+ craft breweries, and a farm-to-table ethos that actually delivers. The city takes its local sourcing seriously, with farmers markets fueling restaurant menus year-round.",
+    "mediterranean_options": [
+      "Jerusalem Garden Cafe (authentic Middle Eastern, beloved for decades)",
+      "Apollo Flame Bistro (Greek and Italian)",
+      "Pomodoros Greek & Italian East",
+      "Gypsy Queen Cuisine (Mediterranean fusion)"
+    ],
+    "farmers_markets": [
+      "Asheville City Market (downtown, April-December, Saturdays)",
+      "Western North Carolina Farmers Market (year-round, daily)",
+      "West Asheville Tailgate Market (Tuesdays, seasonal)"
+    ],
+    "food_culture": "Asheville's food culture is deeply rooted in Appalachian ingredients—ramps, sorghum, heritage grains—reinterpreted through modern techniques. The brewery scene is world-class (Wicked Weed, Highland, New Belgium), and restaurants like Cúrate (Spanish tapas) and Rhubarb (farm-to-table) draw national attention. It's a city that eats well.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Earth Fare, and French Broad Food Co-op (member-owned, extensive local/organic selection). Excellent access to high-quality groceries."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1527393942754-e006a8f6e68e?w=800",
+    "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800",
+    "https://images.unsplash.com/photo-1566305977571-5666677c6e98?w=800",
+    "https://images.unsplash.com/photo-1609949280166-bbe3c8138c23?w=800",
+    "https://images.unsplash.com/photo-1527393942754-e006a8f6e68f?w=800"
   ],
   "neighborhoods": [
     {

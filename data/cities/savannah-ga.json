@@ -11,7 +11,7 @@
     "cost_of_living": 9,
     "walkability": 8,
     "scenic_beauty": 9,
-    "seasons": 7,
+    "seasons": 10,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Stunning coastal Southern beauty—Spanish moss, live oaks, historic squares, Forsyth Park fountain, River Street along the Savannah River, nearby Tybee Island beaches (18 miles). Quintessential Southern Gothic architecture. Summer heat/humidity is real, but spring and fall are gorgeous."
   },
-  "climate": {
-    "summary": "Hot, humid subtropical climate. Mild winters (rarely freezes), brutally hot summers (90s with high humidity). No snow—maybe a dusting once a decade. This is Deep South heat. Spring (March-May) and fall (Oct-Nov) are beautiful. Over 200 sunny days annually.",
+  "seasons": {
+    "summary": "Warm-weather paradise: mild winters that rarely freeze, hot summers (90s with humidity). No snow—maybe a dusting once a decade. If you love warmth and want to avoid harsh cold, this delivers. Spring (March-May) and fall (Oct-Nov) are beautiful. Over 200 sunny days annually.",
     "avg_summer_high": "91°F (feels hotter with humidity)",
     "avg_winter_low": "42°F",
     "annual_snowfall": "0.04 inches (essentially never)",
@@ -78,6 +78,31 @@
     "Smaller job market than major metros (tourism/service heavy)",
     "Hurricane risk (coastal Georgia)",
     "May feel small after 1-2 years (under 400k metro)"
+  ],
+  "saturday": "You wake up in the Victorian District to Spanish moss swaying outside your window and walk to The Collins Quarter for avocado smash and flat whites. The morning is spent wandering Forsyth Park and the Historic District's squares—live oaks dripping with moss, fountains, architecture that makes you stop and stare. By afternoon, you drive to Tybee Island for beach time and fresh shrimp, then back to Starland District for gallery-hopping. Dinner is at Olympia Cafe on River Street—Greek food overlooking the Savannah River as cargo ships glide past. Evening finds you at a SCAD student art show or sipping cocktails at a rooftop bar, the humid night air thick with possibility. Savannah feels like nowhere else—haunted, beautiful, and unapologetically Southern.",
+  "food_scene": {
+    "summary": "Savannah's food scene blends Low Country tradition (shrimp and grits, she-crab soup, fried green tomatoes) with SCAD's international student influence and a growing chef-driven movement. The city eats well, though it's smaller and more Southern-focused than other metros on this list.",
+    "mediterranean_options": [
+      "Olympia Cafe (River Street—authentic Greek, river views)",
+      "Troy Mediterranean Cuisine (family-owned, highly rated)",
+      "Yia Yia Kitchen (Greek specialties)",
+      "Casablanca Mediterranean Grill",
+      "It's Greek To Me (casual, affordable)"
+    ],
+    "farmers_markets": [
+      "Forsyth Park Farmers Market (Saturdays year-round)",
+      "Starland Yard Market (occasional, local vendors)",
+      "Savannah Farmers Market (seasonal)"
+    ],
+    "food_culture": "Savannah's food culture is deeply rooted in Gullah-Geechee heritage and Low Country cooking—seafood, rice dishes, soul food. The city has strong seafood (Desposito's, Boar's Head), classic Southern (Mrs. Wilkes' Dining Room), and emerging fine dining (The Grey, Local 11ten). SCAD students add international variety, but this is the Deep South—fried food and sweet tea reign.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Brighter Day Natural Foods Market (co-op), Publix. Solid grocery access for the city size, but fewer specialty international options than larger metros."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
+    "https://images.unsplash.com/photo-1600019779707-05d4f93cebed?w=800",
+    "https://images.unsplash.com/photo-1609679522295-5aa1bed1a15d?w=800",
+    "https://images.unsplash.com/photo-1617019114430-13c6a8b33072?w=800",
+    "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?w=800"
   ],
   "neighborhoods": [
     {

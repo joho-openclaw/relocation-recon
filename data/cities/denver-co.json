@@ -11,7 +11,7 @@
     "cost_of_living": 6,
     "walkability": 7,
     "scenic_beauty": 10,
-    "seasons": 9,
+    "seasons": 7,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Unbeatable mountain backdrop. The Rocky Mountains are visible from almost everywhere in the city, with world-class hiking, skiing, and outdoor recreation within 30-90 minutes. The Front Range provides dramatic scenery that rivals anywhere in the country."
   },
-  "climate": {
-    "summary": "Four true seasons with mild, sunny winters. Snow falls November-April but melts quickly. Denver gets 300 days of sunshine—more than San Diego. Summers are hot and dry with cool evenings.",
+  "seasons": {
+    "summary": "300 days of sunshine and four seasons—but 60 inches of snow means real winter. Snow melts quickly thanks to sun, but November-April brings consistent cold. Summers are hot and dry with cool evenings. Great if you want seasons and sun, but winter is genuine.",
     "avg_summer_high": "88°F",
     "avg_winter_low": "22°F",
     "annual_snowfall": "60 inches",
@@ -74,6 +74,31 @@
     "Altitude adjustment can be challenging",
     "Traffic and growth pains (infrastructure lagging population)",
     "Can feel very white in certain areas despite citywide diversity"
+  ],
+  "saturday": "You wake up in your Capitol Hill apartment to 300 days of sunshine doing their thing. Coffee at Crema on Larimer Street, then you're hiking Green Mountain or Chautauqua by 9 AM—the Flatirons impossibly sharp against blue sky. Back in the city by afternoon, you explore RiNo's murals and galleries, stopping at Ash'Kara for Mediterranean small plates. The evening finds you at a Highlands brewery, chatting with transplants from everywhere, the diversity palpable and comfortable. Dinner is at Work & Class (Latin fusion) or Mercantile (farm-to-table), then you walk home through tree-lined streets, the mountains glowing pink with alpenglow. Denver feels like it's going somewhere, and you're along for the ride.",
+  "food_scene": {
+    "summary": "Denver's food scene has exploded in the past decade—from cow town to James Beard contender. The city now boasts world-class dining across cuisines, a massive craft brewery scene, and a farm-to-table movement fueled by Colorado's agricultural bounty.",
+    "mediterranean_options": [
+      "Ash'Kara (LoHi—3-time Michelin Bib Gourmand, North African/Mediterranean)",
+      "Olive & Finch (Mediterran café and market)",
+      "Safta (RiNo—Israeli cuisine by James Beard winner)",
+      "Mizuna (upscale Mediterranean fusion)",
+      "Chef Zorba's (Greek diner since 1979)"
+    ],
+    "farmers_markets": [
+      "Union Station Farmers Market (Saturdays, May-October)",
+      "Cherry Creek Fresh Market (Saturdays year-round)",
+      "South Pearl Street Farmers Market (Sundays, May-November)"
+    ],
+    "food_culture": "Denver's food culture blends Rocky Mountain ingredients (bison, trout, lamb) with international influences from transplants. The city is serious about craft beer (Great American Beer Festival HQ), and neighborhoods like RiNo and LoHi are packed with chef-driven concepts. Green chili is a religion here.",
+    "grocery_quality": "Whole Foods (multiple locations), Trader Joe's, Natural Grocers, Sprouts, and excellent international markets (H-Mart, Pacific Ocean Marketplace). Strong grocery game."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1619856699906-09e1f58c98b1?w=800",
+    "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800",
+    "https://images.unsplash.com/photo-1600298882525-69b1f7e65705?w=800",
+    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
+    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
   ],
   "neighborhoods": [
     {

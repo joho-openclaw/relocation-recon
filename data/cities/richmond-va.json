@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "James River runs through the city with parks and trails along it. Historic architecture, tree-lined streets in older neighborhoods. Rolling hills, Fall colors are beautiful. Not dramatic mountains but pleasant urban greenery. 2 hours to Blue Ridge Mountains."
   },
-  "climate": {
-    "summary": "Four distinct seasons—hot, humid summers; cold but manageable winters with some snow. Beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver.",
+  "seasons": {
+    "summary": "Four distinct seasons with manageable winters—some snow but not brutal. Hot, humid summers balanced by beautiful spring (cherry blossoms) and fall. More seasonal variation than Charlotte, less extreme than Denver. Good for those who want real seasons without harsh cold.",
     "avg_summer_high": "89°F",
     "avg_winter_low": "28°F",
     "annual_snowfall": "10-12 inches",
@@ -74,6 +74,30 @@
     "Summer humidity is intense",
     "Less polished/more gritty than some prefer",
     "Job market smaller (though growing in tech/healthcare)"
+  ],
+  "saturday": "You wake up in The Fan to Victorian rowhouse charm and walk to Lamplighter Coffee for pour-overs and a breakfast sandwich. The morning is spent strolling Carytown—vintage shops, quirky boutiques, a mile of independent businesses that feel authentic, not manufactured. Lunch at Stella's brings Greek lemon chicken soup and spanakopita, then you bike the James River Park trails, stopping to watch kayakers navigate the rapids. By evening, you're at the South of the James Farmers Market, then dinner at L'Opossum (fine dining with a sense of humor). You end the night at a Scott's Addition brewery, surrounded by VCU students and young creatives. Richmond feels scrappy, artistic, and deeply itself.",
+  "food_scene": {
+    "summary": "Richmond has quietly become a food destination—James Beard semifinalists, a massive brewery scene (Stone Brewing East Coast HQ), and chefs doing creative things without the pretense of bigger cities. The cost-to-quality ratio is exceptional.",
+    "mediterranean_options": [
+      "Stella's (modern Greek, multiple locations)",
+      "Demi's (Mediterranean coastal cuisine)",
+      "Zorba's Greek & Italian Cuisine (family-owned since 1990s)",
+      "The Village Cafe (historic Greek diner)"
+    ],
+    "farmers_markets": [
+      "South of the James Farmers Market (year-round, Saturdays)",
+      "17th Street Farmers Market (Shockoe Bottom, Saturdays seasonal)",
+      "Bon Air Farmers Market (Chesterfield, seasonal)"
+    ],
+    "food_culture": "Richmond's food culture blends Southern tradition (fried chicken, pimento cheese) with James Beard-level ambition (The Roosevelt, L'Opossum, Lehja Indian). The brewery scene is massive—Triple Crossing, The Veil, Hardywood—and the city has a thriving vegan scene. It's affordable, creative, and unpretentious.",
+    "grocery_quality": "Whole Foods, Trader Joe's, Ellwood Thompson's Local Market (beloved local grocer), Publix. Solid access, though fewer specialty international markets than larger metros."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1600019779707-05d4f93cebed?w=800",
+    "https://images.unsplash.com/photo-1609679522295-5aa1bed1a15d?w=800",
+    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
+    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
+    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800"
   ],
   "neighborhoods": [
     {

@@ -11,7 +11,7 @@
     "cost_of_living": 4,
     "walkability": 7,
     "scenic_beauty": 10,
-    "seasons": 9,
+    "seasons": 5,
     "culture": 8
   },
   "cost_of_living": {
@@ -49,8 +49,8 @@
   "scenery": {
     "summary": "Absolutely spectacular—Boulder sits at the base of the Flatirons (iconic rock formations), with the Rocky Mountains as a dramatic backdrop. Direct access to mountain trails, climbing, skiing (Eldora 21 miles, world-class resorts 1-2 hours). Boulder Creek runs through town with paved path system. Fall colors, snow-capped peaks, endless outdoor recreation. Scenery rivals anywhere in the country."
   },
-  "climate": {
-    "summary": "Four true seasons with abundant sunshine—300+ sunny days per year (similar to Denver). Summers are warm (not hot) with cool nights. Winters are cold with real snow (89 inches annually—more than Denver due to foothills location) but sunny and dry. Snow melts fast on roads. Spring and fall are gorgeous. Low humidity year-round. Altitude is 5,430 feet—adjustment period likely.",
+  "seasons": {
+    "summary": "300+ sunny days but 89 inches of snow annually—this is cold, real winter despite the sunshine. Foothills location means more snow than Denver. Summers are warm (not hot) with cool nights. Beautiful spring and fall, but winter is genuine and long. Not ideal for warm-weather preference. Altitude is 5,430 feet—adjustment period likely.",
     "avg_summer_high": "87°F",
     "avg_winter_low": "22°F",
     "annual_snowfall": "89 inches",
@@ -79,6 +79,29 @@
     "Progressive politics can be performative without real diversity",
     "Parking and traffic frustrations (crowded for its size)",
     "May feel small after 1-2 years (under 350k metro)"
+  ],
+  "saturday": "You wake up early in your Mapleton Hill bungalow and drive to Chautauqua trailhead by 7 AM—the Flatirons glowing orange with sunrise. After a stunning hike, you descend to Pearl Street Mall for brunch at Snooze (wait: 45 minutes, worth it). The afternoon is spent browsing bookstores and gear shops, then you bike Boulder Creek Path past joggers, dogs, and families. Dinner at Sherpa's Adventureland brings Tibetan momos and dal bhat, then you catch sunset at Flagstaff Mountain—the plains stretching to infinity. Boulder is fitness-obsessed, educated, expensive, and stunningly beautiful. You question if you belong in the bubble, but the mountains argue persuasively.",
+  "food_scene": {
+    "summary": "Boulder's food scene is health-conscious, organic-forward, and surprisingly international for its size. Farm-to-table is the default, craft beer is everywhere, and the university brings global influences. Expensive but high-quality.",
+    "mediterranean_options": [
+      "Frasca Food and Wine (James Beard winner, Italian/Mediterranean)",
+      "The Mediterranean (Boulder institution since 1997)",
+      "Ras Kassa's Ethiopian Restaurant (East African)",
+      "Tahona Tequila Bistro (Latin with Mediterranean influence)"
+    ],
+    "farmers_markets": [
+      "Boulder County Farmers Market (Saturdays year-round, 13th Street)",
+      "Boulder Farmers Market (Wednesdays seasonal, Central Park)"
+    ],
+    "food_culture": "Boulder eats clean—think grain bowls, smoothie bowls, kombucha on tap. The farm-to-table movement is strong (Kitchen, The Med), and the city has excellent international food (Sherpa's, Leaf Vegetarian, Zoe Ma Ma). But it's expensive and can feel precious. If you want dive bars and greasy spoons, look elsewhere.",
+    "grocery_quality": "Whole Foods (Boulder born!), Trader Joe's, Lucky's Market, Sprouts, Alfalfa's. Organic groceries are the baseline here. Excellent but pricey."
+  },
+  "photos": [
+    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800",
+    "https://images.unsplash.com/photo-1601821765780-754fa98637c1?w=800",
+    "https://images.unsplash.com/photo-1583182154831-84c8139bdb49?w=800",
+    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
+    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
   ],
   "neighborhoods": [
     {
