@@ -2,10 +2,10 @@
   "name": "Boulder, CO",
   "slug": "boulder-co",
   "region": "Front Range Colorado",
-  "tagline": "Educated, progressive mountain town with world-class outdoor access—but expensive, very white, and crime is rising",
+  "tagline": "Educated, progressive mountain town with world-class outdoor access\u2014but expensive, very white, and crime is rising",
   "population": "330,000 metro",
   "scores": {
-    "diversity_climate": 4,
+    "diversity_climate": 5,
     "safety": 6,
     "political_moderation": 5,
     "cost_of_living": 4,
@@ -21,12 +21,12 @@
     "vs_la_savings": "$200-500/month compared to LA (minimal savings)"
   },
   "diversity": {
-    "summary": "Boulder is 80% White, less than 2% Black. Despite being a highly educated, progressive college town (University of Colorado Boulder), it's overwhelmingly white and affluent. There's visible activism, progressive politics, and generally accepting attitudes toward interracial couples, but actual racial diversity is very low. The city is aware of this and trying to improve, but it remains a predominantly white, wealthy enclave.",
-    "diversity_index": "80% White, 1.5% Black, 5% Asian, 9% Hispanic",
-    "notable": "Highly educated (over 70% college degrees) but very white; nicknamed 'the People's Republic of Boulder' for progressive politics"
+    "summary": "\u26a0\ufe0f PERFORMATIVE PROGRESSIVISM: Boulder talks a big game but the reality for Black residents is isolating. **Infamous 2019 incident: Black student detained by 8 cops (2 with guns drawn) for picking up trash outside his own dorm.** Reddit users note \"When I moved to Boulder (even as a white person) I could feel the racism\" and \"the otherness that people of color experience here is much stronger\u2014pervasive and toxic in an innocuous way.\" It's not overt slurs or hate groups; it's being one of very few Black people in a sea of wealthy white progressives who mean well but don't create genuine inclusion. Some say Boulder tries harder than other cities, but the homogeneity makes Candace highly visible and likely isolated.",
+    "diversity_index": "88% White, 1% Black, 5% Asian, 9% Hispanic (\"Boulder is a highly diverse group of white people\"\u2014Reddit sarcasm)",
+    "notable": "Black student held at gunpoint by police for picking up trash at his own home; progressive politics don't translate to lived inclusivity"
   },
   "safety": {
-    "summary": "Safety is declining—violent crime is rising and now sits at 378 per 100k (higher than national average of ~370). Property crime is 45% higher than national average. Boulder ranks in 17th percentile for safety (safer than only 17% of cities—concerning). Crime is concentrated in certain areas but it's a real issue. This falls short of Candace's San Diego baseline. Car break-ins and bike thefts are common. Honest concern here.",
+    "summary": "Safety is declining\u2014violent crime is rising and now sits at 378 per 100k (higher than national average of ~370). Property crime is 45% higher than national average. Boulder ranks in 17th percentile for safety (safer than only 17% of cities\u2014concerning). Crime is concentrated in certain areas but it's a real issue. This falls short of Candace's San Diego baseline. Car break-ins and bike thefts are common. Honest concern here.",
     "violent_crime_rate": "~378 per 100k (above national average and rising)",
     "best_neighborhoods": [
       "Mapleton Hill",
@@ -47,31 +47,31 @@
     ]
   },
   "scenery": {
-    "summary": "Absolutely spectacular—Boulder sits at the base of the Flatirons (iconic rock formations), with the Rocky Mountains as a dramatic backdrop. Direct access to mountain trails, climbing, skiing (Eldora 21 miles, world-class resorts 1-2 hours). Boulder Creek runs through town with paved path system. Fall colors, snow-capped peaks, endless outdoor recreation. Scenery rivals anywhere in the country."
+    "summary": "Absolutely spectacular\u2014Boulder sits at the base of the Flatirons (iconic rock formations), with the Rocky Mountains as a dramatic backdrop. Direct access to mountain trails, climbing, skiing (Eldora 21 miles, world-class resorts 1-2 hours). Boulder Creek runs through town with paved path system. Fall colors, snow-capped peaks, endless outdoor recreation. Scenery rivals anywhere in the country."
   },
   "climate": {
-    "summary": "300+ sunny days but 89 inches of snow annually—this is cold, real winter despite the sunshine. Foothills location means more snow than Denver. Summers are warm (not hot) with cool nights. Beautiful spring and fall, but winter is genuine and long. Not ideal for warm-weather preference. Altitude is 5,430 feet—adjustment period likely.",
-    "avg_summer_high": "87°F",
-    "avg_winter_low": "22°F",
+    "summary": "300+ sunny days but 89 inches of snow annually\u2014this is cold, real winter despite the sunshine. Foothills location means more snow than Denver. Summers are warm (not hot) with cool nights. Beautiful spring and fall, but winter is genuine and long. Not ideal for warm-weather preference. Altitude is 5,430 feet\u2014adjustment period likely.",
+    "avg_summer_high": "87\u00b0F",
+    "avg_winter_low": "22\u00b0F",
     "annual_snowfall": "89 inches",
     "annual_sunny_days": "300+"
   },
   "culture": {
-    "summary": "Boulder has a distinctive culture—highly educated, environmentally conscious, fitness-obsessed, politically progressive (sometimes to a fault). Home to CU Boulder (35,000 students), outdoor industry companies, tech startups. Excellent food scene (farm-to-table, organic, health-conscious), Pearl Street Mall (pedestrian zone), live music, farmers markets. However, it can feel smug, expensive, and homogeneous. 'Boulder bubble' is a real phenomenon."
+    "summary": "Boulder has a distinctive culture\u2014highly educated, environmentally conscious, fitness-obsessed, politically progressive (sometimes to a fault). Home to CU Boulder (35,000 students), outdoor industry companies, tech startups. Excellent food scene (farm-to-table, organic, health-conscious), Pearl Street Mall (pedestrian zone), live music, farmers markets. However, it can feel smug, expensive, and homogeneous. 'Boulder bubble' is a real phenomenon."
   },
   "pros": [
     "Spectacular mountain scenery and outdoor recreation access (hiking, climbing, skiing)",
     "300+ days of sunshine with four seasons",
     "Highly educated, progressive community",
     "Excellent food scene and cultural amenities for size",
-    "Pearl Street Mall is wonderful—pedestrian zone, street performers, shops",
+    "Pearl Street Mall is wonderful\u2014pedestrian zone, street performers, shops",
     "Strong bike culture and trail system",
     "Close to Denver (40 min) for bigger city amenities",
     "Generally accepting of diverse lifestyles (progressive values)"
   ],
   "cons": [
-    "⚠️ VERY EXPENSIVE—45% above national average, minimal savings vs LA",
-    "⚠️ Crime is rising—violent crime above national average, safety declining",
+    "\u26a0\ufe0f VERY EXPENSIVE\u201445% above national average, minimal savings vs LA",
+    "\u26a0\ufe0f Crime is rising\u2014violent crime above national average, safety declining",
     "Extremely white (80%) with very low Black population (1.5%)",
     "Can feel elite, smug, 'Boulder bubble' insularity",
     "Altitude (5,430 ft) requires adjustment",
@@ -80,7 +80,7 @@
     "Parking and traffic frustrations (crowded for its size)",
     "May feel small after 1-2 years (under 350k metro)"
   ],
-  "saturday": "You wake up early in your Mapleton Hill bungalow and drive to Chautauqua trailhead by 7 AM—the Flatirons glowing orange with sunrise. After a stunning hike, you descend to Pearl Street Mall for brunch at Snooze (wait: 45 minutes, worth it). The afternoon is spent browsing bookstores and gear shops, then you bike Boulder Creek Path past joggers, dogs, and families. Dinner at Sherpa's Adventureland brings Tibetan momos and dal bhat, then you catch sunset at Flagstaff Mountain—the plains stretching to infinity. Boulder is fitness-obsessed, educated, expensive, and stunningly beautiful. You question if you belong in the bubble, but the mountains argue persuasively.",
+  "saturday": "You wake up early in your Mapleton Hill bungalow and drive to Chautauqua trailhead by 7 AM\u2014the Flatirons glowing orange with sunrise. After a stunning hike, you descend to Pearl Street Mall for brunch at Snooze (wait: 45 minutes, worth it). The afternoon is spent browsing bookstores and gear shops, then you bike Boulder Creek Path past joggers, dogs, and families. Dinner at Sherpa's Adventureland brings Tibetan momos and dal bhat, then you catch sunset at Flagstaff Mountain\u2014the plains stretching to infinity. Boulder is fitness-obsessed, educated, expensive, and stunningly beautiful. You question if you belong in the bubble, but the mountains argue persuasively.",
   "food_scene": {
     "summary": "Boulder's food scene is health-conscious, organic-forward, and surprisingly international for its size. Farm-to-table is the default, craft beer is everywhere, and the university brings global influences. Expensive but high-quality.",
     "mediterranean_options": [
@@ -93,20 +93,13 @@
       "Boulder County Farmers Market (Saturdays year-round, 13th Street)",
       "Boulder Farmers Market (Wednesdays seasonal, Central Park)"
     ],
-    "food_culture": "Boulder eats clean—think grain bowls, smoothie bowls, kombucha on tap. The farm-to-table movement is strong (Kitchen, The Med), and the city has excellent international food (Sherpa's, Leaf Vegetarian, Zoe Ma Ma). But it's expensive and can feel precious. If you want dive bars and greasy spoons, look elsewhere.",
+    "food_culture": "Boulder eats clean\u2014think grain bowls, smoothie bowls, kombucha on tap. The farm-to-table movement is strong (Kitchen, The Med), and the city has excellent international food (Sherpa's, Leaf Vegetarian, Zoe Ma Ma). But it's expensive and can feel precious. If you want dive bars and greasy spoons, look elsewhere.",
     "grocery_quality": "Whole Foods (Boulder born!), Trader Joe's, Lucky's Market, Sprouts, Alfalfa's. Organic groceries are the baseline here. Excellent but pricey."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800",
-    "https://images.unsplash.com/photo-1601821765780-754fa98637c1?w=800",
-    "https://images.unsplash.com/photo-1583182154831-84c8139bdb49?w=800",
-    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
-    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "Downtown / Pearl Street",
-      "vibe": "Heart of Boulder—pedestrian mall, restaurants, shops, street life",
+      "vibe": "Heart of Boulder\u2014pedestrian mall, restaurants, shops, street life",
       "walk_score": "85/100",
       "median_rent_1br": "$2,200",
       "safety_rating": "medium",
@@ -115,7 +108,7 @@
     },
     {
       "name": "University Hill (The Hill)",
-      "vibe": "College neighborhood—bars, cheap eats, student energy",
+      "vibe": "College neighborhood\u2014bars, cheap eats, student energy",
       "walk_score": "90/100",
       "median_rent_1br": "$1,800",
       "safety_rating": "medium",
@@ -124,7 +117,7 @@
     },
     {
       "name": "Mapleton Hill",
-      "vibe": "Historic, upscale residential—Victorian homes, tree-lined, near Chautauqua",
+      "vibe": "Historic, upscale residential\u2014Victorian homes, tree-lined, near Chautauqua",
       "walk_score": "80/100",
       "median_rent_1br": "$2,400",
       "safety_rating": "high",
@@ -133,7 +126,7 @@
     },
     {
       "name": "Whittier",
-      "vibe": "Residential neighborhood near downtown—walkable, mixed housing",
+      "vibe": "Residential neighborhood near downtown\u2014walkable, mixed housing",
       "walk_score": "88/100",
       "median_rent_1br": "$2,100",
       "safety_rating": "medium-high",
@@ -142,7 +135,7 @@
     },
     {
       "name": "Goss-Grove",
-      "vibe": "Close-in neighborhood—walkable, residential, family-friendly",
+      "vibe": "Close-in neighborhood\u2014walkable, residential, family-friendly",
       "walk_score": "88/100",
       "median_rent_1br": "$2,050",
       "safety_rating": "high",

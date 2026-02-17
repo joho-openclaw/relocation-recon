@@ -5,7 +5,7 @@
   "tagline": "Outdoor recreation mecca with 300 days of sunshine—but diversity is nearly nonexistent and it's expensive",
   "population": "105,000 city / 200,000 metro",
   "scores": {
-    "diversity_climate": 2,
+    "diversity_climate": 3,
     "safety": 7,
     "political_moderation": 6,
     "cost_of_living": 6,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$500-900/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ CRITICAL CONCERN: Bend is 91% White, less than 1% Black (332 Black residents out of 105,000). This is even whiter than Boise. Oregon has a dark racial history (state founded with Black exclusion laws), and Bend reflects that legacy. While the city is politically moderate-liberal and outdoor culture is welcoming, diversity is almost nonexistent. Candace would face extreme isolation. Reddit reports note 'the more diverse it gets the more racist people are being'—concerning.",
-    "diversity_index": "91% White, 0.7% Black, 1.8% Asian, 9% Hispanic",
-    "notable": "One of the whitest cities in America; Oregon's history of racial exclusion still echoes"
+    "summary": "⚠️ SEVERE WARNING: Oregon banned Black people from living in the state until the 1920s and had racist constitutional language until 2002. That legacy is alive in Bend. **Murder of Barry Washington (Black teenager) a couple years ago.** Reddit users warn \"there's a ton of racism in Central Oregon\" and \"anyone who says there is not a lot of racism is most likely racist.\" Hate crimes surged 59% in Oregon (2020), 25% more (2022-2023). People report being called racial slurs while hiking. Prineville (nearby) had sundown laws enforced by lynching in the 1970s! City has an Equity Director trying to address issues, and some Black residents say \"it's not so bad,\" but Candace would face regular racism.",
+    "diversity_index": "91% White, 0.7% Black, 1.8% Asian, 9% Hispanic (whiteness is a feature, not a bug for many here)",
+    "notable": "Murder of Barry Washington; Oregon's Black exclusion laws & sundown town history; hate crimes surging; racial slurs common on trails"
   },
   "safety": {
     "summary": "Generally safe but not exceptional. Violent crime rate around 156 per 100k (below national average), but property crime is higher due to tourism, transient population, and homelessness concerns. Crime fell 13% in 2024. Bend ranks in 32nd percentile for overall safety (safer than 32% of cities). Most neighborhoods feel safe, but not as low-crime as Boise. Would meet Candace's baseline but not exceed it.",
@@ -94,13 +94,6 @@
     "food_culture": "Bend food culture is craft beer-first—10 Barrel, Deschutes Brewery, Crux—with outdoor-fueled appetites. The food scene skews casual (tacos, burgers, pizza) with growing farm-to-table spots (Ariana, Jackson's Corner). Very white, very outdoorsy, limited ethnic diversity. Affordable for Oregon.",
     "grocery_quality": "Newport Avenue Market (local, upscale), Trader Joe's, Whole Foods, Natural Grocers. Solid for the size but limited international options."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800",
-    "https://images.unsplash.com/photo-1583182154831-84c8139bdb49?w=800",
-    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
-    "https://images.unsplash.com/photo-1601821765780-754fa98637c1?w=800",
-    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "Downtown Bend",

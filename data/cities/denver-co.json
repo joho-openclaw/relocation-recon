@@ -5,7 +5,7 @@
   "tagline": "300 days of sunshine meet mountain adventures and a rapidly diversifying urban core",
   "population": "2.9 million metro",
   "scores": {
-    "diversity_climate": 7,
+    "diversity_climate": 6,
     "safety": 6,
     "political_moderation": 7,
     "cost_of_living": 6,
@@ -21,12 +21,12 @@
     "vs_la_savings": "$400-800/month compared to LA"
   },
   "diversity": {
-    "summary": "Denver's diversity is growing fast—about 13% of residents identify as two or more races (4x the national average), and roughly one-third of Metro Denver identifies as people of color. The city has a visible, active multiracial community and is generally welcoming to interracial couples, especially in urban neighborhoods like Capitol Hill, Highland, and RiNo. However, some neighborhoods remain quite segregated.",
-    "diversity_index": "~33% people of color; 13% multiracial (highest among major cities)",
-    "notable": "Denver's multiracial population growth outpaces NYC, DC, and San Francisco"
+    "summary": "PASSIVE RACISM BUT INTEGRATED: Denver has a robust, multi-generational Black community (~9%) and lots of visible interracial couples. Reddit: \"I've seen lots of interracial couples and mixed kids running around.\" There's even a book \"Denver in Color\" documenting 25 Black/white couples. White residents report \"very little racism toward Black people\" (take with grain of salt\u2014they might not see it). **The racism here is \"passive not blatant\"**\u2014microaggressions, assumptions, but not overt hostility. Black residents report experiencing racism in schools, hospitals, churches. Better than Boulder's isolation, not as seamless as Charlotte. Denver is workable but not ideal.",
+    "diversity_index": "~77% White, 9% Black, 4% Asian, 22% Hispanic (more integrated than Boulder/Bend but still majority white)",
+    "notable": "\"Racism is real but more passive than blatant\"; interracial couples very common; robust Black community with deep roots"
   },
   "safety": {
-    "summary": "Denver's crime rate has been a concern but improved 24% from 2023 to 2024. Violent crime is concentrated in specific areas (Five Points, parts of downtown). Safe neighborhoods exist in northeast Denver and suburbs. Your risk varies dramatically by neighborhood—from 1 in 14 downtown to 1 in 33 in safer areas.",
+    "summary": "Denver's crime rate has been a concern but improved 24% from 2023 to 2024. Violent crime is concentrated in specific areas (Five Points, parts of downtown). Safe neighborhoods exist in northeast Denver and suburbs. Your risk varies dramatically by neighborhood\u2014from 1 in 14 downtown to 1 in 33 in safer areas.",
     "violent_crime_rate": "~993 per 100k (higher than national average)",
     "best_neighborhoods": [
       "Washington Park (Wash Park)",
@@ -50,14 +50,14 @@
     "summary": "Unbeatable mountain backdrop. The Rocky Mountains are visible from almost everywhere in the city, with world-class hiking, skiing, and outdoor recreation within 30-90 minutes. The Front Range provides dramatic scenery that rivals anywhere in the country."
   },
   "climate": {
-    "summary": "300 days of sunshine and four seasons—but 60 inches of snow means real winter. Snow melts quickly thanks to sun, but November-April brings consistent cold. Summers are hot and dry with cool evenings. Great if you want seasons and sun, but winter is genuine.",
-    "avg_summer_high": "88°F",
-    "avg_winter_low": "22°F",
+    "summary": "300 days of sunshine and four seasons\u2014but 60 inches of snow means real winter. Snow melts quickly thanks to sun, but November-April brings consistent cold. Summers are hot and dry with cool evenings. Great if you want seasons and sun, but winter is genuine.",
+    "avg_summer_high": "88\u00b0F",
+    "avg_winter_low": "22\u00b0F",
     "annual_snowfall": "60 inches",
     "annual_sunny_days": "300"
   },
   "culture": {
-    "summary": "Denver has evolved from cow town to craft beer capital with a thriving arts scene, farm-to-table dining, and outdoor-obsessed culture. The food scene is growing (though not yet elite), there's a strong indie music presence, and the city attracts young, active, educated transplants. It feels like somewhere—not just generic sprawl."
+    "summary": "Denver has evolved from cow town to craft beer capital with a thriving arts scene, farm-to-table dining, and outdoor-obsessed culture. The food scene is growing (though not yet elite), there's a strong indie music presence, and the city attracts young, active, educated transplants. It feels like somewhere\u2014not just generic sprawl."
   },
   "pros": [
     "Spectacular mountain scenery and outdoor recreation access",
@@ -75,13 +75,13 @@
     "Traffic and growth pains (infrastructure lagging population)",
     "Can feel very white in certain areas despite citywide diversity"
   ],
-  "saturday": "You wake up in your Capitol Hill apartment to 300 days of sunshine doing their thing. Coffee at Crema on Larimer Street, then you're hiking Green Mountain or Chautauqua by 9 AM—the Flatirons impossibly sharp against blue sky. Back in the city by afternoon, you explore RiNo's murals and galleries, stopping at Ash'Kara for Mediterranean small plates. The evening finds you at a Highlands brewery, chatting with transplants from everywhere, the diversity palpable and comfortable. Dinner is at Work & Class (Latin fusion) or Mercantile (farm-to-table), then you walk home through tree-lined streets, the mountains glowing pink with alpenglow. Denver feels like it's going somewhere, and you're along for the ride.",
+  "saturday": "You wake up in your Capitol Hill apartment to 300 days of sunshine doing their thing. Coffee at Crema on Larimer Street, then you're hiking Green Mountain or Chautauqua by 9 AM\u2014the Flatirons impossibly sharp against blue sky. Back in the city by afternoon, you explore RiNo's murals and galleries, stopping at Ash'Kara for Mediterranean small plates. The evening finds you at a Highlands brewery, chatting with transplants from everywhere, the diversity palpable and comfortable. Dinner is at Work & Class (Latin fusion) or Mercantile (farm-to-table), then you walk home through tree-lined streets, the mountains glowing pink with alpenglow. Denver feels like it's going somewhere, and you're along for the ride.",
   "food_scene": {
-    "summary": "Denver's food scene has exploded in the past decade—from cow town to James Beard contender. The city now boasts world-class dining across cuisines, a massive craft brewery scene, and a farm-to-table movement fueled by Colorado's agricultural bounty.",
+    "summary": "Denver's food scene has exploded in the past decade\u2014from cow town to James Beard contender. The city now boasts world-class dining across cuisines, a massive craft brewery scene, and a farm-to-table movement fueled by Colorado's agricultural bounty.",
     "mediterranean_options": [
-      "Ash'Kara (LoHi—3-time Michelin Bib Gourmand, North African/Mediterranean)",
-      "Olive & Finch (Mediterran café and market)",
-      "Safta (RiNo—Israeli cuisine by James Beard winner)",
+      "Ash'Kara (LoHi\u20143-time Michelin Bib Gourmand, North African/Mediterranean)",
+      "Olive & Finch (Mediterran caf\u00e9 and market)",
+      "Safta (RiNo\u2014Israeli cuisine by James Beard winner)",
       "Mizuna (upscale Mediterranean fusion)",
       "Chef Zorba's (Greek diner since 1979)"
     ],
@@ -93,17 +93,10 @@
     "food_culture": "Denver's food culture blends Rocky Mountain ingredients (bison, trout, lamb) with international influences from transplants. The city is serious about craft beer (Great American Beer Festival HQ), and neighborhoods like RiNo and LoHi are packed with chef-driven concepts. Green chili is a religion here.",
     "grocery_quality": "Whole Foods (multiple locations), Trader Joe's, Natural Grocers, Sprouts, and excellent international markets (H-Mart, Pacific Ocean Marketplace). Strong grocery game."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1619856699906-09e1f58c98b1?w=800",
-    "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800",
-    "https://images.unsplash.com/photo-1600298882525-69b1f7e65705?w=800",
-    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800",
-    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "Capitol Hill",
-      "vibe": "Denver's bohemian heart—eclectic, walkable, LGBTQ-friendly, diverse",
+      "vibe": "Denver's bohemian heart\u2014eclectic, walkable, LGBTQ-friendly, diverse",
       "walk_score": "93/100",
       "median_rent_1br": "$1,700",
       "safety_rating": "medium",
@@ -130,7 +123,7 @@
     },
     {
       "name": "RiNo (River North)",
-      "vibe": "Denver's Brooklyn—art district turned hip urban neighborhood",
+      "vibe": "Denver's Brooklyn\u2014art district turned hip urban neighborhood",
       "walk_score": "85/100",
       "median_rent_1br": "$1,850",
       "safety_rating": "medium",

@@ -5,7 +5,7 @@
   "tagline": "Progressive prairie city with lakes, bike paths, and brutal-but-beautiful winters",
   "population": "3.7 million metro (Twin Cities)",
   "scores": {
-    "diversity_climate": 7,
+    "diversity_climate": 5,
     "safety": 6,
     "political_moderation": 6,
     "cost_of_living": 8,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$900-1,600/month compared to LA"
   },
   "diversity": {
-    "summary": "Minneapolis is more diverse than raw numbers suggest—significant Somali, Ethiopian, Hmong, and Latino communities give it international flavor. About 19% Black, 10% Hispanic, 6% Asian. However, racial disparities are among nation's worst, and George Floyd's murder highlighted deep systemic issues. On individual level, urban areas are progressive and accepting, but structural racism is real. Twin Cities have work to do.",
-    "diversity_index": "19% Black, 10% Hispanic, 6% Asian; large Somali/Ethiopian populations",
-    "notable": "Significant racial justice activism post-2020; city grappling with equity issues"
+    "summary": "\u26a0\ufe0f DEEPLY CONTRADICTORY: **George Floyd was murdered here.** DOJ investigation found Minneapolis Police engaged in a \"pattern or practice\" of excessive force and unlawful discrimination against Black Americans for years. Police department has systemic racism problems that persist. **YET** interracial couples say Minnesota was \"the most welcoming of their options\" and Minneapolis has a \"welcoming atmosphere.\" Reddit users note the city is progressive, liberal, and socially accepting. The contradiction is stark: police will profile/harm Black people, but white liberals will be friendly. Candace would feel socially welcomed but could face dangerous police encounters.",
+    "diversity_index": "~60% White, 19% Black, 6% Asian, 10% Hispanic (more diverse than reputation suggests)",
+    "notable": "George Floyd murdered by police; DOJ found pattern of excessive force & discrimination; but city socially welcoming to interracial couples\u2014stark contradiction"
   },
   "safety": {
     "summary": "Crime increased post-2020, becoming a political flashpoint. Some neighborhoods saw upticks in property crime and carjackings. However, most residential areas remain safe. Uptown, Northeast, and South Minneapolis neighborhoods vary. Not as safe as peak years but improving. Honest concern compared to pre-2020.",
@@ -50,14 +50,14 @@
     "summary": "Minneapolis has 22 lakes within city limits (Chain of Lakes, Lake Calhoun/Bde Maka Ska). Beautiful in summer with trails, parks, and water activities. Fall colors are spectacular. Winter is a snowy wonderland (if you embrace it). Not mountains, but water and greenery are abundant."
   },
   "climate": {
-    "summary": "Four EXTREME seasons—winters are brutally cold with sub-zero temps and 54 inches of snow. This is genuinely harsh winter, not mild. Summers are warm and beautiful, fall is gorgeous, but winter dominates much of the year. If warm weather is a priority, Minneapolis is a dealbreaker.",
-    "avg_summer_high": "83°F",
-    "avg_winter_low": "9°F (often colder)",
+    "summary": "Four EXTREME seasons\u2014winters are brutally cold with sub-zero temps and 54 inches of snow. This is genuinely harsh winter, not mild. Summers are warm and beautiful, fall is gorgeous, but winter dominates much of the year. If warm weather is a priority, Minneapolis is a dealbreaker.",
+    "avg_summer_high": "83\u00b0F",
+    "avg_winter_low": "9\u00b0F (often colder)",
     "annual_snowfall": "54 inches",
     "annual_sunny_days": "198"
   },
   "culture": {
-    "summary": "Minneapolis is a cultural powerhouse—world-class theater (Guthrie), art (Walker Art Center, Sculpture Garden), music scene (Prince!), Hmong markets, Somali malls, Nordic heritage. Progressive politics, bike culture, farm-to-table dining, craft beer/coffee. Feels sophisticated and authentic. 'Minnesota Nice' is real but can be cliquey."
+    "summary": "Minneapolis is a cultural powerhouse\u2014world-class theater (Guthrie), art (Walker Art Center, Sculpture Garden), music scene (Prince!), Hmong markets, Somali malls, Nordic heritage. Progressive politics, bike culture, farm-to-table dining, craft beer/coffee. Feels sophisticated and authentic. 'Minnesota Nice' is real but can be cliquey."
   },
   "pros": [
     "Affordable with excellent urban amenities",
@@ -68,16 +68,16 @@
     "Progressive values and education focus"
   ],
   "cons": [
-    "WINTER IS BRUTAL—Candace needs to be ready for real cold",
+    "WINTER IS BRUTAL\u2014Candace needs to be ready for real cold",
     "Crime increased post-2020 (improving but real concern)",
     "Racial disparities are severe despite diversity",
     "Can be harder to break into social circles ('Minnesota Nice' paradox)",
     "Further from family (flight costs)",
     "Political climate can be very progressive (may not be 'moderate' enough)"
   ],
-  "saturday": "You wake up in Northeast Minneapolis to snow falling softly (it's November already) and walk to Breaking Bread Cafe for cardamom buns and strong coffee. The morning is spent biking the Chain of Lakes—Lake Calhoun to Lake Harriet—fall colors reflected in glassy water. By afternoon, you're browsing the Midtown Global Market, sampling Somali sambusas and Hmong spring rolls, the international community palpable and vibrant. Dinner at Trieste Cafe downtown brings Mediterranean mezze, then you catch a show at the Guthrie Theater overlooking the Mississippi River. The cold is real, but Minneapolis earns its place—culturally rich, genuinely diverse, and unapologetically itself.",
+  "saturday": "You wake up in Northeast Minneapolis to snow falling softly (it's November already) and walk to Breaking Bread Cafe for cardamom buns and strong coffee. The morning is spent biking the Chain of Lakes\u2014Lake Calhoun to Lake Harriet\u2014fall colors reflected in glassy water. By afternoon, you're browsing the Midtown Global Market, sampling Somali sambusas and Hmong spring rolls, the international community palpable and vibrant. Dinner at Trieste Cafe downtown brings Mediterranean mezze, then you catch a show at the Guthrie Theater overlooking the Mississippi River. The cold is real, but Minneapolis earns its place\u2014culturally rich, genuinely diverse, and unapologetically itself.",
   "food_scene": {
-    "summary": "Minneapolis has a surprisingly robust food scene—Scandinavian heritage meets Somali, Hmong, and Latino communities, plus a growing farm-to-table movement. The city punches above its weight culturally, with James Beard winners and innovative chefs redefining Midwestern food.",
+    "summary": "Minneapolis has a surprisingly robust food scene\u2014Scandinavian heritage meets Somali, Hmong, and Latino communities, plus a growing farm-to-table movement. The city punches above its weight culturally, with James Beard winners and innovative chefs redefining Midwestern food.",
     "mediterranean_options": [
       "Trieste Cafe (downtown, Mediterranean/Middle Eastern)",
       "Black Sea Restaurant (Turkish and Mediterranean)",
@@ -92,17 +92,10 @@
     "food_culture": "Minneapolis food culture is defined by Scandinavian roots (lefse, lutefisk), a massive Somali population (Somali malls and restaurants in Cedar-Riverside), Hmong markets, and innovative New American cuisine (Spoon and Stable, The Bachelor Farmer). It's more diverse than it gets credit for, and the farm-to-table scene is strong thanks to Minnesota agriculture.",
     "grocery_quality": "Whole Foods, Trader Joe's, Lunds & Byerlys (local upscale chain), co-ops everywhere (Seward, Wedge, Linden Hills). Plus Somali and Hmong markets for international ingredients. Excellent grocery access."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1559511260-66a654ae982a?w=800",
-    "https://images.unsplash.com/photo-1583739090616-83f5d00c27d9?w=800",
-    "https://images.unsplash.com/photo-1606675543630-3b968a9c875e?w=800",
-    "https://images.unsplash.com/photo-1571689194555-5c1a2e8e4ec6?w=800",
-    "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "Uptown",
-      "vibe": "Urban, artsy, lakes nearby—Minneapolis's young professional hub",
+      "vibe": "Urban, artsy, lakes nearby\u2014Minneapolis's young professional hub",
       "walk_score": "85/100",
       "median_rent_1br": "$1,400",
       "safety_rating": "medium (improving)",
@@ -111,7 +104,7 @@
     },
     {
       "name": "Northeast Minneapolis (NE MPLS)",
-      "vibe": "Arts district turned hip neighborhood—breweries, studios, Eastern European roots",
+      "vibe": "Arts district turned hip neighborhood\u2014breweries, studios, Eastern European roots",
       "walk_score": "75/100",
       "median_rent_1br": "$1,350",
       "safety_rating": "high",
@@ -120,7 +113,7 @@
     },
     {
       "name": "Linden Hills",
-      "vibe": "Upscale residential near Lake Harriet—family-friendly, tree-lined",
+      "vibe": "Upscale residential near Lake Harriet\u2014family-friendly, tree-lined",
       "walk_score": "68/100",
       "median_rent_1br": "$1,500",
       "safety_rating": "high",
@@ -129,7 +122,7 @@
     },
     {
       "name": "Tangletown",
-      "vibe": "Quiet, tree-lined, community feel—hidden gem near lakes",
+      "vibe": "Quiet, tree-lined, community feel\u2014hidden gem near lakes",
       "walk_score": "65/100",
       "median_rent_1br": "$1,274",
       "safety_rating": "high",
@@ -138,7 +131,7 @@
     },
     {
       "name": "Lyn-Lake Area",
-      "vibe": "Intersection of urban energy—restaurants, indie shops, nightlife",
+      "vibe": "Intersection of urban energy\u2014restaurants, indie shops, nightlife",
       "walk_score": "82/100",
       "median_rent_1br": "$1,350",
       "safety_rating": "medium",

@@ -2,10 +2,10 @@
   "name": "Portland, ME",
   "slug": "portland-me",
   "region": "New England",
-  "tagline": "Coastal New England charm—lobster rolls, lighthouses, and limited diversity",
+  "tagline": "Coastal New England charm\u2014lobster rolls, lighthouses, and limited diversity",
   "population": "540,000 metro",
   "scores": {
-    "diversity_climate": 3,
+    "diversity_climate": 5,
     "safety": 9,
     "political_moderation": 6,
     "cost_of_living": 7,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$600-1,000/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ HONEST WARNING: Portland is VERY WHITE—Maine is the whitest state in the nation, and Portland is only marginally more diverse. Growing immigrant populations (Somali, Congolese) exist but remain small. Reddit discussions reveal 'groups tend to stick together' and Black residents report difficulty connecting outside their community. BIPOC residents report not having equal access to services/opportunities. This is a significant concern for the #1 priority.",
-    "diversity_index": "~85% White, 7% Black, 4% Asian; Maine's most diverse city (still very white)",
-    "notable": "Reddit: 'Groups tend to stick together, generally speaking. You might find it difficult to meet and hang out with non black people'"
+    "summary": "FRIENDLY BUT ISOLATING: Maine is the whitest state after Vermont, and you will feel it. Reddit: \"You will absolutely deal with racism in two forms.\" BUT people also say \"the level of friendliness made up for it\" and \"it's v rare for someone to call you a slur\u2014they don't do that here much.\" The racism is covert: microaggressions, being tokenized in professional settings, feeling like an outsider, struggling to find community. Portland itself is trying\u2014Black Art and Experiences Gallery at Portland Museum of Art, growing immigrant population. It's not hostile, just overwhelmingly white. Candace would be lonely.",
+    "diversity_index": "~85% White, 7% Black, 4% Asian, 5% Hispanic (whitest state in America after Vermont)",
+    "notable": "Maine = whitest state; covert racism (tokenization, microaggressions) not overt slurs; friendly but isolating; hard to find Black community"
   },
   "safety": {
     "summary": "Portland is one of the safest cities on this list. Crime is low overall, with property crime being the main concern (car break-ins in touristy areas). Violent crime is rare. Small city feel contributes to safety. Most neighborhoods are very safe.",
@@ -47,37 +47,37 @@
     ]
   },
   "scenery": {
-    "summary": "Coastal New England beauty—Casco Bay, lighthouses, rocky coastline, islands. Fall foliage is spectacular. Winter snow on the harbor is postcard-perfect. Access to both ocean and mountains (White Mountains 1.5 hours). Quintessential Maine scenery."
+    "summary": "Coastal New England beauty\u2014Casco Bay, lighthouses, rocky coastline, islands. Fall foliage is spectacular. Winter snow on the harbor is postcard-perfect. Access to both ocean and mountains (White Mountains 1.5 hours). Quintessential Maine scenery."
   },
   "climate": {
-    "summary": "Four true seasons with real New England winter—61 inches of snow and cold temps. Beautiful mild summers and stunning fall colors, but winter is genuine. Ocean moderates temperatures slightly but this is still cold. Gray days common. Not for warm-weather preference.",
-    "avg_summer_high": "78°F",
-    "avg_winter_low": "15°F",
+    "summary": "Four true seasons with real New England winter\u201461 inches of snow and cold temps. Beautiful mild summers and stunning fall colors, but winter is genuine. Ocean moderates temperatures slightly but this is still cold. Gray days common. Not for warm-weather preference.",
+    "avg_summer_high": "78\u00b0F",
+    "avg_winter_low": "15\u00b0F",
     "annual_snowfall": "61 inches",
     "annual_sunny_days": "200"
   },
   "culture": {
-    "summary": "Portland is a foodie destination—James Beard Award winners, incredible seafood (lobster, oysters), farm-to-table ethos, craft beer and distilleries. Arts scene is strong for its size. Indie bookstores, galleries, music venues. Feels cultured and authentic but SMALL—you'll know the city intimately within months."
+    "summary": "Portland is a foodie destination\u2014James Beard Award winners, incredible seafood (lobster, oysters), farm-to-table ethos, craft beer and distilleries. Arts scene is strong for its size. Indie bookstores, galleries, music venues. Feels cultured and authentic but SMALL\u2014you'll know the city intimately within months."
   },
   "pros": [
-    "Extremely safe—one of the safest cities on this list",
+    "Extremely safe\u2014one of the safest cities on this list",
     "Beautiful coastal scenery and access to ocean",
     "Excellent food scene (seafood, farm-to-table, James Beard restaurants)",
     "Walkable downtown with character",
     "Four seasons with New England charm",
-    "Small city charm—easy to navigate and get to know"
+    "Small city charm\u2014easy to navigate and get to know"
   ],
   "cons": [
-    "⚠️ CRITICAL: Maine's whitest major city—Candace may feel very isolated",
+    "\u26a0\ufe0f CRITICAL: Maine's whitest major city\u2014Candace may feel very isolated",
     "BIPOC residents report difficulty integrating and unequal access",
-    "Very small—will feel limiting after 1-2 years",
+    "Very small\u2014will feel limiting after 1-2 years",
     "BRUTAL winter (real New England cold and snow)",
     "Expensive for a small city (tourism drives costs)",
     "Further from family/California (flight connections limited)"
   ],
-  "saturday": "You wake up in Munjoy Hill to fog rolling off Casco Bay and walk to Tandem Coffee for the best espresso in New England (locals swear by it). The morning is spent wandering the Old Port's cobblestone streets, browsing bookstores and maritime shops. Lunch is lobster rolls at Eventide Oyster Co (James Beard-winning), then you drive to Portland Head Light—the iconic lighthouse framed against rocky coastline. By evening, you're back for dinner at Duckfat (Belgian fries and poutine) or Fore Street (wood-fired everything). Portland is beautiful, quaint, foodie-friendly, and brutally white. You'd know every restaurant within a month. Charming, but small.",
+  "saturday": "You wake up in Munjoy Hill to fog rolling off Casco Bay and walk to Tandem Coffee for the best espresso in New England (locals swear by it). The morning is spent wandering the Old Port's cobblestone streets, browsing bookstores and maritime shops. Lunch is lobster rolls at Eventide Oyster Co (James Beard-winning), then you drive to Portland Head Light\u2014the iconic lighthouse framed against rocky coastline. By evening, you're back for dinner at Duckfat (Belgian fries and poutine) or Fore Street (wood-fired everything). Portland is beautiful, quaint, foodie-friendly, and brutally white. You'd know every restaurant within a month. Charming, but small.",
   "food_scene": {
-    "summary": "Portland, Maine is a legitimate foodie destination—James Beard Award winners, exceptional seafood, and a farm-to-table scene that rivals cities 10x its size. The city takes its food seriously. Mediterranean options are limited due to size, but quality is high across the board.",
+    "summary": "Portland, Maine is a legitimate foodie destination\u2014James Beard Award winners, exceptional seafood, and a farm-to-table scene that rivals cities 10x its size. The city takes its food seriously. Mediterranean options are limited due to size, but quality is high across the board.",
     "mediterranean_options": [
       "Sur Lie (Mediterranean-inspired wine bar)",
       "Duckfat (Belgian/European fusion)",
@@ -86,20 +86,13 @@
     "farmers_markets": [
       "Portland Farmers Market (Saturdays year-round, Deering Oaks Park)"
     ],
-    "food_culture": "Portland's food culture is seafood-first—lobster, oysters, clams, scallops from the Gulf of Maine. Duckfat, Fore Street, Eventide, and Central Provisions have won James Beard awards. The city's small size concentrates talent, and locals are passionate about eating well. Limited ethnic diversity, though, means international options are sparse.",
+    "food_culture": "Portland's food culture is seafood-first\u2014lobster, oysters, clams, scallops from the Gulf of Maine. Duckfat, Fore Street, Eventide, and Central Provisions have won James Beard awards. The city's small size concentrates talent, and locals are passionate about eating well. Limited ethnic diversity, though, means international options are sparse.",
     "grocery_quality": "Whole Foods, Trader Joe's, Rosemont Market (local, beloved), Hannaford. Solid grocery access for the size, strong local/organic focus, but limited international markets."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1572895373840-e276f64ec8d1?w=800",
-    "https://images.unsplash.com/photo-1600019779707-05d4f93cebed?w=800",
-    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
-    "https://images.unsplash.com/photo-1609679522295-5aa1bed1a15d?w=800",
-    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "Old Port",
-      "vibe": "Historic waterfront—cobblestones, restaurants, tourists, charm",
+      "vibe": "Historic waterfront\u2014cobblestones, restaurants, tourists, charm",
       "walk_score": "90/100",
       "median_rent_1br": "$1,700",
       "safety_rating": "high",
@@ -117,7 +110,7 @@
     },
     {
       "name": "Munjoy Hill (East End)",
-      "vibe": "Artistic, eclectic, views of Casco Bay—Portland's bohemian side",
+      "vibe": "Artistic, eclectic, views of Casco Bay\u2014Portland's bohemian side",
       "walk_score": "75/100",
       "median_rent_1br": "$1,500",
       "safety_rating": "high",
@@ -126,7 +119,7 @@
     },
     {
       "name": "East Bayside",
-      "vibe": "Former industrial, now arts/immigrant community—gentrifying",
+      "vibe": "Former industrial, now arts/immigrant community\u2014gentrifying",
       "walk_score": "70/100",
       "median_rent_1br": "$1,450",
       "safety_rating": "high",
@@ -140,7 +133,7 @@
       "median_rent_1br": "$1,400",
       "safety_rating": "high",
       "diversity_notes": "Very white, family-oriented",
-      "why_for_them": "Safe, affordable, less walkable. Not recommended—too suburban and homogeneous for their goals."
+      "why_for_them": "Safe, affordable, less walkable. Not recommended\u2014too suburban and homogeneous for their goals."
     }
   ]
 }

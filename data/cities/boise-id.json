@@ -5,7 +5,7 @@
   "tagline": "Outdoor paradise with excellent safety and affordability—but Idaho politics and very low diversity are dealbreakers",
   "population": "750,000 metro",
   "scores": {
-    "diversity_climate": 3,
+    "diversity_climate": 4,
     "safety": 8,
     "political_moderation": 4,
     "cost_of_living": 8,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$700-1,200/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ CRITICAL CONCERN: Boise is 82% White, less than 2% Black. This is Idaho—one of the whitest states in the nation. While Boise proper is more liberal and welcoming than rural Idaho (Democratic mayor, Pride parades), state politics are deeply conservative Republican. An interracial couple would be highly visible. Candace would face isolation as one of very few Black residents. The outdoor/tech transplant community is progressive, but this is not a diverse city by any measure.",
-    "diversity_index": "82% White, 2% Black, 4% Asian, 9% Hispanic",
-    "notable": "Idaho passed anti-transgender laws, abortion bans; state legislature is extremely conservative despite Boise being moderate"
+    "summary": "⚠️ COMPLEX SITUATION: Boise city itself is relatively progressive—Reddit users report \"Boise is a lot more liberal than people think\" and some say they've \"NEVER experienced racism.\" BUT Idaho's state reputation is horrific: **Aryan Nations compound** was in Coeur d'Alene (north); hate crimes increased 21% in 2024 (42% racially motivated); multiple federal hate crime indictments for racially motivated assaults in Boise; white supremacist groups still function in North Idaho. An older article about threats to an interracial couple shows people **expected problems.** Boise is an island of relative tolerance in a very white, sometimes hostile state. Outside city limits could be dangerous.",
+    "diversity_index": "82% White, 2% Black, 4% Asian, 9% Hispanic (Boise proper better than rural Idaho, but still very white)",
+    "notable": "Boise city = relatively welcoming; Idaho state = Aryan Nations history, rising hate crimes, white supremacy presence in rural areas"
   },
   "safety": {
     "summary": "Excellent safety—one of the safest mid-sized cities in America. Violent crime rate is 247 per 100k (33% lower than national average). Property crime also below national average. Boise ranks in 64th percentile for safety. Most neighborhoods feel very safe. This would easily meet Candace's San Diego safety baseline—likely exceed it.",
@@ -95,13 +95,6 @@
     "food_culture": "Boise's food culture is defined by Basque heritage—Basque Block restaurants serve croquetas, chorizo, and lamb stew. Beyond that, it's steakhouses, breweries (Payette, Boise Brewing), and growing farm-to-table (Fork, Alavita). Small city, so variety is limited, but quality is improving. Very affordable.",
     "grocery_quality": "Whole Foods, Trader Joe's, Boise Co-op (local, member-owned), Fred Meyer, Albertsons. Solid grocery access for the city size, though fewer specialty international options."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1600019780813-6084bda07ef8?w=800",
-    "https://images.unsplash.com/photo-1583739090616-3b968a9c875e?w=800",
-    "https://images.unsplash.com/photo-1606675543630-3b968a9c875e?w=800",
-    "https://images.unsplash.com/photo-1571689194555-5c1a2e8e4ec6?w=800",
-    "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "North End",

@@ -5,7 +5,7 @@
   "tagline": "New South energy meets banking hustle in a diverse, sprawling metro",
   "population": "2.8 million metro",
   "scores": {
-    "diversity_climate": 8,
+    "diversity_climate": 7,
     "safety": 7,
     "political_moderation": 8,
     "cost_of_living": 8,
@@ -21,9 +21,9 @@
     "vs_la_savings": "$700-1,200/month compared to LA"
   },
   "diversity": {
-    "summary": "Charlotte is genuinely diverse with a substantial Black population (~35%) and growing Hispanic and Asian communities. About 18% of newlyweds 2011-2015 were interracial couples. The city has a visible Black middle class, strong economic growth in diverse communities, and a 'New South' vibe that feels more welcoming than old-guard Southern cities. Some segregation exists but overall climate is good.",
-    "diversity_index": "35% Black, 15% Hispanic, 6% Asian, growing multiracial population",
-    "notable": "Lincoln County saw 28% Black population growth 2019-2024"
+    "summary": "\u2705 GENUINELY DIVERSE: Charlotte is becoming the \"next Black southern hub\" with 35% Black population and a thriving Black middle class. Reddit user in interracial marriage 20+ years: \"haven't encountered outright racism directly in CLT.\" Interracial couples are common and unremarkable. **BUT police issues persist:** Black people are 3x as likely to be killed by police as white people; hate crimes up 50% in NC recently. Social scenes remain somewhat segregated (not from ill intent, but cultural comfort zones). Charlotte's diversity is real, not performative\u2014it's not a white city trying to be inclusive; it's a genuinely mixed city with typical urban tensions.",
+    "diversity_index": "35% Black, 41% White, 15% Hispanic, 7% Asian (actually diverse, not just white + token minorities)",
+    "notable": "Becoming a Black southern hub; interracial couples common and accepted; but police violence against Black people remains 3x higher than whites"
   },
   "safety": {
     "summary": "Overall crime down 8% and violent crime down 25% in first half of 2025 vs 2024. Northwest Charlotte is safest; western areas have had higher property crime. Compared to Denver, Charlotte feels safer in most neighborhoods. Chance of being a victim is 1 in 136 for violent crime.",
@@ -47,24 +47,24 @@
     ]
   },
   "scenery": {
-    "summary": "Modest scenery—tree-lined neighborhoods and some rolling hills, but no dramatic natural features. Comfortable suburban greenery. Not a scenic destination, but pleasant enough. 1-2 hours to Blue Ridge Mountains."
+    "summary": "Modest scenery\u2014tree-lined neighborhoods and some rolling hills, but no dramatic natural features. Comfortable suburban greenery. Not a scenic destination, but pleasant enough. 1-2 hours to Blue Ridge Mountains."
   },
   "climate": {
-    "summary": "Four seasons with mild winters—occasional snow melts quickly. Hot, humid summers balanced by beautiful spring and fall. If you like seasonal change without harsh cold, Charlotte works well. More humidity than Denver, less dramatic weather.",
-    "avg_summer_high": "90°F",
-    "avg_winter_low": "32°F",
+    "summary": "Four seasons with mild winters\u2014occasional snow melts quickly. Hot, humid summers balanced by beautiful spring and fall. If you like seasonal change without harsh cold, Charlotte works well. More humidity than Denver, less dramatic weather.",
+    "avg_summer_high": "90\u00b0F",
+    "avg_winter_low": "32\u00b0F",
     "annual_snowfall": "4-6 inches",
     "annual_sunny_days": "214"
   },
   "culture": {
-    "summary": "Banking and NASCAR heritage meeting urban renaissance. Growing food scene (BBQ, Southern fusion, international), NASCAR Hall of Fame, decent arts scene, and live music. Not as culturally rich as Nashville or Austin, but improving. Feels like a city on the rise—young, ambitious, business-focused."
+    "summary": "Banking and NASCAR heritage meeting urban renaissance. Growing food scene (BBQ, Southern fusion, international), NASCAR Hall of Fame, decent arts scene, and live music. Not as culturally rich as Nashville or Austin, but improving. Feels like a city on the rise\u2014young, ambitious, business-focused."
   },
   "pros": [
     "Strong racial diversity and visible Black middle class",
     "Very affordable compared to LA (significant savings)",
     "Safe neighborhoods with good options for families",
     "Growing job market (banking, tech, healthcare)",
-    "Political moderation—purple area, not extreme",
+    "Political moderation\u2014purple area, not extreme",
     "Four seasons without harsh winters"
   ],
   "cons": [
@@ -75,12 +75,12 @@
     "Some neighborhoods remain quite segregated",
     "Summer heat and humidity can be intense"
   ],
-  "saturday": "You wake up in Plaza Midwood to birds chirping and walk to Amelie's French Bakery for croissants and café au lait—the place is packed with all shades of Charlotte. Mid-morning is spent strolling the Little Sugar Creek Greenway or browsing vintage shops on Central Avenue. Lunch at Mazi Mediterranean in South End brings spanakopita and Greek salad, then you hop the light rail to Uptown for museum-hopping. By evening, you're at the Dilworth farmers market loading up on fresh produce, then home to cook before heading to NoDa for live music. Charlotte feels like it's building something—a New South city finding its identity, diverse and unpretentious, with room to breathe.",
+  "saturday": "You wake up in Plaza Midwood to birds chirping and walk to Amelie's French Bakery for croissants and caf\u00e9 au lait\u2014the place is packed with all shades of Charlotte. Mid-morning is spent strolling the Little Sugar Creek Greenway or browsing vintage shops on Central Avenue. Lunch at Mazi Mediterranean in South End brings spanakopita and Greek salad, then you hop the light rail to Uptown for museum-hopping. By evening, you're at the Dilworth farmers market loading up on fresh produce, then home to cook before heading to NoDa for live music. Charlotte feels like it's building something\u2014a New South city finding its identity, diverse and unpretentious, with room to breathe.",
   "food_scene": {
     "summary": "Charlotte's food scene is growing fast, fueled by banking money and a diversifying population. The city has solid Southern staples (BBQ, soul food), international options from immigrant communities, and an emerging fine dining scene. It's not yet a food destination, but it's improving rapidly.",
     "mediterranean_options": [
-      "Mazi (SouthEnd—modern Greek small plates)",
-      "Greco Fresh Grille (multiple locations—fast-casual Greek)",
+      "Mazi (SouthEnd\u2014modern Greek small plates)",
+      "Greco Fresh Grille (multiple locations\u2014fast-casual Greek)",
       "Miro Spanish Grille (tapas and Spanish)",
       "Customshop (Mediterranean-inspired, locally sourced)"
     ],
@@ -89,16 +89,9 @@
       "Charlotte Regional Farmers Market (year-round, daily)",
       "Matthews Community Farmers Market (Saturdays, seasonal)"
     ],
-    "food_culture": "Charlotte's food culture is still finding itself—Southern BBQ (Midwood Smokehouse) and soul food are strong, and international neighborhoods bring Korean, Vietnamese, and Latin options. The banking crowd supports upscale dining, but it's more steak-and-martini than avant-garde. Growing, but not yet a culinary hotspot.",
+    "food_culture": "Charlotte's food culture is still finding itself\u2014Southern BBQ (Midwood Smokehouse) and soul food are strong, and international neighborhoods bring Korean, Vietnamese, and Latin options. The banking crowd supports upscale dining, but it's more steak-and-martini than avant-garde. Growing, but not yet a culinary hotspot.",
     "grocery_quality": "Whole Foods, Trader Joe's, Fresh Market, Publix, Harris Teeter (local chain, solid). Good grocery access across the metro, with increasing international options."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1591953876628-88ec7ebe50db?w=800",
-    "https://images.unsplash.com/photo-1600019779507-05d4f93cebed?w=800",
-    "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
-    "https://images.unsplash.com/photo-1567696153798-16a76ca3a3b9?w=800",
-    "https://images.unsplash.com/photo-1546074177-e6f6b3d5f3c6?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "Dilworth",
@@ -111,7 +104,7 @@
     },
     {
       "name": "South End",
-      "vibe": "Charlotte's urban revival—former industrial, now trendy apartments and light rail",
+      "vibe": "Charlotte's urban revival\u2014former industrial, now trendy apartments and light rail",
       "walk_score": "68/100",
       "median_rent_1br": "$1,750",
       "safety_rating": "medium-high",
@@ -120,7 +113,7 @@
     },
     {
       "name": "Plaza Midwood",
-      "vibe": "Eclectic, artsy, diverse—Charlotte's hipster heart",
+      "vibe": "Eclectic, artsy, diverse\u2014Charlotte's hipster heart",
       "walk_score": "65/100",
       "median_rent_1br": "$1,500",
       "safety_rating": "medium",
@@ -129,7 +122,7 @@
     },
     {
       "name": "NoDa (North Davidson)",
-      "vibe": "Arts district turned trendy neighborhood—galleries, music, nightlife",
+      "vibe": "Arts district turned trendy neighborhood\u2014galleries, music, nightlife",
       "walk_score": "62/100",
       "median_rent_1br": "$1,550",
       "safety_rating": "medium",
@@ -138,7 +131,7 @@
     },
     {
       "name": "Myers Park",
-      "vibe": "Old-money Charlotte—historic mansions, tree canopy, refined",
+      "vibe": "Old-money Charlotte\u2014historic mansions, tree canopy, refined",
       "walk_score": "45/100",
       "median_rent_1br": "$1,800",
       "safety_rating": "high",

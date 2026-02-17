@@ -21,9 +21,9 @@
     "vs_la_savings": "$600-1,000/month compared to LA"
   },
   "diversity": {
-    "summary": "⚠️ HONEST WARNING: Asheville is VERY WHITE. Only 7.7% Black in 2024 (down from 10.5% in 2020). The city has a documented history of urban renewal that displaced its Black community. While Asheville is progressive and LGBTQ-friendly, it's overwhelmingly white and tourists are often more diverse than locals. Some commenters note feeling uncomfortable as part of an interracial couple. This is the WORST option on diversity—the #1 priority.",
-    "diversity_index": "~77% White, 7.7% Black, 8% Hispanic; very homogeneous",
-    "notable": "Article headline: 'Where are all the Black people?' Asheville lost African American population"
+    "summary": "⚠️ CRITICAL WARNING: Asheville has a documented history of urban renewal that deliberately displaced its Black community, and the effects persist—only 7.7% Black (down from 10.5% in 2020). Police data shows disproportionate arrests of Black residents, with former DOJ officials raising \"serious concerns about discriminatory policing.\" While **interracial couples report feeling comfortable downtown** (Reddit: \"zero issues, don't even get stares\"), the progressive politics are performative—one user notes \"Support for BLM is real but support for policies that would make the city more diverse is non-existent.\" Candace would be highly visible and may experience police profiling despite the bohemian vibe.",
+    "diversity_index": "~77% White, 7.7% Black, 8% Hispanic (demographics alone don't tell the story)",
+    "notable": "Police profiling of Black residents documented; displacement history via urban renewal; interracial couples feel socially accepted but systemic racism persists"
   },
   "safety": {
     "summary": "Asheville is generally very safe, especially in tourist and residential areas. Property crime (car break-ins) can occur but violent crime is low. Downtown feels safe. Smaller city vibe contributes to overall safety.",
@@ -92,13 +92,6 @@
     "food_culture": "Asheville's food culture is deeply rooted in Appalachian ingredients—ramps, sorghum, heritage grains—reinterpreted through modern techniques. The brewery scene is world-class (Wicked Weed, Highland, New Belgium), and restaurants like Cúrate (Spanish tapas) and Rhubarb (farm-to-table) draw national attention. It's a city that eats well.",
     "grocery_quality": "Whole Foods, Trader Joe's, Earth Fare, and French Broad Food Co-op (member-owned, extensive local/organic selection). Excellent access to high-quality groceries."
   },
-  "photos": [
-    "https://images.unsplash.com/photo-1527393942754-e006a8f6e68e?w=800",
-    "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800",
-    "https://images.unsplash.com/photo-1566305977571-5666677c6e98?w=800",
-    "https://images.unsplash.com/photo-1609949280166-bbe3c8138c23?w=800",
-    "https://images.unsplash.com/photo-1527393942754-e006a8f6e68f?w=800"
-  ],
   "neighborhoods": [
     {
       "name": "West Asheville",
