@@ -1,0 +1,130 @@
+{
+  "name": "Boulder, CO",
+  "slug": "boulder-co",
+  "region": "Front Range Colorado",
+  "tagline": "Educated, progressive mountain town with world-class outdoor access—but expensive, very white, and crime is rising",
+  "population": "330,000 metro",
+  "scores": {
+    "diversity_climate": 4,
+    "safety": 6,
+    "political_moderation": 5,
+    "cost_of_living": 4,
+    "walkability": 7,
+    "scenic_beauty": 10,
+    "seasons": 9,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "45% above national average",
+    "median_rent_1br": "$1,920",
+    "median_rent_2br": "$2,390",
+    "vs_la_savings": "$200-500/month compared to LA (minimal savings)"
+  },
+  "diversity": {
+    "summary": "Boulder is 80% White, less than 2% Black. Despite being a highly educated, progressive college town (University of Colorado Boulder), it's overwhelmingly white and affluent. There's visible activism, progressive politics, and generally accepting attitudes toward interracial couples, but actual racial diversity is very low. The city is aware of this and trying to improve, but it remains a predominantly white, wealthy enclave.",
+    "diversity_index": "80% White, 1.5% Black, 5% Asian, 9% Hispanic",
+    "notable": "Highly educated (over 70% college degrees) but very white; nicknamed 'the People's Republic of Boulder' for progressive politics"
+  },
+  "safety": {
+    "summary": "Safety is declining—violent crime is rising and now sits at 378 per 100k (higher than national average of ~370). Property crime is 45% higher than national average. Boulder ranks in 17th percentile for safety (safer than only 17% of cities—concerning). Crime is concentrated in certain areas but it's a real issue. This falls short of Candace's San Diego baseline. Car break-ins and bike thefts are common. Honest concern here.",
+    "violent_crime_rate": "~378 per 100k (above national average and rising)",
+    "best_neighborhoods": [
+      "Mapleton Hill",
+      "Chautauqua",
+      "Table Mesa",
+      "Gunbarrel",
+      "North Boulder"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "56/100 (somewhat walkable)",
+    "best_walkable_neighborhoods": [
+      "University Hill (90)",
+      "Goss-Grove (88)",
+      "Whittier (88)",
+      "Downtown / Pearl Street (85)",
+      "Mapleton Hill (80)"
+    ]
+  },
+  "scenery": {
+    "summary": "Absolutely spectacular—Boulder sits at the base of the Flatirons (iconic rock formations), with the Rocky Mountains as a dramatic backdrop. Direct access to mountain trails, climbing, skiing (Eldora 21 miles, world-class resorts 1-2 hours). Boulder Creek runs through town with paved path system. Fall colors, snow-capped peaks, endless outdoor recreation. Scenery rivals anywhere in the country."
+  },
+  "climate": {
+    "summary": "Four true seasons with abundant sunshine—300+ sunny days per year (similar to Denver). Summers are warm (not hot) with cool nights. Winters are cold with real snow (89 inches annually—more than Denver due to foothills location) but sunny and dry. Snow melts fast on roads. Spring and fall are gorgeous. Low humidity year-round. Altitude is 5,430 feet—adjustment period likely.",
+    "avg_summer_high": "87°F",
+    "avg_winter_low": "22°F",
+    "annual_snowfall": "89 inches",
+    "annual_sunny_days": "300+"
+  },
+  "culture": {
+    "summary": "Boulder has a distinctive culture—highly educated, environmentally conscious, fitness-obsessed, politically progressive (sometimes to a fault). Home to CU Boulder (35,000 students), outdoor industry companies, tech startups. Excellent food scene (farm-to-table, organic, health-conscious), Pearl Street Mall (pedestrian zone), live music, farmers markets. However, it can feel smug, expensive, and homogeneous. 'Boulder bubble' is a real phenomenon."
+  },
+  "pros": [
+    "Spectacular mountain scenery and outdoor recreation access (hiking, climbing, skiing)",
+    "300+ days of sunshine with four seasons",
+    "Highly educated, progressive community",
+    "Excellent food scene and cultural amenities for size",
+    "Pearl Street Mall is wonderful—pedestrian zone, street performers, shops",
+    "Strong bike culture and trail system",
+    "Close to Denver (40 min) for bigger city amenities",
+    "Generally accepting of diverse lifestyles (progressive values)"
+  ],
+  "cons": [
+    "⚠️ VERY EXPENSIVE—45% above national average, minimal savings vs LA",
+    "⚠️ Crime is rising—violent crime above national average, safety declining",
+    "Extremely white (80%) with very low Black population (1.5%)",
+    "Can feel elite, smug, 'Boulder bubble' insularity",
+    "Altitude (5,430 ft) requires adjustment",
+    "Heavy snow (89 inches) though it melts fast",
+    "Progressive politics can be performative without real diversity",
+    "Parking and traffic frustrations (crowded for its size)",
+    "May feel small after 1-2 years (under 350k metro)"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downtown / Pearl Street",
+      "vibe": "Heart of Boulder—pedestrian mall, restaurants, shops, street life",
+      "walk_score": "85/100",
+      "median_rent_1br": "$2,200",
+      "safety_rating": "medium",
+      "diversity_notes": "Most diverse (still very white), mix of students, professionals, tourists",
+      "why_for_them": "Most walkable, vibrant, near everything. Expensive and can feel touristy. Crime concerns at night. Great short-term but pricey."
+    },
+    {
+      "name": "University Hill (The Hill)",
+      "vibe": "College neighborhood—bars, cheap eats, student energy",
+      "walk_score": "90/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "medium",
+      "diversity_notes": "Diverse (for Boulder) due to students, younger crowd",
+      "why_for_them": "Walkable, affordable (relatively), energy. Can be loud/party-focused. Crime concerns. Good for adventure year, maybe too college-y."
+    },
+    {
+      "name": "Mapleton Hill",
+      "vibe": "Historic, upscale residential—Victorian homes, tree-lined, near Chautauqua",
+      "walk_score": "80/100",
+      "median_rent_1br": "$2,400",
+      "safety_rating": "high",
+      "diversity_notes": "Very white, affluent, family-oriented",
+      "why_for_them": "Beautiful, safe, walkable, near mountain trails. Expensive and very homogeneous. High quality of life but Boulder bubble incarnate."
+    },
+    {
+      "name": "Whittier",
+      "vibe": "Residential neighborhood near downtown—walkable, mixed housing",
+      "walk_score": "88/100",
+      "median_rent_1br": "$2,100",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Moderate diversity (for Boulder), mix of ages",
+      "why_for_them": "Walkable, near Pearl Street, more residential feel. Safe and convenient. Good balance of location and livability."
+    },
+    {
+      "name": "Goss-Grove",
+      "vibe": "Close-in neighborhood—walkable, residential, family-friendly",
+      "walk_score": "88/100",
+      "median_rent_1br": "$2,050",
+      "safety_rating": "high",
+      "diversity_notes": "Low diversity, family-focused",
+      "why_for_them": "Walkable, safe, near downtown without the chaos. More neighborhood feel. Still expensive but good quality of life."
+    }
+  ]
+}

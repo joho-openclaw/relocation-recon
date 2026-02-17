@@ -1,0 +1,129 @@
+{
+  "name": "Savannah, GA",
+  "slug": "savannah-ga",
+  "region": "Deep South",
+  "tagline": "Historic coastal charm with a substantial Black community—but Southern politics and crime require honest evaluation",
+  "population": "390,000 metro",
+  "scores": {
+    "diversity_climate": 8,
+    "safety": 5,
+    "political_moderation": 5,
+    "cost_of_living": 9,
+    "walkability": 8,
+    "scenic_beauty": 9,
+    "seasons": 7,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "7% below national average",
+    "median_rent_1br": "$1,570",
+    "median_rent_2br": "$1,730",
+    "vs_la_savings": "$600-1,200/month compared to LA"
+  },
+  "diversity": {
+    "summary": "Savannah is 52% Black, making it a majority-Black city with deep African American history and culture. This is significant—Candace would be part of the majority population, not a minority. The city has a rich Black community, historic churches, cultural institutions, and visible Black leadership. Interracial couples are common (military town, tourist hub). However, it's still the Deep South with complex racial history.",
+    "diversity_index": "52% Black, 37% White, 7% Hispanic, 2% Asian",
+    "notable": "Majority-Black city with substantial Black middle class and historic African American community"
+  },
+  "safety": {
+    "summary": "⚠️ HONEST CONCERN: Crime has been elevated but improving. Violent crime dropped 20% in 2024 (834 violent crimes vs 982 in 2018), but still higher than national average. Chance of victimization is 1 in 46 overall. Safe neighborhoods exist—Historic District, Victorian District, Ardsley Park are relatively low-crime—but awareness is required. Candace's safety threshold (San Diego baseline) needs serious consideration here.",
+    "violent_crime_rate": "~600 per 100k (declining but still elevated; down 20% in 2024)",
+    "best_neighborhoods": [
+      "Ardsley Park / Chatham Crescent",
+      "Historic District (Forsyth Park area)",
+      "Victorian District",
+      "Wilmington Island",
+      "Isle of Hope"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "47/100 (car-dependent overall)",
+    "best_walkable_neighborhoods": [
+      "Historic District / Downtown (85+)",
+      "Victorian District-East (83)",
+      "Victorian District-West (82)",
+      "Starland District (78)",
+      "Forsyth Park area (80)"
+    ]
+  },
+  "scenery": {
+    "summary": "Stunning coastal Southern beauty—Spanish moss, live oaks, historic squares, Forsyth Park fountain, River Street along the Savannah River, nearby Tybee Island beaches (18 miles). Quintessential Southern Gothic architecture. Summer heat/humidity is real, but spring and fall are gorgeous."
+  },
+  "climate": {
+    "summary": "Hot, humid subtropical climate. Mild winters (rarely freezes), brutally hot summers (90s with high humidity). No snow—maybe a dusting once a decade. This is Deep South heat. Spring (March-May) and fall (Oct-Nov) are beautiful. Over 200 sunny days annually.",
+    "avg_summer_high": "91°F (feels hotter with humidity)",
+    "avg_winter_low": "42°F",
+    "annual_snowfall": "0.04 inches (essentially never)",
+    "annual_sunny_days": "216"
+  },
+  "culture": {
+    "summary": "Rich blend of Southern history, Gullah-Geechee heritage, SCAD (art school) creative energy, and tourism. Historic squares, ghost tours, First Friday art walks, strong food scene (Low Country cuisine, seafood, soul food), live music. Southern hospitality is real. However, be aware: Georgia politics trend conservative (though Savannah proper leans Democratic). Complex relationship with Confederate history."
+  },
+  "pros": [
+    "Majority-Black city—Candace would be part of the cultural majority",
+    "Very affordable compared to LA (9% below national average)",
+    "Beautiful historic architecture and coastal scenery",
+    "Walkable downtown with character and charm",
+    "Strong Black community, churches, cultural institutions",
+    "Access to beaches (Tybee Island 18 miles)",
+    "Mild winters—no shoveling snow",
+    "Growing arts scene (SCAD influence)"
+  ],
+  "cons": [
+    "⚠️ Crime concerns—improving but still elevated, especially for Candace's safety baseline",
+    "Georgia state politics are conservative (though city itself is moderate/liberal)",
+    "Summer heat and humidity are oppressive (May-September)",
+    "Limited walkability outside historic core—car still needed",
+    "Deep South cultural dynamics—progress exists but Confederate monuments, etc. are present",
+    "Smaller job market than major metros (tourism/service heavy)",
+    "Hurricane risk (coastal Georgia)",
+    "May feel small after 1-2 years (under 400k metro)"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Historic District / Downtown",
+      "vibe": "Iconic Savannah—cobblestones, squares, tourists, historic homes",
+      "walk_score": "85/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Very diverse, touristy, mixed residential/commercial",
+      "why_for_them": "Most walkable area, gorgeous architecture, near everything. Touristy feel may get old. Pricier but still affordable vs LA. Great for short-term adventure."
+    },
+    {
+      "name": "Victorian District",
+      "vibe": "Residential neighborhood south of downtown—ornate Victorian homes, local feel",
+      "walk_score": "82/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Diverse, mix of students (SCAD), families, young professionals",
+      "why_for_them": "Walkable, near Forsyth Park, more residential than downtown. Great for urban living without full tourist saturation. Safe and charming."
+    },
+    {
+      "name": "Starland District",
+      "vibe": "Savannah's arts district—galleries, cafes, indie shops, creative energy",
+      "walk_score": "78/100",
+      "median_rent_1br": "$1,550",
+      "safety_rating": "medium",
+      "diversity_notes": "Diverse, artsy, younger crowd, gentrifying",
+      "why_for_them": "Josh would love the walkability and bohemian vibe. Less polished than Historic District. Growing neighborhood with edge and character."
+    },
+    {
+      "name": "Ardsley Park / Chatham Crescent",
+      "vibe": "Upscale residential—tree-lined streets, historic homes, family-oriented",
+      "walk_score": "68/100",
+      "median_rent_1br": "$1,700",
+      "safety_rating": "high",
+      "diversity_notes": "Less diverse, affluent, family-focused",
+      "why_for_them": "Safest neighborhood option. Beautiful, quiet, near Daffin Park. Less walkable but high quality of life. Good compromise for safety priority."
+    },
+    {
+      "name": "Thomas Square / Midtown",
+      "vibe": "Transitional neighborhood—mix of historic homes, renovations, neighborhood feel",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "medium",
+      "diversity_notes": "Diverse, community-oriented, active neighborhood association",
+      "why_for_them": "Affordable, walkable, authentic Savannah feel. Renovation opportunities. Near Starland. Good value but requires block-by-block research."
+    }
+  ]
+}
