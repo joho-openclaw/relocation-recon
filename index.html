@@ -62,6 +62,162 @@
             z-index: 1;
         }
 
+        /* Desktop Top Navigation */
+        .top-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 32px;
+        }
+
+        .top-nav-brand {
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .top-nav-links {
+            display: flex;
+            gap: 8px;
+        }
+
+        .top-nav-link {
+            padding: 10px 20px;
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .top-nav-link:hover {
+            border-color: var(--border-hover);
+            color: var(--text-primary);
+        }
+
+        .top-nav-link.active {
+            background: var(--bg-card);
+            border-color: var(--accent-purple);
+            color: var(--text-primary);
+        }
+
+        /* Mobile Bottom Tab Bar */
+        .bottom-tab-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            padding: 8px 0;
+        }
+
+        .bottom-tabs {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .bottom-tab {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-tertiary);
+        }
+
+        .bottom-tab.active {
+            color: var(--accent-purple);
+        }
+
+        .bottom-tab-icon {
+            font-size: 24px;
+        }
+
+        .bottom-tab-label {
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        /* Sub-navigation pills */
+        .sub-nav {
+            display: none;
+            gap: 8px;
+            overflow-x: auto;
+            padding: 16px 0;
+            margin-bottom: 24px;
+            scrollbar-width: none;
+        }
+
+        .sub-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .sub-nav.active {
+            display: flex;
+        }
+
+        .sub-nav-pill {
+            padding: 8px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            white-space: nowrap;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .sub-nav-pill:hover {
+            border-color: var(--accent-purple);
+            color: var(--text-primary);
+        }
+
+        .sub-nav-pill.active {
+            background: var(--accent-purple);
+            border-color: var(--accent-purple);
+            color: white;
+        }
+
+        /* Breadcrumb / Back button */
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+            margin-bottom: 24px;
+        }
+
+        .back-button:hover {
+            border-color: var(--accent-purple);
+            color: var(--text-primary);
+        }
+
         /* Header */
         header {
             padding: 32px 0 60px;
@@ -88,35 +244,76 @@
             margin: 0 auto 24px;
         }
 
-        /* Navigation tabs */
-        .nav-tabs {
-            display: flex;
-            gap: 8px;
-            justify-content: center;
-            margin-top: 32px;
+        /* Landing Page - Entry Cards */
+        .landing-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 32px;
+            max-width: 1000px;
+            margin: 80px auto;
         }
 
-        .nav-tab {
-            padding: 10px 24px;
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--text-secondary);
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.2s;
-        }
-
-        .nav-tab:hover {
-            border-color: var(--border-hover);
-            color: var(--text-primary);
-        }
-
-        .nav-tab.active {
+        .entry-card {
             background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 48px 40px;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .entry-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue));
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+
+        .entry-card:hover {
             border-color: var(--accent-purple);
+            transform: translateY(-8px);
+            box-shadow: 0 16px 40px rgba(167, 139, 250, 0.2);
+        }
+
+        .entry-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .entry-card-icon {
+            font-size: 64px;
+            margin-bottom: 24px;
+        }
+
+        .entry-card-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 12px;
             color: var(--text-primary);
+        }
+
+        .entry-card-description {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+
+        .entry-card-stat {
+            display: inline-block;
+            padding: 8px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent-purple);
         }
 
         /* Views */
@@ -765,14 +962,480 @@
             color: var(--text-primary);
         }
 
+        /* Move Plan Timeline */
+        .move-countdown {
+            text-align: center;
+            margin-bottom: 48px;
+            padding: 32px;
+            background: linear-gradient(135deg, rgba(167, 139, 250, 0.1), rgba(96, 165, 250, 0.1));
+            border: 1px solid var(--border);
+            border-radius: 16px;
+        }
+
+        .move-countdown h2 {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+        }
+
+        .move-countdown .subtitle {
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        .move-countdown .countdown-secondary {
+            font-size: 13px;
+            color: var(--text-tertiary);
+            margin-top: 12px;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Timeline line is rendered between items, not as a full-length pseudo-element */
+
+        .phase-header {
+            text-align: center;
+            margin: 40px 0 32px;
+            position: relative;
+        }
+
+        .phase-header h3 {
+            display: inline-block;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-primary);
+            background: var(--bg-card);
+            padding: 12px 32px;
+            border-radius: 24px;
+            border: 2px solid var(--accent-purple);
+            position: relative;
+            z-index: 2;
+        }
+
+        .timeline-event {
+            position: relative;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        /* Connecting line between consecutive timeline events only */
+        .timeline-event + .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: -40px;
+            width: 2px;
+            height: 40px;
+            background: linear-gradient(180deg, var(--accent-purple), var(--accent-blue));
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .timeline-event:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        .timeline-event:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .event-card {
+            flex: 1;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .event-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue));
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+
+        .event-card:hover {
+            border-color: var(--accent-purple);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(167, 139, 250, 0.2);
+        }
+
+        .event-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .timeline-event:nth-child(odd) .event-card {
+            text-align: right;
+        }
+
+        .timeline-event:nth-child(even) .event-card {
+            text-align: left;
+        }
+
+        .timeline-dot {
+            width: 20px;
+            height: 20px;
+            background: var(--bg-primary);
+            border: 4px solid var(--accent-purple);
+            border-radius: 50%;
+            position: relative;
+            z-index: 10;
+            flex-shrink: 0;
+            transition: all 0.3s;
+        }
+
+        .timeline-event:hover .timeline-dot {
+            transform: scale(1.4);
+            border-width: 5px;
+            box-shadow: 0 0 0 8px rgba(167, 139, 250, 0.2);
+        }
+
+        .timeline-dot.status-done {
+            background: var(--accent-green);
+            border-color: var(--accent-green);
+        }
+
+        .timeline-dot.status-in-progress {
+            border-color: var(--accent-yellow);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { 
+                box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.7);
+            }
+            50% { 
+                box-shadow: 0 0 0 12px rgba(251, 191, 36, 0);
+            }
+        }
+
+        .event-phase-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent-purple);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .event-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .timeline-event:nth-child(odd) .event-header {
+            justify-content: flex-end;
+        }
+
+        .timeline-event:nth-child(even) .event-header {
+            justify-content: flex-start;
+        }
+
+        .event-date {
+            font-size: 32px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .days-until {
+            background: var(--bg-secondary);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-tertiary);
+            white-space: nowrap;
+        }
+
+        .event-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .event-description {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .event-meta {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .timeline-event:nth-child(odd) .event-meta {
+            justify-content: flex-end;
+        }
+
+        .timeline-event:nth-child(even) .event-meta {
+            justify-content: flex-start;
+        }
+
+        .owner-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            border: 1px solid;
+        }
+
+        .owner-badge.owner-josh {
+            background: rgba(167, 139, 250, 0.1);
+            border-color: var(--accent-purple);
+            color: var(--accent-purple);
+        }
+
+        .owner-badge.owner-candace {
+            background: rgba(96, 165, 250, 0.1);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .owner-badge.owner-both {
+            background: linear-gradient(135deg, rgba(167, 139, 250, 0.1), rgba(96, 165, 250, 0.1));
+            border-color: transparent;
+            color: var(--text-primary);
+            border-image: linear-gradient(135deg, var(--accent-purple), var(--accent-blue)) 1;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            border: 1px solid;
+        }
+
+        .status-badge.status-planned {
+            background: transparent;
+            border-color: var(--border);
+            color: var(--text-tertiary);
+        }
+
+        .status-badge.status-in-progress {
+            background: rgba(251, 191, 36, 0.1);
+            border-color: var(--accent-yellow);
+            color: var(--accent-yellow);
+        }
+
+        .status-badge.status-done {
+            background: rgba(52, 211, 153, 0.1);
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+        }
+
+        .status-badge.status-done::before {
+            content: '✓';
+        }
+
+        /* Event Detail Modal Styles */
+        .event-detail-header {
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .event-detail-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .event-detail-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .event-detail-date {
+            font-size: 20px;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .event-detail-countdown {
+            background: var(--bg-secondary);
+            padding: 4px 14px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-tertiary);
+        }
+
+        .event-detail-section {
+            margin-bottom: 28px;
+        }
+
+        .event-detail-section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .event-detail-text {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .event-detail-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .event-detail-list li {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+            padding: 8px 0 8px 24px;
+            position: relative;
+            border-bottom: 1px solid rgba(42, 42, 42, 0.5);
+        }
+
+        .event-detail-list li:last-child {
+            border-bottom: none;
+        }
+
+        .event-detail-list li::before {
+            content: '•';
+            position: absolute;
+            left: 8px;
+            color: var(--accent-purple);
+            font-weight: bold;
+        }
+
+        .calypso-suggestions {
+            background: linear-gradient(135deg, rgba(167, 139, 250, 0.05), rgba(96, 165, 250, 0.05));
+            border: 1px solid rgba(167, 139, 250, 0.15);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .calypso-suggestions .event-detail-list li::before {
+            content: '🌊';
+            font-size: 12px;
+        }
+
+        /* Make event cards clickable */
+        .timeline-event {
+            cursor: pointer;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             h1 { font-size: 36px; }
             .city-grid { grid-template-columns: 1fr; }
             .modal-content { padding: 24px; }
             .pros-cons { grid-template-columns: 1fr; }
-            .nav-tabs { flex-wrap: wrap; }
             .sliders-grid { grid-template-columns: 1fr; }
+            .landing-cards { 
+                grid-template-columns: 1fr;
+                margin: 40px auto;
+            }
+
+            /* Hide desktop nav on mobile */
+            .top-nav {
+                display: none;
+            }
+
+            /* Show mobile bottom tab bar */
+            .bottom-tab-bar {
+                display: block;
+            }
+
+            /* Add bottom padding to avoid bottom bar overlap */
+            .container {
+                padding-bottom: 80px;
+            }
+
+            /* Mobile timeline adjustments */
+            .timeline-event + .timeline-event::before {
+                left: 21px;
+                transform: none;
+            }
+
+            .timeline-event,
+            .timeline-event:nth-child(odd),
+            .timeline-event:nth-child(even) {
+                flex-direction: row;
+                padding-left: 60px;
+            }
+
+            .timeline-dot {
+                position: absolute;
+                left: 11px;
+            }
+
+            .event-card,
+            .timeline-event:nth-child(odd) .event-card,
+            .timeline-event:nth-child(even) .event-card {
+                text-align: left;
+            }
+
+            .event-header,
+            .timeline-event:nth-child(odd) .event-header,
+            .timeline-event:nth-child(even) .event-header {
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+
+            .event-meta,
+            .timeline-event:nth-child(odd) .event-meta,
+            .timeline-event:nth-child(even) .event-meta {
+                justify-content: flex-start;
+            }
+
+            .event-date {
+                font-size: 24px;
+            }
+
+            .move-countdown h2 {
+                font-size: 32px;
+            }
         }
 
         /* Score colors */
@@ -783,28 +1446,75 @@
     </style>
 </head>
 <body>
+    <!-- Desktop Top Navigation -->
     <div class="container">
-        <header>
-            <h1>Relocation Recon</h1>
-            <p class="subtitle">
-                A data-driven exploration of 15 cities for a 1-2 year adventure.
-                Researching where to land next — with integration, safety, and quality of life as top priorities.
-            </p>
-            <nav class="nav-tabs">
-                <button class="nav-tab active" onclick="showView('overview')">Overview</button>
-                <button class="nav-tab" onclick="showView('weighted')">Weighted Comparison</button>
-                <button class="nav-tab" onclick="showView('comparison')">Compare</button>
-                <button class="nav-tab" onclick="showView('methodology')">Methodology</button>
-            </nav>
-        </header>
+        <nav class="top-nav">
+            <div class="top-nav-brand">Relocation Recon</div>
+            <div class="top-nav-links">
+                <button class="top-nav-link active" onclick="showSection('home')">Home</button>
+                <button class="top-nav-link" onclick="showSection('research', 'overview')">City Research</button>
+                <button class="top-nav-link" onclick="showSection('moveplan', 'timeline')">Move Plan</button>
+            </div>
+        </nav>
 
-        <!-- Overview -->
-        <div id="overview" class="view active">
+        <!-- Sub-navigation (Research) -->
+        <div id="research-subnav" class="sub-nav">
+            <button class="sub-nav-pill active" onclick="showSection('research', 'overview')">Overview</button>
+            <button class="sub-nav-pill" onclick="showSection('research', 'weighted')">Weighted Comparison</button>
+            <button class="sub-nav-pill" onclick="showSection('research', 'compare')">Compare</button>
+            <button class="sub-nav-pill" onclick="showSection('research', 'methodology')">Methodology</button>
+        </div>
+
+        <!-- Sub-navigation (Move Plan) -->
+        <div id="moveplan-subnav" class="sub-nav">
+            <button class="sub-nav-pill active" onclick="showSection('moveplan', 'timeline')">Timeline</button>
+        </div>
+
+        <!-- Home / Landing Page -->
+        <div id="home" class="view active">
+            <header>
+                <h1>Relocation Recon</h1>
+                <p class="subtitle">
+                    A data-driven exploration of 15 cities for a 1-2 year adventure.
+                    Researching where to land next — with integration, safety, and quality of life as top priorities.
+                </p>
+            </header>
+
+            <div class="landing-cards">
+                <div class="entry-card" onclick="showSection('research', 'overview')">
+                    <div class="entry-card-icon">🏙️</div>
+                    <div class="entry-card-title">City Research</div>
+                    <div class="entry-card-description">
+                        Deep dive into 15 cities across the US. Weighted scores, detailed comparisons, 
+                        neighborhood breakdowns, and research methodology.
+                    </div>
+                    <div class="entry-card-stat" id="city-count-stat">15 cities researched</div>
+                </div>
+
+                <div class="entry-card" onclick="showSection('moveplan', 'timeline')">
+                    <div class="entry-card-icon">📦</div>
+                    <div class="entry-card-title">Move Plan</div>
+                    <div class="entry-card-description">
+                        Timeline, milestones, and tasks for the big move. Track progress from 
+                        apartment hunting to final departure.
+                    </div>
+                    <div class="entry-card-stat" id="moveplan-count-stat">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Research Section -->
+        <div id="research-overview" class="view">
+            <div class="back-button" onclick="showSection('home')">
+                ← Back to Home
+            </div>
             <div class="city-grid" id="cityGrid"></div>
         </div>
 
-        <!-- Weighted Comparison -->
-        <div id="weighted" class="view">
+        <div id="research-weighted" class="view">
+            <div class="back-button" onclick="showSection('home')">
+                ← Back to Home
+            </div>
             <div class="weight-controls">
                 <h2 style="text-align: center; margin-bottom: 24px; font-size: 24px;">Customize Your Priorities</h2>
                 
@@ -892,8 +1602,10 @@
             <div class="rankings-list" id="rankingsList"></div>
         </div>
 
-        <!-- Comparison -->
-        <div id="comparison" class="view">
+        <div id="research-compare" class="view">
+            <div class="back-button" onclick="showSection('home')">
+                ← Back to Home
+            </div>
             <div class="priority-note">
                 <h3>📊 Scoring Priority Framework</h3>
                 <ol>
@@ -911,20 +1623,57 @@
                 <table id="comparisonTable"></table>
             </div>
         </div>
-    </div>
 
-        <!-- Methodology -->
-        <div id="methodology" class="view">
+        <div id="research-methodology" class="view">
+            <div class="back-button" onclick="showSection('home')">
+                ← Back to Home
+            </div>
             <div class="methodology-content" id="methodologyContent" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 40px; line-height: 1.8; color: var(--text-secondary);">
                 <p>Loading methodology...</p>
             </div>
         </div>
+
+        <!-- Move Plan Section -->
+        <div id="moveplan-timeline" class="view">
+            <div class="back-button" onclick="showSection('home')">
+                ← Back to Home
+            </div>
+            <div class="move-countdown" id="moveCountdown"></div>
+            <div class="timeline" id="moveTimeline"></div>
+        </div>
+    </div>
+
+    <!-- Mobile Bottom Tab Bar -->
+    <div class="bottom-tab-bar">
+        <div class="bottom-tabs">
+            <div class="bottom-tab active" onclick="showSection('home')">
+                <div class="bottom-tab-icon">🏠</div>
+                <div class="bottom-tab-label">Home</div>
+            </div>
+            <div class="bottom-tab" onclick="showSection('research', 'overview')">
+                <div class="bottom-tab-icon">🏙️</div>
+                <div class="bottom-tab-label">Research</div>
+            </div>
+            <div class="bottom-tab" onclick="showSection('moveplan', 'timeline')">
+                <div class="bottom-tab-icon">📦</div>
+                <div class="bottom-tab-label">Move Plan</div>
+            </div>
+        </div>
+    </div>
 
     <!-- Detail Modal -->
     <div id="detailModal" class="modal">
         <div class="modal-content">
             <button class="modal-close" onclick="closeDetail()">×</button>
             <div id="detailContent"></div>
+        </div>
+    </div>
+
+    <!-- Event Detail Modal -->
+    <div id="eventDetailModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeEventDetail()">×</button>
+            <div id="eventDetailContent"></div>
         </div>
     </div>
 
@@ -944,6 +1693,100 @@
             culture: 5
         };
 
+        // State management
+        let currentSection = 'home';
+        let currentSubView = null;
+        let dataLoaded = {
+            cities: false,
+            methodology: false,
+            movePlan: false
+        };
+
+        // View switching with two-tier navigation
+        function showSection(section, subView = null) {
+            currentSection = section;
+            currentSubView = subView;
+
+            // Hide all views
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            
+            // Hide all sub-navs
+            document.querySelectorAll('.sub-nav').forEach(n => n.classList.remove('active'));
+
+            // Update desktop top nav
+            document.querySelectorAll('.top-nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Update mobile bottom tabs
+            document.querySelectorAll('.bottom-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            if (section === 'home') {
+                // Show home view
+                document.getElementById('home').classList.add('active');
+                document.querySelector('.top-nav-link[onclick*="home"]').classList.add('active');
+                document.querySelector('.bottom-tab[onclick*="home"]').classList.add('active');
+            } else if (section === 'research') {
+                // Load data if needed
+                if (!dataLoaded.cities) {
+                    loadCities();
+                }
+                if (!dataLoaded.methodology) {
+                    loadMethodology();
+                }
+
+                // Show research sub-nav
+                document.getElementById('research-subnav').classList.add('active');
+                
+                // Update research sub-nav pills
+                document.querySelectorAll('#research-subnav .sub-nav-pill').forEach(pill => {
+                    pill.classList.remove('active');
+                });
+
+                // Show the appropriate research sub-view
+                const viewId = `research-${subView}`;
+                document.getElementById(viewId).classList.add('active');
+                
+                // Highlight active sub-nav pill
+                const activePill = document.querySelector(`#research-subnav .sub-nav-pill[onclick*="${subView}"]`);
+                if (activePill) activePill.classList.add('active');
+
+                // Update top nav
+                document.querySelector('.top-nav-link[onclick*="research"]').classList.add('active');
+                document.querySelector('.bottom-tab[onclick*="research"]').classList.add('active');
+            } else if (section === 'moveplan') {
+                // Load data if needed
+                if (!dataLoaded.movePlan) {
+                    loadMovePlan();
+                }
+
+                // Show moveplan sub-nav only if more than one pill
+                const moveplanPills = document.querySelectorAll('#moveplan-subnav .sub-nav-pill');
+                if (moveplanPills.length > 1) {
+                    document.getElementById('moveplan-subnav').classList.add('active');
+                }
+
+                // Update moveplan sub-nav pills
+                document.querySelectorAll('#moveplan-subnav .sub-nav-pill').forEach(pill => {
+                    pill.classList.remove('active');
+                });
+
+                // Show the appropriate moveplan sub-view
+                const viewId = `moveplan-${subView}`;
+                document.getElementById(viewId).classList.add('active');
+
+                // Highlight active sub-nav pill
+                const activePill = document.querySelector(`#moveplan-subnav .sub-nav-pill[onclick*="${subView}"]`);
+                if (activePill) activePill.classList.add('active');
+
+                // Update top nav
+                document.querySelector('.top-nav-link[onclick*="moveplan"]').classList.add('active');
+                document.querySelector('.bottom-tab[onclick*="moveplan"]').classList.add('active');
+            }
+        }
+
         // Load city data
         async function loadCities() {
             try {
@@ -956,6 +1799,11 @@
                 });
                 
                 cities = await Promise.all(cityPromises);
+                dataLoaded.cities = true;
+                
+                // Update home page stat
+                document.getElementById('city-count-stat').textContent = `${cities.length} cities researched`;
+                
                 renderCityGrid();
                 renderComparisonTable();
                 renderRankings();
@@ -970,6 +1818,7 @@
         function loadEmbeddedCities() {
             // Use the original embedded cities array as fallback
             // (This would contain the full cities array from the original code)
+            dataLoaded.cities = true;
             renderCityGrid();
             renderComparisonTable();
             renderRankings();
@@ -1435,14 +2284,6 @@
             }
         });
 
-        // View switching
-        function showView(viewName) {
-            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-            document.getElementById(viewName).classList.add('active');
-            event.target.classList.add('active');
-        }
-
         // Load methodology
         async function loadMethodology() {
             try {
@@ -1450,6 +2291,7 @@
                 const md = await res.text();
                 const html = renderMarkdown(md);
                 document.getElementById('methodologyContent').innerHTML = html;
+                dataLoaded.methodology = true;
             } catch (e) {
                 document.getElementById('methodologyContent').innerHTML = '<p>Error loading methodology.</p>';
             }
@@ -1482,9 +2324,213 @@
             return `<div style="font-size: 15px;">${html}</div>`;
         }
 
-        // Initialize
-        loadCities();
-        loadMethodology();
+        // Move Plan functions
+        let movePlanData = null;
+
+        async function loadMovePlan() {
+            try {
+                const response = await fetch('data/move-plan.json');
+                movePlanData = await response.json();
+                dataLoaded.movePlan = true;
+                renderMovePlan();
+            } catch (error) {
+                console.error('Error loading move plan:', error);
+                document.getElementById('moveCountdown').innerHTML = '<p style="color: var(--accent-red);">Error loading move plan data.</p>';
+            }
+        }
+
+        // Parse YYYY-MM-DD as local date (not UTC)
+        function parseLocalDate(dateString) {
+            const [y, m, d] = dateString.split('-').map(Number);
+            return new Date(y, m - 1, d);
+        }
+
+        function calculateDaysUntil(dateString) {
+            const targetDate = parseLocalDate(dateString);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const diffTime = targetDate - today;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            return diffDays;
+        }
+
+        function formatDate(dateString) {
+            const date = parseLocalDate(dateString);
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            return `${months[date.getMonth()]} ${date.getDate()}`;
+        }
+
+        function renderMovePlan() {
+            if (!movePlanData) return;
+
+            // Collect all events and sort by date (newest first)
+            const allEvents = [];
+            movePlanData.phases.forEach(phase => {
+                phase.events.forEach(event => {
+                    allEvents.push({ ...event, phaseName: phase.name });
+                });
+            });
+            allEvents.sort((a, b) => parseLocalDate(a.dates.start) - parseLocalDate(b.dates.start));
+
+            // Find the latest event (move-in) for countdown
+            const latestEvent = allEvents.reduce((latest, event) => {
+                const eventDate = parseLocalDate(event.dates.end || event.dates.start);
+                const latestDate = parseLocalDate(latest.dates.end || latest.dates.start);
+                return eventDate > latestDate ? event : latest;
+            });
+
+            // Find next upcoming event (earliest event still in the future)
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const nextEvent = allEvents.find(e => parseLocalDate(e.dates.start) >= today) || allEvents[allEvents.length - 1];
+            const daysUntilNext = calculateDaysUntil(nextEvent.dates.start);
+
+            // Move-in (latest event) for secondary countdown
+            const moveInDate = latestEvent.dates.start;
+            const daysUntilMoveIn = calculateDaysUntil(moveInDate);
+            
+            // Render countdown
+            const nextLabel = daysUntilNext > 0 ? `${daysUntilNext} days` : daysUntilNext === 0 ? '🎉 Today!' : `${Math.abs(daysUntilNext)} days ago`;
+            const moveInLabel = daysUntilMoveIn > 0 ? `${daysUntilMoveIn} days` : daysUntilMoveIn === 0 ? 'Today!' : `${Math.abs(daysUntilMoveIn)} days ago`;
+            const showMoveIn = nextEvent.id !== latestEvent.id;
+            
+            const countdownHTML = `
+                <h2>${nextLabel}</h2>
+                <p class="subtitle">${daysUntilNext > 0 ? 'until ' : ''}${nextEvent.title}</p>
+                ${showMoveIn ? `<p class="countdown-secondary">Move-in: ${moveInLabel} away</p>` : ''}
+            `;
+            document.getElementById('moveCountdown').innerHTML = countdownHTML;
+
+            // Update home page stat
+            const eventCount = allEvents.length;
+            const doneCount = allEvents.filter(e => e.status === 'done').length;
+            document.getElementById('moveplan-count-stat').textContent = `${doneCount}/${eventCount} events completed`;
+
+            // Render timeline
+            let timelineHTML = '';
+
+            allEvents.forEach((event, index) => {
+                const daysUntil = calculateDaysUntil(event.dates.start);
+                const dateDisplay = event.dates.end 
+                    ? `${formatDate(event.dates.start)} - ${formatDate(event.dates.end)}`
+                    : formatDate(event.dates.start);
+                
+                const daysUntilText = daysUntil > 0 
+                    ? `in ${daysUntil} days`
+                    : daysUntil === 0 
+                    ? 'Today!'
+                    : `${Math.abs(daysUntil)} days ago`;
+
+                const ownerLabel = event.owner === 'both' ? 'Josh & Candace' : event.owner.charAt(0).toUpperCase() + event.owner.slice(1);
+
+                timelineHTML += `
+                    <div class="timeline-event" onclick="showEventDetail('${event.id}')">
+                        <div class="event-card">
+                            <div class="event-phase-label">${event.phaseName}</div>
+                            <div class="event-header">
+                                <div class="event-date">${dateDisplay}</div>
+                                <div class="days-until">${daysUntilText}</div>
+                            </div>
+                            <div class="event-title">${event.title}</div>
+                            <div class="event-description">${event.description}</div>
+                            <div class="event-meta">
+                                <span class="owner-badge owner-${event.owner}">${ownerLabel}</span>
+                                <span class="status-badge status-${event.status}">${event.status.replace('-', ' ')}</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot status-${event.status}"></div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('moveTimeline').innerHTML = timelineHTML;
+        }
+
+        // Event detail modal
+        function showEventDetail(eventId) {
+            if (!movePlanData) return;
+            let event = null;
+            let phaseName = '';
+            for (const phase of movePlanData.phases) {
+                const found = phase.events.find(e => e.id === eventId);
+                if (found) { event = found; phaseName = phase.name; break; }
+            }
+            if (!event) return;
+
+            const ownerLabel = event.owner === 'both' ? 'Josh & Candace' : event.owner.charAt(0).toUpperCase() + event.owner.slice(1);
+            const dateDisplay = event.dates.end
+                ? `${formatDate(event.dates.start)} – ${formatDate(event.dates.end)}`
+                : formatDate(event.dates.start);
+            const daysUntil = calculateDaysUntil(event.dates.start);
+            const daysText = daysUntil > 0 ? `${daysUntil} days away` : daysUntil === 0 ? 'Today!' : `${Math.abs(daysUntil)} days ago`;
+
+            let html = `
+                <div class="event-detail-header">
+                    <div class="event-phase-label">${phaseName}</div>
+                    <h2 class="event-detail-title">${event.title}</h2>
+                    <div class="event-detail-meta">
+                        <span class="event-detail-date">${dateDisplay}</span>
+                        <span class="event-detail-countdown">${daysText}</span>
+                    </div>
+                    <div class="event-meta" style="margin-top: 16px;">
+                        <span class="owner-badge owner-${event.owner}">${ownerLabel}</span>
+                        <span class="status-badge status-${event.status}">${event.status.replace('-', ' ')}</span>
+                    </div>
+                </div>
+
+                <div class="event-detail-section">
+                    <div class="event-detail-section-title">📋 Overview</div>
+                    <p class="event-detail-text">${event.description}</p>
+                </div>
+            `;
+
+            if (event.actionItems && event.actionItems.length > 0) {
+                html += `
+                    <div class="event-detail-section">
+                        <div class="event-detail-section-title">✅ Action Items</div>
+                        <ul class="event-detail-list">
+                            ${event.actionItems.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            if (event.notes) {
+                html += `
+                    <div class="event-detail-section">
+                        <div class="event-detail-section-title">📝 Notes</div>
+                        <p class="event-detail-text">${event.notes}</p>
+                    </div>
+                `;
+            }
+
+            if (event.calypsySuggestions && event.calypsySuggestions.length > 0) {
+                html += `
+                    <div class="event-detail-section calypso-suggestions">
+                        <div class="event-detail-section-title">🌊 Calypso's Suggestions</div>
+                        <ul class="event-detail-list">
+                            ${event.calypsySuggestions.map(s => `<li>${s}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            document.getElementById('eventDetailContent').innerHTML = html;
+            document.getElementById('eventDetailModal').classList.add('active');
+        }
+
+        function closeEventDetail() {
+            document.getElementById('eventDetailModal').classList.remove('active');
+        }
+
+        document.getElementById('eventDetailModal').addEventListener('click', (e) => {
+            if (e.target.id === 'eventDetailModal') {
+                closeEventDetail();
+            }
+        });
+
+        // Initialize - load on page load to start with landing page shown
+        // Data will be lazy-loaded when sections are first visited
     </script>
 </body>
 </html>
