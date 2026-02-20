@@ -1392,10 +1392,9 @@
                 padding-bottom: 80px;
             }
 
-            /* Mobile timeline adjustments */
+            /* Mobile timeline — hide the desktop connector, use JS-rendered lines instead */
             .timeline-event + .timeline-event::before {
-                left: 21px;
-                transform: none;
+                display: none;
             }
 
             .timeline-event,
@@ -2403,8 +2402,7 @@
 
             // Update home page stat
             const eventCount = allEvents.length;
-            const doneCount = allEvents.filter(e => e.status === 'done').length;
-            document.getElementById('moveplan-count-stat').textContent = `${doneCount}/${eventCount} events completed`;
+            document.getElementById('moveplan-count-stat').textContent = `${eventCount} events planned`;
 
             // Render timeline
             let timelineHTML = '';
@@ -2435,16 +2433,57 @@
                             <div class="event-description">${event.description}</div>
                             <div class="event-meta">
                                 <span class="owner-badge owner-${event.owner}">${ownerLabel}</span>
-                                <span class="status-badge status-${event.status}">${event.status.replace('-', ' ')}</span>
                             </div>
                         </div>
-                        <div class="timeline-dot status-${event.status}"></div>
+                        <div class="timeline-dot"></div>
                     </div>
                 `;
             });
 
             document.getElementById('moveTimeline').innerHTML = timelineHTML;
+
+            // Draw mobile connector lines between dots
+            requestAnimationFrame(() => renderTimelineConnectors());
         }
+
+        function renderTimelineConnectors() {
+            // Remove old connectors
+            document.querySelectorAll('.timeline-connector').forEach(el => el.remove());
+
+            if (window.innerWidth > 768) return; // Desktop uses CSS ::before
+
+            const dots = document.querySelectorAll('.timeline-dot');
+            const timeline = document.querySelector('.timeline');
+            if (!timeline || dots.length < 2) return;
+
+            const timelineRect = timeline.getBoundingClientRect();
+
+            for (let i = 0; i < dots.length - 1; i++) {
+                const dot1 = dots[i].getBoundingClientRect();
+                const dot2 = dots[i + 1].getBoundingClientRect();
+                const top = dot1.top + dot1.height / 2 - timelineRect.top;
+                const bottom = dot2.top + dot2.height / 2 - timelineRect.top;
+                const left = dot1.left + dot1.width / 2 - timelineRect.left;
+
+                const line = document.createElement('div');
+                line.className = 'timeline-connector';
+                line.style.cssText = `
+                    position: absolute;
+                    left: ${left}px;
+                    top: ${top}px;
+                    width: 2px;
+                    height: ${bottom - top}px;
+                    background: linear-gradient(180deg, var(--accent-purple), var(--accent-blue));
+                    z-index: 1;
+                    pointer-events: none;
+                `;
+                timeline.appendChild(line);
+            }
+        }
+
+        window.addEventListener('resize', () => {
+            renderTimelineConnectors();
+        });
 
         // Event detail modal
         function showEventDetail(eventId) {
@@ -2474,7 +2513,6 @@
                     </div>
                     <div class="event-meta" style="margin-top: 16px;">
                         <span class="owner-badge owner-${event.owner}">${ownerLabel}</span>
-                        <span class="status-badge status-${event.status}">${event.status.replace('-', ' ')}</span>
                     </div>
                 </div>
 

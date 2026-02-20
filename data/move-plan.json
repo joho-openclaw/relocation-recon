@@ -8,24 +8,26 @@
         {
           "id": "pack-candace",
           "title": "Pack Candace's Apartment",
-          "dates": { "start": "2026-10-01", "end": "2026-11-01" },
+          "dates": {
+            "start": "2026-10-01",
+            "end": "2026-11-01"
+          },
           "description": "Pack everything in Candace's apartment into boxes, wrap all furniture in padding. Leave only a temporary bed (air mattress) and a folding table to work on.",
           "owner": "both",
-          "status": "planned",
           "actionItems": [
-            "Buy packing supplies — boxes, tape, bubble wrap, furniture pads",
+            "Buy packing supplies \u2014 boxes, tape, bubble wrap, furniture pads",
             "Sort belongings: keep, donate, trash",
             "Pack room by room, label every box by room + contents",
             "Wrap all furniture in moving blankets/padding",
             "Set up air mattress and folding table as temporary living setup",
             "Schedule donation pickup for anything not coming"
           ],
-          "notes": "Start early and pace it — a full month gives breathing room but it goes fast. Prioritize rarely-used rooms first, leave kitchen and bedroom basics for last.",
+          "notes": "Start early and pace it \u2014 a full month gives breathing room but it goes fast. Prioritize rarely-used rooms first, leave kitchen and bedroom basics for last.",
           "calypsySuggestions": [
-            "Get a portable clothing rack instead of living out of boxes for a month — Candace will thank you",
+            "Get a portable clothing rack instead of living out of boxes for a month \u2014 Candace will thank you",
             "Take photos of electronics/cable setups before disconnecting so reassembly in Denver is painless",
-            "Consider a small portable WiFi desk setup (folding table + monitor stand) since Candace works remote — work comfort matters even in packing mode",
-            "Donate early and often — every box you don't move saves money and energy",
+            "Consider a small portable WiFi desk setup (folding table + monitor stand) since Candace works remote \u2014 work comfort matters even in packing mode",
+            "Donate early and often \u2014 every box you don't move saves money and energy",
             "Keep a 'last box' with essentials: toiletries, phone chargers, basic kitchen stuff, towels. This rides in the car, not the U-Haul"
           ]
         }
@@ -37,44 +39,48 @@
         {
           "id": "uhaul-drive",
           "title": "Drive U-Haul to Denver",
-          "dates": { "start": "2026-11-06", "end": "2026-11-07" },
+          "dates": {
+            "start": "2026-11-06",
+            "end": "2026-11-07"
+          },
           "description": "Josh drives the U-Haul with belongings from Monrovia to Denver. Same ~16 hour route, 2 days with overnight stop.",
           "owner": "josh",
-          "status": "planned",
           "actionItems": [
-            "Reserve U-Haul — determine size needed based on combined belongings",
+            "Reserve U-Haul \u2014 determine size needed based on combined belongings",
             "Book midpoint hotel for overnight stop",
-            "Plan return logistics — fly back or one-way rental car?",
+            "Plan return logistics \u2014 fly back or one-way rental car?",
             "Load U-Haul the day before (Nov 5th)"
           ],
           "notes": "Need to figure out how Josh gets back to Monrovia after dropping the U-Haul in Denver. Options: fly back, or have someone follow in a car.",
           "calypsySuggestions": [
-            "Book the U-Haul ASAP — November is peak moving season and availability gets tight",
-            "Consider booking a one-way flight back from Denver (DEN → LAX/BUR) in advance for the best price",
-            "The I-15 N → I-70 E route through Utah is gorgeous but watch for weather in early November — check passes before departure",
-            "Get U-Haul insurance — peace of mind for a 16-hour drive with everything you own",
+            "Book the U-Haul ASAP \u2014 November is peak moving season and availability gets tight",
+            "Consider booking a one-way flight back from Denver (DEN \u2192 LAX/BUR) in advance for the best price",
+            "The I-15 N \u2192 I-70 E route through Utah is gorgeous but watch for weather in early November \u2014 check passes before departure",
+            "Get U-Haul insurance \u2014 peace of mind for a 16-hour drive with everything you own",
             "Load heaviest items first (furniture) and secure everything with ratchet straps, not bungees"
           ]
         },
         {
           "id": "drive-cars",
           "title": "Drive Both Cars to Denver",
-          "dates": { "start": "2026-11-13", "end": "2026-11-14" },
+          "dates": {
+            "start": "2026-11-13",
+            "end": "2026-11-14"
+          },
           "description": "Josh and Candace each drive their cars from Monrovia to Denver. ~16 hours total, split over 2 days with an overnight hotel stop.",
           "owner": "both",
-          "status": "planned",
           "actionItems": [
             "Book midpoint hotel for overnight stop",
-            "Get both cars serviced before the drive — oil, tires, fluids",
+            "Get both cars serviced before the drive \u2014 oil, tires, fluids",
             "Pack car essentials: snacks, water, phone mounts, aux cables",
             "Plan the route and share live location with each other"
           ],
           "notes": "Need to book hotel at midpoint (likely Las Vegas or St. George, UT area). This is the final goodbye to Monrovia!",
           "calypsySuggestions": [
-            "Make it a mini road trip — pick a fun dinner spot at the midpoint hotel city",
+            "Make it a mini road trip \u2014 pick a fun dinner spot at the midpoint hotel city",
             "Walkie-talkie apps (like Zello) are great for car-to-car communication without burning phone battery on calls",
             "Each car should have a basic emergency kit: jumper cables, flashlight, first aid",
-            "Fill up before leaving — gas is cheaper in CA than along I-15 through Nevada/Utah",
+            "Fill up before leaving \u2014 gas is cheaper in CA than along I-15 through Nevada/Utah",
             "Consider leaving early AM (5-6 AM) to maximize daylight driving and arrive at the hotel at a reasonable hour"
           ]
         }
