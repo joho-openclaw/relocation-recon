@@ -3,6 +3,95 @@
   "origin": "Monrovia, CA",
   "phases": [
     {
+      "name": "Financial Planning",
+      "events": [
+        {
+          "id": "moving-fund",
+          "title": "Set Aside Moving Fund",
+          "dates": { "start": "2026-02-20" },
+          "description": "Establish a dedicated moving fund to cover all costs associated with the relocation. Start setting aside money now so there are no financial surprises.",
+          "owner": "both",
+          "actionItems": [
+            "Estimate first and last month's rent (Denver market)",
+            "Security deposit (typically one month's rent)",
+            "U-Haul rental — one-way truck from Monrovia to Denver",
+            "Hotels for overnight stops (U-Haul trip + car trip = 2 hotel nights minimum)",
+            "Gas for U-Haul + two cars across 3 separate drives",
+            "One-way flight for Josh back from Denver after U-Haul drop-off",
+            "New furniture for the Denver place",
+            "New clothes for Colorado weather (winter coats, boots, layers)",
+            "Home essentials — making the new place feel like home",
+            "Decorating and aesthetic touches",
+            "Buffer for unexpected costs"
+          ],
+          "notes": "Starting today. The earlier this fund is building, the less stressful everything else becomes.",
+          "calypsySuggestions": [
+            "Open a separate high-yield savings account just for the move — keeps it visible and earns interest while you save",
+            "Denver 1BR averages ~$1,600-1,800, 2BR ~$2,000-2,400 — budget first/last/deposit accordingly",
+            "Colorado winters are no joke — budget for real winter gear (good coats, snow boots, thermals). You'll want quality over quantity",
+            "U-Haul one-way from LA to Denver runs roughly $1,500-2,500 depending on size and season — book early for better rates",
+            "Consider a shared spreadsheet or budgeting app so both of you can track contributions and spending in real time"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Search",
+      "events": [
+        {
+          "id": "optional-home-hunting",
+          "title": "Optional Early Home Hunting",
+          "dates": { "start": "2026-04-21" },
+          "description": "As of this date, we can start browsing homes in Denver. Leases could start as early as July 21st. If we find the perfect place, we can shift the entire schedule ahead and move in as early as July.",
+          "owner": "both",
+          "actionItems": [
+            "Set up saved searches on Zillow, Apartments.com, and Craigslist for Denver neighborhoods of interest",
+            "Define must-haves vs. nice-to-haves (square footage, parking, in-unit laundry, pet policy, etc.)",
+            "Start virtual tours of promising listings",
+            "Track favorites in a shared document or app",
+            "Monitor pricing trends to understand the Denver market"
+          ],
+          "notes": "This is optional and opportunistic — no pressure to commit early. But if something amazing comes up, we have the flexibility to move fast.",
+          "calypsySuggestions": [
+            "The Denver rental market is most competitive May–August. Starting to look in April gives you a feel for pricing before peak season hits",
+            "Focus on the neighborhoods from the City Research tab — you've already done the homework on which areas fit",
+            "If a place is perfect but available too early, some landlords will negotiate a later start date for a small holding deposit",
+            "Don't forget to check walkability on Google Street View — listings photos can be deceiving",
+            "If you find something amazing in this window, moving early means cheaper U-Haul rates (summer vs. November) and better weather for the drive"
+          ]
+        },
+        {
+          "id": "home-selection",
+          "title": "Home Selection",
+          "dates": { "start": "2026-08-13" },
+          "description": "Time to get serious about finding our Denver home. Narrow down options, take a trip to Denver to visit places in person, make a selection, sign the lease, and set up utilities.",
+          "owner": "both",
+          "actionItems": [
+            "Narrow apartment shortlist to top 5-8 options",
+            "Book flights and hotel for Denver scouting trip",
+            "Schedule tours for a long weekend — visit multiple places",
+            "Make a selection and sign the lease",
+            "Set up electric service",
+            "Set up gas service",
+            "Set up water service",
+            "Set up cable/internet",
+            "Notify Josh's current landlord of move-out date",
+            "Notify Candace's current landlord of move-out date"
+          ],
+          "notes": "The scouting trip is key — photos and virtual tours only tell you so much. Walk the neighborhoods, check the vibe at night, try the nearby coffee shops. This is where you'll live.",
+          "calypsySuggestions": [
+            "Schedule the Denver trip for a Thursday–Sunday to maximize tours without burning too much PTO",
+            "Visit your top picks at different times of day — a neighborhood can feel completely different at 8 AM vs. 8 PM",
+            "Check lease terms carefully — look for early termination clauses since this is a 1-2 year adventure (flexibility matters)",
+            "Xcel Energy handles both electric and gas in most of Denver — one less account to set up",
+            "For internet, check if the building has Comcast/Xfinity fiber or if you can get a local provider. Denver has decent fiber coverage in newer buildings",
+            "Give landlords 60 days notice even if your lease only requires 30 — leaves room for flexibility and goodwill",
+            "Take photos and notes at every tour — they'll all blur together after the 5th one"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Medical Planning",
       "events": [
         {
@@ -36,7 +125,7 @@
         {
           "id": "medical-establish",
           "title": "Establish Medical Care",
-          "dates": { "start": "2026-08-01", "end": "2026-11-13" },
+          "dates": { "start": "2026-08-01" },
           "description": "Begin establishing care with Denver providers. Start with telehealth appointments where possible to get the relationship going before arrival, and book in-person appointments for after the move.",
           "owner": "both",
           "actionItems": [
@@ -56,6 +145,39 @@
             "Check if Colorado requires new prescriptions from in-state providers or if out-of-state prescriptions transfer — especially for any specialty medications",
             "Consider asking current doctors for a detailed transition letter summarizing each condition, current treatment plan, and any ongoing concerns",
             "If open enrollment happens during this window, it's the perfect time to switch to a plan with strong Colorado coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Life Planning",
+      "events": [
+        {
+          "id": "plan-new-life",
+          "title": "Map Out Our New Day-to-Day",
+          "dates": { "start": "2026-09-15", "end": "2026-11-01" },
+          "description": "Once the home is selected, start planning the details of daily life in Denver. Room layouts, routines, local essentials, and getting to know the neighborhood — even before we arrive.",
+          "owner": "both",
+          "actionItems": [
+            "Plan room layouts — measure the new place and sketch furniture placement",
+            "Discuss day-to-day routines — morning, work, evening, weekends",
+            "Establish rules for common areas and shared spaces",
+            "Find the nearest Whole Foods",
+            "Find the nearest Target",
+            "Find the nearest Starbucks",
+            "Research nearby restaurants — date night spots, casual takeout, healthy options",
+            "Locate nearest grocery stores (beyond Whole Foods — Trader Joe's, King Soopers, Sprouts)",
+            "Find walking routes and parks nearby",
+            "Identify the nearest gym or fitness options"
+          ],
+          "notes": "This is the exciting part — designing your new life before you even get there. Having a plan makes the first week in Denver feel like coming home instead of starting from scratch.",
+          "calypsySuggestions": [
+            "Use a room planner app (like MagicPlan or RoomSketcher) to lay out furniture before you arrive — saves the 'where does the couch go' debate on move-in day",
+            "King Soopers is Colorado's Kroger — it's everywhere and has good prices. Pair it with Whole Foods for specialty items",
+            "Denver has incredible parks — check out Washington Park, City Park, and Cheesman Park for your daily walks",
+            "For Josh's evening walks: Denver's trail system is extensive. The Cherry Creek Trail and Platte River Trail are great urban paths",
+            "Discuss the thermostat situation early — Colorado is dry and cold, and everyone has different comfort levels. This prevents the #1 roommate argument",
+            "Make a shared Google Map with pins for all your new essentials — visual and easy to reference those first weeks"
           ]
         }
       ]
@@ -131,6 +253,87 @@
             "Each car should have a basic emergency kit: jumper cables, flashlight, first aid",
             "Fill up before leaving — gas is cheaper in CA than along I-15 through Nevada/Utah",
             "Consider leaving early AM (5-6 AM) to maximize daylight driving and arrive at the hotel at a reasonable hour"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Settling In",
+      "events": [
+        {
+          "id": "admin-updates",
+          "title": "Update All the Admin",
+          "dates": { "start": "2026-11-15" },
+          "description": "Handle all the administrative updates that come with moving states. Update work addresses, get Colorado IDs, handle vehicle registration, and update addresses everywhere.",
+          "owner": "both",
+          "actionItems": [
+            "Update work address to Candace's parents' house in Pasadena",
+            "Candace gets a Colorado driver's license",
+            "Vehicle registration in Colorado (optional)",
+            "Update auto insurance for Colorado",
+            "Update address with all banks and financial institutions",
+            "Update address on all apps and subscriptions",
+            "Set up USPS mail forwarding from both old addresses",
+            "Update voter registration",
+            "Update address with employers for tax purposes"
+          ],
+          "notes": "Using Candace's parents' house in Pasadena as the work address keeps things simple. Colorado gives 90 days to get a new license after establishing residency.",
+          "calypsySuggestions": [
+            "Colorado DMV lets you schedule appointments online — do it immediately, walk-in waits can be brutal",
+            "Colorado requires emissions testing for vehicle registration in the Denver metro area — budget time for that",
+            "Keep the Pasadena work address strategy clean — make sure employers are aware for state tax withholding purposes (CO vs. CA income tax)",
+            "Make a master checklist of every account/subscription that has your address — you'll forget some otherwise. Check email for shipping confirmations to jog your memory",
+            "Colorado income tax is a flat 4.4% vs. California's progressive rate — you'll likely see a nice bump in take-home pay"
+          ]
+        },
+        {
+          "id": "core-setup",
+          "title": "Set Up the Core of the Home",
+          "dates": { "start": "2026-11-15", "end": "2026-11-22" },
+          "description": "First week in the new place — unpack the essentials, build and place major furniture, get the home functional and livable.",
+          "owner": "both",
+          "actionItems": [
+            "Unload and place all major furniture",
+            "Assemble bed frames, desks, shelving",
+            "Set up kitchen essentials — unpack dishes, cookware, appliances",
+            "Set up both work-from-home stations",
+            "Unpack bathroom essentials",
+            "Get curtains/blinds up for privacy",
+            "Test all utilities — heat, water, internet",
+            "Do a big grocery run to stock the kitchen"
+          ],
+          "notes": "Focus on function over aesthetics this week. Get the place livable so you can work, cook, and sleep comfortably. The pretty stuff comes next.",
+          "calypsySuggestions": [
+            "Prioritize the bedroom and work stations — sleep and productivity are non-negotiable from day one",
+            "Denver in mid-November averages highs of 45°F and lows of 22°F — make sure the heat is working before you unpack anything else",
+            "Do the grocery run on day one — you'll be exhausted and hungry. Stock easy meals for the first few days",
+            "IKEA in Centennial is about 20 min from central Denver if you need any quick furniture fills",
+            "Set up internet first thing — both of you work remote. Call ahead to confirm the install date aligns with move-in"
+          ]
+        },
+        {
+          "id": "make-it-home",
+          "title": "Make the Place a Home",
+          "dates": { "start": "2026-11-22", "end": "2026-12-31" },
+          "description": "The fun part — add all the personal touches, decorating, art, plants, lighting, and aesthetic details that turn an apartment into your home.",
+          "owner": "both",
+          "actionItems": [
+            "Hang art and photos",
+            "Add lighting — lamps, string lights, ambient touches",
+            "Get plants for each room",
+            "Add throw pillows, blankets, rugs",
+            "Set up entertainment area — TV, speakers, cozy seating",
+            "Organize closets and storage",
+            "Add kitchen personality — spice rack, cookbooks on display, nice dishware",
+            "Create a cozy reading/relaxation nook"
+          ],
+          "notes": "No rush on this — it's meant to happen organically over the first 6 weeks. Enjoy the process of discovering what the space wants to be.",
+          "calypsySuggestions": [
+            "Denver has amazing vintage and thrift stores — South Broadway (SoBo) is a goldmine for unique home decor",
+            "Plants that thrive in Denver's dry climate: pothos, snake plants, ZZ plants, succulents. Skip the ferns — they'll hate the low humidity",
+            "Consider a humidifier — coming from SoCal, the dry Colorado air will hit different. Your skin, your plants, and your sinuses will thank you",
+            "Don't buy everything at once — let the space tell you what it needs as you live in it",
+            "First Christmas in the new place! Make it special — get a tree, make it a tradition from day one 🎄"
           ]
         }
       ]
