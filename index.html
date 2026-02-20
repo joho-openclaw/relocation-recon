@@ -1530,7 +1530,7 @@
                         Timeline, milestones, and tasks for the big move. Track progress from 
                         apartment hunting to final departure.
                     </div>
-                    <div class="entry-card-stat" id="moveplan-count-stat">Loading...</div>
+                    <div class="entry-card-stat" id="moveplan-count-stat">12 events planned</div>
                 </div>
             </div>
         </div>
@@ -1737,9 +1737,21 @@
         };
 
         // View switching with two-tier navigation
-        function showSection(section, subView = null) {
+        let suppressHashUpdate = false;
+
+        function showSection(section, subView = null, eventId = null) {
             currentSection = section;
             currentSubView = subView;
+
+            // Update URL hash (unless we're responding to a hashchange)
+            if (!suppressHashUpdate) {
+                let hash = '#' + section;
+                if (subView) hash += '/' + subView;
+                if (eventId) hash += '/' + eventId;
+                if (window.location.hash !== hash) {
+                    history.pushState(null, '', hash);
+                }
+            }
 
             // Hide all views
             document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
@@ -2594,10 +2606,22 @@
 
             document.getElementById('eventDetailContent').innerHTML = html;
             document.getElementById('eventDetailModal').classList.add('active');
+
+            // Update hash
+            if (!suppressHashUpdate) {
+                const hash = '#moveplan/timeline/' + eventId;
+                if (window.location.hash !== hash) {
+                    history.pushState(null, '', hash);
+                }
+            }
         }
 
         function closeEventDetail() {
             document.getElementById('eventDetailModal').classList.remove('active');
+            // Go back to the timeline without the event in the hash
+            if (!suppressHashUpdate) {
+                history.pushState(null, '', '#moveplan/timeline');
+            }
         }
 
         document.getElementById('eventDetailModal').addEventListener('click', (e) => {
@@ -2606,8 +2630,59 @@
             }
         });
 
-        // Initialize - load on page load to start with landing page shown
-        // Data will be lazy-loaded when sections are first visited
+        // Hash-based routing
+        function navigateToHash() {
+            const hash = window.location.hash.replace('#', '');
+            if (!hash) {
+                showSection('home');
+                return;
+            }
+
+            const parts = hash.split('/');
+            const section = parts[0];
+            const subView = parts[1] || null;
+            const eventId = parts[2] || null;
+
+            suppressHashUpdate = true;
+
+            if (section === 'research') {
+                showSection('research', subView || 'overview');
+            } else if (section === 'moveplan') {
+                showSection('moveplan', subView || 'timeline');
+                // If there's an event ID, open the detail modal after data loads
+                if (eventId) {
+                    const tryOpen = () => {
+                        if (movePlanData) {
+                            showEventDetail(eventId);
+                        } else {
+                            setTimeout(tryOpen, 100);
+                        }
+                    };
+                    tryOpen();
+                }
+            } else if (section === 'home') {
+                showSection('home');
+            } else {
+                showSection('home');
+            }
+
+            suppressHashUpdate = false;
+        }
+
+        window.addEventListener('popstate', () => {
+            // Close event detail if open and hash no longer has event ID
+            const parts = (window.location.hash.replace('#', '')).split('/');
+            if (!parts[2]) {
+                document.getElementById('eventDetailModal').classList.remove('active');
+            }
+
+            suppressHashUpdate = true;
+            navigateToHash();
+            suppressHashUpdate = false;
+        });
+
+        // Initialize — route based on hash or default to home
+        navigateToHash();
     </script>
 </body>
 </html>
