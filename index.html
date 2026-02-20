@@ -2364,7 +2364,8 @@
                 renderMovePlan();
             } catch (error) {
                 console.error('Error loading move plan:', error);
-                document.getElementById('moveCountdown').innerHTML = '<p style="color: var(--accent-red);">Error loading move plan data.</p>';
+                const countdownErr = document.getElementById('moveCountdown');
+                if (countdownErr) countdownErr.innerHTML = '<p style="color: var(--accent-red);">Error loading move plan data.</p>';
             }
         }
 
@@ -2428,7 +2429,8 @@
                 <p class="subtitle">${daysUntilNext > 0 ? 'until ' : ''}${nextEvent.title}</p>
                 ${showMoveIn ? `<p class="countdown-secondary">Move-in: ${moveInLabel} away</p>` : ''}
             `;
-            document.getElementById('moveCountdown').innerHTML = countdownHTML;
+            const countdownEl = document.getElementById('moveCountdown');
+            if (countdownEl) countdownEl.innerHTML = countdownHTML;
 
             // Update home page stat
             const eventCount = allEvents.length;
