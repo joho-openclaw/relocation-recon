@@ -38,6 +38,63 @@
       ]
     },
     {
+      "name": "City Selection",
+      "events": [
+        {
+          "id": "choose-city",
+          "title": "Choose Our City",
+          "dates": {
+            "start": "2026-02-21",
+            "end": "2026-04-01"
+          },
+          "description": "Use the city research we've already done to narrow down and pick the city. Review scores, revisit priorities, and make the call together.",
+          "owner": "both",
+          "actionItems": [
+            "Review all city profiles and weighted comparison scores",
+            "Revisit priority rankings \u2014 have they shifted?",
+            "Discuss top 3 candidates together",
+            "Research any remaining questions or concerns about finalists",
+            "Make the decision and commit"
+          ],
+          "notes": "The research is done \u2014 this is about digesting it together and making the call. Don't overthink it. Trust the data and your gut.",
+          "calypsySuggestions": [
+            "You've already done incredible research on 15 cities \u2014 this isn't starting from scratch, it's picking from a strong shortlist",
+            "Consider doing a \"final two\" comparison night \u2014 cook dinner, pull up both city profiles side by side, talk it out",
+            "Denver is currently the frontrunner based on your priority scores \u2014 but stay open in case something else clicks",
+            "Ask yourselves: where do you picture your Saturday mornings? That gut check often reveals the answer",
+            "Remember this is a 1-2 year adventure, not forever \u2014 that takes the pressure off. Pick the place that excites you most right now"
+          ]
+        },
+        {
+          "id": "neighborhood-research",
+          "title": "Research Target Neighborhoods",
+          "dates": {
+            "start": "2026-04-01",
+            "end": "2026-04-21"
+          },
+          "description": "Once the city is chosen, dive into specific neighborhoods and areas within it. Build a shortlist of where we'd actually want to live.",
+          "owner": "both",
+          "actionItems": [
+            "Review neighborhood data from city research (walkability, safety, rent, vibe)",
+            "Create a ranked shortlist of target neighborhoods",
+            "Research apartment availability and pricing in each area",
+            "Look into commute/walkability for daily essentials in each neighborhood",
+            "Watch YouTube neighborhood tours and walkthroughs",
+            "Check Reddit and local forums for resident perspectives"
+          ],
+          "notes": "This feeds directly into the home hunting phase that starts Apr 21. The more specific we are here, the more efficient the search will be.",
+          "calypsySuggestions": [
+            "The city profiles already have neighborhood breakdowns with walk scores, rent, and safety ratings \u2014 start there",
+            "Google Street View is your best friend \u2014 \"walk\" the streets virtually to get a real feel",
+            "Check which neighborhoods have the best access to parks and trails \u2014 that matters for Josh's evening walks",
+            "Look for neighborhoods with good grocery store access \u2014 Candace will appreciate not needing a car for every errand",
+            "Join the city's subreddit and search for \"best neighborhoods for couples\" or \"moving to\" threads \u2014 real resident opinions are gold",
+            "This shortlist becomes your search filter for the home hunting phase \u2014 be specific about boundaries so you're not overwhelmed by listings"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Home Search",
       "events": [
         {
