@@ -1,0 +1,156 @@
+{
+  "name": "Salt Lake City, UT",
+  "slug": "salt-lake-city-ut",
+  "region": "Mountain West",
+  "tagline": "Dramatic mountain beauty meets a changing city emerging from its LDS roots",
+  "population": "1.2 million metro",
+  "scores": {
+    "diversity_climate": 3,
+    "safety": 5,
+    "political_moderation": 6,
+    "cost_of_living": 8,
+    "walkability": 5,
+    "scenic_beauty": 10,
+    "climate": 8,
+    "culture": 5
+  },
+  "cost_of_living": {
+    "index_vs_national": "6% above national average",
+    "median_rent_1br": "$1,250-1,500",
+    "median_rent_2br": "$1,464",
+    "vs_la_savings": "$900-1,100/month compared to LA (40% cheaper on rent)"
+  },
+  "diversity": {
+    "summary": "HONEST TRUTH: Salt Lake City is 63% white and only 2.7% Black. You will stand out as an interracial couple, not blend in. The LDS church—which banned Black men from priesthood until 1978—still culturally dominates (though Salt Lake County is now <50% LDS). Reddit threads from Black residents report 'passive racism due to ignorance, not hostility'—awkward questions, stares, microaggressions. Integration is limited because there's barely a Black community to integrate with. The city is changing rapidly (younger, less LDS, more diverse overall with 20% Hispanic, 5% Asian) but the baseline is very white. Some residents say they felt welcome; others felt isolated. This is NOT San Diego's easy multiculturalism. If Candace needs to see herself reflected in her city, SLC will fall short. If she can handle being a pioneer in an evolving place, it might work—but it requires thick skin and intentionality.",
+    "diversity_index": "63% White, 21% Hispanic, 5% Asian, 2.7% Black, 3.4% Native American/Other",
+    "notable": "LDS priesthood ban lifted only in 1978; passive racism from ignorance common; Black population tiny; city diversifying but slowly"
+  },
+  "safety": {
+    "summary": "Mixed picture. Salt Lake City's crime rate is 2.3x the national average, with violent crime at 978 per 100k (vs. 388 national average). Property crime is the bigger issue—car break-ins and theft are common complaints. However, the city claims overall crime hit a 15-year low in 2023 and continues dropping. Safety varies dramatically by neighborhood: east-side areas near the mountains are much safer than downtown and west-side neighborhoods. Homicides are low (5 in first half of 2025). For Candace coming from San Diego, this will feel less safe overall, but choosing the right neighborhood makes a huge difference.",
+    "violent_crime_rate": "978 per 100k (2.5x national average of 388)",
+    "best_neighborhoods": [
+      "The Avenues (East Bench)",
+      "Sugar House (mixed—some safer pockets)",
+      "Federal Heights",
+      "Yalecrest/Harvard-Yale",
+      "East Central/Foothill areas"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "59/100 (somewhat walkable)",
+    "best_walkable_neighborhoods": [
+      "Central City/Downtown (78-85)",
+      "9th & 9th (72)",
+      "The Avenues (75)",
+      "Sugar House (61)",
+      "Liberty Wells (68)"
+    ]
+  },
+  "scenery": {
+    "summary": "Jaw-dropping. The Wasatch Mountains rise nearly vertically from the valley floor, creating one of the most dramatic urban backdrops in America. World-class skiing is 30 minutes away (Alta, Snowbird, Brighton, Solitude). Big Cottonwood and Little Cottonwood Canyons offer year-round hiking and climbing. The scenery alone could justify the move—Candace would get her mountains, and they're bigger and more accessible than San Diego's."
+  },
+  "climate": {
+    "summary": "Candace will get her four seasons—BIG time. Winters are real: 55-63 inches of snow, average January low of 23°F, snow from November to April. But here's the payoff: 222 sunny days per year (more than Denver!) and dry air means the cold feels manageable and snow melts fast between storms. Summers are hot (93°F average high) but dry and comfortable. Spring and fall are stunning. This climate delivers exactly what she asked for: dramatic seasons, snow, and sunshine. The winter is no joke, but it's Utah's 'Greatest Snow on Earth' for a reason.",
+    "avg_summer_high": "93°F (July)",
+    "avg_winter_low": "23°F (January)",
+    "annual_snowfall": "55-63 inches",
+    "annual_sunny_days": "222"
+  },
+  "culture": {
+    "summary": "Salt Lake City has an identity crisis—in a good way. The LDS church's cultural influence is fading (Salt Lake County is now <50% Mormon, downtown even less). What's emerging is a vibrant, quirky mix: craft breweries defying stereotypes, a James Beard-nominated food scene, thriving arts districts, LGBTQ+ Pride parades, and an outdoor-obsessed culture. But the LDS ghost lingers: liquor laws are byzantine (though loosening), Sunday can feel dead, and the cultural conservatism is real even as the politics shift blue. It's a city in transition—exciting if you're okay with contradictions, frustrating if you want a fully-formed identity. The 'Zion Curtain' is lifting, but you'll still feel it."
+  },
+  "pros": [
+    "SPECTACULAR mountain scenery—world-class skiing 30 min away",
+    "Extremely affordable vs. LA (40% cheaper rent, major savings)",
+    "222 sunny days + real four seasons (snow but lots of sun)",
+    "Changing rapidly—younger, less LDS, more progressive",
+    "Strong job market (tech hub emerging, low unemployment)",
+    "Excellent outdoor recreation (hiking, skiing, climbing)"
+  ],
+  "cons": [
+    "VERY white (2.7% Black)—Candace will stand out, not blend in",
+    "LDS cultural shadow (historical racism, conservative undercurrent)",
+    "Crime rate elevated (2.3x national average, though improving)",
+    "'Passive racism due to ignorance' reported by Black residents",
+    "Liquor laws and Sunday culture can feel restrictive",
+    "Limited Black community/cultural infrastructure",
+    "Walkability limited outside core neighborhoods"
+  ],
+  "saturday": "You wake up in your Sugar House bungalow to blinding sunshine bouncing off snow-capped peaks. Coffee at Publik on 9th & 9th, then you're hiking Big Cottonwood Canyon by 9 AM—the Wasatch Range impossibly close and dramatic. Back in the city, you hit the Downtown Farmers Market at Pioneer Park—packed with locals, fresh produce, and Filipino street food. Afternoon is Laziz Kitchen for Lebanese lunch (James Beard-nominated), then a stroll through The Avenues' Victorian streets. You notice: you're often the only Black face in the crowd. It's not hostile, but it's noticeable. Dinner at a brewery (Utah has more than you'd think), then home. The mountains glow pink with alpenglow. You think: this place is beautiful and changing, but am I comfortable being a pioneer here? That's the Salt Lake question.",
+  "food_scene": {
+    "summary": "Salt Lake City's food scene is the pleasant surprise. The city has shed its 'green Jell-O' reputation and now boasts James Beard-nominated chefs, inventive fusion cuisine, and a strong international food presence thanks to refugee resettlement. The craft brewery scene is robust (defying stereotypes). It's not LA or San Diego-level, but it's far better than expected for a city this size. Mediterranean options are solid, farmers markets are vibrant, and grocery quality is good. The LDS influence (no alcohol in many restaurants, limited Sunday hours) is the main frustration.",
+    "mediterranean_options": [
+      "Laziz Kitchen (Lebanese, James Beard-nominated, two locations)",
+      "Mazza Cafe (Middle Eastern, two locations including 15th & 15th)",
+      "Cafe Med (Turkish)",
+      "Aziza (Mediterranean)",
+      "Mediterranean Market & Deli (established 1958, Italian/Greek)",
+      "O'Falafel Etc. (highly rated)",
+      "Beirut Cafe"
+    ],
+    "farmers_markets": [
+      "Downtown Farmers Market (Pioneer Park, Saturdays year-round, 8am-2pm summer)",
+      "Downtown Winter Farmers Market (Civic Center, Saturdays Nov-April)",
+      "Sugar House Farmers Market",
+      "Liberty Park Farmers Market"
+    ],
+    "food_culture": "Salt Lake's food culture is surprisingly international thanks to waves of refugee resettlement (Nepali, Somali, Pacific Islander, Latin American). The local obsession is 'fry sauce' (ketchup-mayo mix), but the city now offers everything from Afghan kabobs to Filipino smash burgers. Craft beer culture is strong. Alcohol laws are loosening but still annoying (many restaurants are 'private clubs,' no happy hour specials).",
+    "grocery_quality": "Excellent: Whole Foods (multiple locations), Trader Joe's, Natural Grocers, Harmons (local chain, beloved), Smith's, Sprouts, and strong international markets. Good produce access year-round."
+  },
+  "neighborhoods": [
+    {
+      "name": "Sugar House",
+      "vibe": "Hip, eclectic, young—Salt Lake's Brooklyn with local shops and breweries",
+      "walk_score": "61/100",
+      "median_rent_1br": "$1,838-1,945",
+      "safety_rating": "medium",
+      "diversity_notes": "More diverse than average SLC, younger crowd, progressive",
+      "why_for_them": "Most 'neighborhood-y' feel, walkable core around 21st South, good food/coffee scene. Safety mixed (some pockets better than others). Would feel most 'normal' coming from Monrovia."
+    },
+    {
+      "name": "9th & 9th",
+      "vibe": "Charming, small-town feel, tree-lined streets, local boutiques",
+      "walk_score": "72/100",
+      "median_rent_1br": "$1,500-1,700",
+      "safety_rating": "high",
+      "diversity_notes": "Mostly white but very progressive, LGBTQ-friendly, accepting",
+      "why_for_them": "Best walkability-to-charm ratio. Close to Liberty Park. Feels intimate and community-oriented. Less diverse but welcoming vibe."
+    },
+    {
+      "name": "The Avenues",
+      "vibe": "Historic Victorian homes, tree-lined streets, close to downtown",
+      "walk_score": "75/100",
+      "median_rent_1br": "$1,500-1,800",
+      "safety_rating": "high",
+      "diversity_notes": "Mix of long-time residents and young professionals, generally progressive",
+      "why_for_them": "Beautiful, walkable, safe. Less LDS-dominated. Great architecture and character. More expensive but worth it for quality of life."
+    },
+    {
+      "name": "Liberty Wells",
+      "vibe": "Laid-back, affordable, mix of artists and families",
+      "walk_score": "68/100",
+      "median_rent_1br": "$1,250-1,400",
+      "safety_rating": "medium",
+      "diversity_notes": "Most diverse neighborhood mentioned by locals, mix of students/artists/entrepreneurs",
+      "why_for_them": "Best bang for buck. Close to 9th & 9th and Liberty Park. More diverse than most areas. Some safety concerns (listed as 'dangerous' by some sources) but locals love the community feel."
+    },
+    {
+      "name": "Downtown/Central City",
+      "vibe": "Urban core, high-rise living, walkable to everything",
+      "walk_score": "78-85/100",
+      "median_rent_1br": "$1,717-1,787",
+      "safety_rating": "low-medium",
+      "diversity_notes": "Most diverse due to urban density, but also most transient",
+      "why_for_them": "Highest walkability, best transit access. Close to jobs/entertainment. Crime is a concern (property crime common). Can feel sterile/empty on weekends."
+    },
+    {
+      "name": "Marmalade District",
+      "vibe": "Historic, quirky, small neighborhood near Capitol Hill",
+      "walk_score": "70/100",
+      "median_rent_1br": "$1,400-1,600",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Small, tight-knit community, mix of old-timers and young creatives",
+      "why_for_them": "Unique character, close to downtown but residential feel. Good compromise between walkability and quiet. Less diversity but strong community identity."
+    }
+  ]
+}
