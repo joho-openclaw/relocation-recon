@@ -1,0 +1,114 @@
+{
+  "name": "Highlands, Denver CO",
+  "slug": "highlands-denver-co",
+  "region": "Mountain West",
+  "tagline": "Denver's trendiest walkable neighborhood—stunning views, explosive food scene, but gentrified and expensive",
+  "population": "~10,700 (Highland proper); ~25,000 (greater Highlands area including West Highland, LoHi, Sunnyside)",
+  "scores": {
+    "diversity_climate": 4,
+    "safety": 6,
+    "political_moderation": 7,
+    "cost_of_living": 5,
+    "walkability": 9,
+    "scenic_beauty": 10,
+    "climate": 7,
+    "culture": 9
+  },
+  "cost_of_living": {
+    "index_vs_national": "~113.5 (Denver overall); Highlands runs 15-25% above Denver average",
+    "median_rent_1br": "$1,950-2,100",
+    "median_rent_2br": "$2,650-2,850",
+    "vs_la_savings": "10-15% below LA (~$200-400/month saved). Modest savings—Highlands is one of Denver's priciest neighborhoods."
+  },
+  "diversity": {
+    "summary": "Heavily gentrified. Historically Italian and Latino immigrant neighborhood now predominantly white and affluent. Very low Black population. You'll be welcomed, but she may feel isolated.",
+    "diversity_index": "Low. 75.8% white, 19.2% Hispanic/Latino, 2.1% Black, 2.9% Asian, 1.1% Native American",
+    "notable": "Major gentrification flashpoint. Locals debate 'Highland' vs 'Northside'—the name change itself reflects displacement of Latino families by young white professionals. Interracial couples (especially Black/white) will be uncommon but accepted. Expect 'welcomed visitor' status, not deep integration."
+  },
+  "safety": {
+    "summary": "Moderate safety. Similar to Denver overall. Residential pockets are safe; some property crime and car break-ins. Not dangerous, but not exceptionally safe either.",
+    "violent_crime_rate": "Highland ranks 47th out of 78 Denver neighborhoods. Avg ~57 crimes/month (mix of property + violent). Comparable to citywide Denver stats.",
+    "best_neighborhoods": ["West Highland (west of Federal Blvd)", "LoHi residential streets (away from nightlife corridors)", "Sunnyside (quieter, family-oriented)"]
+  },
+  "walkability": {
+    "city_walk_score": "Highland: 85 | LoHi: 93 | West Highland: 82 | Sunnyside: 78",
+    "best_walkable_neighborhoods": ["LoHi (Lower Highland)—Walk Score 93, ultra-walkable to restaurants/bars/grocery", "Highlands Square (32nd & Lowell)—neighborhood hub, farmers market, cafes", "Platte Street corridor—walkable to riverfront trails and Commons Park"]
+  },
+  "scenery": {
+    "summary": "Spectacular downtown skyline and Front Range mountain views from many locations. LoHi especially known for rooftop vistas. Highland Bridge offers iconic photo-op views. Proximity to South Platte River trails and Commons Park adds greenery."
+  },
+  "climate": {
+    "summary": "Same as Denver metro. 300 sunny days/year. Four distinct seasons. Dry, mild summers; cold, snowy winters. Snow melts fast. Low humidity year-round.",
+    "avg_summer_high": "86°F (July-Aug)",
+    "avg_winter_low": "17°F (Dec-Jan)",
+    "annual_snowfall": "~49 inches",
+    "annual_sunny_days": "~300"
+  },
+  "culture": {
+    "summary": "One of Denver's most dynamic cultural scenes. LoHi is the epicenter of trendy dining and rooftop bars. West Highland offers neighborhood charm with boutiques, bakeries, and the beloved Sunday Highlands Farmers Market. Art walks, street fairs, live music, historic Bug Theatre. Strong community vibe in West Highland; more nightlife-driven energy in LoHi. Gentrification has brought craft cocktails and $18 avocado toast, but also displaced longstanding Latino culture."
+  },
+  "pros": [
+    "Exceptional walkability—one of Denver's best (Walk Score 85-93)",
+    "Explosive food/bar scene: rooftop restaurants, craft cocktails, global cuisines",
+    "Stunning mountain and skyline views from many blocks",
+    "Easy access to South Platte River trails, Commons Park, downtown via Highland Bridge",
+    "Strong neighborhood character and community events (farmers market, street fairs)",
+    "300 sunny days/year, mild dry climate",
+    "Remote work heaven—walkable coffee shops, co-working vibe"
+  ],
+  "cons": [
+    "Very low diversity—especially Black population (2.1%). She may feel isolated and hypervisible.",
+    "Heavy gentrification backlash. Community tension around displacement of Latino families.",
+    "Expensive—rents rival SoCal in some blocks. Savings over LA are modest at best.",
+    "Safety is average, not exceptional. Property crime and car break-ins common.",
+    "Nightlife can get rowdy in LoHi corridors (noise, parking chaos on weekends)",
+    "Limited grocery options in some areas (though Leevers Locavore is excellent)",
+    "Winter snow/cold can be jarring for SoCal natives (though it melts fast)"
+  ],
+  "saturday": "Wake up in your LoHi loft to sunshine flooding through floor-to-ceiling windows and Front Range peaks glowing pink. Walk three blocks to Crema for a cortado and pastry, then stroll the Highland Bridge over the Platte—runners, cyclists, and dogs everywhere. Hit the Highlands Square Farmers Market (May-Oct) for Colorado peaches and fresh flowers, then grab brunch at Fox and the Hen (expect a wait—everyone's here). Afternoon: wander 32nd Ave boutiques, duck into a used bookshop, maybe catch street art in an alley. Dinner at Linger's rooftop—global street food, a beer garden vibe, and 360° views of the city and mountains as the sun sets. Nightcap at Williams & Graham (speakeasy behind a bookshelf) or Avanti's rooftop food hall. Walk home under string lights, skyline twinkling, mountain silhouettes to the west. You'll pass a dozen couples doing the same—almost all of them white.",
+  "food_scene": {
+    "summary": "World-class for a neighborhood this size. LoHi is Denver's dining destination: Linger (global street food, rooftop), Uncle (ramen), Bar Dough (Italian), Avanti F&B (food hall with 7+ vendors). West Highland offers cozier spots: Fox and the Hen (brunch), Wildflower (plant-forward), Work & Class (Latin/Southern fusion). Rooftop bars everywhere. Strong cocktail culture.",
+    "mediterranean_options": ["Ash'Kara (Middle Eastern, excellent hummus)", "Mazevo Mediterranean Eatery", "Safta (upscale Israeli, nearby in RiNo)", "El Five (Med tapas with rooftop views)", "Pita Central"],
+    "farmers_markets": ["Highlands Square Farmers Market (32nd & Lowell, Sundays May-Oct)—one of Denver's best", "South Pearl Farmers Market (nearby)", "Union Station Farmers Market (walkable)"],
+    "food_culture": "Trendy, Instagram-friendly, globally inspired. Lots of fusion, rooftop patios, craft cocktails. Can feel performative. Less authentic ethnic food than some Denver neighborhoods (gentrification displaced many longtime Latino restaurants).",
+    "grocery_quality": "Good but scattered. Leevers Locavore (employee-owned, excellent but pricey). King Soopers (chain, nearby). Whole Foods (LoDo, walkable). Natural Grocers closed. Some areas require a car for full grocery runs. Farmers market helps."
+  },
+  "neighborhoods": [
+    {
+      "name": "Lower Highland (LoHi)",
+      "vibe": "Trendy, young professional, nightlife-centric. Modern high-rises, rooftop bars, Instagram-worthy restaurants. The 'it' neighborhood. Dense, urban, energetic.",
+      "walk_score": "93",
+      "median_rent_1br": "$2,100",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Overwhelmingly white and affluent. Very few Black residents. Interracial couples uncommon but present.",
+      "why_for_them": "Best walkability and food scene. But expect isolation—she'll stand out. Great for 1-2 year adventure if they prioritize walkability/culture over diversity."
+    },
+    {
+      "name": "West Highland",
+      "vibe": "Neighborhood-y, family-friendly, quieter. Victorian homes, tree-lined streets, local boutiques. Highlands Square (32nd & Lowell) is the heart. Less nightlife, more community.",
+      "walk_score": "82",
+      "median_rent_1br": "$1,950",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Slightly more Latino families than LoHi, but still heavily gentrified. Black population negligible.",
+      "why_for_them": "More residential charm, slightly less expensive. Good compromise between walkability and calm. Still low diversity."
+    },
+    {
+      "name": "Highland (East Highland/Platte Street)",
+      "vibe": "Industrial-chic transitional zone. Mix of old brick, new development, riverfront access. Less defined identity—somewhere between LoHi glitz and West Highland calm.",
+      "walk_score": "85",
+      "median_rent_1br": "$2,000",
+      "safety_rating": "medium",
+      "diversity_notes": "Similar demographics to LoHi. Gentrification ground zero historically.",
+      "why_for_them": "Good access to trails and Commons Park. Less nightlife noise than LoHi core. Still very white."
+    },
+    {
+      "name": "Sunnyside",
+      "vibe": "Adjacent neighborhood to the north. Quieter, more working-class roots, slower gentrification. Italian and Hispanic heritage still visible. Chaffee Park, local pubs, neighborhood feel.",
+      "walk_score": "78",
+      "median_rent_1br": "$1,800-1,900",
+      "safety_rating": "medium",
+      "diversity_notes": "More diverse than core Highlands (more Latino, working-class). Still very low Black population. Mixed income levels.",
+      "why_for_them": "More affordable, slightly more diversity (though still low). Less walkable, more residential. Trade-offs: saves money but loses the Highlands 'scene.'"
+    }
+  ]
+}
