@@ -1,0 +1,160 @@
+{
+  "name": "New Haven, CT",
+  "slug": "new-haven-ct",
+  "region": "Northeast",
+  "tagline": "Ivy League culture and legendary apizza meet real seasons in a small city with big brains and complex character",
+  "population": "134,000 city, 860,000 metro",
+  "scores": {
+    "diversity_climate": 6,
+    "safety": 3,
+    "political_moderation": 5,
+    "cost_of_living": 8,
+    "walkability": 7,
+    "scenic_beauty": 6,
+    "climate": 6,
+    "culture": 8
+  },
+  "cost_of_living": {
+    "index_vs_national": "10-15% above national average",
+    "median_rent_1br": "$1,500",
+    "median_rent_2br": "$1,900",
+    "vs_la_savings": "$800-1,500/month compared to LA"
+  },
+  "diversity": {
+    "summary": "INTEGRATED IN POCKETS: New Haven is one of the most demographically representative cities in America (~30% White, 28% Black, 31% Hispanic) but shows clear neighborhood segregation. East Rock and Westville are majority white; Dixwell, Newhallville, and Beaver Hills are majority Black; Fair Haven and The Hill are majority Latino. Within integrated zones — Downtown, near Yale, parts of Wooster Square — interracial couples report feeling completely unremarkable and welcomed. Multiple Reddit users confirm zero hostility or staring. Yale's international community adds cosmopolitan flair. But the integration is geographic — it's peaceful coexistence by neighborhood rather than true daily mixing across the city. The progressive culture strongly supports diversity in theory, but residential patterns tell a more segregated story. Compared to San Diego's effortless citywide mixing, New Haven requires choosing the right pocket.",
+    "diversity_index": "~30% White, 28% Black, 31% Hispanic, 5% Asian — one of the most demographically representative cities in America",
+    "notable": "Interracial couples consistently report feeling comfortable; Yale brings international diversity; strong Black community infrastructure in Dixwell; neighborhood segregation is the main concern, not interpersonal hostility"
+  },
+  "safety": {
+    "summary": "SERIOUS CONCERN: New Haven has one of the highest crime rates in America — 43 crimes per 1,000 residents, ranking last (95th out of 95) among Connecticut cities for safety. However, crime is heavily concentrated geographically. East Rock, Westville, and Wooster Square are genuinely safe neighborhoods where violent crime is rare. Newhallville, parts of Dixwell, and The Hill carry the bulk of violent crime statistics. Most crime is not random — it's concentrated and often involves known parties. The safe neighborhoods feel safe, but the city-wide statistics are alarming and would concern Candace significantly.",
+    "violent_crime_rate": "~1,100 per 100k (well above national average of ~380)",
+    "best_neighborhoods": [
+      "East Rock",
+      "Westville",
+      "Wooster Square",
+      "Downtown (Yale campus area)",
+      "Fair Haven Heights"
+    ]
+  },
+  "walkability": {
+    "city_walk_score": "65/100 (somewhat walkable)",
+    "best_walkable_neighborhoods": [
+      "Downtown/Yale (93)",
+      "Dwight (93)",
+      "Fair Haven (83)",
+      "Dixwell (82)",
+      "East Rock (74)"
+    ]
+  },
+  "scenery": {
+    "summary": "Charming New England beauty rather than dramatic vistas. East Rock Park offers a stunning 360° panorama of the city, Long Island Sound, and surrounding hills — one of the best urban hikes on the East Coast. West Rock Ridge State Park adds more hiking. Fall foliage is spectacular, with brilliant reds and oranges lighting up tree-lined streets. Historic architecture — Federal, Greek Revival, Victorian — gives neighborhoods real visual character. Proximity to Long Island Sound and Connecticut shoreline adds coastal access. Not mountain-dramatic, but genuinely beautiful in a quieter, New England way."
+  },
+  "climate": {
+    "summary": "True four seasons with cold, snowy winters and warm, humid summers. Fall is spectacular (peak foliage late October). Winters are real — freezing temperatures, 25-35 inches of snow, gray days from December through March. Spring comes late but is beautiful. Summers are warm and humid, occasionally oppressive. Candace would get the seasonal experience she wants, but the winter is a bigger adjustment than Denver's (less sun, more gray, though less snow).",
+    "avg_summer_high": "82°F",
+    "avg_winter_low": "23°F",
+    "annual_snowfall": "30 inches",
+    "annual_sunny_days": "158"
+  },
+  "culture": {
+    "summary": "Punches miles above its weight class thanks to Yale. World-class museums (Yale University Art Gallery, Peabody Museum, Center for British Art — all free), theater (Yale Rep, Long Wharf Theatre), lectures by Nobel laureates and world leaders, and a constant influx of brilliant young people from around the globe. Beyond Yale, New Haven is the undisputed apizza capital of America — Frank Pepe's, Sally's, and Modern are legendary. The town-gown tension is real (Yale's tax-exempt status is contentious), but the cultural spillover benefits are enormous. Indie music scene, growing arts community, and a genuine intellectual energy you don't find in cities 10x its size."
+  },
+  "pros": [
+    "Massive cost savings vs SoCal — potentially $1,000-1,500/month",
+    "World-class cultural amenities via Yale (museums, theater, lectures — mostly free)",
+    "Legendary food scene (apizza capital, growing international dining)",
+    "True four seasons with spectacular fall foliage",
+    "Excellent walkability in key neighborhoods",
+    "Interracial couples report feeling completely welcomed",
+    "Easy train access to NYC (82 min on Metro-North)",
+    "Strong intellectual energy and educated population",
+    "Beautiful New England architecture and charm",
+    "East Rock Park — stunning urban hiking"
+  ],
+  "cons": [
+    "Very high crime rate — among worst in Connecticut and nationally",
+    "Stark neighborhood segregation despite citywide diversity",
+    "Harsh, gray winters with limited sunshine (158 sunny days)",
+    "Town-gown tensions between Yale and locals",
+    "Limited job market outside Yale/healthcare",
+    "High Connecticut state taxes (income, property)",
+    "Some neighborhoods feel economically depressed",
+    "Can feel small and insular for a 1-2 year adventure",
+    "Summer humidity can be oppressive",
+    "Safe neighborhoods tend to be whiter, creating a diversity-safety tradeoff"
+  ],
+  "saturday": "You wake up in your East Rock apartment to autumn light filtering through century-old maples. Coffee and a pastry at Atticus Bookstore Café, tucked inside a Yale building, browsing shelves while professors debate at the next table. You hike East Rock Park — 20 minutes up, and suddenly you're looking at all of New Haven, Long Island Sound glinting in the distance, leaves blazing red and gold below. Back down, you walk through Wooster Square's Italian charm to Frank Pepe's for the legendary white clam apizza — thin, charred, perfect, worth the wait. Afternoon is the Yale University Art Gallery (free, world-class, uncrowded), then browsing the CitySeed Farmers Market for local produce. Evening brings craft cocktails at Ordinary, a speakeasy-style bar in a former bank vault, where grad students mix with local artists and young professionals. Walking home through the Green, past three centuries of architecture, there's an intellectual hum in the air — this tiny city has the cultural density of somewhere ten times its size. It's New England in miniature: brainy, charming, complicated.",
+  "food_scene": {
+    "summary": "New Haven is a serious food city, anchored by its legendary apizza scene — Frank Pepe's (1925), Sally's, and Modern are pilgrimage sites for pizza lovers worldwide. Beyond pizza, Yale's international community drives surprising culinary diversity for a city this size. James Beard-nominated restaurants, growing farm-to-table movement, and strong Italian-American heritage in Wooster Square. The food scene punches well above its weight.",
+    "mediterranean_options": [
+      "Midpoint Istanbul (modern Mediterranean/Turkish)",
+      "RAWA (Mediterranean fusion, well-reviewed)",
+      "Lalibela Ethiopian (East African, not Med but fills the gap)",
+      "Heirloom (farm-to-table with Mediterranean influences)",
+      "Olives & Oil (Italian/Mediterranean, Wooster Square area)"
+    ],
+    "farmers_markets": [
+      "CitySeed Farmers Market (Downtown, Saturdays year-round)",
+      "CitySeed Wooster Square Market (seasonal)",
+      "Edgewood Park Market (seasonal)"
+    ],
+    "food_culture": "Apizza is religion here — debates over Pepe's vs. Sally's vs. Modern are existential. Strong Italian-American food heritage in Wooster Square. Yale brings international influences: Korean, Ethiopian, Indian, Japanese all represented. Growing craft cocktail and brewery scene. Farm-to-table movement benefits from Connecticut agriculture.",
+    "grocery_quality": "Whole Foods (Orange, short drive), Elm City Market (downtown co-op, excellent), Stop & Shop (multiple), strong specialty stores near Yale. Some food deserts in lower-income neighborhoods."
+  },
+  "neighborhoods": [
+    {
+      "name": "East Rock",
+      "vibe": "Leafy, intellectual, Victorian homes — professors, grad students, and young families",
+      "walk_score": "74/100",
+      "median_rent_1br": "$1,600",
+      "safety_rating": "high",
+      "diversity_notes": "Majority white/academic; welcoming but not diverse in practice",
+      "why_for_them": "Safest neighborhood with gorgeous architecture and East Rock Park hiking. Very walkable to downtown. But the whiteness is noticeable — may feel like a diversity tradeoff for safety."
+    },
+    {
+      "name": "Downtown / Yale Area",
+      "vibe": "Urban college town — international students, young professionals, cultural energy",
+      "walk_score": "93/100",
+      "median_rent_1br": "$1,800",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Most integrated area — true mixing of races, ages, nationalities. Yale police add security layer.",
+      "why_for_them": "Best integration + walkability + cultural access combo. Yale police presence adds safety. Can be noisy and transient, but the energy is real. This is where they'd feel most at home as an interracial couple."
+    },
+    {
+      "name": "Wooster Square",
+      "vibe": "Historic Italian-American charm — tree-lined streets, cherry blossoms, legendary pizza",
+      "walk_score": "78/100",
+      "median_rent_1br": "$1,500",
+      "safety_rating": "medium-high",
+      "diversity_notes": "Traditionally Italian-American, diversifying; generally welcoming",
+      "why_for_them": "Beautiful neighborhood with incredible food scene and real character. Walking distance to downtown. Less diverse than ideal but a strong contender for livability."
+    },
+    {
+      "name": "Westville",
+      "vibe": "Village-within-a-city — its own commercial strip, family-friendly, tree-lined",
+      "walk_score": "49/100",
+      "median_rent_1br": "$1,400",
+      "safety_rating": "high",
+      "diversity_notes": "More mixed than East Rock; progressive and accepting community",
+      "why_for_them": "Safe and affordable with growing restaurant scene on Whalley Ave. But lower walkability means more car dependence. Good value if walkability isn't the top priority."
+    },
+    {
+      "name": "Fair Haven",
+      "vibe": "Working-class, predominantly Latino, strong community bonds, revitalizing",
+      "walk_score": "83/100",
+      "median_rent_1br": "$1,200",
+      "safety_rating": "medium",
+      "diversity_notes": "Majority Latino with growing diversity; authentic multicultural feel",
+      "why_for_them": "Most affordable with high walkability and genuine diversity. Up-and-coming with new restaurants and community investment. Safety improving but still a concern in some blocks."
+    },
+    {
+      "name": "Dixwell",
+      "vibe": "Historic Black neighborhood — community-rooted, revitalizing, culturally important",
+      "walk_score": "82/100",
+      "median_rent_1br": "$1,100",
+      "safety_rating": "medium-low",
+      "diversity_notes": "Predominantly Black with strong community institutions and churches",
+      "why_for_them": "Deep Black community infrastructure and very affordable. Walkable. But safety varies block-by-block and Candace's safety concerns would likely be triggered here."
+    }
+  ]
+}
